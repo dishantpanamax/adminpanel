@@ -1,0 +1,3583 @@
+@font-face {
+	font-family: 'microsoft-icons';
+	src:url('fonts/microsoft-icons.eot?-f6xpoo');
+	src:url('fonts/microsoft-icons.eot?#iefix-f6xpoo') format('embedded-opentype'),
+		url('fonts/microsoft-icons.ttf?-f6xpoo') format('truetype'),
+		url('fonts/microsoft-icons.woff?-f6xpoo') format('woff'),
+		url('fonts/microsoft-icons.svg?-f6xpoo#microsoft-icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="ms-icon-"], [class*=" ms-icon-"] {
+	font-family: 'microsoft-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ms-icon-appbaracorn:before {
+	content: "\e600";
+}
+.ms-icon-appbaradd:before {
+	content: "\e601";
+}
+.ms-icon-appbaradobeacrobat:before {
+	content: "\e602";
+}
+.ms-icon-appbaradobeaftereffects:before {
+	content: "\e603";
+}
+.ms-icon-appbaradobeaudition:before {
+	content: "\e604";
+}
+.ms-icon-appbaradobebridge:before {
+	content: "\e605";
+}
+.ms-icon-appbaradobedreamweaver:before {
+	content: "\e606";
+}
+.ms-icon-appbaradobeencore:before {
+	content: "\e607";
+}
+.ms-icon-appbaradobefireworks:before {
+	content: "\e608";
+}
+.ms-icon-appbaradobeflash:before {
+	content: "\e609";
+}
+.ms-icon-appbaradobeflashbuilder:before {
+	content: "\e60a";
+}
+.ms-icon-appbaradobeillustrator:before {
+	content: "\e60b";
+}
+.ms-icon-appbaradobeindesign:before {
+	content: "\e60c";
+}
+.ms-icon-appbaradobelightroom:before {
+	content: "\e60d";
+}
+.ms-icon-appbaradobephotoshop:before {
+	content: "\e60e";
+}
+.ms-icon-appbaradobeprelude:before {
+	content: "\e60f";
+}
+.ms-icon-appbaradobepremierpro:before {
+	content: "\e610";
+}
+.ms-icon-appbaradobespeedgrade:before {
+	content: "\e611";
+}
+.ms-icon-appbaralert:before {
+	content: "\e612";
+}
+.ms-icon-appbaralien:before {
+	content: "\e613";
+}
+.ms-icon-appbaraligncenter:before {
+	content: "\e614";
+}
+.ms-icon-appbaralignjustify:before {
+	content: "\e615";
+}
+.ms-icon-appbaralignleft:before {
+	content: "\e616";
+}
+.ms-icon-appbaralignright:before {
+	content: "\e617";
+}
+.ms-icon-appbaranchor:before {
+	content: "\e618";
+}
+.ms-icon-appbarappfavorite:before {
+	content: "\e619";
+}
+.ms-icon-appbarappminus:before {
+	content: "\e61a";
+}
+.ms-icon-appbarappplus:before {
+	content: "\e61b";
+}
+.ms-icon-appbarappremove:before {
+	content: "\e61c";
+}
+.ms-icon-appbarapp:before {
+	content: "\e61d";
+}
+.ms-icon-appbararcadebutton:before {
+	content: "\e61e";
+}
+.ms-icon-appbararchive:before {
+	content: "\e61f";
+}
+.ms-icon-appbararrowcollapsed:before {
+	content: "\e620";
+}
+.ms-icon-appbararrowcornerupright:before {
+	content: "\e621";
+}
+.ms-icon-appbararrowdown:before {
+	content: "\e622";
+}
+.ms-icon-appbararrowdownup:before {
+	content: "\e623";
+}
+.ms-icon-appbararrowexpand:before {
+	content: "\e624";
+}
+.ms-icon-appbararrowleftright:before {
+	content: "\e625";
+}
+.ms-icon-appbararrowleft:before {
+	content: "\e626";
+}
+.ms-icon-appbararrowrightleft:before {
+	content: "\e627";
+}
+.ms-icon-appbararrowright:before {
+	content: "\e628";
+}
+.ms-icon-appbararrowupdown:before {
+	content: "\e629";
+}
+.ms-icon-appbararrowup:before {
+	content: "\e62a";
+}
+.ms-icon-appbarat:before {
+	content: "\e62b";
+}
+.ms-icon-appbaraxisthree:before {
+	content: "\e62c";
+}
+.ms-icon-appbarbaby:before {
+	content: "\e62d";
+}
+.ms-icon-appbarbarcode:before {
+	content: "\e62e";
+}
+.ms-icon-appbarbaseselect:before {
+	content: "\e62f";
+}
+.ms-icon-appbarbase:before {
+	content: "\e630";
+}
+.ms-icon-appbarbath:before {
+	content: "\e631";
+}
+.ms-icon-appbarbattery0:before {
+	content: "\e632";
+}
+.ms-icon-appbarbattery1:before {
+	content: "\e633";
+}
+.ms-icon-appbarbattery2:before {
+	content: "\e634";
+}
+.ms-icon-appbarbattery3:before {
+	content: "\e635";
+}
+.ms-icon-appbarbed:before {
+	content: "\e636";
+}
+.ms-icon-appbarbeerguinness:before {
+	content: "\e637";
+}
+.ms-icon-appbarbeer:before {
+	content: "\e638";
+}
+.ms-icon-appbarbikeparking:before {
+	content: "\e639";
+}
+.ms-icon-appbarbike:before {
+	content: "\e63a";
+}
+.ms-icon-appbarbillboard:before {
+	content: "\e63b";
+}
+.ms-icon-appbarbing:before {
+	content: "\e63c";
+}
+.ms-icon-appbarbookcontact:before {
+	content: "\e63d";
+}
+.ms-icon-appbarbookhardcoveropen:before {
+	content: "\e63e";
+}
+.ms-icon-appbarbookhardcoveropenwriting:before {
+	content: "\e63f";
+}
+.ms-icon-appbarbooklist:before {
+	content: "\e640";
+}
+.ms-icon-appbarbookopeninformation:before {
+	content: "\e641";
+}
+.ms-icon-appbarbookopen:before {
+	content: "\e642";
+}
+.ms-icon-appbarbookopentextimage:before {
+	content: "\e643";
+}
+.ms-icon-appbarbookopentext:before {
+	content: "\e644";
+}
+.ms-icon-appbarbookperspectivehelp:before {
+	content: "\e645";
+}
+.ms-icon-appbarbookperspective:before {
+	content: "\e646";
+}
+.ms-icon-appbarbookside:before {
+	content: "\e647";
+}
+.ms-icon-appbarbook:before {
+	content: "\e648";
+}
+.ms-icon-appbarborderall:before {
+	content: "\e649";
+}
+.ms-icon-appbarborderbottom:before {
+	content: "\e64a";
+}
+.ms-icon-appbarborderhorizontal:before {
+	content: "\e64b";
+}
+.ms-icon-appbarborderinner:before {
+	content: "\e64c";
+}
+.ms-icon-appbarborderleft:before {
+	content: "\e64d";
+}
+.ms-icon-appbarbordernone:before {
+	content: "\e64e";
+}
+.ms-icon-appbarborderoutside:before {
+	content: "\e64f";
+}
+.ms-icon-appbarborderright:before {
+	content: "\e650";
+}
+.ms-icon-appbarbordertop:before {
+	content: "\e651";
+}
+.ms-icon-appbarbordervertical:before {
+	content: "\e652";
+}
+.ms-icon-appbarboxlayered:before {
+	content: "\e653";
+}
+.ms-icon-appbarbox:before {
+	content: "\e654";
+}
+.ms-icon-appbarboxunfolded:before {
+	content: "\e655";
+}
+.ms-icon-appbarbrowserchrome:before {
+	content: "\e656";
+}
+.ms-icon-appbarbrowserie:before {
+	content: "\e657";
+}
+.ms-icon-appbarbrowser:before {
+	content: "\e658";
+}
+.ms-icon-appbarbrowserwire:before {
+	content: "\e659";
+}
+.ms-icon-appbarbugremove:before {
+	content: "\e65a";
+}
+.ms-icon-appbarbug:before {
+	content: "\e65b";
+}
+.ms-icon-appbarcabinetfiles:before {
+	content: "\e65c";
+}
+.ms-icon-appbarcabinetfilesvariant:before {
+	content: "\e65d";
+}
+.ms-icon-appbarcabinetin:before {
+	content: "\e65e";
+}
+.ms-icon-appbarcabinetout:before {
+	content: "\e65f";
+}
+.ms-icon-appbarcabinet:before {
+	content: "\e660";
+}
+.ms-icon-appbarcabinetvariant:before {
+	content: "\e661";
+}
+.ms-icon-appbarcalculator:before {
+	content: "\e662";
+}
+.ms-icon-appbarcalendar14:before {
+	content: "\e663";
+}
+.ms-icon-appbarcalendar31:before {
+	content: "\e664";
+}
+.ms-icon-appbarcalendarday:before {
+	content: "\e665";
+}
+.ms-icon-appbarcalendardollar:before {
+	content: "\e666";
+}
+.ms-icon-appbarcalendarmonth:before {
+	content: "\e667";
+}
+.ms-icon-appbarcalendarrange:before {
+	content: "\e668";
+}
+.ms-icon-appbarcalendar:before {
+	content: "\e669";
+}
+.ms-icon-appbarcalendarweek:before {
+	content: "\e66a";
+}
+.ms-icon-appbarcalendaryear:before {
+	content: "\e66b";
+}
+.ms-icon-appbarcameraauto:before {
+	content: "\e66c";
+}
+.ms-icon-appbarcameraflashautoselected:before {
+	content: "\e66d";
+}
+.ms-icon-appbarcameraflashauto:before {
+	content: "\e66e";
+}
+.ms-icon-appbarcameraflashoffselected:before {
+	content: "\e66f";
+}
+.ms-icon-appbarcameraflashoff:before {
+	content: "\e670";
+}
+.ms-icon-appbarcameraflashselected:before {
+	content: "\e671";
+}
+.ms-icon-appbarcameraflash:before {
+	content: "\e672";
+}
+.ms-icon-appbarcamerasend:before {
+	content: "\e673";
+}
+.ms-icon-appbarcamera:before {
+	content: "\e674";
+}
+.ms-icon-appbarcameraswitchinvert:before {
+	content: "\e675";
+}
+.ms-icon-appbarcameraswitch:before {
+	content: "\e676";
+}
+.ms-icon-appbarcancel:before {
+	content: "\e677";
+}
+.ms-icon-appbarcandle:before {
+	content: "\e678";
+}
+.ms-icon-appbarcandycane:before {
+	content: "\e679";
+}
+.ms-icon-appbarcard1:before {
+	content: "\e67a";
+}
+.ms-icon-appbarcard2:before {
+	content: "\e67b";
+}
+.ms-icon-appbarcard3:before {
+	content: "\e67c";
+}
+.ms-icon-appbarcard4:before {
+	content: "\e67d";
+}
+.ms-icon-appbarcard5:before {
+	content: "\e67e";
+}
+.ms-icon-appbarcard6:before {
+	content: "\e67f";
+}
+.ms-icon-appbarcard7:before {
+	content: "\e680";
+}
+.ms-icon-appbarcard8:before {
+	content: "\e681";
+}
+.ms-icon-appbarcard9:before {
+	content: "\e682";
+}
+.ms-icon-appbarcard:before {
+	content: "\e683";
+}
+.ms-icon-appbarcardsclub:before {
+	content: "\e684";
+}
+.ms-icon-appbarcardsdiamond:before {
+	content: "\e685";
+}
+.ms-icon-appbarcardsheart:before {
+	content: "\e686";
+}
+.ms-icon-appbarcardsspade:before {
+	content: "\e687";
+}
+.ms-icon-appbarcart:before {
+	content: "\e688";
+}
+.ms-icon-appbarcdeject:before {
+	content: "\e689";
+}
+.ms-icon-appbarcd:before {
+	content: "\e68a";
+}
+.ms-icon-appbarcellalign:before {
+	content: "\e68b";
+}
+.ms-icon-appbarcellcolumndelete:before {
+	content: "\e68c";
+}
+.ms-icon-appbarcelldown:before {
+	content: "\e68d";
+}
+.ms-icon-appbarcellfunction:before {
+	content: "\e68e";
+}
+.ms-icon-appbarcellinsertabove:before {
+	content: "\e68f";
+}
+.ms-icon-appbarcellinsertbelow:before {
+	content: "\e690";
+}
+.ms-icon-appbarcellmerge:before {
+	content: "\e691";
+}
+.ms-icon-appbarcellrowdelete:before {
+	content: "\e692";
+}
+.ms-icon-appbarcellup:before {
+	content: "\e693";
+}
+.ms-icon-appbarcenterline:before {
+	content: "\e694";
+}
+.ms-icon-appbarchat:before {
+	content: "\e695";
+}
+.ms-icon-appbarcheck:before {
+	content: "\e696";
+}
+.ms-icon-appbarcheckmarkcross:before {
+	content: "\e697";
+}
+.ms-icon-appbarcheckmarkpencil:before {
+	content: "\e698";
+}
+.ms-icon-appbarcheckmarkpenciltop:before {
+	content: "\e699";
+}
+.ms-icon-appbarcheckmark:before {
+	content: "\e69a";
+}
+.ms-icon-appbarcheckmarkthick:before {
+	content: "\e69b";
+}
+.ms-icon-appbarcheckmarkthickunchecked:before {
+	content: "\e69c";
+}
+.ms-icon-appbarcheckmarkuncrossed:before {
+	content: "\e69d";
+}
+.ms-icon-appbarchessbishop:before {
+	content: "\e69e";
+}
+.ms-icon-appbarchesshorse:before {
+	content: "\e69f";
+}
+.ms-icon-appbarchessking:before {
+	content: "\e6a0";
+}
+.ms-icon-appbarchesspawn:before {
+	content: "\e6a1";
+}
+.ms-icon-appbarchessqueen:before {
+	content: "\e6a2";
+}
+.ms-icon-appbarchessrook:before {
+	content: "\e6a3";
+}
+.ms-icon-appbarchevrondown:before {
+	content: "\e6a4";
+}
+.ms-icon-appbarchevronleft:before {
+	content: "\e6a5";
+}
+.ms-icon-appbarchevronright:before {
+	content: "\e6a6";
+}
+.ms-icon-appbarchevronup:before {
+	content: "\e6a7";
+}
+.ms-icon-appbarchromakey:before {
+	content: "\e6a8";
+}
+.ms-icon-appbarchurch:before {
+	content: "\e6a9";
+}
+.ms-icon-appbarcitychicago:before {
+	content: "\e6aa";
+}
+.ms-icon-appbarcitysanfrancisco:before {
+	content: "\e6ab";
+}
+.ms-icon-appbarcityseattle:before {
+	content: "\e6ac";
+}
+.ms-icon-appbarcity:before {
+	content: "\e6ad";
+}
+.ms-icon-appbarclean:before {
+	content: "\e6ae";
+}
+.ms-icon-appbarclearinversereflecthorizontal:before {
+	content: "\e6af";
+}
+.ms-icon-appbarclearinverse:before {
+	content: "\e6b0";
+}
+.ms-icon-appbarclearreflecthorizontal:before {
+	content: "\e6b1";
+}
+.ms-icon-appbarclear:before {
+	content: "\e6b2";
+}
+.ms-icon-appbarclipboardpapercheck:before {
+	content: "\e6b3";
+}
+.ms-icon-appbarclipboardpaper:before {
+	content: "\e6b4";
+}
+.ms-icon-appbarclipboardpaste:before {
+	content: "\e6b5";
+}
+.ms-icon-appbarclipboard:before {
+	content: "\e6b6";
+}
+.ms-icon-appbarclipboardvariantedit:before {
+	content: "\e6b7";
+}
+.ms-icon-appbarclipboardvariant:before {
+	content: "\e6b8";
+}
+.ms-icon-appbarclipboardvarianttext:before {
+	content: "\e6b9";
+}
+.ms-icon-appbarclock:before {
+	content: "\e6ba";
+}
+.ms-icon-appbarclose:before {
+	content: "\e6bb";
+}
+.ms-icon-appbarclosedcaptionoff:before {
+	content: "\e6bc";
+}
+.ms-icon-appbarclosedcaption:before {
+	content: "\e6bd";
+}
+.ms-icon-appbarclothesshirt:before {
+	content: "\e6be";
+}
+.ms-icon-appbarclothestie:before {
+	content: "\e6bf";
+}
+.ms-icon-appbarcloudadd:before {
+	content: "\e6c0";
+}
+.ms-icon-appbarclouddelete:before {
+	content: "\e6c1";
+}
+.ms-icon-appbarclouddownload:before {
+	content: "\e6c2";
+}
+.ms-icon-appbarcloudpause:before {
+	content: "\e6c3";
+}
+.ms-icon-appbarcloudplay:before {
+	content: "\e6c4";
+}
+.ms-icon-appbarcloud:before {
+	content: "\e6c5";
+}
+.ms-icon-appbarcloudupload:before {
+	content: "\e6c6";
+}
+.ms-icon-appbarcloudirc:before {
+	content: "\e6c7";
+}
+.ms-icon-appbarcodexml:before {
+	content: "\e6c8";
+}
+.ms-icon-appbarcog:before {
+	content: "\e6c9";
+}
+.ms-icon-appbarcogs:before {
+	content: "\e6ca";
+}
+.ms-icon-appbarcolumnone:before {
+	content: "\e6cb";
+}
+.ms-icon-appbarcolumnthree:before {
+	content: "\e6cc";
+}
+.ms-icon-appbarcolumntwo:before {
+	content: "\e6cd";
+}
+.ms-icon-appbarcompanioncube:before {
+	content: "\e6ce";
+}
+.ms-icon-appbarconediagonal:before {
+	content: "\e6cf";
+}
+.ms-icon-appbarcone:before {
+	content: "\e6d0";
+}
+.ms-icon-appbarconfirmyesno:before {
+	content: "\e6d1";
+}
+.ms-icon-appbarconnect:before {
+	content: "\e6d2";
+}
+.ms-icon-appbarconnection1x:before {
+	content: "\e6d3";
+}
+.ms-icon-appbarconnection3g:before {
+	content: "\e6d4";
+}
+.ms-icon-appbarconnection4g:before {
+	content: "\e6d5";
+}
+.ms-icon-appbarconnectionbluetooth:before {
+	content: "\e6d6";
+}
+.ms-icon-appbarconnectionev:before {
+	content: "\e6d7";
+}
+.ms-icon-appbarconnectionqualityextremelylow:before {
+	content: "\e6d8";
+}
+.ms-icon-appbarconnectionqualityhigh:before {
+	content: "\e6d9";
+}
+.ms-icon-appbarconnectionqualitylow:before {
+	content: "\e6da";
+}
+.ms-icon-appbarconnectionqualitymedium:before {
+	content: "\e6db";
+}
+.ms-icon-appbarconnectionqualityveryhigh:before {
+	content: "\e6dc";
+}
+.ms-icon-appbarconnectionqualityverylow:before {
+	content: "\e6dd";
+}
+.ms-icon-appbarconnectionwifi:before {
+	content: "\e6de";
+}
+.ms-icon-appbarconnectionwifivariant:before {
+	content: "\e6df";
+}
+.ms-icon-appbarconsole:before {
+	content: "\e6e0";
+}
+.ms-icon-appbarcontrast:before {
+	content: "\e6e1";
+}
+.ms-icon-appbarcontroleject:before {
+	content: "\e6e2";
+}
+.ms-icon-appbarcontrolfastforward:before {
+	content: "\e6e3";
+}
+.ms-icon-appbarcontrolguide:before {
+	content: "\e6e4";
+}
+.ms-icon-appbarcontrolpause:before {
+	content: "\e6e5";
+}
+.ms-icon-appbarcontrolplaylive:before {
+	content: "\e6e6";
+}
+.ms-icon-appbarcontrolplay:before {
+	content: "\e6e7";
+}
+.ms-icon-appbarcontrolresume:before {
+	content: "\e6e8";
+}
+.ms-icon-appbarcontrolrewind:before {
+	content: "\e6e9";
+}
+.ms-icon-appbarcontrolstop:before {
+	content: "\e6ea";
+}
+.ms-icon-appbarcontrollersnes:before {
+	content: "\e6eb";
+}
+.ms-icon-appbarcontrollerxbox:before {
+	content: "\e6ec";
+}
+.ms-icon-appbarcopyright:before {
+	content: "\e6ed";
+}
+.ms-icon-appbarcorner:before {
+	content: "\e6ee";
+}
+.ms-icon-appbarcoupon:before {
+	content: "\e6ef";
+}
+.ms-icon-appbarcreativecommons:before {
+	content: "\e6f0";
+}
+.ms-icon-appbarcreditcard:before {
+	content: "\e6f1";
+}
+.ms-icon-appbarcrop:before {
+	content: "\e6f2";
+}
+.ms-icon-appbarcrosshair:before {
+	content: "\e6f3";
+}
+.ms-icon-appbarcrown:before {
+	content: "\e6f4";
+}
+.ms-icon-appbarcupempty:before {
+	content: "\e6f5";
+}
+.ms-icon-appbarcupfull:before {
+	content: "\e6f6";
+}
+.ms-icon-appbarcuphalf:before {
+	content: "\e6f7";
+}
+.ms-icon-appbarcuppaper:before {
+	content: "\e6f8";
+}
+.ms-icon-appbarcup:before {
+	content: "\e6f9";
+}
+.ms-icon-appbarcupcake:before {
+	content: "\e6fa";
+}
+.ms-icon-appbarcurrencycent:before {
+	content: "\e6fb";
+}
+.ms-icon-appbarcurrencydollarfree:before {
+	content: "\e6fc";
+}
+.ms-icon-appbarcurrencydollar:before {
+	content: "\e6fd";
+}
+.ms-icon-appbarcurrencyeuro:before {
+	content: "\e6fe";
+}
+.ms-icon-appbarcurrencygrivna:before {
+	content: "\e6ff";
+}
+.ms-icon-appbarcurrencypound:before {
+	content: "\e700";
+}
+.ms-icon-appbarcurrencyrubles:before {
+	content: "\e701";
+}
+.ms-icon-appbarcurrencyrupee:before {
+	content: "\e702";
+}
+.ms-icon-appbarcurrencyyen:before {
+	content: "\e703";
+}
+.ms-icon-appbarcursordefaultoutline:before {
+	content: "\e704";
+}
+.ms-icon-appbarcursordefault:before {
+	content: "\e705";
+}
+.ms-icon-appbarcursordefaulttransformhorizontal:before {
+	content: "\e706";
+}
+.ms-icon-appbarcursorhand:before {
+	content: "\e707";
+}
+.ms-icon-appbarcursorinformation:before {
+	content: "\e708";
+}
+.ms-icon-appbarcursormove:before {
+	content: "\e709";
+}
+.ms-icon-appbarcusorpointer:before {
+	content: "\e70a";
+}
+.ms-icon-appbarcustomerservice:before {
+	content: "\e70b";
+}
+.ms-icon-appbardatabase:before {
+	content: "\e70c";
+}
+.ms-icon-appbardebugrestart:before {
+	content: "\e70d";
+}
+.ms-icon-appbardebugstepinto:before {
+	content: "\e70e";
+}
+.ms-icon-appbardebugstepout:before {
+	content: "\e70f";
+}
+.ms-icon-appbardebugstepover:before {
+	content: "\e710";
+}
+.ms-icon-appbardebugstop:before {
+	content: "\e711";
+}
+.ms-icon-appbardeeplinkround:before {
+	content: "\e712";
+}
+.ms-icon-appbardeeplink:before {
+	content: "\e713";
+}
+.ms-icon-appbardelete:before {
+	content: "\e714";
+}
+.ms-icon-appbardevcenter:before {
+	content: "\e715";
+}
+.ms-icon-appbardiagram:before {
+	content: "\e716";
+}
+.ms-icon-appbardial:before {
+	content: "\e717";
+}
+.ms-icon-appbardimensionarrowboxheight:before {
+	content: "\e718";
+}
+.ms-icon-appbardimensionarrowboxwidth:before {
+	content: "\e719";
+}
+.ms-icon-appbardimensionarrowlineheightshort:before {
+	content: "\e71a";
+}
+.ms-icon-appbardimensionarrowlineheight:before {
+	content: "\e71b";
+}
+.ms-icon-appbardimensionarrowlineheightthick:before {
+	content: "\e71c";
+}
+.ms-icon-appbardimensionarrowlinewidthshort:before {
+	content: "\e71d";
+}
+.ms-icon-appbardimensionarrowlinewidth:before {
+	content: "\e71e";
+}
+.ms-icon-appbardimensionarrowlinewidththick:before {
+	content: "\e71f";
+}
+.ms-icon-appbardimensionboxheight:before {
+	content: "\e720";
+}
+.ms-icon-appbardimensionboxwidth:before {
+	content: "\e721";
+}
+.ms-icon-appbardimensionlineheightshort:before {
+	content: "\e722";
+}
+.ms-icon-appbardimensionlineheight:before {
+	content: "\e723";
+}
+.ms-icon-appbardimensionlinewidthshort:before {
+	content: "\e724";
+}
+.ms-icon-appbardimensionlinewidth:before {
+	content: "\e725";
+}
+.ms-icon-appbardirections:before {
+	content: "\e726";
+}
+.ms-icon-appbardisconnect:before {
+	content: "\e727";
+}
+.ms-icon-appbardiskdownload:before {
+	content: "\e728";
+}
+.ms-icon-appbardisk:before {
+	content: "\e729";
+}
+.ms-icon-appbardnd:before {
+	content: "\e72a";
+}
+.ms-icon-appbardoorenter:before {
+	content: "\e72b";
+}
+.ms-icon-appbardoorleave:before {
+	content: "\e72c";
+}
+.ms-icon-appbardoorlockclosed:before {
+	content: "\e72d";
+}
+.ms-icon-appbardoorlockopen:before {
+	content: "\e72e";
+}
+.ms-icon-appbardownload:before {
+	content: "\e72f";
+}
+.ms-icon-appbardraftingcenterline:before {
+	content: "\e730";
+}
+.ms-icon-appbardrawbrushreflection:before {
+	content: "\e731";
+}
+.ms-icon-appbardrawbrush:before {
+	content: "\e732";
+}
+.ms-icon-appbardrawbutton:before {
+	content: "\e733";
+}
+.ms-icon-appbardrawmarkerreflection:before {
+	content: "\e734";
+}
+.ms-icon-appbardrawmarker:before {
+	content: "\e735";
+}
+.ms-icon-appbardrawpaintbrush:before {
+	content: "\e736";
+}
+.ms-icon-appbardrawpenadd:before {
+	content: "\e737";
+}
+.ms-icon-appbardrawpenminus:before {
+	content: "\e738";
+}
+.ms-icon-appbardrawpenreflection:before {
+	content: "\e739";
+}
+.ms-icon-appbardrawpen:before {
+	content: "\e73a";
+}
+.ms-icon-appbardrawpencilreflection:before {
+	content: "\e73b";
+}
+.ms-icon-appbardrawpencil:before {
+	content: "\e73c";
+}
+.ms-icon-appbardrawpixelfillgrid:before {
+	content: "\e73d";
+}
+.ms-icon-appbardrawpixelgrid:before {
+	content: "\e73e";
+}
+.ms-icon-appbardropper:before {
+	content: "\e73f";
+}
+.ms-icon-appbaredit:before {
+	content: "\e740";
+}
+.ms-icon-appbarelevatordown:before {
+	content: "\e741";
+}
+.ms-icon-appbarelevatorup:before {
+	content: "\e742";
+}
+.ms-icon-appbaremailgmail:before {
+	content: "\e743";
+}
+.ms-icon-appbaremailhardedge:before {
+	content: "\e744";
+}
+.ms-icon-appbaremailminimal:before {
+	content: "\e745";
+}
+.ms-icon-appbaremailoutlook:before {
+	content: "\e746";
+}
+.ms-icon-appbaremail:before {
+	content: "\e747";
+}
+.ms-icon-appbaremailyahoo:before {
+	content: "\e748";
+}
+.ms-icon-appbareyehide:before {
+	content: "\e749";
+}
+.ms-icon-appbareye:before {
+	content: "\e74a";
+}
+.ms-icon-appbarfacebookconnect:before {
+	content: "\e74b";
+}
+.ms-icon-appbarfacebookdisconnect:before {
+	content: "\e74c";
+}
+.ms-icon-appbarfanbox:before {
+	content: "\e74d";
+}
+.ms-icon-appbarferry:before {
+	content: "\e74e";
+}
+.ms-icon-appbarfilmlive:before {
+	content: "\e74f";
+}
+.ms-icon-appbarfilmselect:before {
+	content: "\e750";
+}
+.ms-icon-appbarfilm:before {
+	content: "\e751";
+}
+.ms-icon-appbarfilteralphabetical:before {
+	content: "\e752";
+}
+.ms-icon-appbarfilter:before {
+	content: "\e753";
+}
+.ms-icon-appbarfinder:before {
+	content: "\e754";
+}
+.ms-icon-appbarfingerprint:before {
+	content: "\e755";
+}
+.ms-icon-appbarflagbear:before {
+	content: "\e756";
+}
+.ms-icon-appbarflag:before {
+	content: "\e757";
+}
+.ms-icon-appbarflagtexas:before {
+	content: "\e758";
+}
+.ms-icon-appbarflagwavy:before {
+	content: "\e759";
+}
+.ms-icon-appbarfolderellipsis:before {
+	content: "\e75a";
+}
+.ms-icon-appbarfolderlock:before {
+	content: "\e75b";
+}
+.ms-icon-appbarfolderopen:before {
+	content: "\e75c";
+}
+.ms-icon-appbarfolderpeople:before {
+	content: "\e75d";
+}
+.ms-icon-appbarfolderpuzzle:before {
+	content: "\e75e";
+}
+.ms-icon-appbarfolderstar:before {
+	content: "\e75f";
+}
+.ms-icon-appbarfolder:before {
+	content: "\e760";
+}
+.ms-icon-appbarfoodapple:before {
+	content: "\e761";
+}
+.ms-icon-appbarfoodsilverwarecross:before {
+	content: "\e762";
+}
+.ms-icon-appbarfoodsilverware:before {
+	content: "\e763";
+}
+.ms-icon-appbarfood:before {
+	content: "\e764";
+}
+.ms-icon-appbarfoot:before {
+	content: "\e765";
+}
+.ms-icon-appbarforkliftload:before {
+	content: "\e766";
+}
+.ms-icon-appbarforklift:before {
+	content: "\e767";
+}
+.ms-icon-appbarformbasic:before {
+	content: "\e768";
+}
+.ms-icon-appbarformeditable:before {
+	content: "\e769";
+}
+.ms-icon-appbarforrst:before {
+	content: "\e76a";
+}
+.ms-icon-appbarforsale:before {
+	content: "\e76b";
+}
+.ms-icon-appbarfullscreenbox:before {
+	content: "\e76c";
+}
+.ms-icon-appbarfullscreen:before {
+	content: "\e76d";
+}
+.ms-icon-appbarfuturamabender:before {
+	content: "\e76e";
+}
+.ms-icon-appbarfuturamafry:before {
+	content: "\e76f";
+}
+.ms-icon-appbargas:before {
+	content: "\e770";
+}
+.ms-icon-appbargauge0:before {
+	content: "\e771";
+}
+.ms-icon-appbargauge25:before {
+	content: "\e772";
+}
+.ms-icon-appbargauge50:before {
+	content: "\e773";
+}
+.ms-icon-appbargauge75:before {
+	content: "\e774";
+}
+.ms-icon-appbargauge100:before {
+	content: "\e775";
+}
+.ms-icon-appbargenderboth:before {
+	content: "\e776";
+}
+.ms-icon-appbargenderfemale:before {
+	content: "\e777";
+}
+.ms-icon-appbargendermale:before {
+	content: "\e778";
+}
+.ms-icon-appbargift:before {
+	content: "\e779";
+}
+.ms-icon-appbarglobe:before {
+	content: "\e77a";
+}
+.ms-icon-appbarglobewire:before {
+	content: "\e77b";
+}
+.ms-icon-appbargoogle:before {
+	content: "\e77c";
+}
+.ms-icon-appbargoogleplus:before {
+	content: "\e77d";
+}
+.ms-icon-appbargradeaminus:before {
+	content: "\e77e";
+}
+.ms-icon-appbargradeaplus:before {
+	content: "\e77f";
+}
+.ms-icon-appbargradea:before {
+	content: "\e780";
+}
+.ms-icon-appbargradebminus:before {
+	content: "\e781";
+}
+.ms-icon-appbargradebplus:before {
+	content: "\e782";
+}
+.ms-icon-appbargradeb:before {
+	content: "\e783";
+}
+.ms-icon-appbargradecminus:before {
+	content: "\e784";
+}
+.ms-icon-appbargradecplus:before {
+	content: "\e785";
+}
+.ms-icon-appbargradec:before {
+	content: "\e786";
+}
+.ms-icon-appbargradedminus:before {
+	content: "\e787";
+}
+.ms-icon-appbargradedplus:before {
+	content: "\e788";
+}
+.ms-icon-appbargraded:before {
+	content: "\e789";
+}
+.ms-icon-appbargradee:before {
+	content: "\e78a";
+}
+.ms-icon-appbargradef:before {
+	content: "\e78b";
+}
+.ms-icon-appbargraphbar:before {
+	content: "\e78c";
+}
+.ms-icon-appbargraphboxplot:before {
+	content: "\e78d";
+}
+.ms-icon-appbargraphhistogramdescription:before {
+	content: "\e78e";
+}
+.ms-icon-appbargraphhistogram:before {
+	content: "\e78f";
+}
+.ms-icon-appbargraphlinedown:before {
+	content: "\e790";
+}
+.ms-icon-appbargraphline:before {
+	content: "\e791";
+}
+.ms-icon-appbargraphlineup:before {
+	content: "\e792";
+}
+.ms-icon-appbargreeksigmalowercase:before {
+	content: "\e793";
+}
+.ms-icon-appbargreeksigmauppercase:before {
+	content: "\e794";
+}
+.ms-icon-appbargrid:before {
+	content: "\e795";
+}
+.ms-icon-appbargroupadd:before {
+	content: "\e796";
+}
+.ms-icon-appbargroupdelete:before {
+	content: "\e797";
+}
+.ms-icon-appbargroupminus:before {
+	content: "\e798";
+}
+.ms-icon-appbargroup:before {
+	content: "\e799";
+}
+.ms-icon-appbarhandicapin:before {
+	content: "\e79a";
+}
+.ms-icon-appbarhandicapout:before {
+	content: "\e79b";
+}
+.ms-icon-appbarhandicap:before {
+	content: "\e79c";
+}
+.ms-icon-appbarhardwarecpu:before {
+	content: "\e79d";
+}
+.ms-icon-appbarhardwareheadphonesbluetooth:before {
+	content: "\e79e";
+}
+.ms-icon-appbarhardwareheadphones:before {
+	content: "\e79f";
+}
+.ms-icon-appbarhardwareheadset:before {
+	content: "\e7a0";
+}
+.ms-icon-appbarhardwaremouse:before {
+	content: "\e7a1";
+}
+.ms-icon-appbarheartbreak:before {
+	content: "\e7a2";
+}
+.ms-icon-appbarheartcross:before {
+	content: "\e7a3";
+}
+.ms-icon-appbarheartoutline:before {
+	content: "\e7a4";
+}
+.ms-icon-appbarheart:before {
+	content: "\e7a5";
+}
+.ms-icon-appbarhomeempty:before {
+	content: "\e7a6";
+}
+.ms-icon-appbarhomegaragearrowclose:before {
+	content: "\e7a7";
+}
+.ms-icon-appbarhomegaragearrowopen:before {
+	content: "\e7a8";
+}
+.ms-icon-appbarhomegarageopen:before {
+	content: "\e7a9";
+}
+.ms-icon-appbarhomegarage:before {
+	content: "\e7aa";
+}
+.ms-icon-appbarhomegps:before {
+	content: "\e7ab";
+}
+.ms-icon-appbarhomelocationpin:before {
+	content: "\e7ac";
+}
+.ms-icon-appbarhomelocationround:before {
+	content: "\e7ad";
+}
+.ms-icon-appbarhomepeoplenone:before {
+	content: "\e7ae";
+}
+.ms-icon-appbarhomepeople:before {
+	content: "\e7af";
+}
+.ms-icon-appbarhomequestion:before {
+	content: "\e7b0";
+}
+.ms-icon-appbarhome:before {
+	content: "\e7b1";
+}
+.ms-icon-appbarhomevariantenter:before {
+	content: "\e7b2";
+}
+.ms-icon-appbarhomevariantleave:before {
+	content: "\e7b3";
+}
+.ms-icon-appbarhomevariant:before {
+	content: "\e7b4";
+}
+.ms-icon-appbarhourglass:before {
+	content: "\e7b5";
+}
+.ms-icon-appbaricecreambar:before {
+	content: "\e7b6";
+}
+.ms-icon-appbarie:before {
+	content: "\e7b7";
+}
+.ms-icon-appbarimageants:before {
+	content: "\e7b8";
+}
+.ms-icon-appbarimagebacklight:before {
+	content: "\e7b9";
+}
+.ms-icon-appbarimagebeach:before {
+	content: "\e7ba";
+}
+.ms-icon-appbarimagebroken:before {
+	content: "\e7bb";
+}
+.ms-icon-appbarimageexport:before {
+	content: "\e7bc";
+}
+.ms-icon-appbarimagefocus:before {
+	content: "\e7bd";
+}
+.ms-icon-appbarimagegallery:before {
+	content: "\e7be";
+}
+.ms-icon-appbarimagehdr:before {
+	content: "\e7bf";
+}
+.ms-icon-appbarimagelandscape:before {
+	content: "\e7c0";
+}
+.ms-icon-appbarimagemacro:before {
+	content: "\e7c1";
+}
+.ms-icon-appbarimagemultiple:before {
+	content: "\e7c2";
+}
+.ms-icon-appbarimagenightlandscape:before {
+	content: "\e7c3";
+}
+.ms-icon-appbarimagenightperson:before {
+	content: "\e7c4";
+}
+.ms-icon-appbarimagenightportrait:before {
+	content: "\e7c5";
+}
+.ms-icon-appbarimagenight:before {
+	content: "\e7c6";
+}
+.ms-icon-appbarimageportrait:before {
+	content: "\e7c7";
+}
+.ms-icon-appbarimageredeye:before {
+	content: "\e7c8";
+}
+.ms-icon-appbarimageselect:before {
+	content: "\e7c9";
+}
+.ms-icon-appbarimagesnow:before {
+	content: "\e7ca";
+}
+.ms-icon-appbarimagesports:before {
+	content: "\e7cb";
+}
+.ms-icon-appbarimagesunset:before {
+	content: "\e7cc";
+}
+.ms-icon-appbarimage:before {
+	content: "\e7cd";
+}
+.ms-icon-appbarinboxin:before {
+	content: "\e7ce";
+}
+.ms-icon-appbarinboxout:before {
+	content: "\e7cf";
+}
+.ms-icon-appbarinbox:before {
+	content: "\e7d0";
+}
+.ms-icon-appbarinfinite:before {
+	content: "\e7d1";
+}
+.ms-icon-appbarinformationcircle:before {
+	content: "\e7d2";
+}
+.ms-icon-appbarinformation:before {
+	content: "\e7d3";
+}
+.ms-icon-appbarinputdown:before {
+	content: "\e7d4";
+}
+.ms-icon-appbarinputkeyboarddown:before {
+	content: "\e7d5";
+}
+.ms-icon-appbarinputkeyboard:before {
+	content: "\e7d6";
+}
+.ms-icon-appbarinputpendown:before {
+	content: "\e7d7";
+}
+.ms-icon-appbarinputpen:before {
+	content: "\e7d8";
+}
+.ms-icon-appbarinputquestion:before {
+	content: "\e7d9";
+}
+.ms-icon-appbarinput:before {
+	content: "\e7da";
+}
+.ms-icon-appbarinterfacebutton:before {
+	content: "\e7db";
+}
+.ms-icon-appbarinterfacedropdown:before {
+	content: "\e7dc";
+}
+.ms-icon-appbarinterfacelist:before {
+	content: "\e7dd";
+}
+.ms-icon-appbarinterfacepassword:before {
+	content: "\e7de";
+}
+.ms-icon-appbarinterfacetextbox:before {
+	content: "\e7df";
+}
+.ms-icon-appbariphone:before {
+	content: "\e7e0";
+}
+.ms-icon-appbarjournal:before {
+	content: "\e7e1";
+}
+.ms-icon-appbarkeyold:before {
+	content: "\e7e2";
+}
+.ms-icon-appbarkey:before {
+	content: "\e7e3";
+}
+.ms-icon-appbarlampdesk:before {
+	content: "\e7e4";
+}
+.ms-icon-appbarlampdeskvariant:before {
+	content: "\e7e5";
+}
+.ms-icon-appbarlamp:before {
+	content: "\e7e6";
+}
+.ms-icon-appbarlampvariant:before {
+	content: "\e7e7";
+}
+.ms-icon-appbarlanguagecsharp:before {
+	content: "\e7e8";
+}
+.ms-icon-appbarlanguagejava:before {
+	content: "\e7e9";
+}
+.ms-icon-appbarlanguagejavatext:before {
+	content: "\e7ea";
+}
+.ms-icon-appbarlanguagepython:before {
+	content: "\e7eb";
+}
+.ms-icon-appbarlanguagepythontext:before {
+	content: "\e7ec";
+}
+.ms-icon-appbarlaptop:before {
+	content: "\e7ed";
+}
+.ms-icon-appbarlavalamp:before {
+	content: "\e7ee";
+}
+.ms-icon-appbarlayeradd:before {
+	content: "\e7ef";
+}
+.ms-icon-appbarlayerarrangebringforward:before {
+	content: "\e7f0";
+}
+.ms-icon-appbarlayerarrangebringtofront:before {
+	content: "\e7f1";
+}
+.ms-icon-appbarlayerarrangesendbackward:before {
+	content: "\e7f2";
+}
+.ms-icon-appbarlayerarrangesendtoback:before {
+	content: "\e7f3";
+}
+.ms-icon-appbarlayerarrangesolidbringforward:before {
+	content: "\e7f4";
+}
+.ms-icon-appbarlayerarrangesolidbringtofront:before {
+	content: "\e7f5";
+}
+.ms-icon-appbarlayerarrangesolidsendbackward:before {
+	content: "\e7f6";
+}
+.ms-icon-appbarlayerarrangesolidsendtoback:before {
+	content: "\e7f7";
+}
+.ms-icon-appbarlayerdelete:before {
+	content: "\e7f8";
+}
+.ms-icon-appbarlayerdown:before {
+	content: "\e7f9";
+}
+.ms-icon-appbarlayerminus:before {
+	content: "\e7fa";
+}
+.ms-icon-appbarlayerperspectiveup:before {
+	content: "\e7fb";
+}
+.ms-icon-appbarlayer:before {
+	content: "\e7fc";
+}
+.ms-icon-appbarlayerthick:before {
+	content: "\e7fd";
+}
+.ms-icon-appbarlayerup:before {
+	content: "\e7fe";
+}
+.ms-icon-appbarlayoutbody:before {
+	content: "\e7ff";
+}
+.ms-icon-appbarlayoutcollapseleft:before {
+	content: "\e800";
+}
+.ms-icon-appbarlayoutcollapseleftvariant:before {
+	content: "\e801";
+}
+.ms-icon-appbarlayoutcollapseright:before {
+	content: "\e802";
+}
+.ms-icon-appbarlayoutcollapserightvariant:before {
+	content: "\e803";
+}
+.ms-icon-appbarlayoutexpandleft:before {
+	content: "\e804";
+}
+.ms-icon-appbarlayoutexpandleftvariant:before {
+	content: "\e805";
+}
+.ms-icon-appbarlayoutexpandright:before {
+	content: "\e806";
+}
+.ms-icon-appbarlayoutexpandrightvariant:before {
+	content: "\e807";
+}
+.ms-icon-appbarlayoutheader:before {
+	content: "\e808";
+}
+.ms-icon-appbarlayoutsidebar:before {
+	content: "\e809";
+}
+.ms-icon-appbarlayout:before {
+	content: "\e80a";
+}
+.ms-icon-appbarleaderboard:before {
+	content: "\e80b";
+}
+.ms-icon-appbarlifesaver:before {
+	content: "\e80c";
+}
+.ms-icon-appbarlightbulbcoil:before {
+	content: "\e80d";
+}
+.ms-icon-appbarlightbulbhueon:before {
+	content: "\e80e";
+}
+.ms-icon-appbarlightbulbhue:before {
+	content: "\e80f";
+}
+.ms-icon-appbarlightbulb:before {
+	content: "\e810";
+}
+.ms-icon-appbarlightning:before {
+	content: "\e811";
+}
+.ms-icon-appbarlineshorizontal4:before {
+	content: "\e812";
+}
+.ms-icon-appbarlink:before {
+	content: "\e813";
+}
+.ms-icon-appbarlinkedin:before {
+	content: "\e814";
+}
+.ms-icon-appbarlistaddabove:before {
+	content: "\e815";
+}
+.ms-icon-appbarlistaddbelow:before {
+	content: "\e816";
+}
+.ms-icon-appbarlistadd:before {
+	content: "\e817";
+}
+.ms-icon-appbarlistcheck:before {
+	content: "\e818";
+}
+.ms-icon-appbarlistcreate:before {
+	content: "\e819";
+}
+.ms-icon-appbarlistdeleteinline:before {
+	content: "\e81a";
+}
+.ms-icon-appbarlistdelete:before {
+	content: "\e81b";
+}
+.ms-icon-appbarlistgear:before {
+	content: "\e81c";
+}
+.ms-icon-appbarlisthidden:before {
+	content: "\e81d";
+}
+.ms-icon-appbarlistmerge:before {
+	content: "\e81e";
+}
+.ms-icon-appbarlistone:before {
+	content: "\e81f";
+}
+.ms-icon-appbarlistreorderdown:before {
+	content: "\e820";
+}
+.ms-icon-appbarlistreorder:before {
+	content: "\e821";
+}
+.ms-icon-appbarlistreorderup:before {
+	content: "\e822";
+}
+.ms-icon-appbarlistselect:before {
+	content: "\e823";
+}
+.ms-icon-appbarliststar:before {
+	content: "\e824";
+}
+.ms-icon-appbarlist:before {
+	content: "\e825";
+}
+.ms-icon-appbarlisttwo:before {
+	content: "\e826";
+}
+.ms-icon-appbarlocationadd:before {
+	content: "\e827";
+}
+.ms-icon-appbarlocationcircle:before {
+	content: "\e828";
+}
+.ms-icon-appbarlocationdelete:before {
+	content: "\e829";
+}
+.ms-icon-appbarlocationfoursquare:before {
+	content: "\e82a";
+}
+.ms-icon-appbarlocationminus:before {
+	content: "\e82b";
+}
+.ms-icon-appbarlocationround:before {
+	content: "\e82c";
+}
+.ms-icon-appbarlocation:before {
+	content: "\e82d";
+}
+.ms-icon-appbarlock:before {
+	content: "\e82e";
+}
+.ms-icon-appbarlogicandadd:before {
+	content: "\e82f";
+}
+.ms-icon-appbarlogicand:before {
+	content: "\e830";
+}
+.ms-icon-appbarlogicoradd:before {
+	content: "\e831";
+}
+.ms-icon-appbarlogicor:before {
+	content: "\e832";
+}
+.ms-icon-appbarloop:before {
+	content: "\e833";
+}
+.ms-icon-appbarmagnifyadd:before {
+	content: "\e834";
+}
+.ms-icon-appbarmagnifyarrowdown:before {
+	content: "\e835";
+}
+.ms-icon-appbarmagnifyarrowup:before {
+	content: "\e836";
+}
+.ms-icon-appbarmagnifyback:before {
+	content: "\e837";
+}
+.ms-icon-appbarmagnifyforward:before {
+	content: "\e838";
+}
+.ms-icon-appbarmagnifyminus:before {
+	content: "\e839";
+}
+.ms-icon-appbarmagnify:before {
+	content: "\e83a";
+}
+.ms-icon-appbarmansensor:before {
+	content: "\e83b";
+}
+.ms-icon-appbarmansuitcasefast:before {
+	content: "\e83c";
+}
+.ms-icon-appbarmansuitcaserun:before {
+	content: "\e83d";
+}
+.ms-icon-appbarmansuitcase:before {
+	content: "\e83e";
+}
+.ms-icon-appbarmanwalk:before {
+	content: "\e83f";
+}
+.ms-icon-appbarmapaerialhighway:before {
+	content: "\e840";
+}
+.ms-icon-appbarmapaerial:before {
+	content: "\e841";
+}
+.ms-icon-appbarmapfolds:before {
+	content: "\e842";
+}
+.ms-icon-appbarmapgps:before {
+	content: "\e843";
+}
+.ms-icon-appbarmaplocationadd:before {
+	content: "\e844";
+}
+.ms-icon-appbarmaplocation:before {
+	content: "\e845";
+}
+.ms-icon-appbarmapsatellite:before {
+	content: "\e846";
+}
+.ms-icon-appbarmap:before {
+	content: "\e847";
+}
+.ms-icon-appbarmaptreasure:before {
+	content: "\e848";
+}
+.ms-icon-appbarmarketplaceold:before {
+	content: "\e849";
+}
+.ms-icon-appbarmarketplace:before {
+	content: "\e84a";
+}
+.ms-icon-appbarmarkup:before {
+	content: "\e84b";
+}
+.ms-icon-appbarmartini:before {
+	content: "\e84c";
+}
+.ms-icon-appbarmarvelavengers:before {
+	content: "\e84d";
+}
+.ms-icon-appbarmarvelcaptainamerica:before {
+	content: "\e84e";
+}
+.ms-icon-appbarmarvelironmanmask:before {
+	content: "\e84f";
+}
+.ms-icon-appbarmarvelironman:before {
+	content: "\e850";
+}
+.ms-icon-appbarmarvelshield:before {
+	content: "\e851";
+}
+.ms-icon-appbarmarvelshieldvariant:before {
+	content: "\e852";
+}
+.ms-icon-appbarmeasurecelcius:before {
+	content: "\e853";
+}
+.ms-icon-appbarmeasurecentimeter:before {
+	content: "\e854";
+}
+.ms-icon-appbarmeasurefarenheit:before {
+	content: "\e855";
+}
+.ms-icon-appbarmeasurefoot:before {
+	content: "\e856";
+}
+.ms-icon-appbarmeasureinch:before {
+	content: "\e857";
+}
+.ms-icon-appbarmeasurekilometer:before {
+	content: "\e858";
+}
+.ms-icon-appbarmeasuremeter:before {
+	content: "\e859";
+}
+.ms-icon-appbarmeasuremile:before {
+	content: "\e85a";
+}
+.ms-icon-appbarmedicalpillbroken:before {
+	content: "\e85b";
+}
+.ms-icon-appbarmedicalpill:before {
+	content: "\e85c";
+}
+.ms-icon-appbarmedicalpulse:before {
+	content: "\e85d";
+}
+.ms-icon-appbarmessageprofanity:before {
+	content: "\e85e";
+}
+.ms-icon-appbarmessagesend:before {
+	content: "\e85f";
+}
+.ms-icon-appbarmessagesmiley:before {
+	content: "\e860";
+}
+.ms-icon-appbarmessage:before {
+	content: "\e861";
+}
+.ms-icon-appbarmicrophonegoogle:before {
+	content: "\e862";
+}
+.ms-icon-appbarmicrophone:before {
+	content: "\e863";
+}
+.ms-icon-appbarmicrosofttag:before {
+	content: "\e864";
+}
+.ms-icon-appbarminecraftcivcraft:before {
+	content: "\e865";
+}
+.ms-icon-appbarminus:before {
+	content: "\e866";
+}
+.ms-icon-appbarmoney:before {
+	content: "\e867";
+}
+.ms-icon-appbarmonitoradd:before {
+	content: "\e868";
+}
+.ms-icon-appbarmonitordelete:before {
+	content: "\e869";
+}
+.ms-icon-appbarmonitorfilm:before {
+	content: "\e86a";
+}
+.ms-icon-appbarmonitoridentify:before {
+	content: "\e86b";
+}
+.ms-icon-appbarmonitorminus:before {
+	content: "\e86c";
+}
+.ms-icon-appbarmonitorplay:before {
+	content: "\e86d";
+}
+.ms-icon-appbarmonitor:before {
+	content: "\e86e";
+}
+.ms-icon-appbarmonitorto:before {
+	content: "\e86f";
+}
+.ms-icon-appbarmono:before {
+	content: "\e870";
+}
+.ms-icon-appbarmoonfirstquarter:before {
+	content: "\e871";
+}
+.ms-icon-appbarmoonfull:before {
+	content: "\e872";
+}
+.ms-icon-appbarmoonnew:before {
+	content: "\e873";
+}
+.ms-icon-appbarmoonsleep:before {
+	content: "\e874";
+}
+.ms-icon-appbarmoon:before {
+	content: "\e875";
+}
+.ms-icon-appbarmoonthirdquarter:before {
+	content: "\e876";
+}
+.ms-icon-appbarmoonwaningcrescent:before {
+	content: "\e877";
+}
+.ms-icon-appbarmoonwaninggibbous:before {
+	content: "\e878";
+}
+.ms-icon-appbarmoonwaxingcrescent:before {
+	content: "\e879";
+}
+.ms-icon-appbarmoonwaxinggibbous:before {
+	content: "\e87a";
+}
+.ms-icon-appbarmovieclapperselect:before {
+	content: "\e87b";
+}
+.ms-icon-appbarmovieclappersolidselect:before {
+	content: "\e87c";
+}
+.ms-icon-appbarmovieclappersolid:before {
+	content: "\e87d";
+}
+.ms-icon-appbarmovieclapper:before {
+	content: "\e87e";
+}
+.ms-icon-appbarmusiclive:before {
+	content: "\e87f";
+}
+.ms-icon-appbarmusicselect:before {
+	content: "\e880";
+}
+.ms-icon-appbarmusic:before {
+	content: "\e881";
+}
+.ms-icon-appbarmusicwifi:before {
+	content: "\e882";
+}
+.ms-icon-appbarnavigatenext:before {
+	content: "\e883";
+}
+.ms-icon-appbarnavigateprevious:before {
+	content: "\e884";
+}
+.ms-icon-appbarnetworkdisconnect:before {
+	content: "\e885";
+}
+.ms-icon-appbarnetworkportdisconnect:before {
+	content: "\e886";
+}
+.ms-icon-appbarnetworkport:before {
+	content: "\e887";
+}
+.ms-icon-appbarnetwork:before {
+	content: "\e888";
+}
+.ms-icon-appbarnew:before {
+	content: "\e889";
+}
+.ms-icon-appbarnewwindow:before {
+	content: "\e88a";
+}
+.ms-icon-appbarnewspaper:before {
+	content: "\e88b";
+}
+.ms-icon-appbarnfc:before {
+	content: "\e88c";
+}
+.ms-icon-appbarnoentry:before {
+	content: "\e88d";
+}
+.ms-icon-appbarnotificationabovemultiple:before {
+	content: "\e88e";
+}
+.ms-icon-appbarnotificationabove:before {
+	content: "\e88f";
+}
+.ms-icon-appbarnotificationmultiple:before {
+	content: "\e890";
+}
+.ms-icon-appbarnotificationstar:before {
+	content: "\e891";
+}
+.ms-icon-appbarnotification:before {
+	content: "\e892";
+}
+.ms-icon-appbarnyan:before {
+	content: "\e893";
+}
+.ms-icon-appbaroffice365:before {
+	content: "\e894";
+}
+.ms-icon-appbarofficeaccess:before {
+	content: "\e895";
+}
+.ms-icon-appbarofficeexcel:before {
+	content: "\e896";
+}
+.ms-icon-appbarofficeinfopath:before {
+	content: "\e897";
+}
+.ms-icon-appbarofficelync:before {
+	content: "\e898";
+}
+.ms-icon-appbarofficeonenote:before {
+	content: "\e899";
+}
+.ms-icon-appbarofficeoutlook:before {
+	content: "\e89a";
+}
+.ms-icon-appbarofficepowerpoint:before {
+	content: "\e89b";
+}
+.ms-icon-appbarofficeproject:before {
+	content: "\e89c";
+}
+.ms-icon-appbarofficepublisher:before {
+	content: "\e89d";
+}
+.ms-icon-appbarofficesharepoint:before {
+	content: "\e89e";
+}
+.ms-icon-appbaroffice:before {
+	content: "\e89f";
+}
+.ms-icon-appbarofficevisio:before {
+	content: "\e8a0";
+}
+.ms-icon-appbarofficeword:before {
+	content: "\e8a1";
+}
+.ms-icon-appbaropacity:before {
+	content: "\e8a2";
+}
+.ms-icon-appbarosandroid:before {
+	content: "\e8a3";
+}
+.ms-icon-appbarosarm:before {
+	content: "\e8a4";
+}
+.ms-icon-appbarosblackberry:before {
+	content: "\e8a5";
+}
+.ms-icon-appbaroschromium:before {
+	content: "\e8a6";
+}
+.ms-icon-appbarosgnome:before {
+	content: "\e8a7";
+}
+.ms-icon-appbarosios:before {
+	content: "\e8a8";
+}
+.ms-icon-appbarosubuntu:before {
+	content: "\e8a9";
+}
+.ms-icon-appbaroswindows8:before {
+	content: "\e8aa";
+}
+.ms-icon-appbaroswindowsrt:before {
+	content: "\e8ab";
+}
+.ms-icon-appbaroswindows:before {
+	content: "\e8ac";
+}
+.ms-icon-appbaroswindowsphoneround:before {
+	content: "\e8ad";
+}
+.ms-icon-appbaroswindowsphone:before {
+	content: "\e8ae";
+}
+.ms-icon-appbarosx64:before {
+	content: "\e8af";
+}
+.ms-icon-appbarosx86:before {
+	content: "\e8b0";
+}
+.ms-icon-appbaroutlet:before {
+	content: "\e8b1";
+}
+.ms-icon-appbarpage0:before {
+	content: "\e8b2";
+}
+.ms-icon-appbarpage1:before {
+	content: "\e8b3";
+}
+.ms-icon-appbarpage2:before {
+	content: "\e8b4";
+}
+.ms-icon-appbarpage3:before {
+	content: "\e8b5";
+}
+.ms-icon-appbarpage4:before {
+	content: "\e8b6";
+}
+.ms-icon-appbarpage5:before {
+	content: "\e8b7";
+}
+.ms-icon-appbarpage6:before {
+	content: "\e8b8";
+}
+.ms-icon-appbarpage7:before {
+	content: "\e8b9";
+}
+.ms-icon-appbarpage8:before {
+	content: "\e8ba";
+}
+.ms-icon-appbarpage9:before {
+	content: "\e8bb";
+}
+.ms-icon-appbarpageadd:before {
+	content: "\e8bc";
+}
+.ms-icon-appbarpagearrow:before {
+	content: "\e8bd";
+}
+.ms-icon-appbarpagebold:before {
+	content: "\e8be";
+}
+.ms-icon-appbarpagebreak:before {
+	content: "\e8bf";
+}
+.ms-icon-appbarpagecheck:before {
+	content: "\e8c0";
+}
+.ms-icon-appbarpagecode:before {
+	content: "\e8c1";
+}
+.ms-icon-appbarpagecopy:before {
+	content: "\e8c2";
+}
+.ms-icon-appbarpagecornerbookmark:before {
+	content: "\e8c3";
+}
+.ms-icon-appbarpagecornerbreak:before {
+	content: "\e8c4";
+}
+.ms-icon-appbarpagecornercells:before {
+	content: "\e8c5";
+}
+.ms-icon-appbarpagecornerfoldedgrid:before {
+	content: "\e8c6";
+}
+.ms-icon-appbarpagecornerfolded:before {
+	content: "\e8c7";
+}
+.ms-icon-appbarpagecornerfoldedtext:before {
+	content: "\e8c8";
+}
+.ms-icon-appbarpagecornergrid:before {
+	content: "\e8c9";
+}
+.ms-icon-appbarpagecorner:before {
+	content: "\e8ca";
+}
+.ms-icon-appbarpagecornertextbreak:before {
+	content: "\e8cb";
+}
+.ms-icon-appbarpagecornertext:before {
+	content: "\e8cc";
+}
+.ms-icon-appbarpagecross:before {
+	content: "\e8cd";
+}
+.ms-icon-appbarpagedelete:before {
+	content: "\e8ce";
+}
+.ms-icon-appbarpagedownload:before {
+	content: "\e8cf";
+}
+.ms-icon-appbarpageduplicate:before {
+	content: "\e8d0";
+}
+.ms-icon-appbarpageedit:before {
+	content: "\e8d1";
+}
+.ms-icon-appbarpageexcel:before {
+	content: "\e8d2";
+}
+.ms-icon-appbarpagefilegif:before {
+	content: "\e8d3";
+}
+.ms-icon-appbarpagefilegiftag:before {
+	content: "\e8d4";
+}
+.ms-icon-appbarpagefilepdf:before {
+	content: "\e8d5";
+}
+.ms-icon-appbarpagefilepdftag:before {
+	content: "\e8d6";
+}
+.ms-icon-appbarpageheart:before {
+	content: "\e8d7";
+}
+.ms-icon-appbarpageheartbreak:before {
+	content: "\e8d8";
+}
+.ms-icon-appbarpagehidden:before {
+	content: "\e8d9";
+}
+.ms-icon-appbarpageimage:before {
+	content: "\e8da";
+}
+.ms-icon-appbarpagejpg:before {
+	content: "\e8db";
+}
+.ms-icon-appbarpagelocationadd:before {
+	content: "\e8dc";
+}
+.ms-icon-appbarpagelocation:before {
+	content: "\e8dd";
+}
+.ms-icon-appbarpageminus:before {
+	content: "\e8de";
+}
+.ms-icon-appbarpagemultiple:before {
+	content: "\e8df";
+}
+.ms-icon-appbarpagemusic:before {
+	content: "\e8e0";
+}
+.ms-icon-appbarpagenew:before {
+	content: "\e8e1";
+}
+.ms-icon-appbarpageonenote:before {
+	content: "\e8e2";
+}
+.ms-icon-appbarpagepdf:before {
+	content: "\e8e3";
+}
+.ms-icon-appbarpagepng:before {
+	content: "\e8e4";
+}
+.ms-icon-appbarpagepowerpoint:before {
+	content: "\e8e5";
+}
+.ms-icon-appbarpagequestion:before {
+	content: "\e8e6";
+}
+.ms-icon-appbarpagesearch:before {
+	content: "\e8e7";
+}
+.ms-icon-appbarpageselect:before {
+	content: "\e8e8";
+}
+.ms-icon-appbarpagesmall:before {
+	content: "\e8e9";
+}
+.ms-icon-appbarpagesolidadd:before {
+	content: "\e8ea";
+}
+.ms-icon-appbarpagesolidcross:before {
+	content: "\e8eb";
+}
+.ms-icon-appbarpagesolidmove:before {
+	content: "\e8ec";
+}
+.ms-icon-appbarpagesolid:before {
+	content: "\e8ed";
+}
+.ms-icon-appbarpage:before {
+	content: "\e8ee";
+}
+.ms-icon-appbarpagetext:before {
+	content: "\e8ef";
+}
+.ms-icon-appbarpageupload:before {
+	content: "\e8f0";
+}
+.ms-icon-appbarpageword:before {
+	content: "\e8f1";
+}
+.ms-icon-appbarpagexml:before {
+	content: "\e8f2";
+}
+.ms-icon-appbarpalmtree:before {
+	content: "\e8f3";
+}
+.ms-icon-appbarpalmtreevariant:before {
+	content: "\e8f4";
+}
+.ms-icon-appbarpaper:before {
+	content: "\e8f5";
+}
+.ms-icon-appbarpapercliprotated:before {
+	content: "\e8f6";
+}
+.ms-icon-appbarpaperclip:before {
+	content: "\e8f7";
+}
+.ms-icon-appbarpaw:before {
+	content: "\e8f8";
+}
+.ms-icon-appbarpaypal:before {
+	content: "\e8f9";
+}
+.ms-icon-appbarpeoplearrowleft:before {
+	content: "\e8fa";
+}
+.ms-icon-appbarpeoplearrowright:before {
+	content: "\e8fb";
+}
+.ms-icon-appbarpeoplecheckbox:before {
+	content: "\e8fc";
+}
+.ms-icon-appbarpeopledown:before {
+	content: "\e8fd";
+}
+.ms-icon-appbarpeopleleft:before {
+	content: "\e8fe";
+}
+.ms-icon-appbarpeoplemagnify:before {
+	content: "\e8ff";
+}
+.ms-icon-appbarpeoplemultiplemagnify:before {
+	content: "\e900";
+}
+.ms-icon-appbarpeoplemultiple:before {
+	content: "\e901";
+}
+.ms-icon-appbarpeopleprofile:before {
+	content: "\e902";
+}
+.ms-icon-appbarpeopleright:before {
+	content: "\e903";
+}
+.ms-icon-appbarpeoplesensor:before {
+	content: "\e904";
+}
+.ms-icon-appbarpeoplesensorvariant:before {
+	content: "\e905";
+}
+.ms-icon-appbarpeoplestatus:before {
+	content: "\e906";
+}
+.ms-icon-appbarpeople:before {
+	content: "\e907";
+}
+.ms-icon-appbarpeopleup:before {
+	content: "\e908";
+}
+.ms-icon-appbarpercentoff:before {
+	content: "\e909";
+}
+.ms-icon-appbarphonehangup:before {
+	content: "\e90a";
+}
+.ms-icon-appbarphone:before {
+	content: "\e90b";
+}
+.ms-icon-appbarphonevoicemail:before {
+	content: "\e90c";
+}
+.ms-icon-appbarpiequarter:before {
+	content: "\e90d";
+}
+.ms-icon-appbarpie:before {
+	content: "\e90e";
+}
+.ms-icon-appbarpinremove:before {
+	content: "\e90f";
+}
+.ms-icon-appbarpin:before {
+	content: "\e910";
+}
+.ms-icon-appbarplaces:before {
+	content: "\e911";
+}
+.ms-icon-appbarplanerotated45:before {
+	content: "\e912";
+}
+.ms-icon-appbarplanerotated135:before {
+	content: "\e913";
+}
+.ms-icon-appbarplane:before {
+	content: "\e914";
+}
+.ms-icon-appbarplant:before {
+	content: "\e915";
+}
+.ms-icon-appbarpokeball:before {
+	content: "\e916";
+}
+.ms-icon-appbarpotion:before {
+	content: "\e917";
+}
+.ms-icon-appbarpower:before {
+	content: "\e918";
+}
+.ms-icon-appbarprinterblank:before {
+	content: "\e919";
+}
+.ms-icon-appbarprinter:before {
+	content: "\e91a";
+}
+.ms-icon-appbarprintertext:before {
+	content: "\e91b";
+}
+.ms-icon-appbarprogress:before {
+	content: "\e91c";
+}
+.ms-icon-appbarprojectorscreen:before {
+	content: "\e91d";
+}
+.ms-icon-appbarprojector:before {
+	content: "\e91e";
+}
+.ms-icon-appbarprotractor:before {
+	content: "\e91f";
+}
+.ms-icon-appbarpuzzleround:before {
+	content: "\e920";
+}
+.ms-icon-appbarpuzzle:before {
+	content: "\e921";
+}
+.ms-icon-appbarqr:before {
+	content: "\e922";
+}
+.ms-icon-appbarquestion:before {
+	content: "\e923";
+}
+.ms-icon-appbarquill:before {
+	content: "\e924";
+}
+.ms-icon-appbarquoteleft:before {
+	content: "\e925";
+}
+.ms-icon-appbarquoteright:before {
+	content: "\e926";
+}
+.ms-icon-appbarradarscreen:before {
+	content: "\e927";
+}
+.ms-icon-appbarradar:before {
+	content: "\e928";
+}
+.ms-icon-appbarradioactive:before {
+	content: "\e929";
+}
+.ms-icon-appbarredocurve:before {
+	content: "\e92a";
+}
+.ms-icon-appbarredopoint:before {
+	content: "\e92b";
+}
+.ms-icon-appbarredo:before {
+	content: "\e92c";
+}
+.ms-icon-appbarrefreshclockwisedown:before {
+	content: "\e92d";
+}
+.ms-icon-appbarrefreshclockwiseup:before {
+	content: "\e92e";
+}
+.ms-icon-appbarrefreshcounterclockwisedown:before {
+	content: "\e92f";
+}
+.ms-icon-appbarrefreshcounterclockwiseup:before {
+	content: "\e930";
+}
+.ms-icon-appbarrefresh:before {
+	content: "\e931";
+}
+.ms-icon-appbarrepeat:before {
+	content: "\e932";
+}
+.ms-icon-appbarreplycalendar:before {
+	content: "\e933";
+}
+.ms-icon-appbarreplyemail:before {
+	content: "\e934";
+}
+.ms-icon-appbarreplypeople:before {
+	content: "\e935";
+}
+.ms-icon-appbarreset:before {
+	content: "\e936";
+}
+.ms-icon-appbarreturn:before {
+	content: "\e937";
+}
+.ms-icon-appbarribbon:before {
+	content: "\e938";
+}
+.ms-icon-appbarribbonwave:before {
+	content: "\e939";
+}
+.ms-icon-appbarring:before {
+	content: "\e93a";
+}
+.ms-icon-appbarrss:before {
+	content: "\e93b";
+}
+.ms-icon-appbarruler:before {
+	content: "\e93c";
+}
+.ms-icon-appbarsailboat:before {
+	content: "\e93d";
+}
+.ms-icon-appbarsave:before {
+	content: "\e93e";
+}
+.ms-icon-appbarscale:before {
+	content: "\e93f";
+}
+.ms-icon-appbarscaleunbalanced:before {
+	content: "\e940";
+}
+.ms-icon-appbarscrabblea:before {
+	content: "\e941";
+}
+.ms-icon-appbarscrabbleb:before {
+	content: "\e942";
+}
+.ms-icon-appbarscrabblec:before {
+	content: "\e943";
+}
+.ms-icon-appbarscrabbled:before {
+	content: "\e944";
+}
+.ms-icon-appbarscrabblee:before {
+	content: "\e945";
+}
+.ms-icon-appbarscrabblef:before {
+	content: "\e946";
+}
+.ms-icon-appbarscrabbleg:before {
+	content: "\e947";
+}
+.ms-icon-appbarscrabbleh:before {
+	content: "\e948";
+}
+.ms-icon-appbarscrabblei:before {
+	content: "\e949";
+}
+.ms-icon-appbarscrabblej:before {
+	content: "\e94a";
+}
+.ms-icon-appbarscrabblek:before {
+	content: "\e94b";
+}
+.ms-icon-appbarscrabblel:before {
+	content: "\e94c";
+}
+.ms-icon-appbarscrabblem:before {
+	content: "\e94d";
+}
+.ms-icon-appbarscrabblen:before {
+	content: "\e94e";
+}
+.ms-icon-appbarscrabbleo:before {
+	content: "\e94f";
+}
+.ms-icon-appbarscrabblep:before {
+	content: "\e950";
+}
+.ms-icon-appbarscrabbleq:before {
+	content: "\e951";
+}
+.ms-icon-appbarscrabbler:before {
+	content: "\e952";
+}
+.ms-icon-appbarscrabbles:before {
+	content: "\e953";
+}
+.ms-icon-appbarscrabblet:before {
+	content: "\e954";
+}
+.ms-icon-appbarscrabbleu:before {
+	content: "\e955";
+}
+.ms-icon-appbarscrabblev:before {
+	content: "\e956";
+}
+.ms-icon-appbarscrabblew:before {
+	content: "\e957";
+}
+.ms-icon-appbarscrabblex:before {
+	content: "\e958";
+}
+.ms-icon-appbarscrabbley:before {
+	content: "\e959";
+}
+.ms-icon-appbarscrabblez:before {
+	content: "\e95a";
+}
+.ms-icon-appbarsdmicro:before {
+	content: "\e95b";
+}
+.ms-icon-appbarsd:before {
+	content: "\e95c";
+}
+.ms-icon-appbarsectioncollapseall:before {
+	content: "\e95d";
+}
+.ms-icon-appbarsectioncollapse:before {
+	content: "\e95e";
+}
+.ms-icon-appbarsectionexpandall:before {
+	content: "\e95f";
+}
+.ms-icon-appbarsectionexpand:before {
+	content: "\e960";
+}
+.ms-icon-appbarsettings:before {
+	content: "\e961";
+}
+.ms-icon-appbarshareopen:before {
+	content: "\e962";
+}
+.ms-icon-appbarshare:before {
+	content: "\e963";
+}
+.ms-icon-appbarshieldalert:before {
+	content: "\e964";
+}
+.ms-icon-appbarshield:before {
+	content: "\e965";
+}
+.ms-icon-appbarshopping:before {
+	content: "\e966";
+}
+.ms-icon-appbarshotglass:before {
+	content: "\e967";
+}
+.ms-icon-appbarshuffle:before {
+	content: "\e968";
+}
+.ms-icon-appbarsidebarleftcollapse:before {
+	content: "\e969";
+}
+.ms-icon-appbarsidebarleftexpand:before {
+	content: "\e96a";
+}
+.ms-icon-appbarsidebarrightcollapse:before {
+	content: "\e96b";
+}
+.ms-icon-appbarsidebarrightexpand:before {
+	content: "\e96c";
+}
+.ms-icon-appbarsigncaution:before {
+	content: "\e96d";
+}
+.ms-icon-appbarsigninterstate75:before {
+	content: "\e96e";
+}
+.ms-icon-appbarsigninterstate94:before {
+	content: "\e96f";
+}
+.ms-icon-appbarsigninterstate95:before {
+	content: "\e970";
+}
+.ms-icon-appbarsigninterstate:before {
+	content: "\e971";
+}
+.ms-icon-appbarsignparking:before {
+	content: "\e972";
+}
+.ms-icon-appbarsignstop:before {
+	content: "\e973";
+}
+.ms-icon-appbarsimcardmicro:before {
+	content: "\e974";
+}
+.ms-icon-appbarsimcard:before {
+	content: "\e975";
+}
+.ms-icon-appbarskydrivedownload:before {
+	content: "\e976";
+}
+.ms-icon-appbarskydrive:before {
+	content: "\e977";
+}
+.ms-icon-appbarskydriveupload:before {
+	content: "\e978";
+}
+.ms-icon-appbarsleep:before {
+	content: "\e979";
+}
+.ms-icon-appbarslice:before {
+	content: "\e97a";
+}
+.ms-icon-appbarsmileyangry:before {
+	content: "\e97b";
+}
+.ms-icon-appbarsmileycry:before {
+	content: "\e97c";
+}
+.ms-icon-appbarsmileyfrown:before {
+	content: "\e97d";
+}
+.ms-icon-appbarsmileyglasses:before {
+	content: "\e97e";
+}
+.ms-icon-appbarsmileygrin:before {
+	content: "\e97f";
+}
+.ms-icon-appbarsmileygrumpy:before {
+	content: "\e980";
+}
+.ms-icon-appbarsmileyhappy:before {
+	content: "\e981";
+}
+.ms-icon-appbarsmileykiki:before {
+	content: "\e982";
+}
+.ms-icon-appbarsmileysquint:before {
+	content: "\e983";
+}
+.ms-icon-appbarsmileytounge:before {
+	content: "\e984";
+}
+.ms-icon-appbarsmileywhat:before {
+	content: "\e985";
+}
+.ms-icon-appbarsnowflake:before {
+	content: "\e986";
+}
+.ms-icon-appbarsocialaim:before {
+	content: "\e987";
+}
+.ms-icon-appbarsocialaimvariant:before {
+	content: "\e988";
+}
+.ms-icon-appbarsocialamazonappstore:before {
+	content: "\e989";
+}
+.ms-icon-appbarsocialamazon:before {
+	content: "\e98a";
+}
+.ms-icon-appbarsocialappleappstore:before {
+	content: "\e98b";
+}
+.ms-icon-appbarsocialapplemobileme:before {
+	content: "\e98c";
+}
+.ms-icon-appbarsocialapple:before {
+	content: "\e98d";
+}
+.ms-icon-appbarsocialappnet:before {
+	content: "\e98e";
+}
+.ms-icon-appbarsocialartcom:before {
+	content: "\e98f";
+}
+.ms-icon-appbarsocialarto:before {
+	content: "\e990";
+}
+.ms-icon-appbarsocialaws:before {
+	content: "\e991";
+}
+.ms-icon-appbarsocialbaidu:before {
+	content: "\e992";
+}
+.ms-icon-appbarsocialbasecamp:before {
+	content: "\e993";
+}
+.ms-icon-appbarsocialbebo:before {
+	content: "\e994";
+}
+.ms-icon-appbarsocialbehance:before {
+	content: "\e995";
+}
+.ms-icon-appbarsocialblogger:before {
+	content: "\e996";
+}
+.ms-icon-appbarsocialcloudapp:before {
+	content: "\e997";
+}
+.ms-icon-appbarsocialcoding4fun:before {
+	content: "\e998";
+}
+.ms-icon-appbarsocialdelicious:before {
+	content: "\e999";
+}
+.ms-icon-appbarsocialdeviantart:before {
+	content: "\e99a";
+}
+.ms-icon-appbarsocialdigg:before {
+	content: "\e99b";
+}
+.ms-icon-appbarsocialdiggvariant:before {
+	content: "\e99c";
+}
+.ms-icon-appbarsocialdisqus:before {
+	content: "\e99d";
+}
+.ms-icon-appbarsocialdribbble:before {
+	content: "\e99e";
+}
+.ms-icon-appbarsocialdropboxdownload:before {
+	content: "\e99f";
+}
+.ms-icon-appbarsocialdropbox:before {
+	content: "\e9a0";
+}
+.ms-icon-appbarsocialdropboxupload:before {
+	content: "\e9a1";
+}
+.ms-icon-appbarsocialdrupal:before {
+	content: "\e9a2";
+}
+.ms-icon-appbarsocialengadget:before {
+	content: "\e9a3";
+}
+.ms-icon-appbarsocialetsy:before {
+	content: "\e9a4";
+}
+.ms-icon-appbarsocialevernote:before {
+	content: "\e9a5";
+}
+.ms-icon-appbarsocialfacebookheartbreak:before {
+	content: "\e9a6";
+}
+.ms-icon-appbarsocialfacebookheart:before {
+	content: "\e9a7";
+}
+.ms-icon-appbarsocialfacebook:before {
+	content: "\e9a8";
+}
+.ms-icon-appbarsocialfacebookvariant:before {
+	content: "\e9a9";
+}
+.ms-icon-appbarsocialfoursquare:before {
+	content: "\e9aa";
+}
+.ms-icon-appbarsocialgdgt:before {
+	content: "\e9ab";
+}
+.ms-icon-appbarsocialgithuboctocatsolid:before {
+	content: "\e9ac";
+}
+.ms-icon-appbarsocialgithuboctocat:before {
+	content: "\e9ad";
+}
+.ms-icon-appbarsocialgithub:before {
+	content: "\e9ae";
+}
+.ms-icon-appbarsocialgrooveshark:before {
+	content: "\e9af";
+}
+.ms-icon-appbarsocialindiegogo:before {
+	content: "\e9b0";
+}
+.ms-icon-appbarsocialjira:before {
+	content: "\e9b1";
+}
+.ms-icon-appbarsocialkickstarter:before {
+	content: "\e9b2";
+}
+.ms-icon-appbarsociallastfm:before {
+	content: "\e9b3";
+}
+.ms-icon-appbarsocialline:before {
+	content: "\e9b4";
+}
+.ms-icon-appbarsociallinkedin:before {
+	content: "\e9b5";
+}
+.ms-icon-appbarsociallinkedinvariant:before {
+	content: "\e9b6";
+}
+.ms-icon-appbarsocialmicrosoft:before {
+	content: "\e9b7";
+}
+.ms-icon-appbarsocialopenid:before {
+	content: "\e9b8";
+}
+.ms-icon-appbarsocialpicasa:before {
+	content: "\e9b9";
+}
+.ms-icon-appbarsocialpinterest:before {
+	content: "\e9ba";
+}
+.ms-icon-appbarsocialplaystation:before {
+	content: "\e9bb";
+}
+.ms-icon-appbarsocialrdio:before {
+	content: "\e9bc";
+}
+.ms-icon-appbarsocialreddit:before {
+	content: "\e9bd";
+}
+.ms-icon-appbarsocialsharethis:before {
+	content: "\e9be";
+}
+.ms-icon-appbarsocialskype:before {
+	content: "\e9bf";
+}
+.ms-icon-appbarsocialslashdot:before {
+	content: "\e9c0";
+}
+.ms-icon-appbarsocialsoundcloud:before {
+	content: "\e9c1";
+}
+.ms-icon-appbarsocialspotify:before {
+	content: "\e9c2";
+}
+.ms-icon-appbarsocialstackoverflow:before {
+	content: "\e9c3";
+}
+.ms-icon-appbarsocialtheverge:before {
+	content: "\e9c4";
+}
+.ms-icon-appbarsocialtumblr:before {
+	content: "\e9c5";
+}
+.ms-icon-appbarsocialtwitterhashtag:before {
+	content: "\e9c6";
+}
+.ms-icon-appbarsocialtwitterretweet:before {
+	content: "\e9c7";
+}
+.ms-icon-appbarsocialtwitter:before {
+	content: "\e9c8";
+}
+.ms-icon-appbarsocialuservoice:before {
+	content: "\e9c9";
+}
+.ms-icon-appbarsocialvimeo:before {
+	content: "\e9ca";
+}
+.ms-icon-appbarsocialwikipedia:before {
+	content: "\e9cb";
+}
+.ms-icon-appbarsocialwordpress:before {
+	content: "\e9cc";
+}
+.ms-icon-appbarsocialwordpressvariant:before {
+	content: "\e9cd";
+}
+.ms-icon-appbarsocialyahoo:before {
+	content: "\e9ce";
+}
+.ms-icon-appbarsocialycombinator:before {
+	content: "\e9cf";
+}
+.ms-icon-appbarsocialyelp:before {
+	content: "\e9d0";
+}
+.ms-icon-appbarsocialzappos:before {
+	content: "\e9d1";
+}
+.ms-icon-appbarsortalphabeticalascending:before {
+	content: "\e9d2";
+}
+.ms-icon-appbarsortalphabeticaldescending:before {
+	content: "\e9d3";
+}
+.ms-icon-appbarsortalphabetical:before {
+	content: "\e9d4";
+}
+.ms-icon-appbarsortnumericascending:before {
+	content: "\e9d5";
+}
+.ms-icon-appbarsortnumericdescending:before {
+	content: "\e9d6";
+}
+.ms-icon-appbarsortnumeric:before {
+	content: "\e9d7";
+}
+.ms-icon-appbarsort:before {
+	content: "\e9d8";
+}
+.ms-icon-appbarsound0:before {
+	content: "\e9d9";
+}
+.ms-icon-appbarsound1:before {
+	content: "\e9da";
+}
+.ms-icon-appbarsound2:before {
+	content: "\e9db";
+}
+.ms-icon-appbarsound3:before {
+	content: "\e9dc";
+}
+.ms-icon-appbarsoundleftright:before {
+	content: "\e9dd";
+}
+.ms-icon-appbarsoundmute:before {
+	content: "\e9de";
+}
+.ms-icon-appbarsoundstereostack:before {
+	content: "\e9df";
+}
+.ms-icon-appbarsoundstereo:before {
+	content: "\e9e0";
+}
+.ms-icon-appbarsourcefork:before {
+	content: "\e9e1";
+}
+.ms-icon-appbarsourcepull:before {
+	content: "\e9e2";
+}
+.ms-icon-appbarspeakerphone:before {
+	content: "\e9e3";
+}
+.ms-icon-appbarsportfootball:before {
+	content: "\e9e4";
+}
+.ms-icon-appbarstairsdownreflecthorizontal:before {
+	content: "\e9e5";
+}
+.ms-icon-appbarstairsdown:before {
+	content: "\e9e6";
+}
+.ms-icon-appbarstairsupreflecthorizontal:before {
+	content: "\e9e7";
+}
+.ms-icon-appbarstairsup:before {
+	content: "\e9e8";
+}
+.ms-icon-appbarstampat:before {
+	content: "\e9e9";
+}
+.ms-icon-appbarstampempty:before {
+	content: "\e9ea";
+}
+.ms-icon-appbarstamp:before {
+	content: "\e9eb";
+}
+.ms-icon-appbarstaradd:before {
+	content: "\e9ec";
+}
+.ms-icon-appbarstardelete:before {
+	content: "\e9ed";
+}
+.ms-icon-appbarstarinvincible:before {
+	content: "\e9ee";
+}
+.ms-icon-appbarstarminus:before {
+	content: "\e9ef";
+}
+.ms-icon-appbarstarremove:before {
+	content: "\e9f0";
+}
+.ms-icon-appbarstar:before {
+	content: "\e9f1";
+}
+.ms-icon-appbarstarwarsjedi:before {
+	content: "\e9f2";
+}
+.ms-icon-appbarstarwarsrebel:before {
+	content: "\e9f3";
+}
+.ms-icon-appbarstarwarssith:before {
+	content: "\e9f4";
+}
+.ms-icon-appbarsteam:before {
+	content: "\e9f5";
+}
+.ms-icon-appbarstockdown:before {
+	content: "\e9f6";
+}
+.ms-icon-appbarstock:before {
+	content: "\e9f7";
+}
+.ms-icon-appbarstockup:before {
+	content: "\e9f8";
+}
+.ms-icon-appbarstocking:before {
+	content: "\e9f9";
+}
+.ms-icon-appbarstop:before {
+	content: "\e9fa";
+}
+.ms-icon-appbarstore:before {
+	content: "\e9fb";
+}
+.ms-icon-appbarstream:before {
+	content: "\e9fc";
+}
+.ms-icon-appbarsuitcase:before {
+	content: "\e9fd";
+}
+.ms-icon-appbarswitchoff:before {
+	content: "\e9fe";
+}
+.ms-icon-appbarsymbolbraces:before {
+	content: "\e9ff";
+}
+.ms-icon-appbarsymbolbracket:before {
+	content: "\ea00";
+}
+.ms-icon-appbartableadd:before {
+	content: "\ea01";
+}
+.ms-icon-appbartabledelete:before {
+	content: "\ea02";
+}
+.ms-icon-appbartableselect:before {
+	content: "\ea03";
+}
+.ms-icon-appbartable:before {
+	content: "\ea04";
+}
+.ms-icon-appbartableunselect:before {
+	content: "\ea05";
+}
+.ms-icon-appbartabletwindows:before {
+	content: "\ea06";
+}
+.ms-icon-appbartaglabel:before {
+	content: "\ea07";
+}
+.ms-icon-appbartag:before {
+	content: "\ea08";
+}
+.ms-icon-appbartardis:before {
+	content: "\ea09";
+}
+.ms-icon-appbartextaligncenter:before {
+	content: "\ea0a";
+}
+.ms-icon-appbartextalignjustify:before {
+	content: "\ea0b";
+}
+.ms-icon-appbartextalignleft:before {
+	content: "\ea0c";
+}
+.ms-icon-appbartextalignright:before {
+	content: "\ea0d";
+}
+.ms-icon-appbartextbold:before {
+	content: "\ea0e";
+}
+.ms-icon-appbartextitalic:before {
+	content: "\ea0f";
+}
+.ms-icon-appbartextoverline:before {
+	content: "\ea10";
+}
+.ms-icon-appbartextsans:before {
+	content: "\ea11";
+}
+.ms-icon-appbartextscript:before {
+	content: "\ea12";
+}
+.ms-icon-appbartextserif:before {
+	content: "\ea13";
+}
+.ms-icon-appbartextsizedown:before {
+	content: "\ea14";
+}
+.ms-icon-appbartextsizeminus:before {
+	content: "\ea15";
+}
+.ms-icon-appbartextsizeplus:before {
+	content: "\ea16";
+}
+.ms-icon-appbartextsize:before {
+	content: "\ea17";
+}
+.ms-icon-appbartextsizeup:before {
+	content: "\ea18";
+}
+.ms-icon-appbartextstrikethrough:before {
+	content: "\ea19";
+}
+.ms-icon-appbartextunderline:before {
+	content: "\ea1a";
+}
+.ms-icon-appbarthermometercelcius:before {
+	content: "\ea1b";
+}
+.ms-icon-appbarthermometerdigital:before {
+	content: "\ea1c";
+}
+.ms-icon-appbarthermometerfahrenheit:before {
+	content: "\ea1d";
+}
+.ms-icon-appbarthermometerhoneywell:before {
+	content: "\ea1e";
+}
+.ms-icon-appbarthermometerkelvin:before {
+	content: "\ea1f";
+}
+.ms-icon-appbarthermometersigns:before {
+	content: "\ea20";
+}
+.ms-icon-appbarthermometer:before {
+	content: "\ea21";
+}
+.ms-icon-appbarthumbupadd:before {
+	content: "\ea22";
+}
+.ms-icon-appbarthumbupdelete:before {
+	content: "\ea23";
+}
+.ms-icon-appbarthumbupminus:before {
+	content: "\ea24";
+}
+.ms-icon-appbarthumbsdown:before {
+	content: "\ea25";
+}
+.ms-icon-appbarthumbsup:before {
+	content: "\ea26";
+}
+.ms-icon-appbarticket:before {
+	content: "\ea27";
+}
+.ms-icon-appbartilesfour:before {
+	content: "\ea28";
+}
+.ms-icon-appbartilesminus:before {
+	content: "\ea29";
+}
+.ms-icon-appbartilesnine:before {
+	content: "\ea2a";
+}
+.ms-icon-appbartilesplus:before {
+	content: "\ea2b";
+}
+.ms-icon-appbartilessixteen:before {
+	content: "\ea2c";
+}
+.ms-icon-appbartimer1:before {
+	content: "\ea2d";
+}
+.ms-icon-appbartimer2:before {
+	content: "\ea2e";
+}
+.ms-icon-appbartimer3:before {
+	content: "\ea2f";
+}
+.ms-icon-appbartimer4:before {
+	content: "\ea30";
+}
+.ms-icon-appbartimer5:before {
+	content: "\ea31";
+}
+.ms-icon-appbartimeralert:before {
+	content: "\ea32";
+}
+.ms-icon-appbartimercheck:before {
+	content: "\ea33";
+}
+.ms-icon-appbartimerforward:before {
+	content: "\ea34";
+}
+.ms-icon-appbartimerpause:before {
+	content: "\ea35";
+}
+.ms-icon-appbartimerplay:before {
+	content: "\ea36";
+}
+.ms-icon-appbartimerrecord:before {
+	content: "\ea37";
+}
+.ms-icon-appbartimerrewind:before {
+	content: "\ea38";
+}
+.ms-icon-appbartimerstop:before {
+	content: "\ea39";
+}
+.ms-icon-appbartimer:before {
+	content: "\ea3a";
+}
+.ms-icon-appbartools:before {
+	content: "\ea3b";
+}
+.ms-icon-appbartournamentbracketdown:before {
+	content: "\ea3c";
+}
+.ms-icon-appbartournamentbracketleft:before {
+	content: "\ea3d";
+}
+.ms-icon-appbartournamentbracketright:before {
+	content: "\ea3e";
+}
+.ms-icon-appbartournamentbracket:before {
+	content: "\ea3f";
+}
+.ms-icon-appbartournamentbracketup:before {
+	content: "\ea40";
+}
+.ms-icon-appbartower:before {
+	content: "\ea41";
+}
+.ms-icon-appbartrain:before {
+	content: "\ea42";
+}
+.ms-icon-appbartraintrack:before {
+	content: "\ea43";
+}
+.ms-icon-appbartraintunnel:before {
+	content: "\ea44";
+}
+.ms-icon-appbartransformfliphorizontal:before {
+	content: "\ea45";
+}
+.ms-icon-appbartransformflipvertical:before {
+	content: "\ea46";
+}
+.ms-icon-appbartransformrotateclockwise:before {
+	content: "\ea47";
+}
+.ms-icon-appbartransformrotatecounterclockwise:before {
+	content: "\ea48";
+}
+.ms-icon-appbartransformrotateleft:before {
+	content: "\ea49";
+}
+.ms-icon-appbartransformrotateright:before {
+	content: "\ea4a";
+}
+.ms-icon-appbartransitarrive:before {
+	content: "\ea4b";
+}
+.ms-icon-appbartransitbus:before {
+	content: "\ea4c";
+}
+.ms-icon-appbartransitcaraccident:before {
+	content: "\ea4d";
+}
+.ms-icon-appbartransitcar:before {
+	content: "\ea4e";
+}
+.ms-icon-appbartransitcongestion:before {
+	content: "\ea4f";
+}
+.ms-icon-appbartransitconnectiondeparture:before {
+	content: "\ea50";
+}
+.ms-icon-appbartransitconnection:before {
+	content: "\ea51";
+}
+.ms-icon-appbartransitconstruction:before {
+	content: "\ea52";
+}
+.ms-icon-appbartransitdepart:before {
+	content: "\ea53";
+}
+.ms-icon-appbartransitdistancefrom:before {
+	content: "\ea54";
+}
+.ms-icon-appbartransitdistanceto:before {
+	content: "\ea55";
+}
+.ms-icon-appbartransithazard:before {
+	content: "\ea56";
+}
+.ms-icon-appbartreeleaf:before {
+	content: "\ea57";
+}
+.ms-icon-appbartreeleafthree:before {
+	content: "\ea58";
+}
+.ms-icon-appbartreepine:before {
+	content: "\ea59";
+}
+.ms-icon-appbartree:before {
+	content: "\ea5a";
+}
+.ms-icon-appbartrophy:before {
+	content: "\ea5b";
+}
+.ms-icon-appbartruck:before {
+	content: "\ea5c";
+}
+.ms-icon-appbartux:before {
+	content: "\ea5d";
+}
+.ms-icon-appbartvnews:before {
+	content: "\ea5e";
+}
+.ms-icon-appbartvremote:before {
+	content: "\ea5f";
+}
+.ms-icon-appbartv:before {
+	content: "\ea60";
+}
+.ms-icon-appbartvsyfy:before {
+	content: "\ea61";
+}
+.ms-icon-appbarundocurve:before {
+	content: "\ea62";
+}
+.ms-icon-appbarundopoint:before {
+	content: "\ea63";
+}
+.ms-icon-appbarundo:before {
+	content: "\ea64";
+}
+.ms-icon-appbarunlockkeyhole:before {
+	content: "\ea65";
+}
+.ms-icon-appbarunlock:before {
+	content: "\ea66";
+}
+.ms-icon-appbarupload:before {
+	content: "\ea67";
+}
+.ms-icon-appbarusbdrive:before {
+	content: "\ea68";
+}
+.ms-icon-appbarusb:before {
+	content: "\ea69";
+}
+.ms-icon-appbaruseradd:before {
+	content: "\ea6a";
+}
+.ms-icon-appbaruserdelete:before {
+	content: "\ea6b";
+}
+.ms-icon-appbaruserminus:before {
+	content: "\ea6c";
+}
+.ms-icon-appbaruser:before {
+	content: "\ea6d";
+}
+.ms-icon-appbarusertie:before {
+	content: "\ea6e";
+}
+.ms-icon-appbarvectorcircle:before {
+	content: "\ea6f";
+}
+.ms-icon-appbarvectorgroupremoved:before {
+	content: "\ea70";
+}
+.ms-icon-appbarvectorgroup:before {
+	content: "\ea71";
+}
+.ms-icon-appbarvectorlinecurve:before {
+	content: "\ea72";
+}
+.ms-icon-appbarvectorlinespline:before {
+	content: "\ea73";
+}
+.ms-icon-appbarvectorline:before {
+	content: "\ea74";
+}
+.ms-icon-appbarvectorpenadd:before {
+	content: "\ea75";
+}
+.ms-icon-appbarvectorpenconvert:before {
+	content: "\ea76";
+}
+.ms-icon-appbarvectorpenminus:before {
+	content: "\ea77";
+}
+.ms-icon-appbarvectorpen:before {
+	content: "\ea78";
+}
+.ms-icon-appbarvectorpolygon:before {
+	content: "\ea79";
+}
+.ms-icon-appbarvectorrectangle:before {
+	content: "\ea7a";
+}
+.ms-icon-appbarvectorstar:before {
+	content: "\ea7b";
+}
+.ms-icon-appbarvideogallery:before {
+	content: "\ea7c";
+}
+.ms-icon-appbarvideohighdefinition:before {
+	content: "\ea7d";
+}
+.ms-icon-appbarvideosend:before {
+	content: "\ea7e";
+}
+.ms-icon-appbarvideostandarddefinition:before {
+	content: "\ea7f";
+}
+.ms-icon-appbarvideo:before {
+	content: "\ea80";
+}
+.ms-icon-appbarviplowercase:before {
+	content: "\ea81";
+}
+.ms-icon-appbarvip:before {
+	content: "\ea82";
+}
+.ms-icon-appbarvisualstudionews:before {
+	content: "\ea83";
+}
+.ms-icon-appbarvisualstudio:before {
+	content: "\ea84";
+}
+.ms-icon-appbarwarningcircle:before {
+	content: "\ea85";
+}
+.ms-icon-appbarwarning:before {
+	content: "\ea86";
+}
+.ms-icon-appbarwaterdropletalert:before {
+	content: "\ea87";
+}
+.ms-icon-appbarwaterdropletreflection:before {
+	content: "\ea88";
+}
+.ms-icon-appbarwaterdroplet:before {
+	content: "\ea89";
+}
+.ms-icon-appbarweatherchance:before {
+	content: "\ea8a";
+}
+.ms-icon-appbarweatherovercast:before {
+	content: "\ea8b";
+}
+.ms-icon-appbarweatherrain:before {
+	content: "\ea8c";
+}
+.ms-icon-appbarweathersnow:before {
+	content: "\ea8d";
+}
+.ms-icon-appbarweatherstation:before {
+	content: "\ea8e";
+}
+.ms-icon-appbarweathersunrise:before {
+	content: "\ea8f";
+}
+.ms-icon-appbarweathersunset:before {
+	content: "\ea90";
+}
+.ms-icon-appbarweathersun:before {
+	content: "\ea91";
+}
+.ms-icon-appbarweathersymbol:before {
+	content: "\ea92";
+}
+.ms-icon-appbarweatherthunder:before {
+	content: "\ea93";
+}
+.ms-icon-appbarwebcam:before {
+	content: "\ea94";
+}
+.ms-icon-appbarwindowcasementclosed:before {
+	content: "\ea95";
+}
+.ms-icon-appbarwindowcasement:before {
+	content: "\ea96";
+}
+.ms-icon-appbarwindowclosed:before {
+	content: "\ea97";
+}
+.ms-icon-appbarwindowmaximize:before {
+	content: "\ea98";
+}
+.ms-icon-appbarwindowminimize:before {
+	content: "\ea99";
+}
+.ms-icon-appbarwindowrestore:before {
+	content: "\ea9a";
+}
+.ms-icon-appbarwindowsimple:before {
+	content: "\ea9b";
+}
+.ms-icon-appbarwindow:before {
+	content: "\ea9c";
+}
+.ms-icon-appbarwindowsphone:before {
+	content: "\ea9d";
+}
+.ms-icon-appbarxbox:before {
+	content: "\ea9e";
+}
+.ms-icon-appbaryoutubeplay:before {
+	content: "\ea9f";
+}
+.ms-icon-appbaryoutube:before {
+	content: "\eaa0";
+}
+.ms-icon-appbarzune:before {
+	content: "\eaa1";
+}

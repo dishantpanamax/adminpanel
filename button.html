@@ -1,0 +1,3991 @@
+<html>
+<title>Admin Panel @PANAMAX</title>
+<meta name="keywords" />
+<meta name="description" >
+<meta name="author" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<link href="fonts/tao.ui.icons.css" rel="stylesheet">
+<link rel="stylesheet" href="fonts/icomoon/icomoon.css"/>	
+<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="fonts/design-guide/style.css" />
+<link rel="stylesheet" href="fonts/android/style.css"/>	
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+<link rel="stylesheet" href="fonts/octicons/octicons.css">
+<link href="fonts/opensans/stylesheet.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/theme/red-thm.css" />	
+<link rel="stylesheet" href="css/theme/blue-thm.css" />
+<link rel="stylesheet" href="css/theme/green-thm.css" />
+<link rel="stylesheet" href="css/theme/orange-thm.css" />
+<link rel="stylesheet" href="css/theme/fuel-thm.css"/>
+</head>
+<body class="clearfix">
+	<div id="theme">
+		<div id="set-menu">
+		<div id="loader-wrapper" class="light-light-bg with-js">
+		<div id="loader">
+<!-- <div class="bars-loading-shift"> 
+				<span></span> 
+				<span></span> 
+				<span></span> 
+				<span></span> 
+				<span></span>
+			</div> -->
+		</div>	
+		<div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+	</div>
+		<section id="content" class="clearfix">
+		  <div class="main-header border-left-1 border-right-1 set-responsive">
+      		<div class="bar-mnu ripple">
+		  	<svg viewBox="0 0 800 600">
+    <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" id="top"></path>
+    <path d="M300,320 L540,320" id="middle"></path>
+    <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" id="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+  </svg>  
+      		</div>
+			<div class="responsive-wrpr">
+				<div class="more-navbar">
+				<span class="fa fa-ellipsis-v icon"></span>
+			</div>
+      			<ul class="nav navbar-right user right-open">
+        <li class="sidebar-open"><a href="javascript:void(0)" class="ripple"> 
+			<i class="fa fa-sign-in"></i><span class="title">Settings</span> </a> </li>
+        <li class="login-page"> <a href="login.html" class="ripple"><i class="fa fa fa-power-off fs14"></i><span class="title">Logout</span> </a> </li>
+		<li class="scn-lock-open" id="screen-lock"> 
+			<a href="javascript:void(0)" class="ripple"> <i class="fa fa-lock"></i><span class="title">Screen Locks</span> </a> 
+		</li>
+		<li>
+			<a href="javascript:void(0)" class="left-padding-0 right-padding-0">
+		<div class="search-nav  f-ryt">
+			<input type="text" results=5 placeholder="Search...">
+			<span class="sb-active-bdr"></span>
+			<button type="submit" id="sb-button" value=""> <i class="fa fa-search"></i></button>
+		</div>
+		</a>
+		</li>
+      </ul>
+			</div>
+			<!-- list icon -->
+      		<div class="main-bred">
+        <ol class="breadcrumb ">
+  <li><a href="javascript:void(0)">Home</a></li>
+  <li class="active">Dashboard</li>
+</ol>
+</div>
+			<div class="f-ryt user-setting">
+				<a class="dropdown-toggle ripple" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"> <span class="title">Himal Rana</span>
+					<i class="fa fa-caret-down fs14 left-margin-10 f-ryt icon"></i> </a>
+          <ul class="bg-white header-dropdown  dropdown-menu width-auto left-open" >
+            <li class="animate-plus" data-animations="fadeInUp"  data-animation-when-visible="true"
+                data-animation-reset-offscreen="true">
+				<a href="javascript:void(0);"><i class="fa fa-user text-info theme"></i> <span class="title">My Profile</span></a>
+			  </li>
+            <li class="animate-plus" data-animations="fadeInUp" data-animation-delay="0.02s" data-animation-when-visible="true"
+                data-animation-reset-offscreen="true"> 
+				<a href="javascript:void(0);"><i class="fa fa-lock text-warning theme"></i><span class="title">Screen Lock</span></a>
+			  </li>
+            <li class="animate-plus" data-animations="fadeInUp" data-animation-delay="0.06s"
+                data-animation-when-visible="true" data-animation-reset-offscreen="true"> 
+				<a href="login.html"> <i class="fa fa-power-off  text-danger theme"></i>
+					<span class="title">Logout</span></a> 
+			  </li>
+          </ul>
+        </div>
+    	</div>
+	  		
+		  	 	 <div class="set-two-menu">
+				<aside class="sidebar-menu operation-menu">
+				<div class="search-nav  f-ryt open-sb">
+					<input type="text" results=5 placeholder="Search...">
+					<span class="sb-active-bdr"></span>
+					<button type="submit" id="sb-button" value=""> <i class="fa fa-search"></i></button>
+				</div>
+				<div class="menu-status">
+					<div class="menu-wrpr">
+						<ul class="nav-menu ">
+							<li class="tp-down">
+								<a href="index.html" class="ripple">
+									<i class="fa fa-home nav-icon"></i>
+									<span class="title">Home</span>
+									<span class="badge">4</span>
+								</a>
+							</li>
+							<li class="tp-down">
+								<a href="dashboard.html" class="ripple"> <i class="fa fa-desktop nav-icon"></i>
+									<span class="title">Dashboard</span> </a>
+							</li>
+							<li class="tp-down">
+								<a class="menu-click open ripple" href="javascript:void(0)">
+									<i class="fa fa-file-text nav-icon"></i>
+									<span class="title">Form Elements</span>
+									<span class="caret-1"></span>
+									
+								</a>
+								<ul class="sub-nav">
+									<li>
+										<a href="form-element-1.html" class="menu-click ripple">
+											<i class="fa fa-file-text text-info theme"></i>Form Element-1
+											<span class="badge">4</span>
+										</a>
+									</li>
+									<li>
+										<a href="form-element-2.html" class="ripple">
+											<i class="fa fa-file-text text-warning theme fs14"></i> Form Element-2
+										</a>
+									</li>
+									<li>
+										<a href="error-element.html" class="ripple">
+											<i class="fa fa-file-text text-primary theme"></i> Error Element
+										</a>
+									</li>
+									<li>
+										<a href="login-form.html" class="ripple">
+											<i class="fa fa-file-text text-danger theme"></i> Login Form
+										</a>
+									</li>
+									<li>
+										<a href="button.html" class="ripple"><i class="fa fa-file-text text-success theme"></i>
+           Button</a>
+									</li>
+									<li>
+										<a href="other-input.html" class="ripple"> <i class="fa fa-file-text text-info theme"></i> Other Input</a>
+									</li>
+								</ul>
+							</li>
+							<li class="tp-down">
+								<a href="ui-panels.html" class="ripple"><i class="fa fa-cog nav-icon fs14"></i>
+       <span class="title">UI Panels</span></a>
+							</li>
+							<li class="btm-up">
+								<a href="icon.html" class="ripple"><i class="fa fa-flag nav-icon fs14"></i>
+       <span class="title">Icon</span></a>
+							</li>
+							<li class="tp-down"><a class="menu-click ripple" href="javascript:void(0)"><i class="fa fa-bell nav-icon"></i>
+        <span class="title">UI Elements</span><span class="caret-1"></span></a>
+								<ul class="sub-nav">
+									<li>
+										<a href="alerts.html" class="ripple"> <i class="fa fa-exclamation-triangle text-info theme"></i>Alerts </a>
+									</li>
+									<li>
+										<a href="tabs.html" class="ripple"> <i class="fa fa-folder-open text-warning theme"></i> Tabs </a>
+									</li>
+									<li>
+										<a href="widget-tiles.html" class="ripple"> <i class=" fa fa-magic fs14 text-primary theme"></i> Tiles </a>
+									</li>
+									<li> <a href="tree.html" class="ripple"><i class="fa fa-tree text-danger theme"></i>Treeview</a> </li>
+									<li> <a href="typo.html" class="ripple"><i class="fa fa-font text-success theme"></i> Typography </a> </li>
+									
+									
+									<li> <a href="heigh-chart.html" class="ripple"><i class="fa fa-line-chart text-danger theme"></i> Highcharts </a> </li>
+									<li><a href="mailbox.html" class="ripple"><i class="fa fa-envelope text-success theme"></i>MailBox</a> </li>
+									<li><a href="compose.html" class="ripple"><i class="fa fa-reply text-info theme"></i>Compose</a> </li>
+									<li>
+										<a href="price-list.html" class="ripple"> <i class="fa fa-list-alt text-info theme"></i>Price Table </a>
+									</li>
+								</ul>
+							</li>
+							<li class="btm-up">
+								<a href="form-wizard.html" class="ripple"><i class="fa fa-exchange nav-icon fs14"></i>
+       <span class="title">Form Wizard</span></a>
+							</li>
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<i class="fa fa-table nav-icon fs14"></i>
+									<span class="title">Table</span>
+									<span class="caret-1"></span>
+								</a>
+								<ul class="sub-nav">
+									<li>
+										<a href="table.html" class="ripple"> <i class="fa fa-table text-info theme"></i>Table</a>
+									</li>
+									<li> <a href="datatable.html" class="ripple"><i class="fa fa-table text-warning theme fs14"></i>Data Tables </a></li>
+									<li> <a href="datatable-resize.html" class="ripple"><i class="fa fa-table text-warning theme fs14"></i>Resize Data Tables</a> </li>
+									<li> <a href="table-with-input.html" class="ripple"><i class="fa fa-table text-primary theme"></i>Table with Input </a> </li>
+								</ul>
+							</li>
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<i class="fa fa-clipboard nav-icon"></i>
+									<span class="title">Pages</span>
+									<span class="caret-1"></span>
+								</a>
+								<ul class="sub-nav">
+									<li>
+										<a href="login.html" class="ripple"> <i class="fa fa-sign-in text-info theme"></i>Login</a>
+									</li>
+									<li><a href="error.html" class="ripple"><i class="fa fa-exclamation-triangle text-warning theme"></i>404 Error </a> </li>
+									<li><a href="carrier.html" class="ripple"><i class="fa fa-rss text-primary theme"></i>Carrier</a> </li>
+									<li>
+										<a href="setting.html" class="ripple"> <i class="fa fa-cog text-danger theme "></i>Setting</a>
+									</li>
+									
+									<li><a href="sales-target.html" class="ripple"><i class="fa fa-line-chart text-warning theme"></i>Sales Statistics</a> </li>
+									<li><a href="list-design.html" class="ripple"><i class="fa fa-list-ul text-primary theme"></i>List Design</a></li>
+									<li><a href="count-down.html" class="ripple"><i class="fa fa-clock-o text-danger theme"></i>Count Down</a> </li>
+									<li>
+										<a class=" ripple" href="document.html"> <i class="fa fa-code text-success theme"></i>Html Docs
+										</a>
+										
+									</li>
+									<li>
+										<a class="menu-click ripple" href="javascript:void(0)">
+											<i class="fa fa-files-o text-primary theme"></i>Invoice Template
+											<span class="caret-1 mod-crt"></span>
+										</a>
+										<ul class=" stybdr clearfix">
+											<li>
+												<a href="invoice.html" class="ripple">
+													<i class="fa fa-files-o fs14 text-info theme"></i> Template-1
+												</a>
+											</li>
+											
+										</ul>
+									</li>
+									<li>
+										<a class="menu-click ripple" href="javascript:void(0)">
+											<i class="fa fa-table text-danger theme"></i>Mailer Template
+											<span class="caret-1 mod-crt"></span>
+										</a>
+										<ul class=" stybdr clearfix">
+											<li><a href="mail-template-1.html" class="ripple"><i class="fa fa-files-o fs14 text-info theme"></i> Template-1
+              </a>
+											</li>
+											<li>
+												<a href="mail-template-2.html" class="ripple"><i class="fa fa-files-o fs14 text-warning theme"></i> Template-2</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="btm-up">
+								<a href="timeline.html" class="ripple"><i class="fa fa-clock-o nav-icon fs14"></i>
+       <span class="title">Timeline</span></a>
+							</li>
+							<li class="btm-up">
+								<a href="screen-lock.html" class="ripple"><i class="fa fa-lock nav-icon fs14"></i>
+       <span class="title">Screen Lock</span></a>
+							</li>
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<i class="fa fa-table nav-icon fs14"></i>
+									<span class="title">Extra</span>
+									<span class="caret-1"></span>
+								</a>
+								<ul class="sub-nav">
+									
+									<li><a href="editor.html" class="ripple"><i class="fa fa-file-text text-warning theme fs14"></i>Editor </a> </li>
+									<li><a href="feeds.html" class="ripple"><i class="fa fa-rss-square  text-primary theme fs14"></i>Feeds</a> </li>
+									<li><a href="list-view.html" class="ripple"><i class="fa fa-list-alt text-success theme fs14"></i>List View</a> </li>
+									<li><a href="grid-view.html" class="ripple"><i class="fa fa-th-large text-danger theme fs14"></i>Grid View</a> </li>
+									<li><a href="full-tab.html" class="ripple"><i class="fa fa-table text-warning theme fs14"></i>Full Tab</a> </li>
+								</ul>
+							</li>
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<!-- <i class="fa  fa-cubes nav-icon fs14"></i> -->
+									<i class="fa fa-list nav-icon fs14"></i>
+									<span class="title">Multilevel</span> <span class="caret-1"></span> </a>
+								<ul class="sub-nav">
+									<li> <a class="ripple"><i class="fa fa-circle fs7 text-info theme"></i> level-1</a> </li>
+									<li>
+										<a class="menu-click ripple" href="javascript:void(0)">
+											<i class="fa fa-circle fs7 text-warning theme"></i> level-1 <span class="caret-1 mod-crt"></span></a>
+										<ul class=" stybdr clearfix">
+											<li><a class="menu-click ripple" href="javascript:void(0)"><i class="fa fa-circle fs7  text-warning theme"></i> level-3
+                <span class="caret-1 mod-crt"></span>
+              </a>
+												<ul class="forth-lvl clearfix">
+													<li>
+														<a class="menu-click ripple" href="javascript:void(0)"> <i class="fa fa-circle text-dark fs7"></i>Level-4</a>
+													</li>
+													<li><a class="ripple"><i class="fa fa-circle  fs7  text-dark"></i>Level-4 </a>
+													</li>
+													<li><a class="ripple"><i class="fa fa-circle  fs7 text-dark"></i>Level-4</a> </li>
+												</ul>
+											</li>
+											<li><a class="ripple"><i class="fa fa-circle fs7  fs7 text-warning theme"></i> level-3</a></li>
+											<li><a class="ripple"><i class="fa fa-circle fs7  fs7 text-warning theme"></i> level-3</a></li>
+										</ul>
+									</li>
+									<li><a class="ripple"><i class="fa fa-circle fs7 text-info theme fs7"></i> level-1</a> </li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="more-mnu">
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<i class="fa fa-ellipsis-v nav-icon fs14"></i>
+									<span class="title">More</span> <span class="caret-1"></span> </a>
+								<ul class="submenu-more">
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="wm-wrpr">
+						<div class="widget-menu wm-heading panel-title clearfix top-margin-10">
+							<a class="menu-click" href="javascript:void(0)">
+			   					Status
+		   					</a>
+						</div>
+						<div class="widget-menu clearfix">
+							<div class="top-margin-20 right-margin-20 bottom-margin-10 left-margin-15 graph-tile wyt-bg with-color clearfix">
+								<div class="grp-heading bottom-margin-20">
+									<span class="grp-title">Revenue</span>
+									<span class="grp-sec-title f-ryt">past 28 days</span>
+								</div>
+								<div class="grp-body">
+									<span class="grp-content">$75,800</span>
+								</div>
+								<div class="grp-footer">
+									<span class="grp-result">13.4% <i class="fa fa-level-up"></i></span>
+									<div class="wt-chart-menu text-center hide-ovrflw"></div>
+								</div>
+							</div>
+						</div>
+						<div class="widget-menu clearfix">
+							<div class="top-margin-20 right-margin-20 bottom-margin-10 left-margin-15 with-color wyt-bg graph-tile clearfix">
+								<div class="grp-heading bottom-margin-20">
+									<span class="grp-title">Goals</span>
+									<span class="grp-sec-title f-ryt">
+										orders this month
+									</span>
+								</div>
+								<div class="grp-body">
+									<span class="grp-content">3,690</span>
+								</div>
+								<div class="grp-footer">
+									<span class="grp-result">90% of 4,500</span>
+									<div class="progress">
+										<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="widget-menu clearfix">
+							<div class="top-margin-20 right-margin-20 bottom-margin-20 left-margin-15 wyt-bg graph-tile clearfix">
+								<div class="grp-heading bottom-margin-20">
+									<span class="grp-title">Items</span>
+									<span class="grp-sec-title f-ryt">past 28 days</span>
+								</div>
+								<div class="grp-body">
+									<span class="grp-content">407</span>
+								</div>
+								<div class="grp-footer">
+									<span class="grp-result">13.4% <i class="fa fa-level-down"></i></span>
+									<div class="wt-bar-menu text-center"></div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="u-name clearfix">
+					<a class="ripple">
+						<div class="user-sidebar"> <img src="images/administrator.jpg"> <span>Himal Rana</span> </div>
+					</a>
+					<ul class="pull-right user-optn">
+						<li>
+							<a href="login.html" class="left-padding-15 right-padding-15 ripple">
+							<i class="fa  fa-power-off  fs14 "></i>
+						</a>
+						</li>
+						<li>
+							<a id="close-btn" class="left-padding-15 right-padding-15 ripple" href="javascript:void(0)">
+							<i class="fa fa-times fs14 "></i>
+						</a>
+						</li>
+						<li>
+							<a class="left-padding-15 right-padding-15 ripple change-mnu" href="javascript:void(0)">
+								<i class="fa fa-angle-double-left fs14 fw"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</aside>
+				<aside class="sidebar-menu main-menu">
+				<div class="search-nav  f-ryt open-sb">
+					<input type="text" results=5 placeholder="Search...">
+					<span class="sb-active-bdr"></span>
+					<button type="submit" id="sb-button" value=""> <i class="fa fa-search"></i></button>
+				</div>
+				<div class="menu-status">
+					<div class="menu-wrpr">
+						<ul class="nav-menu ">
+							<li class="tp-down">
+								<a href="index.html" class="ripple">
+									<i class="fa fa-home nav-icon"></i>
+									<span class="title">Home</span>
+									<span class="badge">4</span>
+								</a>
+							</li>
+							<li class="tp-down">
+								<a href="dashboard.html" class="ripple"> <i class="fa fa-desktop nav-icon"></i>
+									<span class="title">Dashboard</span> </a>
+							</li>
+							<li class="tp-down">
+								<a class="menu-click open ripple" href="javascript:void(0)">
+									<i class="fa fa-file-text nav-icon"></i>
+									<span class="title">Form Elements</span>
+									<span class="caret-1"></span>
+									
+								</a>
+								<ul class="sub-nav">
+									<li>
+										<a href="form-element-1.html" class="menu-click ripple">
+											<i class="fa fa-file-text text-info theme"></i>Form Element-1
+											<span class="badge">4</span>
+										</a>
+									</li>
+									<li>
+										<a href="form-element-2.html" class="ripple">
+											<i class="fa fa-file-text text-warning theme fs14"></i> Form Element-2
+										</a>
+									</li>
+									<li>
+										<a href="error-element.html" class="ripple">
+											<i class="fa fa-file-text text-primary theme"></i> Error Element
+										</a>
+									</li>
+									<li>
+										<a href="login-form.html" class="ripple">
+											<i class="fa fa-file-text text-danger theme"></i> Login Form
+										</a>
+									</li>
+									<li>
+										<a href="button.html" class="ripple"><i class="fa fa-file-text text-success theme"></i>
+           Button</a>
+									</li>
+									<li>
+										<a href="other-input.html" class="ripple"> <i class="fa fa-file-text text-info theme"></i> Other Input</a>
+									</li>
+								</ul>
+							</li>
+							<li class="tp-down">
+								<a href="ui-panels.html" class="ripple"><i class="fa fa-cog nav-icon fs14"></i>
+       <span class="title">UI Panels</span></a>
+							</li>
+							<li class="btm-up">
+								<a href="icon.html" class="ripple"><i class="fa fa-flag nav-icon fs14"></i>
+       <span class="title">Icon</span></a>
+							</li>
+							<li class="tp-down"><a class="menu-click ripple" href="javascript:void(0)"><i class="fa fa-bell nav-icon"></i>
+        <span class="title">UI Elements</span><span class="caret-1"></span></a>
+								<ul class="sub-nav">
+									<li>
+										<a href="alerts.html" class="ripple"> <i class="fa fa-exclamation-triangle text-info theme"></i>Alerts </a>
+									</li>
+									<li>
+										<a href="tabs.html" class="ripple"> <i class="fa fa-folder-open text-warning theme"></i> Tabs </a>
+									</li>
+									<li>
+										<a href="widget-tiles.html" class="ripple"> <i class=" fa fa-magic fs14 text-primary theme"></i> Tiles </a>
+									</li>
+									<li> <a href="tree.html" class="ripple"><i class="fa fa-tree text-danger theme"></i>Treeview</a> </li>
+									<li> <a href="typo.html" class="ripple"><i class="fa fa-font text-success theme"></i> Typography </a> </li>
+									
+									
+									<li> <a href="heigh-chart.html" class="ripple"><i class="fa fa-line-chart text-danger theme"></i> Highcharts </a> </li>
+									<li><a href="mailbox.html" class="ripple"><i class="fa fa-envelope text-success theme"></i>MailBox</a> </li>
+									<li><a href="compose.html" class="ripple"><i class="fa fa-reply text-info theme"></i>Compose</a> </li>
+									<li>
+										<a href="price-list.html" class="ripple"> <i class="fa fa-list-alt text-info theme"></i>Price Table </a>
+									</li>
+								</ul>
+							</li>
+							<li class="btm-up">
+								<a href="form-wizard.html" class="ripple"><i class="fa fa-exchange nav-icon fs14"></i>
+       <span class="title">Form Wizard</span></a>
+							</li>
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<i class="fa fa-table nav-icon fs14"></i>
+									<span class="title">Table</span>
+									<span class="caret-1"></span>
+								</a>
+								<ul class="sub-nav">
+									<li>
+										<a href="table.html" class="ripple"> <i class="fa fa-table text-info theme"></i>Table</a>
+									</li>
+									<li> <a href="datatable.html" class="ripple"><i class="fa fa-table text-warning theme fs14"></i>Data Tables </a></li>
+									<li> <a href="datatable-resize.html" class="ripple"><i class="fa fa-table text-warning theme fs14"></i>Resize Data Tables</a> </li>
+									<li> <a href="table-with-input.html" class="ripple"><i class="fa fa-table text-primary theme"></i>Table with Input </a> </li>
+								</ul>
+							</li>
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<i class="fa fa-clipboard nav-icon"></i>
+									<span class="title">Pages</span>
+									<span class="caret-1"></span>
+								</a>
+								<ul class="sub-nav">
+									<li>
+										<a href="login.html" class="ripple"> <i class="fa fa-sign-in text-info theme"></i>Login</a>
+									</li>
+									<li><a href="error.html" class="ripple"><i class="fa fa-exclamation-triangle text-warning theme"></i>404 Error </a> </li>
+									<li><a href="carrier.html" class="ripple"><i class="fa fa-rss text-primary theme"></i>Carrier</a> </li>
+									<li>
+										<a href="setting.html" class="ripple"> <i class="fa fa-cog text-danger theme "></i>Setting</a>
+									</li>
+									
+									<li><a href="sales-target.html" class="ripple"><i class="fa fa-line-chart text-warning theme"></i>Sales Statistics</a> </li>
+									<li><a href="list-design.html" class="ripple"><i class="fa fa-list-ul text-primary theme"></i>List Design</a></li>
+									<li><a href="count-down.html" class="ripple"><i class="fa fa-clock-o text-danger theme"></i>Count Down</a> </li>
+									<li>
+										<a class=" ripple" href="document.html"> <i class="fa fa-code text-success theme"></i>Html Docs
+										</a>
+										
+									</li>
+									<li>
+										<a class="menu-click ripple" href="javascript:void(0)">
+											<i class="fa fa-files-o text-primary theme"></i>Invoice Template
+											<span class="caret-1 mod-crt"></span>
+										</a>
+										<ul class=" stybdr clearfix">
+											<li>
+												<a href="invoice.html" class="ripple">
+													<i class="fa fa-files-o fs14 text-info theme"></i> Template-1
+												</a>
+											</li>
+											
+										</ul>
+									</li>
+									<li>
+										<a class="menu-click ripple" href="javascript:void(0)">
+											<i class="fa fa-table text-danger theme"></i>Mailer Template
+											<span class="caret-1 mod-crt"></span>
+										</a>
+										<ul class=" stybdr clearfix">
+											<li><a href="mail-template-1.html" class="ripple"><i class="fa fa-files-o fs14 text-info theme"></i> Template-1
+              </a>
+											</li>
+											<li>
+												<a href="mail-template-2.html" class="ripple"><i class="fa fa-files-o fs14 text-warning theme"></i> Template-2</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="btm-up">
+								<a href="timeline.html" class="ripple"><i class="fa fa-clock-o nav-icon fs14"></i>
+       <span class="title">Timeline</span></a>
+							</li>
+							<li class="btm-up">
+								<a href="screen-lock.html" class="ripple"><i class="fa fa-lock nav-icon fs14"></i>
+       <span class="title">Screen Lock</span></a>
+							</li>
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<i class="fa fa-table nav-icon fs14"></i>
+									<span class="title">Extra</span>
+									<span class="caret-1"></span>
+								</a>
+								<ul class="sub-nav">
+									
+									<li><a href="editor.html" class="ripple"><i class="fa fa-file-text text-warning theme fs14"></i>Editor </a> </li>
+									<li><a href="feeds.html" class="ripple"><i class="fa fa-rss-square  text-primary theme fs14"></i>Feeds</a> </li>
+									<li><a href="list-view.html" class="ripple"><i class="fa fa-list-alt text-success theme fs14"></i>List View</a> </li>
+									<li><a href="grid-view.html" class="ripple"><i class="fa fa-th-large text-danger theme fs14"></i>Grid View</a> </li>
+									<li><a href="full-tab.html" class="ripple"><i class="fa fa-table text-warning theme fs14"></i>Full Tab</a> </li>
+								</ul>
+							</li>
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<!-- <i class="fa  fa-cubes nav-icon fs14"></i> -->
+									<i class="fa fa-list nav-icon fs14"></i>
+									<span class="title">Multilevel</span> <span class="caret-1"></span> </a>
+								<ul class="sub-nav">
+									<li> <a class="ripple"><i class="fa fa-circle fs7 text-info theme"></i> level-1</a> </li>
+									<li>
+										<a class="menu-click ripple" href="javascript:void(0)">
+											<i class="fa fa-circle fs7 text-warning theme"></i> level-1 <span class="caret-1 mod-crt"></span></a>
+										<ul class=" stybdr clearfix">
+											<li><a class="menu-click ripple" href="javascript:void(0)"><i class="fa fa-circle fs7  text-warning theme"></i> level-3
+                <span class="caret-1 mod-crt"></span>
+              </a>
+												<ul class="forth-lvl clearfix">
+													<li>
+														<a class="menu-click ripple" href="javascript:void(0)"> <i class="fa fa-circle text-dark fs7"></i>Level-4</a>
+													</li>
+													<li><a class="ripple"><i class="fa fa-circle  fs7  text-dark"></i>Level-4 </a>
+													</li>
+													<li><a class="ripple"><i class="fa fa-circle  fs7 text-dark"></i>Level-4</a> </li>
+												</ul>
+											</li>
+											<li><a class="ripple"><i class="fa fa-circle fs7  fs7 text-warning theme"></i> level-3</a></li>
+											<li><a class="ripple"><i class="fa fa-circle fs7  fs7 text-warning theme"></i> level-3</a></li>
+										</ul>
+									</li>
+									<li><a class="ripple"><i class="fa fa-circle fs7 text-info theme fs7"></i> level-1</a> </li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="more-mnu">
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<i class="fa fa-ellipsis-v nav-icon fs14"></i>
+									<span class="title">More</span> <span class="caret-1"></span> </a>
+								<ul class="submenu-more">
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="wm-wrpr">
+						<div class="widget-menu wm-heading panel-title clearfix top-margin-20">
+							<a class="menu-click" href="javascript:void(0)">
+			   Status
+		   </a>
+						</div>
+						<div class="widget-menu clearfix">
+							<div class="top-margin-20 right-margin-20 bottom-margin-10 left-margin-15 graph-tile wyt-bg with-color clearfix">
+								<div class="grp-heading bottom-margin-20">
+									<span class="grp-title">Revenue</span>
+									<span class="grp-sec-title f-ryt">past 28 days</span>
+								</div>
+								<div class="grp-body">
+									<span class="grp-content">$75,800</span>
+								</div>
+								<div class="grp-footer">
+									<span class="grp-result">13.4% <i class="fa fa-level-up"></i></span>
+									<div class="wt-chart-menu text-center hide-ovrflw"></div>
+								</div>
+							</div>
+						</div>
+						<div class="widget-menu clearfix">
+							<div class="top-margin-20 right-margin-20 bottom-margin-10 left-margin-15 with-color wyt-bg graph-tile clearfix">
+								<div class="grp-heading bottom-margin-20">
+									<span class="grp-title">Goals</span>
+									<span class="grp-sec-title f-ryt">
+										orders this month
+									</span>
+								</div>
+								<div class="grp-body">
+									<span class="grp-content">3,690</span>
+								</div>
+								<div class="grp-footer">
+									<span class="grp-result">90% of 4,500</span>
+									<div class="progress">
+										<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="widget-menu clearfix">
+							<div class="top-margin-20 right-margin-20 bottom-margin-20 left-margin-15 wyt-bg graph-tile clearfix">
+								<div class="grp-heading bottom-margin-20">
+									<span class="grp-title">Items</span>
+									<span class="grp-sec-title f-ryt">past 28 days</span>
+								</div>
+								<div class="grp-body">
+									<span class="grp-content">407</span>
+								</div>
+								<div class="grp-footer">
+									<span class="grp-result">13.4% <i class="fa fa-level-down"></i></span>
+									<div class="wt-bar-menu text-center"></div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="u-name clearfix">
+					<a class="ripple">
+						<div class="user-sidebar"> <img src="images/administrator.jpg"> <span>Himal Rana</span> </div>
+					</a>
+					<ul class="pull-right user-optn">
+						<li>
+							<a href="login.html" class="left-padding-15 right-padding-15 ripple">
+							<i class="fa  fa-power-off  fs14 "></i>
+						</a>
+						</li>
+						<li>
+							<a id="close-btn" class="left-padding-15 right-padding-15 ripple" href="javascript:void(0)">
+							<i class="fa fa-times fs14 "></i>
+						</a>
+						</li>
+						<li>
+							<a class="left-padding-15 right-padding-15 ripple change-mnu" href="javascript:void(0)">
+								<i class="fa fa-angle-double-left fs14 fw"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</aside>	
+				<div class="overflow-popup-left"></div>
+			</div>
+				 <div class="main-content clearfix">
+				 	<div class="row row10">
+      <div class="col-md-6 right-padding-10 left-padding-10">
+        <div class="panel panel-grey code-editor">
+          <div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0"> <span class="panel-title">Defaul Buttons</span>
+			  <span class="code f-ryt ripple"><i class="fa fa-code icon fs14 text-primary theme"></i></span>
+          </div>
+          
+			<div class="default-tab">
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#html-dbutton" aria-controls="html-dbutton" role="tab" data-toggle="tab">
+					<i class="fa fa-code fs12 right-margin-5"></i>
+					html</a></li>
+                <li role="presentation"><a href="#css-dbutton" aria-controls="css-dbutton" role="tab" data-toggle="tab">
+					<i class="fa fa-css3 fs12 right-margin-5"></i>
+					css</a></li>
+                
+              </ul>
+              <div class="tab-content wyt-bg padding-0 border-0">
+                <div role="tabpanel" class="tab-pane active" id="html-dbutton">
+					<pre class=" bottom-margin-0 language-markup copytoclipboard line-numbers"><code>&lt;!--default-button-->
+&lt;button class="btn btn-primary btn-md">
+	&lt;span class="btn-txt">Primary &lt;/span>
+&lt;/button>
+&lt;!--add btn-def-3d to give ed effect-->
+&lt;button class="btn btn-primary btn-def-3d btn-md">...&lt;/button>
+&lt;!--add icon to left btn-left-->				
+&lt;button class="btn btn-primary btn-def-3d btn-md">
+&lt;i class="fa fa-floppy-o ">&lt;/i>&lt;span class="btn-txt">Primary &lt;/span>
+&lt;/button>				
+&lt;!--add icon to right btn-right-->
+&lt;button class="btn btn-primary btn-def-3d btn-md">...&lt;/button>
+&lt;!--for small button add btn-sm-->
+&lt;button class="btn  btn-def-3d btn-primary btn-sm">...&lt;/button>
+&lt;!--for small button add btn-sm-->
+&lt;button class="btn  btn-def-3d btn-primary btn-lg">...&lt;/button>
+&lt;!--for inverse button add btn-inverse-->
+&lt;button class="btn btn-primary btn-inverse btn-md">...&lt;/button>
+&lt;!--for icon button at left add btn-icon-bg btn-left-->
+&lt;!--for icon button at right add btn-icon-bg btn-right-->
+&lt;button class="btn  btn-primary btn-def-3d btn-left bottom-margin-10 right-margin-10 btn-icon-bg  btn-md">
+	&lt;i class="fa fa-floppy-o ">&lt;/i> 
+	&lt;span class="btn-txt">Primary &lt;/span>
+&lt;/button></code></pre>
+				  </div>
+<div role="tabpanel" class="tab-pane" id="css-dbutton"> 
+	<pre class=" bottom-margin-0 language-css copytoclipboard line-numbers "><code>/* button css */
+.btn {
+    transition: 0.5s;
+    border-radius: 0px;
+    padding: 5px 12px;
+}
+.btn-primary{
+    border-color: #4F8CDD;
+    background-repeat: repeat-x;
+    background: #649AE1;
+}
+.btn-primary:hover, 
+.btn-primary:focus{
+    background: #397ED9;
+    border-color: #2e6da4;
+}
+.btn.btn-def-3d {
+    border-width: 0 0 3px 0;
+}
+.btn-md .fa, .btn-md .icon {
+    margin-top: 3px;
+    font-size: 14px !important;
+}
+/*for left icon*/
+.btn-left .fa, .btn-left .icon {
+    float: left;
+    margin-right: 8px;
+}
+/*for right-icon*/
+.btn-right .fa, .btn-right .icon {
+    float: right;
+    margin-left: 8px;
+}
+/*btn-sm*/
+.btn-sm{ 
+	font-size: 12px;
+}
+/*btn-lg*/
+.btn-lg, .btn-group-lg > .btn{
+	font-size: 18px;
+}
+/*for btn-inverse*/
+.btn.btn-inverse.btn-def-3d {
+    border-width: 1px 1px 3px 1px;
+}
+.btn.btn-inverse {
+    transition: 0.5s;
+    background: none !important;
+}
+.btn.btn-primary.btn-inverse .btn-txt, 
+.btn.btn-primary.btn-inverse .fa {
+    color: #649AE1;
+    transition: 0.5s;
+}
+.btn.btn-primary.btn-inverse:hover, 
+.btn.btn-primary.btn-inverse:focus {
+    background: #649AE1 !important;
+    color: #fff;
+}
+/*btn-icon-bg*/
+
+
+
+
+</code></pre>
+</div>
+              </div>
+            </div>
+
+          <div class="panel-body">
+            <h5 class="top-margin-0">Default Style</h5>
+            <div class="clearfix">
+              <button class="btn btn-primary bottom-margin-10 btn-def-3d right-margin-10 btn-md "><span class="btn-txt">Primary </span></button>
+              <button class="btn  btn-success bottom-margin-10 btn-def-3d right-margin-10  btn-md"> <span class="btn-txt">Success</span></button>
+              <button class="btn  btn-dark bottom-margin-10 btn-def-3d right-margin-10  btn-md"> <span class="btn-txt">Dark Button</span></button>
+              <button class="btn  btn-danger bottom-margin-10 btn-def-3d right-margin-10  btn-md"> <span class="btn-txt">Danger Button</span></button>
+              <button class="btn  btn-info bottom-margin-10 btn-def-3d right-margin-10  btn-md"> <span class="btn-txt">Info Button</span></button>
+              <button class="btn  btn-warning bottom-margin-10 btn-def-3d right-margin-10  btn-md"> <span class="btn-txt">Warning Button</span></button>
+			  <button class="btn btn-default bottom-margin-10 btn-def-3d right-margin-10  btn-md btn-def-3d"> <span class="btn-txt">default Button</span></button>
+			  <button class="btn  btn-left bottom-margin-10 btn-grad right-margin-10 btn-md btn-def-3d"><span class="btn-txt">Gradient Button</span></button>
+			  <button class="btn  btn-left bottom-margin-10  theme-bg right-margin-10 btn-md btn-def-3d"> <i class="fa fa-exclamation-triangle fs14 icon"></i><span class="btn-txt">Theme Gradient Button</span></button>
+			  <button class="btn  btn-left bottom-margin-10 btn-grad right-margin-10 btn-md btn-def-3d theme-text-color"><span class="btn-txt">Theme Text Color</span></button>
+            </div>
+            <h5 class="top-margin-10 fw400">Default Style2</h5>
+            <div class="clearfix">
+              <button class="btn  btn-primary btn-left btn-def-3d bottom-margin-10 right-margin-10  btn-md"> <i class="fa fa-floppy-o icon"></i> <span class="btn-txt">Primary </span> </button>
+              <button class="btn  btn-success btn-left btn-def-3d bottom-margin-10 right-margin-10  btn-md"> <i class="fa fa-thumbs-up  icon"></i> <span class="btn-txt">Success</span> </button>
+              <button class="btn  btn-dark btn-left btn-def-3d bottom-margin-10 right-margin-10  btn-md"> <i class="fa fa-eye icon "></i> <span class="btn-txt">Dark Button</span> </button>
+              <button class="btn  btn-danger btn-left btn-def-3d bottom-margin-10 right-margin-10  btn-md"> <i class="fa fa-trash-o icon "></i> <span class="btn-txt">Danger Button</span> </button>
+              <button class="btn  btn-info btn-left btn-def-3d bottom-margin-10 right-margin-10  btn-md"> <i class="fa fa-search icon-left icon "></i> <span class="btn-txt">info Button</span> </button>
+              <button class="btn  btn-warning btn-left btn-def-3d bottom-margin-10 right-margin-10  btn-md"> <i class="fa fa-exclamation-triangle icon "></i> <span class="btn-txt">warning Button</span> </button>
+				<button class="btn btn-default btn-left bottom-margin-10 btn-def-3d right-margin-10  btn-md btn-def-3d"> <i class="fa fa-exclamation-triangle  icon"></i> <span class="btn-txt">default Button</span> </button>
+				
+            </div>
+            <h5 class="top-margin-10">Button Small Default Style</h5>
+            <div class="clearfix">
+              <button class="btn  btn-def-3d btn-primary bottom-margin-10 right-margin-10  btn-sm"> <span class="btn-txt">Primary </span> </button>
+              <button class="btn btn-def-3d  btn-success bottom-margin-10 right-margin-10  btn-sm"> <span class="btn-txt">Success</span> </button>
+              <button class="btn btn-def-3d  btn-dark bottom-margin-10 right-margin-10  btn-sm"> <span class="btn-txt">Dark Button</span> </button>
+              <button class="btn  btn-def-3d btn-danger bottom-margin-10 right-margin-10  btn-sm"> <span class="btn-txt">danger Button</span> </button>
+              <button class="btn  btn-def-3d btn-info bottom-margin-10 right-margin-10  btn-sm"> <span class="btn-txt">info Button</span> </button>
+              <button class="btn btn-def-3d  btn-warning bottom-margin-10 right-margin-10  btn-sm"> <span class="btn-txt">warning Button</span> </button>
+			  <button class="btn btn-def-3d  btn-default bottom-margin-10 right-margin-10  btn-sm btn-def-3d"> <span class="btn-txt">default Button</span> </button>
+            </div>
+            <h5>Button Small Default Style2</h5>
+            <div class="clearfix">
+              <button class="btn btn-primary btn-def-3d btn-left bottom-margin-10 right-margin-10  btn-sm"> <i class="fa fa-floppy-o icon"></i> <span class="btn-txt">Primary </span> </button>
+              <button class="btn  btn-success btn-def-3d btn-left bottom-margin-10 right-margin-10  btn-sm"> <i class="fa fa-thumbs-up  icon"></i> <span class="btn-txt">Success</span> </button>
+              <button class="btn  btn-dark btn-def-3d btn-left bottom-margin-10 right-margin-10  btn-sm"> <i class="fa fa-eye icon "></i> <span class="btn-txt">Dark Button</span> </button>
+              <button class="btn  btn-danger btn-def-3d btn-left bottom-margin-10 right-margin-10  btn-sm"> <i class="fa fa-trash-o icon "></i> <span class="btn-txt">danger Button</span> </button>
+              <button class="btn  btn-info btn-left btn-def-3d bottom-margin-10 right-margin-10  btn-sm"> <i class="fa fa-search icon-left icon "></i> <span class="btn-txt">info Button</span> </button>
+              <button class="btn  btn-warning btn-left btn-def-3d bottom-margin-10 right-margin-10  btn-sm"> <i class="fa fa-exclamation-triangle  icon"></i> <span class="btn-txt">warning Button</span> </button>
+				<button class="btn  btn-default btn-left btn-def-3d bottom-margin-10 right-margin-10  btn-sm btn-def-3d"> <i class="fa fa-exclamation-triangle icon"></i> <span class="btn-txt">default Button</span>
+				</button>
+            </div>
+
+            <h4>Button Large Default Style</h4>
+            <div class="clearfix">
+              <button class="btn  btn-def-3d btn-primary bottom-margin-10 right-margin-10  btn-lg"> <span class="btn-txt">Primary </span> </button>
+              <button class="btn  btn-def-3d btn-success bottom-margin-10 right-margin-10  btn-lg"> <span class="btn-txt">Success</span> </button>
+              <button class="btn btn-def-3d  btn-dark bottom-margin-10 right-margin-10  btn-lg"> <span class="btn-txt">Dark Button</span> </button>
+              <button class="btn btn-def-3d  btn-danger bottom-margin-10 right-margin-10  btn-lg"> <span class="btn-txt">danger Button</span> </button>
+              <button class="btn btn-def-3d  btn-info bottom-margin-10 right-margin-10  btn-lg"> <span class="btn-txt">info Button</span> </button>
+              <button class="btn btn-def-3d  btn-warning bottom-margin-10 right-margin-10  btn-lg"> <span class="btn-txt">warning Button</span> </button>
+			  <button class="btn btn-def-3d btn-default bottom-margin-10 right-margin-10  btn-lg btn-def-3d"> <span class="btn-txt">default Button</span> </button>
+				
+				
+            </div>
+            <h4>Button Large Default Style2</h4>
+            <div class="clearfix">
+              <button class="btn  btn-def-3d btn-primary btn-left bottom-margin-10 right-margin-10  btn-lg"> <i class="fa fa-floppy-o icon"></i> <span class="btn-txt">Primary </span> </button>
+              <button class="btn btn-def-3d  btn-success btn-left bottom-margin-10 right-margin-10  btn-lg"> <i class="fa fa-thumbs-up  icon"></i> <span class="btn-txt">Success</span> </button>
+              <button class="btn btn-def-3d  btn-dark btn-left bottom-margin-10 right-margin-10  btn-lg"> <i class="fa fa-eye icon "></i> <span class="btn-txt">Dark Button</span> </button>
+              <button class="btn btn-def-3d btn-danger btn-left bottom-margin-10 right-margin-10  btn-lg"> <i class="fa fa-trash-o icon "></i> <span class="btn-txt">danger Button</span> </button>
+              <button class="btn  btn-def-3d btn-info btn-left bottom-margin-10 right-margin-10  btn-lg"> <i class="fa fa-search icon-left icon "></i> <span class="btn-txt">info Button</span> </button>
+              <button class="btn btn-def-3d btn-warning btn-left bottom-margin-10 right-margin-10  btn-lg"> <i class="fa fa-exclamation-triangle icon "></i> <span class="btn-txt">warning Button</span> </button>
+				<button class="btn btn-def-3d btn-default btn-left bottom-margin-10 right-margin-10  btn-lg btn-def-3d"> <i class="fa fa-exclamation-triangle  icon"></i> <span class="btn-txt">default Button</span> </button>
+				
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-grey code-editor">
+          <div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0"> <span class="panel-title">Advance Effect with button</span>
+            <span class="code f-ryt ripple"><i class="fa fa-code icon fs14 text-primary theme"></i></span>
+          </div>
+          <div class="default-tab">
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#adve-html" aria-controls="adve-html" role="tab" data-toggle="tab">
+					<i class="fa fa-code fs12 right-margin-5"></i>
+					html</a></li>
+                <li role="presentation"><a href="#adve-css" aria-controls="adve-css" role="tab" data-toggle="tab">
+					<i class="fa fa-css3 fs12 right-margin-5"></i>
+					css</a></li>
+                <li role="presentation"><a href="#adve-js" aria-controls="adve-js" role="tab" data-toggle="tab">
+					<i class="pdg-jquery fs12 right-margin-5"></i>
+					Jquery</a></li>
+              </ul>
+              <div class="tab-content wyt-bg padding-0 border-0">
+                <div role="tabpanel" class="tab-pane active" id="adve-html">
+					<pre class=" bottom-margin-0 language-markup copytoclipboard line-numbers shift-btn"><code>&lt;!--Ripple Effect on Click-->
+&lt;!--jst add a class ripple-->
+&lt;button class="btn btn-def-3d btn-left btn-primary bottom-margin-10 right-margin-10 ripple"> &lt;i class="fa fa-floppy-o icon">&lt;/i> &lt;span class="btn-txt">Primary &lt;/span> &lt;/button>
+&lt;!--Skew Effect with Hover-->
+&lt;!--add skew-btn-->
+&lt;button class="btn btn-def-3d btn-primary bottom-margin-10 right-margin-10 btn-left skew-btn"> &lt;i class="fa fa-floppy-o icon">&lt;/i> &lt;span class="btn-txt">Primary &lt;/span> &lt;/button>
+&lt;!--shadow Effect with Hover-->
+&lt;!--for left shadow use left-shadow-->
+&lt;button class="btn btn-def-3d btn-primary bottom-margin-10 right-margin-10 btn-left  left-shadow"> &lt;i class="fa fa-floppy-o icon">&lt;/i> &lt;span class="btn-txt">Primary &lt;/span> &lt;/button></code></pre>
+</div>
+				  <div role="tabpanel" class="tab-pane" id="adve-css"> 
+<pre class=" bottom-margin-0 language-css copytoclipboard line-numbers"><code>/* skew-btn */
+.btn.skew-btn {
+    overflow: hidden;
+    position: relative;
+}
+.btn.skew-btn:hover::after { 
+	left: 160%; 
+}
+.btn.skew-btn::after { 
+	background: #fff; 
+	content: ""; 
+	height: 155px; 
+	left: -75px; 
+	opacity: 0.2; 
+	position: absolute; 
+	top: -50px; 
+	transform: skewX(30deg); 
+	transition: all 0.5s cubic-bezier(0.4, 0, 0.5, 1) 0s; 
+	width: 50px; 
+	z-index: 2; 
+}
+/*shadow Effect with Hover*/
+/*left-shadow*/
+.btn.left-shadow { 
+	box-shadow: 5px 5px 0 -5px rgba(0, 0, 0, 0.3) inset; 
+	transition: 0.3s; 
+	}
+.btn.left-shadow:hover { 
+	box-shadow: 165px 5px 0 -5px rgba(0, 0, 0, 0.3) inset;
+}
+.btn.btn-icon-bg i,
+.btn.btn-icon-bg .icon {
+    line-height: 30px;
+    padding: 0 12px;
+    margin: 0px;
+    background: rgba(255, 255, 255, 0.15);
+}
+</code></pre>
+</div>
+				  <div role="tabpanel" class="tab-pane" id="adve-js"> 
+<pre class=" language-javascript copytoclipboard line-numbers shift-btn" id="js-editor1"><code>//js for ripple effect
+$('.ripple').materialripple();	
+ </code></pre>
+</div>
+			  </div>
+			</div>
+			
+          <div class="panel-body">
+            <h5>Ripple Effect on Click</h5>
+            <div class="clearfix">
+              <button class="btn btn-def-3d btn-left btn-primary bottom-margin-10 right-margin-10 ripple"> <i class="fa fa-floppy-o icon"></i> <span class="btn-txt">Primary </span> </button>
+              <button class="btn btn-def-3d btn-success btn-left bottom-margin-10 right-margin-10  ripple"> <i class="fa fa-thumbs-up icon"></i> <span class="btn-txt">Success</span> </button>
+              <button class="btn btn-def-3d btn-dark btn-left bottom-margin-10 right-margin-10  ripple"> <i class="fa fa-eye icon"></i> <span class="btn-txt">Dark Button</span> </button>
+              <button class="btn  btn-def-3d btn-danger btn-left bottom-margin-10 right-margin-10  ripple"> <i class="fa fa-trash-o icon"></i> <span class="btn-txt">danger Button</span> </button>
+              <button class="btn btn-def-3d btn-info btn-left bottom-margin-10 right-margin-10  ripple"> <i class="fa fa-search icon-left icon"></i> <span class="btn-txt">info Button</span> </button>
+              <button class="btn  btn-def-3d btn-warning btn-left bottom-margin-10 right-margin-10 ripple"> <i class="fa fa-exclamation-triangle icon"></i> <span class="btn-txt">warning Button</span> </button>
+            </div>
+            <h5>Skew Effect with Hover</h5>
+            <div class="clearfix">
+              <button class="btn btn-def-3d btn-primary bottom-margin-10 right-margin-10 btn-left skew-btn"> <i class="fa fa-floppy-o icon"></i> <span class="btn-txt">Primary </span> </button>
+              <button class="btn btn-def-3d btn-success btn-left bottom-margin-10 right-margin-10 skew-btn"> <i class="fa fa-thumbs-up icon"></i> <span class="btn-txt">Success</span> </button>
+              <button class="btn btn-def-3d btn-dark btn-left bottom-margin-10 right-margin-10  skew-btn"> <i class="fa fa-eye icon"></i> <span class="btn-txt">Dark Button</span> </button>
+              <button class="btn btn-def-3d btn-danger btn-left bottom-margin-10 right-margin-10    skew-btn"> <i class="fa fa-trash-o icon"></i> <span class="btn-txt">danger Button</span> </button>
+              <button class="btn btn-def-3d btn-info btn-left bottom-margin-10 right-margin-10    skew-btn"> <i class="fa fa-search icon-left icon"></i> <span class="btn-txt">info Button</span> </button>
+              <button class="btn btn-def-3d btn-warning btn-left bottom-margin-10 right-margin-10  skew-btn"> <i class="fa fa-exclamation-triangle icon"></i> <span class="btn-txt">warning Button</span> </button>
+            </div>
+            <h5>shadow Effect with Hover</h5>
+            <div class="clearfix">
+              <button class="btn btn-def-3d btn-primary bottom-margin-10 right-margin-10 btn-left  left-shadow"> <i class="fa fa-floppy-o icon"></i> <span class="btn-txt">Primary </span> </button>
+              <button class="btn btn-def-3d btn-success btn-left bottom-margin-10 right-margin-10  right-shadow"> <i class="fa fa-thumbs-up icon"></i> <span class="btn-txt">Success</span> </button>
+              <button class="btn btn-def-3d btn-dark btn-left bottom-margin-10 right-margin-10  top-shadow "> <i class="fa fa-eye icon"></i> <span class="btn-txt">Dark Button</span> </button>
+              <button class="btn btn-def-3d btn-danger btn-left bottom-margin-10 right-margin-10  bottom-shadow"> <i class="fa fa-trash-o icon"></i> <span class="btn-txt">danger Button</span> </button>
+              <button class="btn btn-def-3d btn-info btn-left bottom-margin-10 right-margin-10 left-shadow"> <i class="fa fa-search icon-left icon"></i> <span class="btn-txt">info Button</span> </button>
+              <button class="btn btn-def-3d btn-warning btn-left bottom-margin-10 right-margin-10 right-shadow"> <i class="fa fa-exclamation-triangle icon"></i> <span class="btn-txt">warning Button</span> </button>
+            </div>
+          </div>
+        </div>
+		  <div class="panel panel-grey code-editor">
+      <div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0"><span class="panel-title">Loading Effect-1</span>
+                  <span class="code f-ryt ripple"><i class="fa fa-code icon fs14 text-primary theme"></i></span>
+                </div>
+			  
+				<div class="default-tab">
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#html-leffect-1" aria-controls="html-leffect-1" role="tab" data-toggle="tab">
+					<i class="fa fa-code fs12 right-margin-5"></i>
+					html</a></li>
+                <li role="presentation"><a href="#css-leffect-1" aria-controls="css-leffect-1" role="tab" data-toggle="tab">
+					<i class="fa fa-css3 fs12 right-margin-5"></i>
+					css</a></li>
+				  <li role="presentation"><a href="#js-leffect-1" aria-controls="js-leffect-1" role="tab" data-toggle="tab">
+					<i class="pdg-jquery fs12 right-margin-5"></i>
+					jquery</a></li>
+              </ul>
+              <div class="tab-content wyt-bg padding-0 border-0">
+                <div role="tabpanel" class="tab-pane active " id="html-leffect-1">
+					<pre class="bottom-margin-0 language-markup line-numbers copytoclipboard"><code>&lt;!--if used in div class abs-pos ->
+&lt;!--if used in body, remove class abs-pos-->
+&lt;!--multi-ring used for middle circle-->
+&lt;!--for transparent light background use  light-light-bg-->
+&lt;!--for transparent dark background use light-dark-bg-->
+&lt;!--add with-js class when used in body at place of abs-pos-->
+&lt;div id="loader-wrapper" class="abs-pos">
+	&lt;div id="loader" class="multi-ring">&lt;/div>
+	&lt;div class="loader-section section-left">&lt;/div>
+	&lt;div class="loader-section section-right">&lt;/div>
+&lt;/div>
+&lt;!--style-2 google-loading-->
+&lt;div id="loader-wrapper" class="abs-pos">
+	&lt;div id="loader">
+		&lt;div class="google-loading">
+			&lt;span>&lt;/span> &lt;span>&lt;/span> &lt;span>&lt;/span> &lt;span>&lt;/span>
+		&lt;/div>
+	&lt;/div>
+	&lt;div class="loader-section section-left">&lt;/div>
+	&lt;div class="loader-section section-right">&lt;/div>
+&lt;/div>				
+&lt;!--style-3 bars-loading-->					
+&lt;div id="loader-wrapper" class="abs-pos light-light-bg">
+	&lt;div id="loader">
+		&lt;div class="bars-loading">
+			&lt;span>&lt;/span>
+			&lt;span>&lt;/span>
+			&lt;span>&lt;/span>
+			&lt;span>&lt;/span>
+			&lt;span>&lt;/span>
+		&lt;/div>
+	&lt;/div>
+	&lt;div class="loader-section section-left">&lt;/div>
+	&lt;div class="loader-section section-right">&lt;/div>
+&lt;/div>
+&lt;!--style-4 bars-loading-shift-->					
+&lt;div id="loader-wrapper" class="abs-pos light-dark-bg">
+	&lt;div id="loader">
+		&lt;div class="bars-loading-shift">
+			&lt;span>&lt;/span>
+			&lt;span>&lt;/span>
+			&lt;span>&lt;/span>
+			&lt;span>&lt;/span>
+			&lt;span>&lt;/span>
+		&lt;/div>
+	&lt;/div>
+	&lt;div class="loader-section section-left">&lt;/div>
+	&lt;div class="loader-section section-right">&lt;/div>
+&lt;/div>			
+</code>
+</pre>
+</div>
+<div role="tabpanel" class="tab-pane" id="css-leffect-1"> 
+<pre class="language-css bottom-margin-0 line-numbers copytoclipboard" ><code>/*loader effect*/
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+#loader-wrapper.abs-pos, #loader-wrapper.abs-pos .loader-section {
+    position: absolute;
+    overflow: hidden;
+}
+#loader-wrapper .loader-section.section-left {
+    left: 0;
+}
+#loader-wrapper.abs-pos, #loader-wrapper.abs-pos .loader-section {
+    position: absolute;
+    overflow: hidden;
+}
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #222222;
+    z-index: 1000;
+    transform: translateX(0);
+}
+#loader-wrapper .loader-section.section-right {
+    right: 0;
+}
+#loader-wrapper.abs-pos, #loader-wrapper.abs-pos .loader-section {
+    position: absolute;
+    overflow: hidden;
+}
+/*for giving js eccect on body load*/
+.loaded #loader-wrapper.with-js .loader-section.section-left { 
+	transform: translateX(-100%);
+	transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+.loaded #loader-wrapper.with-js .loader-section.section-right { 
+	transform: translateX(100%);
+	transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+.loaded #loader-wrapper.with-js #loader { 
+	opacity: 0; 
+	transition: all 0.3s ease-out;
+}
+.loaded #loader-wrapper.with-js { 
+	visibility: hidden; 
+	transform: translateY(-100%); 
+	transition: all 0.3s 1s ease-out;
+}
+/*multiring*/
+#loader-wrapper #loader.multi-ring {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    margin: -50px 0 0 -50px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #397ed9;
+    animation: spin 2s linear infinite;
+    z-index: 1001;
+}
+#loader-wrapper #loader.multi-ring:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #649ae1;
+    animation: spin 3s linear infinite;
+}
+#loader-wrapper #loader.multi-ring:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #8fb6e9;
+    animation: spin 1.5s linear infinite;
+}
+/*google-loading*/
+#loader-wrapper #loader .google-loading {
+    z-index: 1001;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -62px;
+}
+#loader-wrapper #loader .google-loading span {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background: #000;
+    display: inline-block;
+}
+#loader-wrapper #loader .google-loading span:first-child {
+    animation: ggl-move 1s ease-in-out infinite alternate;
+    background: #397ed9;
+    margin-left: 0;
+}
+#loader-wrapper #loader .google-loading span:nth-child(2) {
+    animation: ggl-move 1s ease-in-out -0.25s infinite alternate;
+    margin-left: 35px;
+    background: #4f8cdd;
+}
+#loader-wrapper #loader .google-loading span:nth-child(3) {
+    animation: ggl-move 1s ease-in-out -0.5s infinite alternate;
+    margin-left: 70px;
+    background: #79a8e5;
+}
+#loader-wrapper #loader .google-loading span:nth-child(4) {
+    animation: ggl-move 1s ease-in-out -0.75s infinite alternate;
+    margin-left: 105px;
+    background: #8fb6e9;
+}
+/*bars-loading*/
+#loader-wrapper #loader .bars-loading {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: -25px 0 0 -25px;
+    left: 50%;
+    top: 50%;
+    display: block;
+    z-index: 1001;
+}
+#loader-wrapper #loader .bars-loading span {
+    position: absolute;
+    width: 9px;
+    height: 5px;
+    bottom: 23px;
+    background: rgba(0, 0, 0, 0.25);
+    animation: 1.5s ease-in-out 0s normal none infinite running bars1;
+}
+#loader-wrapper #loader .bars-loading span:nth-child(2) {
+    animation-delay: 0.2s;
+    left: 11px;
+}
+#loader-wrapper #loader .bars-loading span:nth-child(3) {
+    animation-delay: 0.4s;
+    left: 22px;
+}
+#loader-wrapper #loader .bars-loading span:nth-child(4) {
+    animation-delay: 0.6s;
+    left: 33px;
+}
+#loader-wrapper #loader .bars-loading span:nth-child(5) {
+    animation-delay: 0.8s;
+    left: 44px;
+}
+/*bars-loading-shift*/
+#loader-wrapper #loader .bars-loading-shift {
+    position: absolute;
+    display: block;
+    height: 50px;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    z-index: 1001;
+}
+#loader-wrapper #loader .bars-loading-shift span {
+    animation: 3s ease-in-out 0s normal none infinite running bars-shift;
+    background: rgba(0, 0, 0, 0.25);
+    bottom: 10px;
+    display: block;
+    height: 5px;
+    position: absolute;
+    width: 9px;
+}
+#loader-wrapper #loader .bars-loading-shift span:nth-child(2) {
+    animation-delay: 0.2s;
+    left: 11px;
+}
+#loader-wrapper #loader .bars-loading-shift span:nth-child(3) {
+    animation-delay: 0.4s;
+    left: 22px;
+}
+#loader-wrapper #loader .bars-loading-shift span:nth-child(4) {
+    animation-delay: 0.6s;
+    left: 33px;
+}
+#loader-wrapper #loader .bars-loading-shift span:nth-child(5) {
+    animation-delay: 0.8s;
+    left: 44px;
+}</code></pre>
+				</div>
+<div role="tabpanel" class="tab-pane" id="js-leffect-1"> 
+<pre class="language-css bottom-margin-0 line-numbers copytoclipboard shift-btn" ><code>/*js used for Loading effect in body*/
+setTimeout(function(){
+	$('body').addClass('loaded');
+	}, 2000);
+	
+$(".login-page").click(function(){
+	setTimeout(function(){
+		$('body').addClass('loaded');
+	}, 1000);
+});</code></pre></div>				  
+              </div>
+            </div>			  
+			  
+			  
+			  
+			  
+                <div class="panel-body">
+					<div id="loader-wrapper" class="abs-pos">
+						<div id="loader" class="multi-ring"></div>	
+					<div class="loader-section section-left"></div>
+            		<div class="loader-section section-right"></div>
+					</div>
+                  <div class="form-inline boot-style  one-input"><span class="control-label">Primary button</span>
+              <div class="form-group has-feedback has-error first-child">
+                <div class="input-group">
+                  <div class="full">
+                    <input type="text" class="form-control" id="datepicker1">
+                    <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span> </div>
+                  <span class="input-group-btn">
+                  <button class="btn btn-primary btn-sm" type="button">Add</button>
+                  </span> <span class="input-group-btn">
+                  <button class="btn btn-danger btn-sm" type="button">Remove</button>
+                  </span> </div>
+              </div>
+            </div>
+                  <div class="form-inline boot-style  one-input"><span class="control-label">Primary button</span>
+                      <div class="form-group has-feedback has-error first-child">
+                        <div class="input-group">
+                          <div class="full">
+                            <input type="text" class="form-control" id="datepicker1">
+                            <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span> </div>
+                          <span class="input-group-btn">
+                          <button class="btn btn-warning btn-sm" type="button">Add</button>
+                          </span> <span class="input-group-btn">
+                          <button class="btn btn-danger btn-sm" type="button">Remove</button>
+                          </span> </div>
+                      </div>
+                    </div>
+            	 <div class="form-inline boot-style  one-input"><span class="control-label">Primary button</span>
+              <div class="form-group has-feedback has-error first-child">
+                <div class="input-group">
+                  <div class="full">
+                    <input type="text" class="form-control" id="datepicker1">
+                    <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span> </div>
+                  <span class="input-group-btn">
+                  <button class="btn btn- btn-success btn-sm" type="button">Add</button>
+                  </span> <span class="input-group-btn">
+                  <button class="btn btn-danger btn-sm" type="button">Remove</button>
+                  </span> </div>
+              </div>
+            </div>
+                </div>
+
+  </div>
+		  <div class="panel panel-grey">
+      <div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0"><span class="panel-title">Loading Effect-4</span>
+                </div>
+
+                <div class="panel-body">
+                  <div class="form-inline boot-style  one-input"><span class="control-label">Primary button</span>
+              <div class="form-group has-feedback has-error first-child">
+                <div class="input-group">
+                  <div class="full">
+                    <input type="text" class="form-control" id="datepicker1">
+                    <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span> </div>
+                  <span class="input-group-btn">
+                  <button class="btn btn-primary btn-sm" type="button">Add</button>
+                  </span> <span class="input-group-btn">
+                  <button class="btn btn-danger btn-sm" type="button">Remove</button>
+                  </span> </div>
+              </div>
+            </div>
+                  <div class="form-inline boot-style  one-input"><span class="control-label">Primary button</span>
+                      <div class="form-group has-feedback has-error first-child">
+                        <div class="input-group">
+                          <div class="full">
+                            <input type="text" class="form-control" id="datepicker1">
+                            <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span> </div>
+                          <span class="input-group-btn">
+                          <button class="btn btn-warning btn-sm" type="button">Add</button>
+                          </span> <span class="input-group-btn">
+                          <button class="btn btn-danger btn-sm" type="button">Remove</button>
+                          </span> </div>
+                      </div>
+                    </div>
+            	 <div class="form-inline boot-style  one-input"><span class="control-label">Primary button</span>
+              <div class="form-group has-feedback has-error first-child">
+                <div class="input-group">
+                  <div class="full">
+                    <input type="text" class="form-control" id="datepicker1">
+                    <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span> </div>
+                  <span class="input-group-btn">
+                  <button class="btn btn- btn-success btn-sm" type="button">Add</button>
+                  </span> <span class="input-group-btn">
+                  <button class="btn btn-danger btn-sm" type="button">Remove</button>
+                  </span> </div>
+              </div>
+            </div>
+					<div id="loader-wrapper" class="abs-pos">
+						<div id="loader">
+						<div class="bars-loading">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		</div>
+					</div>	
+						<div class="loader-section section-left"></div>
+            			<div class="loader-section section-right"></div>
+					</div>
+					
+					
+					
+					
+					
+					
+                </div>
+  </div>
+		  <div class="panel panel-grey">
+					<div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0">
+						<span class="panel-title">material Spinner-1</span>
+                	</div>
+					<div class="panel-body">
+						<div class="form-inline boot-style  one-input"><span class="control-label">Primary button</span>
+					  <div class="width-67 clearfix">
+              <div class="form-group has-feedback has-error first-cld">
+                <div class="input-group">
+                  <div class="full f-lft">
+                    <input type="text" class="form-control" id="datepicker1">
+                    <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span> </div>
+                  <span class="input-group-btn">
+                  <button class="btn btn-primary btn-sm btn-def-3d" type="button">Add</button>
+                  </span> <span class="input-group-btn">
+                  <button class="btn btn-danger btn-sm btn-def-3d" type="button">Remove</button>
+                  </span> </div>
+              </div>
+					  </div>
+            </div>
+                  		<div class="form-inline boot-style  one-input"><span class="control-label">Primary button</span>
+					  <div class="width-67 clearfix">
+                      	<div class="form-group has-feedback has-error first-cld">
+                        <div class="input-group">
+                          <div class="full f-lft">
+                            <input type="text" class="form-control" id="datepicker1">
+                            <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span> </div>
+                          <span class="input-group-btn">
+                          <button class="btn btn-warning btn-sm btn-def-3d" type="button">Add</button>
+                          </span> <span class="input-group-btn">
+                          <button class="btn btn-danger btn-sm btn-def-3d" type="button">Remove</button>
+                          </span> </div>
+                      </div>
+					  </div>
+                    </div>
+            	 		<div class="form-inline boot-style one-input"><span class="control-label">Primary button</span>
+					 <div class="width-67 clearfix">
+              <div class="form-group has-feedback has-error first-cld">
+                <div class="input-group">
+                  <div class="full f-lft">
+                    <input type="text" class="form-control" id="datepicker1">
+                    <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span> </div>
+                  <span class="input-group-btn">
+                  <button class="btn btn- btn-success btn-sm btn-def-3d" type="button">Add</button>
+                  </span> <span class="input-group-btn">
+                  <button class="btn btn-danger btn-sm btn-def-3d" type="button">Remove</button>
+                  </span> </div>
+              </div>
+					 </div>
+            </div>
+						<div id="loader-wrapper" class="abs-pos light-light-bg">
+							<div id="loader">
+								<svg class="circular" viewBox="25 25 50 50">
+      								<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="10" stroke-miterlimit="100"/>
+    					  		</svg>
+							</div>
+							<div class="loader-section section-left"></div>
+            				<div class="loader-section section-right"></div>
+						</div>
+					</div>
+				</div>
+      </div>
+      <div class="col-md-6 right-padding-10 left-padding-10">
+        <div class="panel panel-grey">
+          <div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0">
+			  <span class="panel-title">Inverse Style</span>
+          </div>
+          <div class="panel-body">
+          <h5 class="top-margin-0">Inverse Style</h5>
+            <div class="clearfix">
+              <button class="btn btn-def-3d btn-primary btn-left bottom-margin-10 right-margin-10 btn-inverse  btn-md"> <i class="fa fa-floppy-o "></i> <span class="btn-txt">Primary </span> </button>
+              <button class="btn btn-def-3d btn-success btn-left bottom-margin-10 right-margin-10 btn-inverse  btn-md"> <i class="fa fa-thumbs-up  "></i> <span class="btn-txt">Success</span> </button>
+              <button class="btn btn-def-3d btn-dark btn-left bottom-margin-10 right-margin-10 btn-inverse  btn-md"> <i class="fa fa-eye  "></i> <span class="btn-txt">Dark Button</span> </button>
+              <button class="btn btn-def-3d btn-danger btn-left bottom-margin-10 right-margin-10 btn-inverse  btn-md"> <i class="fa fa-trash-o  "></i> <span class="btn-txt">danger Button</span> </button>
+              <button class="btn btn-def-3d btn-info btn-left bottom-margin-10 right-margin-10 btn-inverse  btn-md"> <i class="fa fa-search icon-left  "></i> <span class="btn-txt">info Button</span> </button>
+              <button class="btn btn-def-3d btn-warning btn-left bottom-margin-10 right-margin-10 btn-inverse  btn-md"> <i class="fa fa-exclamation-triangle fs14 "></i> <span class="btn-txt">warning Button</span> </button>
+				<button class="btn btn-default btn-left bottom-margin-10 right-margin-10 btn-inverse btn-md btn-def-3d"> <i class="fa fa-exclamation-triangle fs14 "></i> <span class="btn-txt">default Button</span> </button>
+				
+				<button class="btn btn-default btn-left bottom-margin-10 right-margin-10 btn-inverse theme-bg btn-md btn-def-3d"> <i class="fa fa-exclamation-triangle fs14 "></i> <span class="btn-txt">Theme Default Button</span> </button>
+            </div>
+            <h5>Right Icon</h5>
+            <div class="clearfix">
+              <button class="btn btn-def-3d btn-primary btn-right bottom-margin-10 right-margin-10 btn-inverse  btn-md"> <i class="fa fa-floppy-o "></i> <span class="btn-txt">Primary </span> </button>
+              <button class="btn btn-def-3d btn-success btn-right bottom-margin-10 right-margin-10 btn-inverse  btn-md"> <i class="fa fa-thumbs-up "></i> <span class="btn-txt">Success</span> </button>
+              <button class="btn btn-def-3d btn-dark btn-right bottom-margin-10 right-margin-10 btn-inverse  btn-md"> <i class="fa fa-eye "></i> <span class="btn-txt">Dark Button</span> </button>
+              <button class="btn btn-def-3d btn-danger btn-right bottom-margin-10 right-margin-10 btn-inverse  btn-md"> <i class="fa fa-trash-o "></i> <span class="btn-txt">danger Button</span> </button>
+              <button class="btn btn-def-3d btn-info btn-right bottom-margin-10 right-margin-10 btn-inverse  btn-md"> <i class="fa fa-search icon-left "></i> <span class="btn-txt">info Button</span> </button>
+              <button class="btn btn-def-3d btn-warning btn-right bottom-margin-10 right-margin-10 btn-inverse  btn-md"> <i class="fa fa-exclamation-triangle "></i> <span class="btn-txt">warning Button</span> </button>
+            </div>
+            <h5 class="top-margin-10">Button Small Inverse Style</h5>
+            <div class="clearfix">
+              <button class="btn btn-def-3d btn-primary btn-left bottom-margin-10 right-margin-10 btn-inverse  btn-sm"> <i class="fa fa-floppy-o"></i> <span class="btn-txt">Primary </span> </button>
+              <button class="btn btn-def-3d btn-success btn-left bottom-margin-10 right-margin-10 btn-inverse  btn-sm"> <i class="fa fa-thumbs-up  "></i> <span class="btn-txt">Success</span> </button>
+              <button class="btn btn-def-3d btn-dark btn-left bottom-margin-10 right-margin-10 btn-inverse  btn-sm"> <i class="fa fa-eye  "></i> <span class="btn-txt">Dark Button</span> </button>
+              <button class="btn btn-def-3d btn-danger btn-left bottom-margin-10 right-margin-10 btn-inverse  btn-sm"> <i class="fa fa-trash-o  "></i> <span class="btn-txt">danger Button</span> </button>
+              <button class="btn btn-def-3d btn-info btn-left bottom-margin-10 right-margin-10 btn-inverse  btn-sm"> <i class="fa fa-search icon-left  "></i> <span class="btn-txt">info Button</span> </button>
+              <button class="btn btn-def-3d btn-warning btn-left bottom-margin-10 right-margin-10 btn-inverse  btn-sm"> <i class="fa fa-exclamation-triangle  "></i> <span class="btn-txt">warning Button</span> </button>
+            </div>
+            <h5 class="top-margin-10">Button Small</h5>
+            <div class="clearfix">
+              <button class="btn btn-def-3d btn-primary btn-right bottom-margin-10 right-margin-10 btn-inverse  btn-sm"> <i class="fa fa-floppy-o "></i> <span class="btn-txt">Primary </span> </button>
+              <button class="btn btn-def-3d btn-success btn-right bottom-margin-10 right-margin-10 btn-inverse  btn-sm"> <i class="fa fa-thumbs-up "></i> <span class="btn-txt">Success</span> </button>
+              <button class="btn btn-def-3d btn-dark btn-right bottom-margin-10 right-margin-10 btn-inverse  btn-sm"> <i class="fa fa-eye "></i> <span class="btn-txt">Dark Button</span> </button>
+              <button class="btn btn-def-3d btn-danger btn-right bottom-margin-10 right-margin-10 btn-inverse  btn-sm"> <i class="fa fa-trash-o "></i> <span class="btn-txt">danger Button</span> </button>
+              <button class="btn btn-def-3d btn-info btn-right bottom-margin-10 right-margin-10 btn-inverse  btn-sm"> <i class="fa fa-search icon-left "></i> <span class="btn-txt">info Button</span> </button>
+              <button class="btn btn-def-3d btn-warning btn-right bottom-margin-10 right-margin-10 btn-inverse  btn-sm"> <i class="fa fa-exclamation-triangle "></i> <span class="btn-txt">warning Button</span> </button>
+            </div>
+            <h5>Button Large Inverse Style</h5>
+            <div class="clearfix">
+              <button class="btn btn-def-3d btn-primary btn-left bottom-margin-10 right-margin-10 btn-inverse  btn-lg"> <i class="fa fa-floppy-o"></i> <span class="btn-txt">Primary </span> </button>
+              <button class="btn btn-def-3d btn-success btn-left bottom-margin-10 right-margin-10 btn-inverse  btn-lg"> <i class="fa fa-thumbs-up  "></i> <span class="btn-txt">Success</span> </button>
+              <button class="btn btn-def-3d btn-dark btn-left bottom-margin-10 right-margin-10 btn-inverse  btn-lg"> <i class="fa fa-eye  "></i> <span class="btn-txt">Dark Button</span> </button>
+              <button class="btn btn-def-3d btn-danger btn-left bottom-margin-10 right-margin-10 btn-inverse  btn-lg"> <i class="fa fa-trash-o  "></i> <span class="btn-txt">danger Button</span> </button>
+              <button class="btn btn-def-3d btn-info btn-left bottom-margin-10 right-margin-10 btn-inverse  btn-lg"> <i class="fa fa-search icon-left  "></i> <span class="btn-txt">info Button</span> </button>
+              <button class="btn btn-def-3d btn-warning btn-left bottom-margin-10 right-margin-10 btn-inverse  btn-lg"> <i class="fa fa-exclamation-triangle  "></i> <span class="btn-txt">warning Button</span> </button>
+            </div>
+            <h5>Button Large Right Icon</h5>
+            <div class="clearfix">
+              <button class="btn btn-def-3d btn-primary btn-right bottom-margin-10 right-margin-10 btn-inverse  btn-lg"> <i class="fa fa-floppy-o "></i> <span class="btn-txt">Primary </span> </button>
+              <button class="btn btn-def-3d btn-success btn-right bottom-margin-10 right-margin-10 btn-inverse  btn-lg"> <i class="fa fa-thumbs-up "></i> <span class="btn-txt">Success</span> </button>
+              <button class="btn btn-def-3d btn-dark btn-right bottom-margin-10 right-margin-10 btn-inverse  btn-lg"> <i class="fa fa-eye "></i> <span class="btn-txt">Dark Button</span> </button>
+              <button class="btn btn-def-3d btn-danger btn-right bottom-margin-10 right-margin-10 btn-inverse  btn-lg"> <i class="fa fa-trash-o "></i> <span class="btn-txt">danger Button</span> </button>
+              <button class="btn btn-def-3d btn-info btn-right bottom-margin-10 right-margin-10 btn-inverse  btn-lg"> <i class="fa fa-search icon-left "></i> <span class="btn-txt">info Button</span> </button>
+              <button class="btn btn-def-3d btn-warning btn-right bottom-margin-10 right-margin-10 btn-inverse  btn-lg"> <i class="fa fa-exclamation-triangle "></i> <span class="btn-txt">warning Button</span> </button>
+            </div>
+          </div>
+        </div>
+        <div class="row row10">
+        	<div class="col-md-6 right-padding-10 left-padding-10">
+            <div class="panel panel-grey">
+          <div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0">
+            <span class="panel-title">Colorpicker</span>
+          </div>
+          <div class="panel-body">
+            <div class="clearfix">
+				 <div class="form-inline boot-style one-input">
+              <div class="form-group width_100">
+                <div id="cp2" class="input-group colorpicker-component">
+				  <div class="full">
+    				<input type="text" value="#00AABB" class="form-control" />
+				</div>
+					<span class="input-group-addon"><i></i></span>
+                </div>
+              </div>
+            </div> 
+            </div>
+          </div>
+        </div>
+            </div>
+            <div class="col-md-6 right-padding-10 left-padding-10">
+              <div class="panel panel-grey">
+          <div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0">
+            <span class="panel-title">Colorselector</span>
+          </div>
+          <div class="panel-body">
+            <div class="clearfix">
+				 <div class="form-inline boot-style  one-input">
+              <div class="form-group width_100">
+                <div class="full">
+                  <select id="colorselector" class="colorselector">
+                          <option value="1" data-color="#EC6F5A" selected="selected">indianred</option>
+                          <option value="2" data-color="#FF4500">orangered</option>
+                          <option value="3" data-color="#008B8B">darkcyan</option>
+                          <option value="4" data-color="#B8860B">darkgoldenrod</option>
+                          <option value="5" data-color="#32CD32">limegreen</option>
+                          <option value="6" data-color="#FFD700">gold</option>
+                          <option value="7" data-color="#48D1CC">mediumturquoise</option>
+                          <option value="8" data-color="#87CEEB">skyblue</option>
+                          <option value="9" data-color="#FF69B4">hotpink</option>
+                          <option value="10" data-color="#CD5C5C">indianred</option>
+                          <option value="11" data-color="#87CEFA">lightskyblue</option>
+                          <option value="12" data-color="#6495ED">cornflowerblue</option>
+                          <option value="13" data-color="#DC143C">crimson</option>
+                          <option value="14" data-color="#FF8C00">darkorange</option>
+                          <option value="15" data-color="#C71585">mediumvioletred</option>
+                          <option value="16" data-color="#000000">black</option>
+                    </select>
+                  <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span>
+                </div>
+              </div>
+            </div> 
+            </div>
+          </div>
+        </div>
+        </div>
+            <div class="col-md-12 right-padding-10 left-padding-10">
+				<div class="panel panel-grey">
+                  <div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0"> <span class="panel-title">Breadcrumb</span>
+          		  </div>
+          <div class="panel-body">
+            <div class="clearfix">
+            <ol class="breadcrumb">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Library</a></li>
+  <li class="active">Data</li>
+</ol>
+</div>
+  <div class="clearfix">
+            <ol class="breadcrumb bred-style-2">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Library</a></li>
+  <li class="active">Data</li>
+</ol>
+</div>
+<div class="clearfix">
+<ol class="breadcrumb bred-style-3">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Library</a></li>
+  <li class="active">Data</li>
+</ol>
+</div>
+</div>
+</div>
+               <div class="panel panel-grey code-editor">
+                 <div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0"><span class="panel-title">Full Breadcrumb</span>
+                  <span class="code f-ryt ripple"><i class="fa fa-code icon fs14 text-primary theme"></i></span>
+                </div>
+				   <div class="default-tab">
+              			<ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#html-fullb" aria-controls="html-fullb" role="tab" data-toggle="tab">
+					<i class="fa fa-code fs12 right-margin-5"></i>
+					html</a></li>
+                <li role="presentation"><a href="#css-fullb" aria-controls="css-fullb" role="tab" data-toggle="tab">
+					<i class="fa fa-css3 fs12 right-margin-5"></i>
+					css</a></li>
+              </ul>
+              			<div class="tab-content wyt-bg padding-0 border-0">
+                <div role="tabpanel" class="tab-pane active " id="html-fullb">
+					<pre class="bottom-margin-0 language-markup line-numbers copytoclipboard"><code>&lt;!--Full Breadcrumb-->
+	&lt;div class="breadcrumb-custom clearfix">
+  &lt;ul class="list-inline">
+      &lt;li>
+        &lt;a href="#">
+        &lt;span class="sec-txt">Customer&lt;/span>
+      &lt;/a>
+        &lt;/li>
+        &lt;li>
+          &lt;a href="#">
+        &lt;span class="sec-txt">CSC Profile&lt;/span>
+      &lt;/a>
+        &lt;/li>
+        &lt;li>
+          &lt;a href="#">
+        &lt;span class="sec-txt">Trunk&lt;/span>
+      &lt;/a>
+        &lt;/li>
+        &lt;li>
+          &lt;a href="#">
+        &lt;span class="sec-txt">Products&lt;/span>
+      &lt;/a>
+        &lt;/li>
+        &lt;li>
+          &lt;a href="#">
+        &lt;span class="sec-txt">Customer&lt;/span>
+      &lt;/a>
+        &lt;/li>
+        &lt;li class="active">
+          &lt;a href="#">
+        &lt;span class="sec-txt">Products&lt;/span>
+        &lt;span class="fa fa-times-circle icon-close-btn">&lt;/span>
+      &lt;/a>
+        &lt;/li>
+    &lt;/ul>
+&lt;/div>
+&lt;!--bootstrap Breadcrumb-->
+&lt;ol class="breadcrumb">
+	&lt;li>&lt;a href="#">Home&lt;/a>&lt;/li>
+	&lt;li>&lt;a href="#">Library&lt;/a>&lt;/li>
+	&lt;li class="active">Data&lt;/li>
+&lt;/ol>
+&lt;!--bootstrap Breadcrumb style-2-->
+&lt;!--add bred-style-2-->
+&lt;ol class="breadcrumb bred-style-2">...&lt;/ol>
+&lt;!--bootstrap Breadcrumb style-3-->
+&lt;!--add bred-style-3-->
+&lt;ol class="breadcrumb bred-style-3">...&lt;/ol></code></pre>
+				  </div>
+<div role="tabpanel" class="tab-pane" id="css-fullb"> 
+<pre class="language-css bottom-margin-0 line-numbers copytoclipboard"><code>/*Full Breadcrumb custom*/
+.breadcrumb-custom ul {
+    height: 33px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.breadcrumb-custom ul li:first-child a {
+    padding-left: 10px;
+}
+.breadcrumb-custom ul li a {
+    background: #ddd;
+    color: rgba(0, 0, 0, 0.4);
+    display: block;
+    float: left;
+    padding: 7px 0 7px 30px;
+    position: relative;
+    text-decoration: none;
+    line-height: 20px;
+    transition: 0.5s;
+}
+.breadcrumb-custom ul li a::before {
+    border-bottom: 50px solid rgba(0, 0, 0, 0);
+    border-left: 30px solid rgba(0, 0, 0, 0.2);
+    border-top: 50px solid rgba(0, 0, 0, 0);
+    content: "";
+    display: block;
+    height: 0;
+    left: 100%;
+    margin-left: 1px;
+    margin-top: -50px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+    z-index: 1;
+}
+.breadcrumb-custom ul li a {
+    color: rgba(0, 0, 0, 0.4);
+    line-height: 20px;
+}
+.breadcrumb-custom ul li a::after {
+    border-bottom: 50px solid rgba(0, 0, 0, 0);
+    border-left: 30px solid #ddd;
+    border-top: 50px solid rgba(0, 0, 0, 0);
+    content: "";
+    display: block;
+    height: 0;
+    left: 100%;
+    margin-top: -50px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+    z-index: 1;
+}
+
+.breadcrumb-custom ul li.active a {
+    padding: 7px 20px 7px 30px;
+}
+.breadcrumb-custom ul li.active a::before {
+    border-left: 30px solid #649AE1;
+}
+.breadcrumb-custom ul li.active a span {
+    color: rgba(0, 0, 0, 0.7);
+}
+.breadcrumb-custom ul li.active a .icon-close-btn {
+    display: inline;
+    margin-top: -9px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+/*for bootstrap bredcrumb*/
+.breadcrumb {
+    background: none !important;
+    border-radius: 0;
+    float: left;
+    font-size: 12px;
+    margin-bottom: 0 !important;
+    padding: 0px 15px 0 15px !important;
+    position: relative;
+}
+.breadcrumb li a { color: rgba(0, 0, 0, 0.4); transition: 0.5s; }
+.breadcrumb li a:hover,
+.breadcrumb li a:focus,
+.breadcrumb li.active a { color: rgba(0, 0, 0, 0.6); }
+.breadcrumb > .active { color: rgba(0, 0, 0, 0.7); }
+.breadcrumb > li + li::before {
+    color: rgba(0, 0, 0, 0.4);
+    content: "/ ";
+    padding: 0 5px;
+}
+/*bred-style-2*/
+.breadcrumb.bred-style-2 > li + li::before {
+    font-style: normal;
+    font-family: "icomoon";
+    display: inline-block;
+    content: "\e6df";
+}
+/*bred-style-3*/
+.breadcrumb.bred-style-3 > li + li::before { 
+	font-style: normal; 
+	display: inline-block;
+	content: ">>"; 
+	font-size: 14px; 
+}</code></pre>
+</div>
+              </div>
+            		</div>
+                <div class="panel-body">
+                  <div class="clearfix">
+                    <div class="breadcrumb-custom clearfix">
+                  <ul class="list-inline">
+                      <li>
+                        <a href="#">
+                        <span class="sec-txt">Customer</span>
+                      </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                        <span class="sec-txt">CSC Profile</span>
+                      </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                        <span class="sec-txt">Trunk</span>
+                      </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                        <span class="sec-txt">Products</span>
+                      </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                        <span class="sec-txt">Customer</span>
+                      </a>
+                        </li>
+                        <li class="active">
+                          <a href="#">
+                        <span class="sec-txt">Products</span>
+                        <span class="fa fa-times-circle icon-close-btn"></span>
+                      </a>
+                        </li>
+                    </ul>
+                </div>
+                  </div>
+                </div>
+
+               </div>
+            </div>
+			<div class="col-md-12 right-padding-10 left-padding-10">
+  			<div class="panel panel-grey">
+      		<div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0"><span class="panel-title">Loading Effect-2</span>
+                </div>
+                <div class="panel-body">
+                  <div class="form-inline boot-style  one-input">
+					  <span class="control-label">Primary button</span>
+					  <div class="clearfix width-67">
+              <div class="form-group has-feedback has-error first-cld">
+                <div class="input-group">
+                  <div class="full f-lft">
+                    <input type="text" class="form-control" id="datepicker1">
+                    <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span> </div>
+                  <span class="input-group-btn">
+                  <button class="btn btn-primary btn-sm btn-def-3d" type="button">Add</button>
+                  </span> <span class="input-group-btn">
+                  <button class="btn btn-danger btn-sm btn-def-3d" type="button">Remove</button>
+                  </span> </div>
+              </div>
+					  </div>
+            </div>
+                  <div class="form-inline boot-style  one-input"><span class="control-label">Primary button</span>
+					  <div class="width-67 clearfix">
+                      <div class="form-group has-feedback has-error first-cld">
+                        <div class="input-group">
+                          <div class="full f-lft">
+                            <input type="text" class="form-control" id="datepicker1">
+                            <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span> </div>
+                          <span class="input-group-btn">
+                          <button class="btn btn-warning btn-sm btn-def-3d" type="button">Add</button>
+                          </span> <span class="input-group-btn">
+                          <button class="btn btn-danger btn-sm btn-def-3d" type="button">Remove</button>
+                          </span> </div>
+                      </div>
+					  </div>
+                    </div>
+            	 <div class="form-inline boot-style  one-input"><span class="control-label">Primary button</span>
+					 <div class="width-67 clearfix">
+              <div class="form-group has-feedback has-error first-cld">
+                <div class="input-group">
+                  <div class="full f-lft">
+                    <input type="text" class="form-control" id="datepicker1">
+                    <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span> </div>
+                  <span class="input-group-btn">
+                  <button class="btn btn- btn-success btn-sm btn-def-3d" type="button">Add</button>
+                  </span> <span class="input-group-btn">
+                  <button class="btn btn-danger btn-sm btn-def-3d" type="button">Remove</button>
+                  </span> </div>
+              </div>
+					 </div>
+            </div>
+              <div id="loader-wrapper" class="abs-pos light-dark-bg">
+					<div id="loader"><div class="bars-loading-shift"> <span></span> <span></span> <span></span> <span></span> <span></span></div>
+					</div>	
+					<div class="loader-section section-left"></div>
+            		<div class="loader-section section-right"></div>
+					</div>					
+                </div>
+  			</div>
+				
+				<div class="panel panel-grey">
+      		<div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0"><span class="panel-title">Loading Effect-3</span>
+                </div>
+                <div class="panel-body">
+                  <div class="form-inline boot-style  one-input"><span class="control-label">Primary button</span>
+					  <div class="width-67 clearfix">
+              <div class="form-group has-feedback has-error first-cld">
+                <div class="input-group">
+                  <div class="full f-lft">
+                    <input type="text" class="form-control" id="datepicker1">
+                    <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span> </div>
+                  <span class="input-group-btn">
+                  <button class="btn btn-primary btn-sm btn-def-3d" type="button">Add</button>
+                  </span> <span class="input-group-btn">
+                  <button class="btn btn-danger btn-sm btn-def-3d" type="button">Remove</button>
+                  </span> </div>
+              </div>
+					  </div>
+            </div>
+                  <div class="form-inline boot-style  one-input"><span class="control-label">Primary button</span>
+					  <div class="width-67 clearfix">
+                      	<div class="form-group has-feedback has-error first-cld">
+                        <div class="input-group">
+                          <div class="full f-lft">
+                            <input type="text" class="form-control" id="datepicker1">
+                            <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span> </div>
+                          <span class="input-group-btn">
+                          <button class="btn btn-warning btn-sm btn-def-3d" type="button">Add</button>
+                          </span> <span class="input-group-btn">
+                          <button class="btn btn-danger btn-sm btn-def-3d" type="button">Remove</button>
+                          </span> </div>
+                      </div>
+					  </div>
+                    </div>
+            	 <div class="form-inline boot-style one-input"><span class="control-label">Primary button</span>
+					 <div class="width-67 clearfix">
+              <div class="form-group has-feedback has-error first-cld">
+                <div class="input-group">
+                  <div class="full f-lft">
+                    <input type="text" class="form-control" id="datepicker1">
+                    <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span> </div>
+                  <span class="input-group-btn">
+                  <button class="btn btn- btn-success btn-sm btn-def-3d" type="button">Add</button>
+                  </span> <span class="input-group-btn">
+                  <button class="btn btn-danger btn-sm btn-def-3d" type="button">Remove</button>
+                  </span> </div>
+              </div>
+					 </div>
+            </div>
+		<div id="loader-wrapper" class="abs-pos light-light-bg">
+			<div id="loader">
+				<div class="bars-loading">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		</div>
+	</div>	
+					<div class="loader-section section-left"></div>
+            		<div class="loader-section section-right"></div>
+					</div>
+                </div>
+  			</div>
+				
+				<div class="panel panel-grey code-editor">
+					<div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0">
+						<span class="panel-title">material Loading</span>
+						<span class="code f-ryt ripple has-ripple"><i class="fa fa-code icon fs14 text-primary theme"></i></span>
+                	</div>
+					<div class="default-tab">
+              			<ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#html-fullb" aria-controls="html-mloading" role="tab" data-toggle="tab">
+					<i class="fa fa-code fs12 right-margin-5"></i>
+					html</a></li>
+                <li role="presentation"><a href="#css-mloading" aria-controls="css-mloading" role="tab" data-toggle="tab">
+					<i class="fa fa-css3 fs12 right-margin-5"></i>
+					css</a></li>
+				<li role="presentation"><a href="#js-mloading" aria-controls="js-mloading" role="tab" data-toggle="tab">
+					<i class="fa fa-jquery fs12 right-margin-5"></i>
+					jquery</a></li>			
+              </ul>
+              			<div class="tab-content wyt-bg padding-0 border-0">
+                <div role="tabpanel" class="tab-pane active " id="html-mloading">
+					<pre class="bottom-margin-0 language-markup line-numbers copytoclipboard"><code>
+&lt;!-- material loading --&gt;
+&lt;!--to create material loading create conatiner div(parent) and initialize plugin --&gt;
+&lt;!--Determinate--&gt;
+&lt;div class="determinate m-loading bottom-margin-20"&gt;&lt;/div&gt;
+&lt;!--Indeterminate--&gt;
+&lt;div class="indeterminate m-loading bottom-margin-20"&gt;&lt;/div&gt;
+&lt;!--Indeterminate and Determinate--&gt;
+&lt;div id="detinde" class="m-loading bottom-margin-20"&gt;&lt;/div&gt;
+</code></pre>
+				  </div>
+<div role="tabpanel" class="tab-pane" id="css-mloading"> 
+<pre class="language-css bottom-margin-0 line-numbers copytoclipboard"><code>
+/* ===== material-loading ===== */
+.ui-mprogress{height: 3px;}
+.m-loading .ui-mprogress{height: 3px;}
+.loaded #loader-wrapper .ui-mprogress{opacity: 0;}
+
+/* ===== google-loading preloader ===== */
+.load-bar{z-index: 1001;}
+.loaded .load-bar{z-index: -1;}</code></pre>
+</div>
+<div role="tabpanel" class="tab-pane" id="js-mloading"> 
+<pre class="language-javascript bottom-margin-0 line-numbers copytoclipboard"><code>
+// add mprogress.min.js for material loading
+// add google-preloader/js/materialPreloader.min for google loading
+
+//material loading	
+var mp1 =  new Mprogress({
+  template: 1, 
+  parent: '.determinate'
+});
+mp1.start();
+	
+var mp3 = new Mprogress({
+        template: 3,
+        parent: '.indeterminate'
+    });
+mp3.start();
+	
+var mp4 = new Mprogress({
+        template: 4,
+        parent: '#detinde'
+    });
+mp4.start();	
+	
+// Google preloading		
+  preloader = new $.materialPreloader({
+        position: 'top',
+        height: '5px',
+        col_1: '#159756',
+        col_2: '#da4733',
+        col_3: '#3b78e7',
+        col_4: '#fdba2c'
+    });
+    preloader.on();
+	
+// material loading want to Work on page load	
+	var mp =  new Mprogress({
+ 	  template: 1,
+	  parent:"#loader-wrapper",
+	  speed: 200,
+	  trickleSpeed: 20	
+	});
+	mp.start();
+</code></pre>
+</div>							
+							
+							
+							
+							
+              </div>
+            		</div>
+					<div class="panel-body">
+						<h5 class="clearfix">Determinate</h5>
+						<div class="determinate m-loading bottom-margin-20 set-zindex"></div>
+		
+						<h5 class="clearfix">Indeterminate</h5>
+						<div class=" m-loading bottom-margin-20 set-zindex" id="indeterminate"></div>
+						
+						<h5 class="clearfix">Indeterminate and Determinate</h5>
+						<div id="detinde" class="m-loading bottom-margin-20 set-zindex"></div>
+					</div>
+				</div>
+				<div class="panel panel-grey code-editor">
+					<div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0">
+						<span class="panel-title">material Spinner-2</span>
+						<span class="code f-ryt ripple has-ripple"><i class="fa fa-code icon fs14 text-primary theme"></i></span>
+                	</div>
+					<div class="default-tab">
+              			<ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#html-mspinner2" aria-controls="html-mloading" role="tab" data-toggle="tab">
+					<i class="fa fa-code fs12 right-margin-5"></i>
+					html</a></li>
+                <li role="presentation"><a href="#css-mspinner2" aria-controls="css-mspinner2" role="tab" data-toggle="tab">
+					<i class="fa fa-css3 fs12 right-margin-5"></i>
+					css</a></li>
+				<li role="presentation"><a href="#js-mspinner2" aria-controls="js-mspinner2" role="tab" data-toggle="tab">
+					<i class="fa fa-jquery fs12 right-margin-5"></i>
+					jquery</a></li>			
+              </ul>
+              			<div class="tab-content wyt-bg padding-0 border-0">
+                <div role="tabpanel" class="tab-pane active" id="html-mspinner2">
+					<pre class="bottom-margin-0 language-markup line-numbers copytoclipboard"><code>&lt;!--material Spinner-2-->
+&lt;!--to apply Spinner effect use the markup-->
+&lt;div id="loader-wrapper" class="abs-pos light-light-bg">
+							&lt;div id="loader">
+								&lt;svg class="circular" viewBox="25 25 50 50">
+      								&lt;circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="100"/>
+    					  		&lt;/svg>
+							&lt;/div>
+							&lt;div class="loader-section section-left">&lt;/div>
+            				&lt;div class="loader-section section-right">&lt;/div>
+&lt;/div>
+&lt;!--material Spinner-2-->
+&lt;!--for material Spinner-1 just increase the stroke-width of circle-->
+&lt;circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="10" stroke-miterlimit="100"/></code></pre>
+</div>
+<div role="tabpanel" class="tab-pane" id="css-mspinner2"> 
+<pre class="language-css bottom-margin-0 line-numbers copytoclipboard"><code> /*just set the z-index of circle*/
+.circular{ z-index: 1001;}
+</code></pre>
+</div>
+<div role="tabpanel" class="tab-pane" id="js-mspinner2"> 
+<pre class="language-javascript bottom-margin-0 line-numbers copytoclipboard"><code>
+//no js is required
+// only css is required
+</code></pre>
+</div>									
+</div>
+</div>
+					<div class="panel-body">
+						<div class="form-inline boot-style  one-input"><span class="control-label">Primary button</span>
+					  <div class="width-67 clearfix">
+              <div class="form-group has-feedback has-error first-cld">
+                <div class="input-group">
+                  <div class="full f-lft">
+                    <input type="text" class="form-control" id="datepicker1">
+                    <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span> </div>
+                  <span class="input-group-btn">
+                  <button class="btn btn-primary btn-sm btn-def-3d" type="button">Add</button>
+                  </span> <span class="input-group-btn">
+                  <button class="btn btn-danger btn-sm btn-def-3d" type="button">Remove</button>
+                  </span> </div>
+              </div>
+					  </div>
+            </div>
+                  		<div class="form-inline boot-style  one-input"><span class="control-label">Primary button</span>
+					  <div class="width-67 clearfix">
+                      	<div class="form-group has-feedback has-error first-cld">
+                        <div class="input-group">
+                          <div class="full f-lft">
+                            <input type="text" class="form-control" id="datepicker1">
+                            <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span> </div>
+                          <span class="input-group-btn">
+                          <button class="btn btn-warning btn-sm btn-def-3d" type="button">Add</button>
+                          </span> <span class="input-group-btn">
+                          <button class="btn btn-danger btn-sm btn-def-3d" type="button">Remove</button>
+                          </span> </div>
+                      </div>
+					  </div>
+                    </div>
+            	 		<div class="form-inline boot-style one-input"><span class="control-label">Primary button</span>
+					 <div class="width-67 clearfix">
+              <div class="form-group has-feedback has-error first-cld">
+                <div class="input-group">
+                  <div class="full f-lft">
+                    <input type="text" class="form-control" id="datepicker1">
+                    <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span> </div>
+                  <span class="input-group-btn">
+                  <button class="btn btn- btn-success btn-sm btn-def-3d" type="button">Add</button>
+                  </span> <span class="input-group-btn">
+                  <button class="btn btn-danger btn-sm btn-def-3d" type="button">Remove</button>
+                  </span> </div>
+              </div>
+					 </div>
+            </div>
+						<div id="loader-wrapper" class="abs-pos light-light-bg">
+							<div id="loader">
+								<svg class="circular" viewBox="25 25 50 50">
+      								<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="100"/>
+    					  		</svg>
+							</div>
+							<div class="loader-section section-left"></div>
+            				<div class="loader-section section-right"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+      </div>
+		  
+<!--		  icon-with bg-->
+		  <div class="panel panel-grey">
+          <div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0"><span class="panel-title">Button with icon </span>
+          </div>
+          <div class="panel-body">
+            <div class="clearfix">
+              <button class="btn  btn-primary btn-def-3d btn-left bottom-margin-10 right-margin-10 btn-icon-bg  btn-md"> <i class="fa fa-floppy-o icon"></i> <span class="btn-txt">Primary </span> </button>
+              <button class="btn btn-def-3d btn-success btn-left bottom-margin-10 right-margin-10 btn-icon-bg  btn-md"> <i class="fa fa-thumbs-up icon"></i> <span class="btn-txt">Success</span> </button>
+              <button class="btn btn-def-3d btn-dark btn-left bottom-margin-10 right-margin-10 btn-icon-bg  btn-md"> <i class="fa fa-eye icon"></i> <span class="btn-txt">Dark Button</span> </button>
+              <button class="btn btn-def-3d btn-danger btn-left bottom-margin-10 right-margin-10 btn-icon-bg  btn-md"> <i class="fa fa-trash-o  icon"></i> <span class="btn-txt">danger Button</span> </button>
+              <button class="btn btn-def-3d btn-info btn-left bottom-margin-10 right-margin-10 btn-icon-bg  btn-md"> <i class="fa fa-search icon-left icon"></i> <span class="btn-txt">info Button</span> </button>
+				<button class="btn btn-def-3d btn-default btn-left bottom-margin-10 right-margin-10 btn-icon-bg  btn-md btn-def-3d"> <i class="fa fa-search icon-left icon"></i> <span class="btn-txt">default Button</span> </button>
+            </div>
+          </div>
+        </div>
+		  
+		  
+		  
+    </div>
+		<div class="clearfix col-md-12 right-padding-10 left-padding-10">
+			<div class="panel panel-grey code-editor bottom-margin-0">
+				<div class="panel-heading right-padding-0">
+					<span class="panel-title">Ion Slider</span>
+					<span class="code f-ryt ripple"><i class="fa fa-code icon fs14 text-primary theme"></i></span>
+				</div>
+				<div class="default-tab">
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#js-islider" aria-controls="profile" role="tab" data-toggle="tab">
+					<i class="pdg-jquery fs12 right-margin-5"></i>
+					jquery</a></li>
+              </ul>
+              <div class="tab-content wyt-bg padding-0 border-0">
+                <div role="tabpanel" class="tab-pane  active" id="js-islider"> 
+<pre class=" bottom-margin-0 language-javascript copytoclipboard line-numbers"><code>//ion slider will be call on input
+//Default (Single Slider) 
+$("#range_01").ionRangeSlider({
+    min: 100,
+    max: 1000,
+    from: 550
+});
+//Double Slider
+$("#range_02").ionRangeSlider({
+    type: "double",
+    grid: true,
+    min: 0,
+    max: 1000,
+    from: 200,
+    to: 800,
+    prefix: "$"
+});	
+//With Negative value 
+$("#range_03").ionRangeSlider({
+    type: "double",
+    grid: true,
+    min: -1000,
+    max: 1000,
+    from: -500,
+    to: 500
+});
+Fix Slide 	
+$("#range_04").ionRangeSlider({
+    type: "double",
+    grid: true,
+    min: -1000,
+    max: 1000,
+    from: -500,
+    to: 500,
+    step: 250
+});
+Fractional Range 
+$("#range_05").ionRangeSlider({
+    type: "double",
+    grid: true,
+    min: -12.8,
+    max: 12.8,
+    from: -3.2,
+    to: 3.2,
+    step: 0.1
+});
+//Set Custom Value 	
+$("#range_06").ionRangeSlider({
+    type: "double",
+    grid: true,
+    from: 1,
+    to: 5,
+    values: [0, 10, 100, 1000, 10000, 100000, 1000000]
+});	
+//strings value	
+$("#range_07").ionRangeSlider({
+    grid: true,
+    from: 5,
+    values: [
+        "zero", "one",
+        "two", "three",
+        "four", "five",
+        "six", "seven",
+        "eight", "nine",
+        "ten"
+    ]
+});	
+//Calendar	
+$("#range_08").ionRangeSlider({
+    grid: true,
+    from: 3,
+    values: [
+        "January", "February", "March",
+        "April", "May", "June",
+        "July", "August", "September",
+        "October", "November", "December"
+    ]
+});	
+//prefixes 
+$("#range_09").ionRangeSlider({
+    type: "double",
+    grid: true,
+    min: 0,
+    max: 10000,
+    from: 1000,
+    step: 1000,
+    prefix: "$"
+});
+//postfixes	
+$("#range_10").ionRangeSlider({
+    type: "single",
+    grid: true,
+    min: -90,
+    max: 90,
+    from: 0,
+    postfix: "&deg;"
+});
+//Max Postfix
+$("#range_11").ionRangeSlider({
+    grid: true,
+    min: 18,
+    max: 70,
+    from: 30,
+    prefix: "Age ",
+    max_postfix: "+"
+});	
+//With Separator 
+$("#range_12").ionRangeSlider({
+    type: "double",
+    min: 100,
+    max: 200,
+    from: 148,
+    to: 152,
+    prefix: "Weight: ",
+    postfix: " million pounds",
+    values_separator: "  &raquo;  "
+});
+//Disable 
+$("#range_13").ionRangeSlider({
+    type: "double",
+    min: 0,
+    max: 100,
+    from: 20,
+    from_min: 10,
+    from_max: 30,
+    from_shadow: true,
+    to: 80,
+    to_min: 70,
+    to_max: 90,
+    to_shadow: true,
+    grid: true,
+    grid_num: 10
+});
+//With Limits 
+$("#range_14").ionRangeSlider({
+    min: 0,
+    max: 100,
+    from: 30,
+    disable: true
+});
+
+
+
+
+</code></pre>
+				</div>
+              </div>
+            </div>
+				
+				
+				
+				
+				
+				<div class="panel-body">
+					<div class="clearfix bottom-margin-10">
+							<div class="col-sm-3 left-padding-5  right-padding-5">
+							<label>Default (Single Slider)
+								<span class="font-normal text-muted clearfix">Set min value, max value and start point</span>
+							</label>
+							</div>
+							<div class="col-sm-9 left-padding-5  right-padding-5">
+								<input type="text" id="range_01">
+							</div>
+					</div>
+					<div class="clearfix bottom-margin-10">
+							<div class="col-sm-3 left-padding-5  right-padding-5">
+							<label>Double Slider
+								<span class="font-normal text-muted clearfix">Set type to double and specify range, also showing grid and adding prefix "$"</span>
+							</label>
+							</div>
+							<div class="col-sm-9 left-padding-5  right-padding-5">
+								<input type="text" id="range_02">
+							</div>
+					</div>
+					
+					<div class="clearfix bottom-margin-10">
+							<div class="col-sm-3 left-padding-5  right-padding-5">
+							<label>With Negative value
+								<span class="font-normal text-muted clearfix">Set up range with negative values</span>
+							</label>
+							</div>
+							<div class="col-sm-9 left-padding-5  right-padding-5">
+								<input type="text" id="range_03">
+							</div>
+					</div>
+					<div class="clearfix bottom-margin-10">
+							<div class="col-sm-3 left-padding-5  right-padding-5">
+							<label>Fix Slide
+								<span class="font-normal text-muted clearfix">Using step 250</span>
+							</label>
+							</div>
+							<div class="col-sm-9 left-padding-5  right-padding-5">
+								<input type="text" id="range_04">
+							</div>
+					</div>
+					<div class="clearfix bottom-margin-10">
+							<div class="col-sm-3 left-padding-5  right-padding-5">
+							<label>Fractional Range
+								<span class="font-normal text-muted clearfix">Set up range with fractional values, using fractional step</span>
+							</label>
+							</div>
+							<div class="col-sm-9 left-padding-5  right-padding-5">
+								<input type="text" id="range_05">
+							</div>
+					</div>
+					
+					
+					
+					<div class="clearfix bottom-margin-10">
+							<div class="col-sm-3 left-padding-5  right-padding-5">
+							<label>Set Custom Value
+								<span class="font-normal text-muted clearfix">Set up you own numbers</span>
+							</label>
+							</div>
+							<div class="col-sm-9 left-padding-5  right-padding-5">
+								<input type="text" id="range_06">
+							</div>
+					</div>
+					<div class="clearfix bottom-margin-10">
+							<div class="col-sm-3 left-padding-5  right-padding-5">
+							<label>Set String Value
+								<span class="font-normal text-muted clearfix">Using any strings as your values</span>
+							</label>
+							</div>
+							<div class="col-sm-9 left-padding-5  right-padding-5">
+								<input type="text" id="range_07">
+							</div>
+					</div>
+					<div class="clearfix bottom-margin-10">
+							<div class="col-sm-3 left-padding-5  right-padding-5">
+							<label>Calendar Month
+								<span class="font-normal text-muted clearfix">using Calender Month</span>
+							</label>
+							</div>
+							<div class="col-sm-9 left-padding-5  right-padding-5">
+								<input type="text" id="range_08">
+							</div>
+					</div>
+					
+					
+					<div class="clearfix bottom-margin-10">
+							<div class="col-sm-3 left-padding-5  right-padding-5">
+							<label>Prefixes
+								<span class="font-normal text-muted clearfix">Using prefixes</span>
+							</label>
+							</div>
+							<div class="col-sm-9 left-padding-5  right-padding-5">
+								<input type="text" id="range_09">
+							</div>
+					</div>
+					
+					<div class="clearfix bottom-margin-10">
+							<div class="col-sm-3 left-padding-5  right-padding-5">
+							<label>Postfixes
+								<span class="font-normal text-muted clearfix">Using postfixes</span>
+							</label>
+							</div>
+							<div class="col-sm-9 left-padding-5  right-padding-5">
+								<input type="text" id="range_10">
+							</div>
+					</div>
+					
+					<div class="clearfix bottom-margin-10">
+							<div class="col-sm-3 left-padding-5  right-padding-5">
+							<label>Max Postfix
+								<span class="font-normal text-muted clearfix">Max postfix</span>
+							</label>
+							</div>
+							<div class="col-sm-9 left-padding-5  right-padding-5">
+								<input type="text" id="range_11">
+							</div>
+					</div>
+					
+					<div class="clearfix bottom-margin-10">
+							<div class="col-sm-3 left-padding-5  right-padding-5">
+							<label>With Separator
+								<span class="font-normal text-muted clearfix">Use your own separator symbol with values_separator option. Like →</span>
+							</label>
+							</div>
+							<div class="col-sm-9 left-padding-5  right-padding-5">
+								<input type="text" id="range_12">
+							</div>
+					</div>
+					<div class="clearfix bottom-margin-10">
+							<div class="col-sm-3 left-padding-5  right-padding-5">
+							<label>Disable
+								<span class="font-normal text-muted clearfix">by using disable option:</span>
+							</label>
+							</div>
+							<div class="col-sm-9 left-padding-5  right-padding-5">
+								<input type="text" id="range_14">
+							</div>
+					</div>
+					
+					<div class="clearfix bottom-margin-10">
+							<div class="col-sm-3 left-padding-5  right-padding-5">
+							<label>With Limits
+								<span class="font-normal text-muted clearfix">example with limits</span>
+							</label>
+							</div>
+							<div class="col-sm-9 left-padding-5  right-padding-5">
+								<input type="text" id="range_13">
+							</div>
+					</div>
+					
+					
+				</div>
+			
+			</div>
+		
+		</div>	
+  </div>
+					
+				 </div>
+				 <aside id="sidebar-right" class="default-tab s-opn-wrpr style-2">
+				<div class="u-name clearfix">
+					<a href="javascript:void(0)">
+						<div class="user-sidebar"> <img src="images/administrator.jpg" /> <span>Himal Rana</span> </div>
+					</a>
+					<ul class="pull-right user-optn clearfix">
+						<li>
+							<a class="chat-open left-padding-12 right-padding-12  ripple" href="javascript:void(0)">
+								<i class="fa fa-comments fs14"></i>
+								<span class="badge    danger-bg">4</span>
+							</a>
+						</li>
+						<li>
+							<a href="login.html" class="left-padding-12 right-padding-12  ripple"><i class="fa fa-power-off fs14"></i></a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" id="close-btn" class="left-padding-12 right-padding-12  ripple"> 
+								<i class="fa fa-times fs14"></i> 
+							</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="nav nav-tabs nav-justified sliding-bar" role="tablist">
+					<li class="active" role="presentation">
+						<a href="#sect4" aria-controls="sect4" role="tab" data-toggle="tab" id="sett-sidebar" class="button-ripple ripple">
+							<i class="fa fa-server fs14"></i> </a>
+					</li>
+					<li role="presentation">
+						<a href="#sect1" role="tab" aria-controls="sect1" data-toggle="tab" id="noty" class="button-ripple ripple"> <i class="fa fa-bell fs14"></i> <span class="badge    success-bg">4</span> </a>
+					</li>
+					<li role="presentation">
+						<a href="#sect2" role="tab" data-toggle="tab" aria-controls="sect2" id="mail-sidebar" class="button-ripple ripple"> <i class="fa fa-envelope fs14"></i> <span class="badge    primary-bg">4</span> </a>
+					</li>
+					<li role="presentation" class="hidden-xs">
+						<a href="#sect3" role="tab" data-toggle="tab" aria-controls="sect3" id="sett-sidebar" class="button-ripple ripple">
+							<i class="fa fa-cog fs14"></i> </a>
+					</li>
+					<li class="slider"></li>
+				</ul>
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane" id="sect1">
+						<div class="container-sidebar left-padding-0 right-padding-0">
+
+							<div class="twitter-optn left top-margin-0 ">
+								<span class="title-sidebar left-padding-12">System Notification</span>
+								<div class="tweets-sidebar left-padding-15 right-padding-15">
+									<label class="bottom-margin-10">
+										<span class="label-text">
+                      <i class="fa fa-user fs14 right-padding-12  text-success theme f-lft"></i>
+                      <em>New user Registered</em>
+                    </span>
+										<span class="f-ryt time">1hr</span>
+									</label>
+									<div class="clearfix"></div>
+									<label class="bottom-margin-10">
+										<span class="label-text"> <i class="fa fa-exclamation-triangle fs14 right-padding-12   f-lft text-danger theme"></i><em>Database Connection Error</em></span>
+										<span class="f-ryt time">1hr</span>
+									</label>
+									<div class="clearfix"></div>
+									<label class="bottom-margin-10">
+										<span class="label-text"> <i class="fa fa-user fs14 right-padding-12  text-warning theme f-lft"></i><em> New user Registered</em></span>
+										<span class="f-ryt time">1hr</span>
+									</label>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+						<!-- end container sidebar -->
+					</div>
+					<div role="tabpanel" class="tab-pane" id="sect2">
+						<div class="container-sidebar left-padding-0 right-padding-0">
+							<div class="mail-sidebar"> <span class="title-sidebar left-padding-12">Mails Notification</span>
+								<div class="left top-margin-0 left-padding-15 right-padding-15">
+									<h4 class="user-name"><i class="fa fa-envelope right-padding-12  text-warning theme fs14"></i> Mahavir Shah <span class="f-ryt fs11 time-mail">1hr</span></h4>
+									<p class="mail-msg">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+								<div class="left left-padding-15 right-padding-15">
+									<h4 class="user-name"><i class="fa fa-envelope right-padding-12  text-warning theme fs14"></i>Chirag Mehta<span class="f-ryt fs11 time-mail">1hr</span></h4>
+									<p class="mail-msg">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+								<div class="left left-padding-15 right-padding-15">
+									<h4 class="user-name"><i class="fa fa-envelope right-padding-12  text-warning theme fs14"></i>Benil George<span class="f-ryt fs11 time-mail">1hr</span></h4>
+									<p class="mail-msg">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+								<div class="left left-padding-15 right-padding-15">
+									<h4 class="user-name"><i class="fa fa-envelope right-padding-12  text-warning theme fs14"></i>Sumit Bose<span class="f-ryt fs11 time-mail">1hr</span></h4>
+									<p class="mail-msg">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+							</div>
+						</div>
+						<!-- end container sidebar -->
+					</div>
+					<div role="tabpanel" class="tab-pane" id="sect3">
+						<div class="container-sidebar left-padding-0 right-padding-0">
+							<div class="mails_sidebar set-alert set-layout-icon">
+								<span class="title-sidebar left-padding-12 ">Quick Setting <em class="d-title f-ryt right-padding-12 ">Desktop Only</em></span>
+								<div class="alert alert-info clearfix no-btn"><strong>*</strong>Default Menu Will be positioned at top & additional vertical Menu will be added.
+                                </div>
+								<div class="sidebar-set left top-margin-0 left-padding-15 right-padding-15 two-icon">
+									<label class="set-menu">
+										<div class="menu-icon">
+											<div class="hor-mnu"></div>
+											<div class="ver-mnu"></div>
+											</div>
+										<span class="label-text"> 
+											<i class="fa fa-bars fs14 right-padding-12  text-success theme"></i>Two Menu</span>
+										<input id="cmn-two-mnu" class="cmn-toggle cmn-toggle-round" type="checkbox" name="quk-set">
+										<label for="cmn-two-mnu"></label>
+									</label>
+									<p>Enable top Menu with default menu.</p>
+								</div>
+							</div>
+							<div class="mails_sidebar set-layout-icon set-alert">
+								<span class="title-sidebar left-padding-12">Menu Position</span>
+								<div class="alert alert-info clearfix no-btn"><strong>*</strong>Set the position for main menu in single menu case & operation menu in two menu case.
+                                          </div>
+									<div class="sidebar-set left top-margin-0 left-padding-15 right-padding-15 left-icon">
+									<label class="set-menu">
+										<div class="menu-icon ">
+											<div class="hor-mnu"></div>
+											<div class="ver-mnu"></div>
+											</div>
+										<span class="label-text"> <i class="fa fa-bars fs14 right-padding-12  text-success theme"></i> Left Menu</span>
+										<input id="cmn-lft-mnu" class="cmn-toggle cmn-toggle-round" type="radio" name="quk-set">
+										<label for="cmn-lft-mnu"></label>
+									</label>
+									<p>Activate the Left Menu Option.</p>
+									<div class="clearfix"></div>
+								</div>
+									<div class="sidebar-set left top-margin-0 left-padding-15 right-padding-15 right-icon">
+									<label class="set-menu">
+										<div class="menu-icon ">
+											<div class="hor-mnu"></div>
+											<div class="ver-mnu"></div>
+											</div>
+										<span class="label-text"> <i class="fa fa-bars fs14 right-padding-12  text-success theme"></i> Right Menu</span>
+										<input id="cmn-rgt-mnu" class="cmn-toggle cmn-toggle-round" type="radio" name="quk-set">
+										<label for="cmn-rgt-mnu"></label>
+									</label>
+									<p>Activate the Right Menu Option.</p>
+									<div class="clearfix"></div>
+								</div>
+								<div class="sidebar-set left top-margin-0 left-padding-15 right-padding-15 top-icon">
+									<label class="set-menu">
+										<div class="menu-icon">
+											<div class="hor-mnu"></div>
+											<div class="ver-mnu"></div>
+											</div>
+										<span class="label-text"> <i class="fa fa-bars fs14 right-padding-12  text-success theme"></i>Top Menu</span>
+										<input id="cmn-first-mnu" class="cmn-toggle cmn-toggle-round" type="radio" name="quk-set">
+										<label for="cmn-first-mnu"></label>
+									</label>
+									<p>Activate the Top Menu Option.</p>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="mails_sidebar set-layout-icon set-alert data-visiblity">
+								<span class="title-sidebar left-padding-12 ">data Visibility <em class="d-title f-ryt right-padding-12 "></em></span>
+								<div class="alert alert-info clearfix no-btn"><strong>*</strong>set the full menu to nonoverlay style.
+                                </div>
+									<div class="sidebar-set left top-margin-0 left-padding-15 right-padding-15 non-icon">
+									<label class="set-menu">
+										<div class="menu-icon ">
+											<div class="hor-mnu"></div>
+											<div class="ver-mnu"></div>
+											</div>
+										<span class="label-text"> <i class="fa fa-bars fs14 right-padding-12  text-success theme"></i>Non Overlay Layout</span>
+										<input id="cmn-nonoverlap-mnu" class="cmn-toggle cmn-toggle-round" type="checkbox" name="mnu-set">
+										<label for="cmn-nonoverlap-mnu"></label>
+									</label>
+									<p>Activate the Non Overlay Layout</p>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="mails_sidebar set-layout-icon set-alert menu-style">
+								<span class="title-sidebar left-padding-12 ">Menu style <em class="d-title f-ryt right-padding-12 "></em></span>
+								<div class="alert alert-info clearfix no-btn"><strong>*</strong>set the style for vertical menu only.
+                                </div>
+								<div class="sidebar-set left top-margin-0 left-padding-15 right-padding-15 left-icon">
+									<label class="set-menu">
+										<div class="menu-icon">
+											<div class="hor-mnu"></div>
+											<div class="ver-mnu"></div>
+											</div>
+										<span class="label-text"> <i class="fa fa-bars fs14 right-padding-12  text-success theme"></i> Full Menu</span>
+										<input id="cmn-full-mnu" class="cmn-toggle cmn-toggle-round" type="radio" name="mnu-set">
+										<label for="cmn-full-mnu"></label>
+									</label>
+									<p>Activate the Full Menu Option.</p>
+									<div class="clearfix"></div>
+								</div>
+								<div class="sidebar-set left top-margin-0 left-padding-15 right-padding-15 compact-icon">
+									<label class="set-menu">
+										<div class="menu-icon">
+											<div class="hor-mnu"></div>
+											<div class="ver-mnu"></div>
+											</div>
+										<span class="label-text"> <i class="fa fa-bars fs14 right-padding-12  text-success theme"></i> Compact Menu</span>
+										<input id="cmn-third-mnu" class="cmn-toggle cmn-toggle-round" type="radio" name="mnu-set">
+										<label for="cmn-third-mnu"></label>
+									</label>
+									<p>Activate the Third Menu Option.</p>
+									<div class="clearfix"></div>
+								</div>
+								<div class="sidebar-set left top-margin-0 left-padding-15 right-padding-15 icon-icon">
+									<label class="set-menu">
+										<div class="menu-icon ">
+											<div class="hor-mnu"></div>
+											<div class="ver-mnu"></div>
+											</div>
+										<span class="label-text"> <i class="fa fa-bars fs14 right-padding-12  text-success theme"></i>Icon Menu</span>
+										<input id="cmn-icon-mnu" class="cmn-toggle cmn-toggle-round" type="radio" name="mnu-set">
+										<label for="cmn-icon-mnu"></label>
+									</label>
+									<p>Activate the Icon Menu Option.</p>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- end container sidebar -->
+					</div>
+					<div role="tabpanel" class="tab-pane active" id="sect4">
+						<div class="container-sidebar left-padding-0 right-padding-0">
+							<div class="server-noty">
+								<span class="title-sidebar text-use left-padding-12">CPU Usage</span>
+								<div class="up-time left top-margin-0 left-padding-15 right-padding-15">
+									<div class="sys-info">
+										<div id="cpu_use" style="width:252px; height: 100px;"></div>
+									</div>
+								</div>
+								<span class="title-sidebar text-use left-padding-12">RAM Usage</span>
+								<div class="up-time left top-margin-0 left-padding-15 right-padding-15">
+									<div class="sys-info">
+										<div id="ram_use" style="width:252px; height: 100px;"></div>
+									</div>
+								</div>
+								<span class="title-sidebar text-use left-padding-12">HDD Usage</span>
+								<div class="up-time left top-margin-0 left-padding-15 right-padding-15">
+									<div class="sys-info">
+										<div id="hdd_use" style="width:252px; height: 100px;"></div>
+									</div>
+								</div>
+								<span class="title-sidebar left-padding-12">Usage History</span>
+								<div class="up-time left top-margin-0 left-padding-15 right-padding-15 clearfix">
+									<div class="sys-info">
+										<div class="fst-use">
+											<span class="clearfix text-use">CPU</span>
+											<div class="parent-use">
+												<div class="fill">
+												</div>
+											</div>
+											<span class="clearfix text-use"><em></em>/100</span>
+										</div>
+										<div class="sec-use">
+											<span class="clearfix text-use">RAM</span>
+											<div class="parent-use">
+												<div class="fill">
+												</div>
+											</div>
+											<span class="clearfix text-use"><em></em>/100</span>
+										</div>
+										<div class="trd-use">
+											<span class="clearfix text-use">HDD</span>
+											<div class="parent-use">
+												<div class="fill">
+												</div>
+											</div>
+											<span class="clearfix text-use"><em></em>/100</span>
+										</div>
+									</div>
+								</div>
+								<span class="title-sidebar left-padding-12">HDD Used</span>
+								<div class="up-time left top-margin-0 left-padding-15 right-padding-15 clearfix set-progress-hdd">
+									<div class="sys-info">
+										<label>
+											<span class="label-text"> <i class="fa fa-bars fs14 right-padding-12  text-success theme"></i>18 GB of 30 GB Used </span>
+											<span class="f-ryt progress-info">37%</span>
+											<div class="progress progress-bar-xs">
+												<div class="progress-bar progress-bar-info" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+												</div>
+												<!--
+							 <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="37" aria-valuemin="0"
+                           aria-valuemax="100" style="width:70%">
+                          </div>
+-->
+											</div>
+										</label>
+									</div>
+								</div>
+								<span class="title-sidebar left-padding-12">Memory Used</span>
+								<div class="up-time left top-margin-0 left-padding-15 right-padding-15 clearfix set-progress-ram">
+									<div class="sys-info">
+										<label>
+											<span class="label-text"> <i class="fa fa-bars fs14 right-padding-12  text-success theme"></i>8 GB of 3 GB Used </span>
+											<span class="f-ryt progress-info">37%</span>
+											<div class="progress progress-bar-xs ">
+												<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="37" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+												</div>
+											</div>
+										</label>
+									</div>
+								</div>
+								<span class="title-sidebar left-padding-12">System Notification</span>
+								<div class="up-time left top-margin-0 left-padding-15 right-padding-15 clearfix">
+									<div class="sys-info">
+										<label>
+											<span class="label-text"> <i class="fa fa-clock-o fs14 right-padding-12  text-success theme"></i> Up Time</span>
+											<div class="countdown">
+												<span class="clock-screen"></span></div>
+										</label>
+										<label>
+											<span class="label-text"> <i class="fa fa-windows fs14 right-padding-12  text-success theme"></i> Os Version</span>
+											<span class="f-ryt">Windows 7 Prof.</span>
+										</label>
+										<label>
+											<span class="label-text"> <i class="glyphicon glyphicon-th-large fs14 right-padding-12  text-success theme"></i> Processor</span>
+											<span class="f-ryt">Intel Core TM</span>
+										</label>
+									</div>
+								</div>
+								<span class="title-sidebar left-padding-12">Physical Memory(MB)</span>
+								<div class="up-time left top-margin-0 left-padding-15 right-padding-15 clearfix">
+									<div class="sys-info">
+										<label>
+											<span class="label-text"> <i class="glyphicon glyphicon-floppy-disk fs14 right-padding-12  text-success theme"></i>Total</span>
+											<span class="f-ryt">8110<em class="sm-unit left-margin-5">Mb</em></span>
+										</label>
+										<label>
+											<span class="label-text"> <i class="glyphicon glyphicon-floppy-disk  fs14 right-padding-12  text-success theme"></i>Cached</span>
+											<span class="f-ryt">1282<em class="sm-unit left-margin-5">Mb</em></span>
+										</label>
+										<label>
+											<span class="label-text"> <i class="glyphicon glyphicon-floppy-disk  fs14 right-padding-12  text-success theme"></i> Available</span>
+											<span class="f-ryt">5383<em class="sm-unit left-margin-5">Mb</em></span>
+										</label>
+										<label>
+											<span class="label-text"> <i class="glyphicon glyphicon-floppy-disk fs14 right-padding-12  text-success theme"></i> Free</span>
+											<span class="f-ryt">4190<em class="sm-unit left-margin-5">Mb</em></span>
+										</label>
+									</div>
+								</div>
+								<span class="title-sidebar left-padding-12">Host Date Time</span>
+								<div class="up-time left top-margin-0 left-padding-15 right-padding-15 clearfix">
+									<div class="sys-info">
+										<label>
+											<span class="label-text"><i class="fa fa-clock-o  fs14 right-padding-12  text-success theme"></i>Server</span>
+											<div class="host-time host-time1"></div>
+										</label>
+										<label>
+											<span class="label-text"><i class="fa fa-clock-o  fs14 right-padding-12  text-success theme"></i>User</span>
+											<div class="host-time host-time2"></div>
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</aside>
+				<div class="overflow-popup"></div>
+				 <aside class="sidebar-chat set-crop">
+      		<div class="titlebar clearfix f-lft ">
+         <span class="step-back left-padding-12">
+          <i class=" imoon imoon-arrow-left3"></i>
+        </span>
+        <span class="f-lft left-padding-12">user profile</span>
+        <span class="f-ryt right-padding-12  left-padding-12 close-chat ripple"><i class="fa fa-close fs14"></i></span>
+      </div>
+      		<div class="top-bar clearfix f-lft">
+        <div class="tb-wrpr">
+		  <div class="p-img online">
+          <img src="images/administrator.jpg">
+         <!--  <a class="status_now online"></a> -->
+          <div class="p-status">
+            <ul class="s-list">
+              <li class="online"><a>Online</a></li>
+              <li class="away"><a >Away</a></li>
+              <li class="no_dist"><a >Do Not Disturb</a></li>
+            </ul>
+            </div></div>
+      	<div class="p-name">
+          Himal Rana
+        </div>
+        <div class="p-design bottom-margin-10">HOD @ Development Team</div> 
+		  <ul class="crop-tool horrizontal top-right">
+		  	<li class="crop-open"><a href="#"><span class="imoon imoon-upload3"></span></a></li>
+		  </ul>
+		  </div>
+		 <div class="change-profile">
+			<div class="upload-msg">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-close fs14"></i></span></button>
+				<span class="fa fa-cloud-upload upload-icon"></span>
+				<div class="text clearfix">Choose File to Upload</div>
+				<div class="action-button clearfix">
+				<a class="btn btn-def-3d btn-primary right-margin-10"> 
+					<span class="btn-txt">Choose File</span> 
+					<input type="file" id="upload-image" class="upload-image" accept="image/*">
+				</a>
+				</div>
+			</div>
+			<div class="crop-file">
+				<div class="crop-imgae"></div>
+				<div class="action-button">
+					<button class="btn btn-success bottom-margin-10 btn-def-3d right-margin-10  btn-md save-crop" >
+						<span class="btn-txt">Save</span>
+					</button>
+					<button class="btn btn-danger bottom-margin-10 btn-def-3d right-margin-10  btn-md cancel-crop" >
+						<span class="btn-txt">Cancel </span>
+					</button>
+				</div>
+			</div>
+		</div> 
+      </div>	
+      		<div class="content clearfix">
+        <span class="title-sidebar left-padding-12 clearfix">Other Information </span>
+        <div class="e-c-deatil">
+          <span class="e-detail ripple"><i class="fa fa-pencil f-ryt left-padding-12 right-padding-12  fs14"></i></span>
+          <span class="c-detail ripple"><i class="fa fa-close f-ryt left-padding-12 right-padding-12  fs14"></i></span>
+        </div>
+        <span class="f-ryt"></span>
+        <div class="over-scroll">
+        <div class="content-data clearfix  right-padding-12  top-margin-10">
+          <div class="icon">
+            <i class="fa fa-envelope text-primary theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">himalrana@panamaxil.com</div>
+            <div class="fst">Email</div>
+          </div>
+        </div>
+        <div class="content-data clearfix  right-padding-12  top-margin-10">
+          <div class="icon">
+            <i class="fa fa-phone text-success theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">7069995302</div>
+            <div class="fst">Mobile</div>
+          </div>
+        </div>
+        <div class="content-data clearfix  right-padding-12  top-margin-10">
+          <div class="icon">
+            <i class="fa fa-globe text-info theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">India</div>
+            <div class="fst">Country</div>
+          </div>
+        </div>
+        <div class="content-data clearfix  right-padding-12  top-margin-10">
+          <div class="icon">
+            <i class="fa fa-briefcase text-danger theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">Development</div>
+            <div class="fst">Department</div>
+          </div>
+        </div>
+        <div class="content-data clearfix  right-padding-12  top-margin-10">
+          <div class="icon">
+            <i class="fa fa-paint-brush text-success theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">Designing</div>
+            <div class="fst border-bottom-0">Team</div>
+          </div>
+        </div>
+      </div>
+      <div class="edit-detail">
+          <div class="edit-content">
+            <div class="inpt-cont">
+              <div class="edit-inpt">
+                    <div class="form-inline boot-style one-input left-padding-12 right-padding-12 ">
+                       <div class="clearfix width-67 full-width">
+                  <div class="form-group first-cld   top-margin-15">
+                    <div class="full">
+                      <input type="text" placeholder="Email" class="form-control">
+                      <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text">
+                      </span> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-inline boot-style one-input  left-padding-12 right-padding-12 ">
+                <div class="clearfix width-67 full-width">
+                  <div class="form-group first-cld ">
+                    <div class="full">
+                      <input type="text" placeholder="Mobile" class="form-control">
+                      <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text">
+                      </span> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-inline boot-style one-input left-padding-12 right-padding-12 ">
+                <div class="clearfix width-67 full-width">
+                  <div class="form-group first-cld">
+                    <div class="full">
+                      <select class="form-control ">
+                                    <option data-color="#A0522D" value="106">sienna</option>
+                                    <option data-color="#CD5C5C" value="47">Indianred</option>
+                                    <option data-color="#FF4500" value="87">orangered</option>
+                                    <option data-color="#008B8B" value="17">darkcyan</option>
+                                    <option data-color="#B8860B" value="18">darkgoldenrod</option>
+                                  <option data-color="#32CD32" value="68">limegreen</option>
+                      </select>
+                      <span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-inline boot-style two-input">
+              	<div class="clearfix f-ryt width-67 full-width">
+                  <div class="form-group right-margin-1pt first-cld left-padding-12 p-select">
+                      <div class="full">
+                      <select class="form-control ">
+                                    <option data-color="#A0522D" value="106">sienna</option>
+                                    <option data-color="#CD5C5C" value="47">Indianred</option>
+                                    <option data-color="#FF4500" value="87">orangered</option>
+                                    <option data-color="#008B8B" value="17">darkcyan</option>
+                                    <option data-color="#B8860B" value="18">darkgoldenrod</option>
+                                  <option data-color="#32CD32" value="68">limegreen</option>
+                      </select>
+                      <span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span>
+                    </div>
+                  </div>
+                  <div class="form-group sec-cld right-padding-12  p-select">
+                      <div class="full">
+                      <select class="form-control ">
+                                    <option data-color="#A0522D" value="106">sienna</option>
+                                    <option data-color="#CD5C5C" value="47">Indianred</option>
+                                    <option data-color="#FF4500" value="87">orangered</option>
+                                    <option data-color="#008B8B" value="17">darkcyan</option>
+                                    <option data-color="#B8860B" value="18">darkgoldenrod</option>
+                                  <option data-color="#32CD32" value="68">limegreen</option>
+                      </select>
+                      <span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-inline boot-style two-input">
+              	<div class="clearfix f-ryt width-67 full-width">
+                  <div class="form-group  right-margin-1pt first-cld left-padding-12 p-select">
+                      <div class="full">
+                      <select class="form-control ">
+                                    <option data-color="#A0522D" value="106">sienna</option>
+                                    <option data-color="#CD5C5C" value="47">Indianred</option>
+                                    <option data-color="#FF4500" value="87">orangered</option>
+                                    <option data-color="#008B8B" value="17">darkcyan</option>
+                                    <option data-color="#B8860B" value="18">darkgoldenrod</option>
+                                  <option data-color="#32CD32" value="68">limegreen</option>
+                      </select>
+                      <span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span>
+                    </div>
+                  </div>
+                  <div class="form-group sec-cld right-padding-12  p-select">
+                      <div class="full">
+                      <select class="form-control ">
+                                    <option data-color="#A0522D" value="106">sienna</option>
+                                    <option data-color="#CD5C5C" value="47">Indianred</option>
+                                    <option data-color="#FF4500" value="87">orangered</option>
+                                    <option data-color="#008B8B" value="17">darkcyan</option>
+                                    <option data-color="#B8860B" value="18">darkgoldenrod</option>
+                                  <option data-color="#32CD32" value="68">limegreen</option>
+                      </select>
+                      <span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="clearfix">
+                    <button class="btn btn-primary btn-def-3d btn-sm left-margin-12 f-lft" type="button">Save changes</button>
+                    <button  class="btn btn-default btn-def-3d btn-sm left-margin-12 f-lft e_c_cllose" type="button">Close</button>
+               </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+      		<div class="bottom_bar ">
+    		<div class="tab_panel default-tab style-2">
+    			<ul class="nav nav-tabs three-chld sliding-bar nav-justified">
+    <li class="contact ">
+      <a class="ripple bottom-margin-0" data-toggle="tooltip" data-placement="top" title="Online User">
+        <i class="fa fa-user "></i>
+        <span class="badge  primary-bg">4</span>
+      </a>
+    </li>
+    <li class="chat ">
+      <a class="ripple bottom-margin-0" data-toggle="tooltip" data-placement="top" title="Timeline Task">
+      <i class="fa  fa-calendar  "></i>
+      <span class="badge   warning-bg">4</span>
+    </a>
+  </li>
+    <li class="">
+      <a href="login.html" class="ripple bottom-margin-0" data-toggle="tooltip" data-placement="top" title="Logout">
+        <i class="fa fa-power-off "></i>
+      </a>
+    </li>
+     <li class="slider"></li>
+  </ul>
+  				<div class="tab-content">
+    <div class="content-wrapper">
+      <div class="tab tab-1">
+        <div class="clearfix c-person online ">
+          <div class=" drop-info clearfix left-padding-12">
+        <span class="b-arrow"><img src="images/administrator.jpg"></span>
+        <div class="left-content left-padding-12">
+          <div class="c-name">
+            Himal Rana
+          </div>
+          <div class="c-img">Team Lead</div>
+          <div class=" tim-notf">
+              <span class="time">10:17 AM</span>
+              <span class="badge    primary-bg clearfix">4</span>
+          </div>
+        </div>
+      </div>
+      <div class="content clearfix">
+        <div class="over-scroll">
+        <div class="content-data clearfix top-margin-10">
+          <div class="icon">
+            <i class="fa fa-envelope text-primary theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">himalrana@panamaxil.com</div>
+            <div class="fst">Email</div>
+          </div>
+        </div>
+        <div class="content-data clearfix   top-margin-10">
+          <div class="icon">
+            <i class="fa fa-phone text-success theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">7069995302</div>
+            <div class="fst">Mobile</div>
+          </div>
+        </div>
+        <div class="content-data clearfix   top-margin-10">
+          <div class="icon">
+            <i class="fa fa-globe text-info theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">India</div>
+            <div class="fst">Country</div>
+          </div>
+        </div>
+        <div class="content-data clearfix   top-margin-10">
+          <div class="icon">
+            <i class="fa fa-briefcase text-danger theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">Development</div>
+            <div class="fst">Department</div>
+          </div>
+        </div>
+        <div class="content-data clearfix   top-margin-10">
+          <div class="icon">
+            <i class="fa fa-paint-brush text-success theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">Designing</div>
+            <div class="fst border-bottom-0">Team</div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="p-c-icon clearfix">
+        <div class="pos-rel">
+          <span class="u-call clearfix button-ripple ripple"><i class="fa fa-phone "></i></span>
+          <span class="u-comment clearfix button-ripple ripple"><i class="fa fa-comment "></i></span>
+        </div>
+      </div>
+      </div>
+      	<div class="clearfix c-person away">
+         	 <div class="drop-info clearfix left-padding-12">
+        <span class="b-arrow"><img src="images/administrator.jpg"></span>
+        <div class="left-content left-padding-12">
+          <div class="c-name">
+            Himal Rana
+          </div>
+          <div class="c-img">Team Lead</div>
+          <div class=" tim-notf">
+              <span class="time">10:17 AM</span>
+              <span class="badge    primary-bg clearfix">4</span>
+          </div>
+        </div>
+      </div>
+  		    <div class="content clearfix">
+        <div class="over-scroll">
+        <div class="content-data clearfix top-margin-10">
+          <div class="icon">
+            <i class="fa fa-envelope text-primary theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">himalrana@panamaxil.com</div>
+            <div class="fst">Email</div>
+          </div>
+        </div>
+        <div class="content-data clearfix top-margin-10">
+          <div class="icon">
+            <i class="fa fa-phone text-success theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">7069995302</div>
+            <div class="fst">Mobile</div>
+          </div>
+        </div>
+        <div class="content-data clearfix   top-margin-10">
+          <div class="icon">
+            <i class="fa fa-globe text-info theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">India</div>
+            <div class="fst">Country</div>
+          </div>
+        </div>
+        <div class="content-data clearfix   top-margin-10">
+          <div class="icon">
+            <i class="fa fa-briefcase text-danger theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">Development</div>
+            <div class="fst">Department</div>
+          </div>
+        </div>
+        <div class="content-data clearfix   top-margin-10">
+          <div class="icon">
+            <i class="fa fa-paint-brush text-success theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">Designing</div>
+            <div class="fst border-bottom-0">Team</div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="p-c-icon clearfix">
+        <div class="pos-rel">
+          <span class="u-call clearfix button-ripple ripple"><i class="fa fa-phone text-info theme"></i></span>
+          <span class="u-comment clearfix button-ripple ripple"><i class="fa fa-comment text-success theme"></i></span>
+        </div>
+      </div>
+      </div>
+      </div> <!-- end tab content -->
+      <div class="search-panel">
+  <div class="input-group">
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="search anything here">
+  <span class="input-group-addon"><i class="fa fa-search fs14"></i></span>
+</div>
+</div>
+      <div class="tab tab-2 prev-tab main-timeline">
+		<div class="e-label-dynamic">hii</div>
+      <div class="u-event left-padding-12 right-padding-12 ">
+        <div class="e-element">
+          <div class="e-label">Today</div>
+          <div class="e-content e-left clearfix bottom-margin-20 blue-pr">
+            <div class="bullet"><i class="fa fa-futbol-o text-info theme"></i></div>
+            <div class="e-desc">
+              <div class="e-heading">
+                <div class=" e-title f-lft">Game Play</div>
+                <div class="e-time f-ryt">2:30 PM</div>
+              </div>
+              <div class="e-body">
+                <p> Organized a Game with Team</p>
+              </div>
+              <div class="location left-padding-5">
+                <span><i class="fa  fa-map-marker fs14"></i> Panamax-Terrace Area</span>
+              </div>
+            </div>
+          </div>
+          <div class="e-content e-left clearfix bottom-margin-20 red-pr">
+            <div class="bullet"><i class="fa fa-users text-danger theme"></i></div>
+            <div class="e-desc">
+              <div class="e-heading">
+                <div class=" e-title f-lft">Meeting</div>
+                <div class="e-time f-ryt">4:30 PM</div>
+              </div>
+              <div class="e-body">
+                <p>Meeting with Designing Team</p>
+              </div>
+              <div class="location left-padding-5">
+                <span><i class="fa  fa-map-marker fs14"></i> Panamax House</span>
+              </div>
+            </div>
+          </div>
+          <div class="e-content e-left clearfix bottom-margin-20 green-pr">
+            <div class="bullet"><i class="fa fa-cutlery text-success theme"></i></div>
+            <div class="e-desc">
+              <div class="e-heading">
+                <div class=" e-title f-lft">Dinner</div>
+                <div class="e-time f-ryt">8:00 PM</div>
+              </div>
+              <div class="e-body">
+                <p> Dinner with Three people</p>
+              </div>
+              <div class="location left-padding-5">
+                <span><i class="fa  fa-map-marker fs14"></i>Dinner Bell</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- start timeline-2 -->
+         <div class="u-event left-padding-12 right-padding-12  today">
+        <div class="e-element">
+          <div class="e-label">24-Oct</div>
+          <div class="e-content e-left clearfix bottom-margin-20 blue-pr">
+            <div class="bullet"><i class="fa fa-futbol-o text-info theme"></i></div>
+            <div class="e-desc">
+              <div class="e-heading">
+                <div class=" e-title f-lft">Game Play</div>
+                <div class="e-time f-ryt">2:30 PM</div>
+              </div>
+              <div class="e-body">
+                <p> Organized a Game with Team</p>
+              </div>
+              <div class="location left-padding-5">
+                <span><i class="fa  fa-map-marker fs14"></i> Panamax-Terrace Area</span>
+              </div>
+            </div>
+          </div>
+          <div class="e-content e-left clearfix bottom-margin-20 red-pr">
+            <div class="bullet"><i class="fa fa-users text-danger theme"></i></div>
+            <div class="e-desc">
+              <div class="e-heading">
+                <div class=" e-title f-lft">Meeting</div>
+                <div class="e-time f-ryt">4:30 PM</div>
+              </div>
+              <div class="e-body">
+                <p>Meeting with Designing Team</p>
+              </div>
+              <div class="location left-padding-5">
+                <span><i class="fa  fa-map-marker fs14"></i> Panamax House</span>
+              </div>
+            </div>
+          </div>
+          <div class="e-content e-left clearfix bottom-margin-20 green-pr">
+            <div class="bullet"><i class="fa fa-cutlery text-success theme"></i></div>
+            <div class="e-desc">
+              <div class="e-heading">
+                <div class=" e-title f-lft">Dinner</div>
+                <div class="e-time f-ryt">8:00 PM</div>
+              </div>
+              <div class="e-body">
+                <p> Dinner with Three people</p>
+              </div>
+              <div class="location left-padding-5">
+                <span><i class="fa  fa-map-marker fs14"></i>Dinner Bell</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end timeline-2 -->
+       <!-- start timeline-2 -->
+         <div class="u-event left-padding-12 right-padding-12  tommorw">
+        <div class="e-element">
+          <div class="e-label">Last</div>
+          <div class="e-content e-left clearfix bottom-margin-20 blue-pr">
+            <div class="bullet"><i class="fa fa-futbol-o text-info theme"></i></div>
+            <div class="e-desc">
+              <div class="e-heading">
+                <div class=" e-title f-lft">Game Play</div>
+                <div class="e-time f-ryt">2:30 PM</div>
+              </div>
+              <div class="e-body">
+                <p> Organized a Game with Team</p>
+              </div>
+              <div class="location left-padding-5">
+                <span><i class="fa  fa-map-marker fs14"></i> Panamax-Terrace Area</span>
+              </div>
+            </div>
+          </div>
+          <div class="e-content e-left clearfix bottom-margin-20 red-pr">
+            <div class="bullet"><i class="fa fa-users text-danger theme"></i></div>
+            <div class="e-desc">
+              <div class="e-heading">
+                <div class=" e-title f-lft">Meeting</div>
+                <div class="e-time f-ryt">4:30 PM</div>
+              </div>
+              <div class="e-body">
+                <p>Meeting with Designing Team</p>
+              </div>
+              <div class="location left-padding-5">
+                <span><i class="fa  fa-map-marker fs14"></i> Panamax House</span>
+              </div>
+            </div>
+          </div>
+          <div class="e-content e-left clearfix bottom-margin-20 green-pr">
+            <div class="bullet"><i class="fa fa-cutlery text-success theme"></i></div>
+            <div class="e-desc">
+              <div class="e-heading">
+                <div class=" e-title f-lft">Dinner</div>
+                <div class="e-time f-ryt">8:00 PM</div>
+              </div>
+              <div class="e-body">
+                <p> Dinner with Three people</p>
+              </div>
+              <div class="location left-padding-5">
+                <span><i class="fa  fa-map-marker fs14"></i>Dinner Bell</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end timeline-2 -->
+		
+      </div>
+       <!-- end tab content -->
+    </div>
+  </div>
+		  	</div>
+		  	<!-- chat panel tab -->
+ 			<div class="content-conv">
+				<div class="con-title">
+			  <div class="chat-back left-padding-12 right-padding-12  f-lft ripple button-ripple">
+				<span><i class=" imoon imoon-arrow-left3"></i></span>
+			  </div>
+			  <div class="conv-img  f-lft">
+				<img src="images/administrator.jpg">
+			  </div>
+			  <div class="conv-user f-lft left-padding-12">
+				<span class="name clearfix">Himal Rana</span>
+				<span class="l-seen clearfix">last seen today at 1:46 pm</span>
+			  </div>
+			  <div class="pull-right conv-more left-padding-12 right-padding-12" >
+				 <span class="more-optn dropdown-toggle ripple button-ripple" data-toggle="dropdown"
+			  aria-haspopup="true" aria-expanded="false">
+				  <i class="fa fa-ellipsis-v"></i>
+				</span>
+				 <ul class="dropdown-menu" >
+			<li><a href="#"><i class="fa fa-paperclip right-padding-12 "></i> Attach a File</a></li>
+			<li><a href="#"><i class="fa fa-phone right-padding-12 "></i> Call User</a></li>
+		  </ul>
+			  </div>
+</div>
+				<div class="con-chat clearfix">
+				<div class="clearfix  conv-start">
+				   <!-- <div class="time_teg">yesterday</div> -->
+					<div class="full-width">
+					<div class="user-conv clearfix">
+					  <p>Hi! this is himal how can I help you?</p>
+					  <div class="small-time">11:09 AM</div>
+					</div>
+				  </div>
+				  <div class="full-width">
+					<div class="my-conv clearfix">
+						<p>Hi! I need a support my account is suspended but I don't know why? </p>
+						<div class="small-time">11:29 AM</div>
+					</div>
+				  </div>
+				   <div class="full-width">
+					 <div class="user-conv clearfix">
+					  <p>Hello Sir! </p>
+					  <div class="small-time">11:09 AM</div>
+					</div>
+				  </div>
+				   <div class="full-width">
+					 <div class="my-conv clearfix">
+						<p>Ok sure :) </p>
+						<div class="small-time">11:09 AM</div>
+					</div>
+				  </div>
+				 <!-- <div class="time_teg">today</div> -->
+				  <div class="full-width">
+					 <div class="user-conv clearfix">
+					  <p>Hello Sir! </p>
+					  <div class="small-time">11:09 AM</div>
+					</div>
+				  </div>
+				</div>
+</div>
+				<div class="conv-text-inpt">
+			  <div class="input-group">
+		  <span class="input-group-addon record">
+			<i class="fa fa-microphone"></i>
+		</span>
+		  <input type="text" class="form-control send_msg" aria-label="Amount (to the nearest dollar)" placeholder="Send message">
+		  <span class="input-group-addon send-msg"><i class="fa fa-paper-plane fs14"></i></span>
+		</div>
+</div>
+		  </div>
+ 			<!--calling ui-->
+ 			<div class="a-call">
+ 	<div class="title f-lft">
+    	 <div class="a-c-name left-padding-12 f-lft"><i class="fa fa-phone right-padding-12 "></i>Himal Rana</div>
+       <span class="close-call left-padding-12 right-padding-12 "><i class="fa fa-close"></i></span>
+    </div>
+ 	<div class="a-call-content">
+         <div class="abs-cont">
+               <div class="a-c-time">10:00</div>
+              <div class="user-img">
+				  <img src="images/administrator.jpg">
+			 </div>
+       </div>
+
+    </div>
+	<div class="call-hang ripple">
+            <a href="javascript:void(0)">
+             <span class="icon-phone-hang-up right-padding-12 "></span>
+              End Call
+            </a>
+          </div>
+    <div class="a-c-settings">
+      <div class="a-c-s-content">
+        <ul class="list-inline">
+          <li class="call-mute">
+            <a href="javascript:void(0)" title="mute">
+              <i class="fa fa-microphone-slash"></i>
+            </a>
+          </li>
+          <li class="call-speaker">
+            <a href="javascript:void(0)"  title="speaker">
+              <i class="fa fa-volume-down"></i>
+            </a>
+          </li>
+          <li class="call-chat">
+            <a href="javascript:void(0)"  title="chat">
+              <i class="glyphicon glyphicon-comment"></i>
+            </a>
+          </li>
+			<li class="call-group">
+            <a href="javascript:void(0)" class="primary-bg" title="add people">
+              <i class="fa fa-group fs14"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+ </div>
+   			<!-- Tab panes -->
+      </div>
+    		</aside>
+				 <div class="overflow-popup-left-chat"></div>
+		  	 
+				<div class="footer border-left-1 border-right-1 clearfix">
+	<div class="f-ryt primary more-element">
+		<ul class="clearfix">
+			<li class="date_footer">
+				<a>
+					<div class="today_date">hiii</div>
+				</a>
+			</li>
+			<li class="timer-footer">
+				<a>
+					<div class="current-time"></div>
+				</a>
+			</li>
+			<li class="timezone">
+				<a>
+					<div class="zone-offset">[+05:30]</div>
+				</a>
+			</li>
+			<li class="top-scroll">
+				<a class="  ripple"><div class="fa fa-arrow-up fs14 icon"></div> </a>
+			</li>
+		</ul>
+	</div>
+	<div class="f-lft secondary">
+		<ul class="clearfix">
+			<li><a href="#">
+				<span class="copy-wrt fs12">&copy;<span class="year right-margin-5 left-margin-5">2016</span>Copyright Panamax Inc.</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+				<div class="bridge2call p-logo clearfix color-logo">
+					<span class="p-text">powered by</span>
+					<div class="cl-style">
+					
+						<div class="path1 icon"></div>
+						<div class="path2 icon"></div>
+						<div class="path3 icon"></div>
+						<div class="path4 icon"></div>
+						<div class="path5 icon"></div>
+						<div class="path6 icon"></div>
+						<div class="path7 icon"></div>
+						<div class="path8 icon"></div>
+						<div class="path9 icon"></div>
+						<div class="path10 icon"></div>
+						<div class="path11 icon"></div>
+						<div class="path12 icon"></div>
+						<div class="path13 icon"></div>
+						<div class="path14 icon"></div>
+						<div class="path15 icon"></div>
+						<div class="path16 icon"></div>
+						<div class="path17 icon"></div>
+					
+			</div>
+				 </div>
+				</a>
+			</li>
+			<li><a href="#">
+				<div class="version">
+				Version <span>1.9.15</span>
+				</div>
+				</a>
+			</li>
+			
+			
+			
+		</ul>
+	</div>
+</div>
+	  </section>
+		<div class="android-scn-lock scn-lock wyt-bg">
+	<div class="scn-container">
+		<div class="time clearfix top-margin-10">
+			<div class=" time-nosuf"></div>
+			<span class="time-day"></span>
+			<span class="dec-date"></span>
+			<span class="time-month"></span>
+			<span class="location">Chicago</span>
+		</div>
+		<div class="user-notf top-margin-10">
+			<ul class="list-inline">
+				<li>
+					<span class="fa fa-bell-o icon"></span>
+					<span class="badge">1</span>	
+				</li>
+				<!--<li class="set-badge">
+					<span class="fa-envelope-o fa icon"></span>
+					<span class="badge">2</span>
+				</li>-->
+				<li>
+					<span class="fa fa-comments-o icon"></span>
+					<span class="badge">4</span>
+				</li>
+				<li>
+					<span class="imoon-stopwatch imoon icon"></span>
+					<span class="badge">1</span>
+				</li>
+			</ul>
+		</div>
+		<div class="scn-login text-center">
+			<img src="images/administrator.jpg">
+			<span class="name">himal rana</span>
+			<div class="new-login">
+					<span class="icon logged-in">
+						<i class="fa fa-lock"></i>
+					</span>
+					<div class="lock">
+						<span>Click Here to Login</span>
+					</div>
+					<div class="password">
+						<input value="123456123456" onFocus="this.value='';" type="password">
+					</div>
+				</div>
+		</div>
+		<div class="scn-graph hidden-xs">
+					<div class="col-md-4 col-sm-4 padding-10 ">
+					<div class="graph-tile wyt-bg with-heading clearfix">
+						<div class="grp-heading">
+							<span class="grp-title"><i class="pdg-computer-screen-cpu right-margin-10"></i>cpu usage</span>
+							<span class="grp-sec-title f-ryt">past 28 days</span>
+						</div>
+						<div class="grp-body">
+							<span class="grp-content set-count">20</span>
+							<span class="grp-content2">% usage</span>
+						</div>
+						<div class="grp-footer">
+						<div id="scn-cpu-use" class="text-center" style="width:100%; height: 100%; padding:10px; padding-right:0px;">		</div>
+						</div>
+                   </div>
+				</div>
+					<div class="col-md-4 col-sm-4 padding-10">
+						<div class="graph-tile wyt-bg with-heading clearfix">
+						<div class="grp-heading">
+							<span class="grp-title"><i class="n-icon-ic_receipt_24px right-margin-10"></i>ram usage</span>
+							<span class="grp-sec-title f-ryt">past 28 days</span>
+						</div>
+						<div class="grp-body">
+							<span class="grp-content set-count">50</span>
+							<span class="grp-content2">% usage</span>
+						</div>
+						<div class="grp-footer">
+						<div id="scn-ram-use" class="text-center" style="width:100%; height: 100%; padding:10px; padding-right:0px;">		</div>
+						</div>
+                   </div>
+					</div>
+					<div class="col-md-4 col-sm-4 padding-10">
+				    <div class="graph-tile wyt-bg with-heading clearfix">
+						<div class="grp-heading">
+							<span class="grp-title"><i class="glyphicon glyphicon-hdd right-margin-10"></i>hdd usage</span>
+							<span class="grp-sec-title f-ryt">past 28 days</span>
+						</div>
+						<div class="grp-body">
+							<span class="grp-content set-count">55%</span>
+							<span class="grp-content2">% usage</span>
+						</div>
+						<div class="grp-footer">
+						<div id="scn-hdd-use" class="text-center" style="width:100%; height: 100%; padding:10px; padding-right:0px;">		</div>
+						</div>
+                   </div>
+				</div>
+		</div>
+	</div>
+</div>
+		</div>
+	</div>
+<!-- minimum required  -->	
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>		
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		
+<!-- for ripple effect -->
+<script src="js/ripple/jquery.materialripple.js"></script>
+<script src="js/ripple/mine-ripple.js"></script>
+	
+<!--give animation at top dropdown-->
+<script src="js/animate-plus.js"></script>
+
+<!--to pick color from list	-->
+<script src="js/bootstrap-colorselector.js"></script>
+		
+<!-- to pick any color with hax value -->	
+<script type="text/javascript" src="js/bootstrap-colorpicker/bootstrap-colorpicker.min.js"></script>	
+	
+<!-- for heighchaart  -->	
+<script src="js/highcharts/highcharts.js"></script>
+<script src="js/highcharts/mine-highcharts.js"></script>
+	
+<!-- for countdown in sidebar-chat  -->		
+<script src="js/countdown/jquery.countdown.min.js"></script> 
+<script src="js/countdown/mine-countdown.js"></script>	
+	
+<!--jquery range slider	-->
+<script src="js/ion.rangeSlider.min.js"></script>
+	
+<!-- for sparkline  -->		
+<script type="text/javascript" src="js/sparkline/jquery.sparkline.js"></script> 
+<script type="text/javascript" src="js/sparkline/mine-sparkline.js"></script>
+	
+<!-- for screen-lock  -->	
+<script type="text/javascript" src="js/idle/jquery.idle.min.js"></script>
+<script src="js/Vague/Vague.js"></script> 
+<script src="js/Vague/mine-vague.js"></script>
+	
+<!-- for code-editor (code documentation) -->	
+<script type="text/javascript" src="js/prism/prism.js"></script> 
+<script type="text/javascript" src="js/prism/prism-line-numbers.min.js"></script>
+	
+<!-- for copy to clipboard  -->	
+<script type="text/javascript" src="js/clipboard/clipboard.min.js"></script> 
+<script type="text/javascript" src="js/clipboard/mine-clipboard.js"></script>
+	
+<!-- crop jquery -->
+<script src="js/croppie/croppie.min.js"></script>	
+
+<!-- mprogress(material-loading) -->
+<script src="js/mprogress/mprogress.min.js"></script>
+	
+<!--Google material Preloader-->
+<script src="js/google-preloader/materialPreloader.min.js"></script>		
+
+<!--custom scroller-->
+<script src="js/scroller/jquery.mCustomScrollbar.js"></script>	
+	
+<!-- Basic Common Js -->	
+<script src="js/demo.js"></script>
+
+<script>
+jQuery.noConflict();
+jQuery(document).ready(function($){
+	
+// colorpicker jquery
+$('#cp2').colorpicker();
+// colorselector jquery	
+$('#colorselector').colorselector();	
+// start file upload and croping
+function readFile(input){
+		if (input.files && input.files[0]) {
+	                   var reader = new FileReader();
+	                   reader.onload = function (e) {
+	            	      $uploadCrop.croppie('bind', {
+	            		  url: e.target.result
+	            	  });
+	            	$('.set-crop').addClass('ready');
+	            }
+	            reader.readAsDataURL(input.files[0]);
+	        }
+		}
+$uploadCrop = $('.crop-imgae').croppie({
+		viewport: {
+			width: 106,
+			height: 106,
+			type: 'circle'
+		},
+		boundary: {
+			width: 300,
+			height: 300
+		},
+		exif: true
+		}); 
+$("#upload-image").on('change',function(){
+			readFile(this);
+		});    
+$(".crop-open").on( "click", function() {
+		   $(this).parents(".set-crop").addClass("show-crop");
+	   });
+$(".cancel-crop, .upload-msg .close").on( "click", function() {
+	$(this).parents(".set-crop").removeClass("show-crop ready");
+});
+// end file upload and croping
+$('[data-toggle="tooltip"]').tooltip();
+$("#range_01").ionRangeSlider({
+    min: 100,
+    max: 1000,
+    from: 550
+});	
+$("#range_02").ionRangeSlider({
+    type: "double",
+    grid: true,
+    min: 0,
+    max: 1000,
+    from: 200,
+    to: 800,
+    prefix: "$"
+});	
+$("#range_03").ionRangeSlider({
+    type: "double",
+    grid: true,
+    min: -1000,
+    max: 1000,
+    from: -500,
+    to: 500
+});	
+$("#range_04").ionRangeSlider({
+    type: "double",
+    grid: true,
+    min: -1000,
+    max: 1000,
+    from: -500,
+    to: 500,
+    step: 250
+});
+$("#range_05").ionRangeSlider({
+    type: "double",
+    grid: true,
+    min: -12.8,
+    max: 12.8,
+    from: -3.2,
+    to: 3.2,
+    step: 0.1
+});	
+$("#range_06").ionRangeSlider({
+    type: "double",
+    grid: true,
+    from: 1,
+    to: 5,
+    values: [0, 10, 100, 1000, 10000, 100000, 1000000]
+});		
+$("#range_07").ionRangeSlider({
+    grid: true,
+    from: 5,
+    values: [
+        "zero", "one",
+        "two", "three",
+        "four", "five",
+        "six", "seven",
+        "eight", "nine",
+        "ten"
+    ]
+});		
+$("#range_08").ionRangeSlider({
+    grid: true,
+    from: 3,
+    values: [
+        "January", "February", "March",
+        "April", "May", "June",
+        "July", "August", "September",
+        "October", "November", "December"
+    ]
+});	
+$("#range_09").ionRangeSlider({
+    type: "double",
+    grid: true,
+    min: 0,
+    max: 10000,
+    from: 1000,
+    step: 1000,
+    prefix: "$"
+});	
+$("#range_10").ionRangeSlider({
+    type: "single",
+    grid: true,
+    min: -90,
+    max: 90,
+    from: 0,
+    postfix: "&deg;"
+});
+$("#range_11").ionRangeSlider({
+    grid: true,
+    min: 18,
+    max: 70,
+    from: 30,
+    prefix: "Age ",
+    max_postfix: "+"
+});	
+$("#range_12").ionRangeSlider({
+    type: "double",
+    min: 100,
+    max: 200,
+    from: 148,
+    to: 152,
+    prefix: "Weight: ",
+    postfix: " million pounds",
+    values_separator: "  &raquo;  "
+});
+$("#range_13").ionRangeSlider({
+    type: "double",
+    min: 0,
+    max: 100,
+    from: 20,
+    from_min: 10,
+    from_max: 30,
+    from_shadow: true,
+    to: 80,
+    to_min: 70,
+    to_max: 90,
+    to_shadow: true,
+    grid: true,
+    grid_num: 10
+});
+$("#range_14").ionRangeSlider({
+    min: 0,
+    max: 100,
+    from: 30,
+    disable: true
+});
+	
+ //material loading	
+var mp1 =  new Mprogress({
+  template: 1, 
+  parent: '.determinate'
+});
+mp1.start();
+	
+var mp3 = new Mprogress({
+        template: 3,
+        parent: '#indeterminate'
+    });
+mp3.start();
+	
+var mp4 = new Mprogress({
+        template: 4,
+        parent: '#detinde'
+    });
+mp4.start();	
+	
+ //Google preloading		
+  preloader = new $.materialPreloader({
+        position: 'top',
+        height: '5px',
+        col_1: '#159756',
+        col_2: '#da4733',
+        col_3: '#3b78e7',
+        col_4: '#fdba2c'
+    });
+    preloader.on();
+
+
+});
+
+       </script>
+</body>
+</html>

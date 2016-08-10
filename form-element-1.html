@@ -1,0 +1,3518 @@
+<html>
+<title>Admin Panel @PANAMAX</title>
+<meta name="keywords" />
+<meta name="description">
+<meta name="author">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+	<link href="fonts/tao.ui.icons.css" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="fonts/icomoon/icomoon.css" />
+	<link rel="stylesheet" href="fonts/design-guide/style.css" />
+	<link rel="stylesheet" href="fonts/android/style.css" />
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" href="fonts/octicons/octicons.css">
+	<link href="fonts/opensans/stylesheet.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/theme/red-thm.css" />
+	<link rel="stylesheet" href="css/theme/blue-thm.css" />
+	<link rel="stylesheet" href="css/theme/green-thm.css" />
+	<link rel="stylesheet" href="css/theme/orange-thm.css" />
+	<link rel="stylesheet" href="css/theme/fuel-thm.css"/>
+	<style>
+		.main-content{margin-top: 0px !important; padding-top: 60px !important;}
+	</style>
+</head>
+<body class="picker-style-2">
+	<div id="theme">
+		<div id="set-menu">
+	<div id="loader-wrapper" class="light-light-bg with-js">
+<!-- <div id="loader"><div class="bars-loading">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		</div>-->
+					<div class="loader-section section-left"></div>
+            		<div class="loader-section section-right"></div>
+					</div>
+	<section id="content" class="clearfix">
+			<div class="main-header border-left-1 border-right-1 set-responsive">
+      		<div class="bar-mnu ripple">
+		  	<svg viewBox="0 0 800 600">
+    <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" id="top"></path>
+    <path d="M300,320 L540,320" id="middle"></path>
+    <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" id="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+  </svg>  
+      		</div>
+			<div class="responsive-wrpr">
+				<div class="more-navbar">
+				<span class="fa fa-ellipsis-v icon"></span>
+			</div>
+      			<ul class="nav navbar-right user right-open">
+        <li class="sidebar-open"><a href="javascript:void(0)" class="ripple"> 
+			<i class="fa fa-sign-in"></i><span class="title">Settings</span> </a> </li>
+        <li class="login-page"> <a href="login.html" class="ripple"><i class="fa fa fa-power-off fs14"></i><span class="title">Logout</span> </a> </li>
+		<li class="scn-lock-open" id="screen-lock"> 
+			<a href="javascript:void(0)" class="ripple"> <i class="fa fa-lock"></i><span class="title">Screen Locks</span> </a> 
+		</li>
+		<li>
+			<a href="javascript:void(0)" class="left-padding-0 right-padding-0">
+		<div class="search-nav  f-ryt">
+			<input type="text" results=5 placeholder="Search...">
+			<span class="sb-active-bdr"></span>
+			<button type="submit" id="sb-button" value=""> <i class="fa fa-search"></i></button>
+		</div>
+		</a>
+		</li>
+      </ul>
+			</div>
+			<!-- list icon -->
+      		<div class="main-bred">
+        <ol class="breadcrumb ">
+  <li><a href="javascript:void(0)">Home</a></li>
+  <li class="active">Dashboard</li>
+</ol>
+</div>
+			<div class="f-ryt user-setting">
+				<a class="dropdown-toggle ripple" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"> <span class="title">Himal Rana</span>
+					<i class="fa fa-caret-down fs14 left-margin-10 f-ryt icon"></i> </a>
+          <ul class="bg-white header-dropdown  dropdown-menu width-auto left-open" >
+            <li class="animate-plus" data-animations="fadeInUp"  data-animation-when-visible="true"
+                data-animation-reset-offscreen="true">
+				<a href="javascript:void(0);"><i class="fa fa-user text-info theme"></i> <span class="title">My Profile</span></a>
+			  </li>
+            <li class="animate-plus" data-animations="fadeInUp" data-animation-delay="0.02s" data-animation-when-visible="true"
+                data-animation-reset-offscreen="true"> 
+				<a href="javascript:void(0);"><i class="fa fa-lock text-warning theme"></i><span class="title">Screen Lock</span></a>
+			  </li>
+            <li class="animate-plus" data-animations="fadeInUp" data-animation-delay="0.06s"
+                data-animation-when-visible="true" data-animation-reset-offscreen="true"> 
+				<a href="login.html"> <i class="fa fa-power-off  text-danger theme"></i>
+					<span class="title">Logout</span></a> 
+			  </li>
+          </ul>
+        </div>
+    	</div>
+			 <div class="set-two-menu">
+				<aside class="sidebar-menu operation-menu">
+				<div class="search-nav  f-ryt open-sb">
+					<input type="text" results=5 placeholder="Search...">
+					<span class="sb-active-bdr"></span>
+					<button type="submit" id="sb-button" value=""> <i class="fa fa-search"></i></button>
+				</div>
+				<div class="menu-status">
+					<div class="menu-wrpr">
+						<ul class="nav-menu ">
+							<li class="tp-down">
+								<a href="index.html" class="ripple">
+									<i class="fa fa-home nav-icon"></i>
+									<span class="title">Home</span>
+									<span class="badge">4</span>
+								</a>
+							</li>
+							<li class="tp-down">
+								<a href="dashboard.html" class="ripple"> <i class="fa fa-desktop nav-icon"></i>
+									<span class="title">Dashboard</span> </a>
+							</li>
+							<li class="tp-down">
+								<a class="menu-click open ripple" href="javascript:void(0)">
+									<i class="fa fa-file-text nav-icon"></i>
+									<span class="title">Form Elements</span>
+									<span class="caret-1"></span>
+									
+								</a>
+								<ul class="sub-nav">
+									<li>
+										<a href="form-element-1.html" class="menu-click ripple">
+											<i class="fa fa-file-text text-info theme"></i>Form Element-1
+											<span class="badge">4</span>
+										</a>
+									</li>
+									<li>
+										<a href="form-element-2.html" class="ripple">
+											<i class="fa fa-file-text text-warning theme fs14"></i> Form Element-2
+										</a>
+									</li>
+									<li>
+										<a href="error-element.html" class="ripple">
+											<i class="fa fa-file-text text-primary theme"></i> Error Element
+										</a>
+									</li>
+									<li>
+										<a href="login-form.html" class="ripple">
+											<i class="fa fa-file-text text-danger theme"></i> Login Form
+										</a>
+									</li>
+									<li>
+										<a href="button.html" class="ripple"><i class="fa fa-file-text text-success theme"></i>
+           Button</a>
+									</li>
+									<li>
+										<a href="other-input.html" class="ripple"> <i class="fa fa-file-text text-info theme"></i> Other Input</a>
+									</li>
+								</ul>
+							</li>
+							<li class="tp-down">
+								<a href="ui-panels.html" class="ripple"><i class="fa fa-cog nav-icon fs14"></i>
+       <span class="title">UI Panels</span></a>
+							</li>
+							<li class="btm-up">
+								<a href="icon.html" class="ripple"><i class="fa fa-flag nav-icon fs14"></i>
+       <span class="title">Icon</span></a>
+							</li>
+							<li class="tp-down"><a class="menu-click ripple" href="javascript:void(0)"><i class="fa fa-bell nav-icon"></i>
+        <span class="title">UI Elements</span><span class="caret-1"></span></a>
+								<ul class="sub-nav">
+									<li>
+										<a href="alerts.html" class="ripple"> <i class="fa fa-exclamation-triangle text-info theme"></i>Alerts </a>
+									</li>
+									<li>
+										<a href="tabs.html" class="ripple"> <i class="fa fa-folder-open text-warning theme"></i> Tabs </a>
+									</li>
+									<li>
+										<a href="widget-tiles.html" class="ripple"> <i class=" fa fa-magic fs14 text-primary theme"></i> Tiles </a>
+									</li>
+									<li> <a href="tree.html" class="ripple"><i class="fa fa-tree text-danger theme"></i>Treeview</a> </li>
+									<li> <a href="typo.html" class="ripple"><i class="fa fa-font text-success theme"></i> Typography </a> </li>
+									
+									
+									<li> <a href="heigh-chart.html" class="ripple"><i class="fa fa-line-chart text-danger theme"></i> Highcharts </a> </li>
+									<li><a href="mailbox.html" class="ripple"><i class="fa fa-envelope text-success theme"></i>MailBox</a> </li>
+									<li><a href="compose.html" class="ripple"><i class="fa fa-reply text-info theme"></i>Compose</a> </li>
+									<li>
+										<a href="price-list.html" class="ripple"> <i class="fa fa-list-alt text-info theme"></i>Price Table </a>
+									</li>
+								</ul>
+							</li>
+							<li class="btm-up">
+								<a href="form-wizard.html" class="ripple"><i class="fa fa-exchange nav-icon fs14"></i>
+       <span class="title">Form Wizard</span></a>
+							</li>
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<i class="fa fa-table nav-icon fs14"></i>
+									<span class="title">Table</span>
+									<span class="caret-1"></span>
+								</a>
+								<ul class="sub-nav">
+									<li>
+										<a href="table.html" class="ripple"> <i class="fa fa-table text-info theme"></i>Table</a>
+									</li>
+									<li> <a href="datatable.html" class="ripple"><i class="fa fa-table text-warning theme fs14"></i>Data Tables </a></li>
+									<li> <a href="datatable-resize.html" class="ripple"><i class="fa fa-table text-warning theme fs14"></i>Resize Data Tables</a> </li>
+									<li> <a href="table-with-input.html" class="ripple"><i class="fa fa-table text-primary theme"></i>Table with Input </a> </li>
+								</ul>
+							</li>
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<i class="fa fa-clipboard nav-icon"></i>
+									<span class="title">Pages</span>
+									<span class="caret-1"></span>
+								</a>
+								<ul class="sub-nav">
+									<li>
+										<a href="login.html" class="ripple"> <i class="fa fa-sign-in text-info theme"></i>Login</a>
+									</li>
+									<li><a href="error.html" class="ripple"><i class="fa fa-exclamation-triangle text-warning theme"></i>404 Error </a> </li>
+									<li><a href="carrier.html" class="ripple"><i class="fa fa-rss text-primary theme"></i>Carrier</a> </li>
+									<li>
+										<a href="setting.html" class="ripple"> <i class="fa fa-cog text-danger theme "></i>Setting</a>
+									</li>
+									
+									<li><a href="sales-target.html" class="ripple"><i class="fa fa-line-chart text-warning theme"></i>Sales Statistics</a> </li>
+									<li><a href="list-design.html" class="ripple"><i class="fa fa-list-ul text-primary theme"></i>List Design</a></li>
+									<li><a href="count-down.html" class="ripple"><i class="fa fa-clock-o text-danger theme"></i>Count Down</a> </li>
+									<li>
+										<a class=" ripple" href="document.html"> <i class="fa fa-code text-success theme"></i>Html Docs
+										</a>
+										
+									</li>
+									<li>
+										<a class="menu-click ripple" href="javascript:void(0)">
+											<i class="fa fa-files-o text-primary theme"></i>Invoice Template
+											<span class="caret-1 mod-crt"></span>
+										</a>
+										<ul class=" stybdr clearfix">
+											<li>
+												<a href="invoice.html" class="ripple">
+													<i class="fa fa-files-o fs14 text-info theme"></i> Template-1
+												</a>
+											</li>
+											
+										</ul>
+									</li>
+									<li>
+										<a class="menu-click ripple" href="javascript:void(0)">
+											<i class="fa fa-table text-danger theme"></i>Mailer Template
+											<span class="caret-1 mod-crt"></span>
+										</a>
+										<ul class=" stybdr clearfix">
+											<li><a href="mail-template-1.html" class="ripple"><i class="fa fa-files-o fs14 text-info theme"></i> Template-1
+              </a>
+											</li>
+											<li>
+												<a href="mail-template-2.html" class="ripple"><i class="fa fa-files-o fs14 text-warning theme"></i> Template-2</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="btm-up">
+								<a href="timeline.html" class="ripple"><i class="fa fa-clock-o nav-icon fs14"></i>
+       <span class="title">Timeline</span></a>
+							</li>
+							<li class="btm-up">
+								<a href="screen-lock.html" class="ripple"><i class="fa fa-lock nav-icon fs14"></i>
+       <span class="title">Screen Lock</span></a>
+							</li>
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<i class="fa fa-table nav-icon fs14"></i>
+									<span class="title">Extra</span>
+									<span class="caret-1"></span>
+								</a>
+								<ul class="sub-nav">
+									
+									<li><a href="editor.html" class="ripple"><i class="fa fa-file-text text-warning theme fs14"></i>Editor </a> </li>
+									<li><a href="feeds.html" class="ripple"><i class="fa fa-rss-square  text-primary theme fs14"></i>Feeds</a> </li>
+									<li><a href="list-view.html" class="ripple"><i class="fa fa-list-alt text-success theme fs14"></i>List View</a> </li>
+									<li><a href="grid-view.html" class="ripple"><i class="fa fa-th-large text-danger theme fs14"></i>Grid View</a> </li>
+									<li><a href="full-tab.html" class="ripple"><i class="fa fa-table text-warning theme fs14"></i>Full Tab</a> </li>
+								</ul>
+							</li>
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<!-- <i class="fa  fa-cubes nav-icon fs14"></i> -->
+									<i class="fa fa-list nav-icon fs14"></i>
+									<span class="title">Multilevel</span> <span class="caret-1"></span> </a>
+								<ul class="sub-nav">
+									<li> <a class="ripple"><i class="fa fa-circle fs7 text-info theme"></i> level-1</a> </li>
+									<li>
+										<a class="menu-click ripple" href="javascript:void(0)">
+											<i class="fa fa-circle fs7 text-warning theme"></i> level-1 <span class="caret-1 mod-crt"></span></a>
+										<ul class=" stybdr clearfix">
+											<li><a class="menu-click ripple" href="javascript:void(0)"><i class="fa fa-circle fs7  text-warning theme"></i> level-3
+                <span class="caret-1 mod-crt"></span>
+              </a>
+												<ul class="forth-lvl clearfix">
+													<li>
+														<a class="menu-click ripple" href="javascript:void(0)"> <i class="fa fa-circle text-dark fs7"></i>Level-4</a>
+													</li>
+													<li><a class="ripple"><i class="fa fa-circle  fs7  text-dark"></i>Level-4 </a>
+													</li>
+													<li><a class="ripple"><i class="fa fa-circle  fs7 text-dark"></i>Level-4</a> </li>
+												</ul>
+											</li>
+											<li><a class="ripple"><i class="fa fa-circle fs7  fs7 text-warning theme"></i> level-3</a></li>
+											<li><a class="ripple"><i class="fa fa-circle fs7  fs7 text-warning theme"></i> level-3</a></li>
+										</ul>
+									</li>
+									<li><a class="ripple"><i class="fa fa-circle fs7 text-info theme fs7"></i> level-1</a> </li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="more-mnu">
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<i class="fa fa-ellipsis-v nav-icon fs14"></i>
+									<span class="title">More</span> <span class="caret-1"></span> </a>
+								<ul class="submenu-more">
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="wm-wrpr">
+						<div class="widget-menu wm-heading panel-title clearfix top-margin-10">
+							<a class="menu-click" href="javascript:void(0)">
+			   					Status
+		   					</a>
+						</div>
+						<div class="widget-menu clearfix">
+							<div class="top-margin-20 right-margin-20 bottom-margin-10 left-margin-15 graph-tile wyt-bg with-color clearfix">
+								<div class="grp-heading bottom-margin-20">
+									<span class="grp-title">Revenue</span>
+									<span class="grp-sec-title f-ryt">past 28 days</span>
+								</div>
+								<div class="grp-body">
+									<span class="grp-content">$75,800</span>
+								</div>
+								<div class="grp-footer">
+									<span class="grp-result">13.4% <i class="fa fa-level-up"></i></span>
+									<div class="wt-chart-menu text-center hide-ovrflw"></div>
+								</div>
+							</div>
+						</div>
+						<div class="widget-menu clearfix">
+							<div class="top-margin-20 right-margin-20 bottom-margin-10 left-margin-15 with-color wyt-bg graph-tile clearfix">
+								<div class="grp-heading bottom-margin-20">
+									<span class="grp-title">Goals</span>
+									<span class="grp-sec-title f-ryt">
+										orders this month
+									</span>
+								</div>
+								<div class="grp-body">
+									<span class="grp-content">3,690</span>
+								</div>
+								<div class="grp-footer">
+									<span class="grp-result">90% of 4,500</span>
+									<div class="progress">
+										<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="widget-menu clearfix">
+							<div class="top-margin-20 right-margin-20 bottom-margin-20 left-margin-15 wyt-bg graph-tile clearfix">
+								<div class="grp-heading bottom-margin-20">
+									<span class="grp-title">Items</span>
+									<span class="grp-sec-title f-ryt">past 28 days</span>
+								</div>
+								<div class="grp-body">
+									<span class="grp-content">407</span>
+								</div>
+								<div class="grp-footer">
+									<span class="grp-result">13.4% <i class="fa fa-level-down"></i></span>
+									<div class="wt-bar-menu text-center"></div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="u-name clearfix">
+					<a class="ripple">
+						<div class="user-sidebar"> <img src="images/administrator.jpg"> <span>Himal Rana</span> </div>
+					</a>
+					<ul class="pull-right user-optn">
+						<li>
+							<a href="login.html" class="left-padding-15 right-padding-15 ripple">
+							<i class="fa  fa-power-off  fs14 "></i>
+						</a>
+						</li>
+						<li>
+							<a id="close-btn" class="left-padding-15 right-padding-15 ripple" href="javascript:void(0)">
+							<i class="fa fa-times fs14 "></i>
+						</a>
+						</li>
+						<li>
+							<a class="left-padding-15 right-padding-15 ripple change-mnu" href="javascript:void(0)">
+								<i class="fa fa-angle-double-left fs14 fw"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</aside>
+				<aside class="sidebar-menu main-menu">
+				<div class="search-nav  f-ryt open-sb">
+					<input type="text" results=5 placeholder="Search...">
+					<span class="sb-active-bdr"></span>
+					<button type="submit" id="sb-button" value=""> <i class="fa fa-search"></i></button>
+				</div>
+				<div class="menu-status">
+					<div class="menu-wrpr">
+						<ul class="nav-menu ">
+							<li class="tp-down">
+								<a href="index.html" class="ripple">
+									<i class="fa fa-home nav-icon"></i>
+									<span class="title">Home</span>
+									<span class="badge">4</span>
+								</a>
+							</li>
+							<li class="tp-down">
+								<a href="dashboard.html" class="ripple"> <i class="fa fa-desktop nav-icon"></i>
+									<span class="title">Dashboard</span> </a>
+							</li>
+							<li class="tp-down">
+								<a class="menu-click open ripple" href="javascript:void(0)">
+									<i class="fa fa-file-text nav-icon"></i>
+									<span class="title">Form Elements</span>
+									<span class="caret-1"></span>
+									
+								</a>
+								<ul class="sub-nav">
+									<li>
+										<a href="form-element-1.html" class="menu-click ripple">
+											<i class="fa fa-file-text text-info theme"></i>Form Element-1
+											<span class="badge">4</span>
+										</a>
+									</li>
+									<li>
+										<a href="form-element-2.html" class="ripple">
+											<i class="fa fa-file-text text-warning theme fs14"></i> Form Element-2
+										</a>
+									</li>
+									<li>
+										<a href="error-element.html" class="ripple">
+											<i class="fa fa-file-text text-primary theme"></i> Error Element
+										</a>
+									</li>
+									<li>
+										<a href="login-form.html" class="ripple">
+											<i class="fa fa-file-text text-danger theme"></i> Login Form
+										</a>
+									</li>
+									<li>
+										<a href="button.html" class="ripple"><i class="fa fa-file-text text-success theme"></i>
+           Button</a>
+									</li>
+									<li>
+										<a href="other-input.html" class="ripple"> <i class="fa fa-file-text text-info theme"></i> Other Input</a>
+									</li>
+								</ul>
+							</li>
+							<li class="tp-down">
+								<a href="ui-panels.html" class="ripple"><i class="fa fa-cog nav-icon fs14"></i>
+       <span class="title">UI Panels</span></a>
+							</li>
+							<li class="btm-up">
+								<a href="icon.html" class="ripple"><i class="fa fa-flag nav-icon fs14"></i>
+       <span class="title">Icon</span></a>
+							</li>
+							<li class="tp-down"><a class="menu-click ripple" href="javascript:void(0)"><i class="fa fa-bell nav-icon"></i>
+        <span class="title">UI Elements</span><span class="caret-1"></span></a>
+								<ul class="sub-nav">
+									<li>
+										<a href="alerts.html" class="ripple"> <i class="fa fa-exclamation-triangle text-info theme"></i>Alerts </a>
+									</li>
+									<li>
+										<a href="tabs.html" class="ripple"> <i class="fa fa-folder-open text-warning theme"></i> Tabs </a>
+									</li>
+									<li>
+										<a href="widget-tiles.html" class="ripple"> <i class=" fa fa-magic fs14 text-primary theme"></i> Tiles </a>
+									</li>
+									<li> <a href="tree.html" class="ripple"><i class="fa fa-tree text-danger theme"></i>Treeview</a> </li>
+									<li> <a href="typo.html" class="ripple"><i class="fa fa-font text-success theme"></i> Typography </a> </li>
+									
+									
+									<li> <a href="heigh-chart.html" class="ripple"><i class="fa fa-line-chart text-danger theme"></i> Highcharts </a> </li>
+									<li><a href="mailbox.html" class="ripple"><i class="fa fa-envelope text-success theme"></i>MailBox</a> </li>
+									<li><a href="compose.html" class="ripple"><i class="fa fa-reply text-info theme"></i>Compose</a> </li>
+									<li>
+										<a href="price-list.html" class="ripple"> <i class="fa fa-list-alt text-info theme"></i>Price Table </a>
+									</li>
+								</ul>
+							</li>
+							<li class="btm-up">
+								<a href="form-wizard.html" class="ripple"><i class="fa fa-exchange nav-icon fs14"></i>
+       <span class="title">Form Wizard</span></a>
+							</li>
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<i class="fa fa-table nav-icon fs14"></i>
+									<span class="title">Table</span>
+									<span class="caret-1"></span>
+								</a>
+								<ul class="sub-nav">
+									<li>
+										<a href="table.html" class="ripple"> <i class="fa fa-table text-info theme"></i>Table</a>
+									</li>
+									<li> <a href="datatable.html" class="ripple"><i class="fa fa-table text-warning theme fs14"></i>Data Tables </a></li>
+									<li> <a href="datatable-resize.html" class="ripple"><i class="fa fa-table text-warning theme fs14"></i>Resize Data Tables</a> </li>
+									<li> <a href="table-with-input.html" class="ripple"><i class="fa fa-table text-primary theme"></i>Table with Input </a> </li>
+								</ul>
+							</li>
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<i class="fa fa-clipboard nav-icon"></i>
+									<span class="title">Pages</span>
+									<span class="caret-1"></span>
+								</a>
+								<ul class="sub-nav">
+									<li>
+										<a href="login.html" class="ripple"> <i class="fa fa-sign-in text-info theme"></i>Login</a>
+									</li>
+									<li><a href="error.html" class="ripple"><i class="fa fa-exclamation-triangle text-warning theme"></i>404 Error </a> </li>
+									<li><a href="carrier.html" class="ripple"><i class="fa fa-rss text-primary theme"></i>Carrier</a> </li>
+									<li>
+										<a href="setting.html" class="ripple"> <i class="fa fa-cog text-danger theme "></i>Setting</a>
+									</li>
+									
+									<li><a href="sales-target.html" class="ripple"><i class="fa fa-line-chart text-warning theme"></i>Sales Statistics</a> </li>
+									<li><a href="list-design.html" class="ripple"><i class="fa fa-list-ul text-primary theme"></i>List Design</a></li>
+									<li><a href="count-down.html" class="ripple"><i class="fa fa-clock-o text-danger theme"></i>Count Down</a> </li>
+									<li>
+										<a class=" ripple" href="document.html"> <i class="fa fa-code text-success theme"></i>Html Docs
+										</a>
+										
+									</li>
+									<li>
+										<a class="menu-click ripple" href="javascript:void(0)">
+											<i class="fa fa-files-o text-primary theme"></i>Invoice Template
+											<span class="caret-1 mod-crt"></span>
+										</a>
+										<ul class=" stybdr clearfix">
+											<li>
+												<a href="invoice.html" class="ripple">
+													<i class="fa fa-files-o fs14 text-info theme"></i> Template-1
+												</a>
+											</li>
+											
+										</ul>
+									</li>
+									<li>
+										<a class="menu-click ripple" href="javascript:void(0)">
+											<i class="fa fa-table text-danger theme"></i>Mailer Template
+											<span class="caret-1 mod-crt"></span>
+										</a>
+										<ul class=" stybdr clearfix">
+											<li><a href="mail-template-1.html" class="ripple"><i class="fa fa-files-o fs14 text-info theme"></i> Template-1
+              </a>
+											</li>
+											<li>
+												<a href="mail-template-2.html" class="ripple"><i class="fa fa-files-o fs14 text-warning theme"></i> Template-2</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="btm-up">
+								<a href="timeline.html" class="ripple"><i class="fa fa-clock-o nav-icon fs14"></i>
+       <span class="title">Timeline</span></a>
+							</li>
+							<li class="btm-up">
+								<a href="screen-lock.html" class="ripple"><i class="fa fa-lock nav-icon fs14"></i>
+       <span class="title">Screen Lock</span></a>
+							</li>
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<i class="fa fa-table nav-icon fs14"></i>
+									<span class="title">Extra</span>
+									<span class="caret-1"></span>
+								</a>
+								<ul class="sub-nav">
+									
+									<li><a href="editor.html" class="ripple"><i class="fa fa-file-text text-warning theme fs14"></i>Editor </a> </li>
+									<li><a href="feeds.html" class="ripple"><i class="fa fa-rss-square  text-primary theme fs14"></i>Feeds</a> </li>
+									<li><a href="list-view.html" class="ripple"><i class="fa fa-list-alt text-success theme fs14"></i>List View</a> </li>
+									<li><a href="grid-view.html" class="ripple"><i class="fa fa-th-large text-danger theme fs14"></i>Grid View</a> </li>
+									<li><a href="full-tab.html" class="ripple"><i class="fa fa-table text-warning theme fs14"></i>Full Tab</a> </li>
+								</ul>
+							</li>
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<!-- <i class="fa  fa-cubes nav-icon fs14"></i> -->
+									<i class="fa fa-list nav-icon fs14"></i>
+									<span class="title">Multilevel</span> <span class="caret-1"></span> </a>
+								<ul class="sub-nav">
+									<li> <a class="ripple"><i class="fa fa-circle fs7 text-info theme"></i> level-1</a> </li>
+									<li>
+										<a class="menu-click ripple" href="javascript:void(0)">
+											<i class="fa fa-circle fs7 text-warning theme"></i> level-1 <span class="caret-1 mod-crt"></span></a>
+										<ul class=" stybdr clearfix">
+											<li><a class="menu-click ripple" href="javascript:void(0)"><i class="fa fa-circle fs7  text-warning theme"></i> level-3
+                <span class="caret-1 mod-crt"></span>
+              </a>
+												<ul class="forth-lvl clearfix">
+													<li>
+														<a class="menu-click ripple" href="javascript:void(0)"> <i class="fa fa-circle text-dark fs7"></i>Level-4</a>
+													</li>
+													<li><a class="ripple"><i class="fa fa-circle  fs7  text-dark"></i>Level-4 </a>
+													</li>
+													<li><a class="ripple"><i class="fa fa-circle  fs7 text-dark"></i>Level-4</a> </li>
+												</ul>
+											</li>
+											<li><a class="ripple"><i class="fa fa-circle fs7  fs7 text-warning theme"></i> level-3</a></li>
+											<li><a class="ripple"><i class="fa fa-circle fs7  fs7 text-warning theme"></i> level-3</a></li>
+										</ul>
+									</li>
+									<li><a class="ripple"><i class="fa fa-circle fs7 text-info theme fs7"></i> level-1</a> </li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="more-mnu">
+							<li class="btm-up">
+								<a class="menu-click ripple" href="javascript:void(0)">
+									<i class="fa fa-ellipsis-v nav-icon fs14"></i>
+									<span class="title">More</span> <span class="caret-1"></span> </a>
+								<ul class="submenu-more">
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="wm-wrpr">
+						<div class="widget-menu wm-heading panel-title clearfix top-margin-20">
+							<a class="menu-click" href="javascript:void(0)">
+			   Status
+		   </a>
+						</div>
+						<div class="widget-menu clearfix">
+							<div class="top-margin-20 right-margin-20 bottom-margin-10 left-margin-15 graph-tile wyt-bg with-color clearfix">
+								<div class="grp-heading bottom-margin-20">
+									<span class="grp-title">Revenue</span>
+									<span class="grp-sec-title f-ryt">past 28 days</span>
+								</div>
+								<div class="grp-body">
+									<span class="grp-content">$75,800</span>
+								</div>
+								<div class="grp-footer">
+									<span class="grp-result">13.4% <i class="fa fa-level-up"></i></span>
+									<div class="wt-chart-menu text-center hide-ovrflw"></div>
+								</div>
+							</div>
+						</div>
+						<div class="widget-menu clearfix">
+							<div class="top-margin-20 right-margin-20 bottom-margin-10 left-margin-15 with-color wyt-bg graph-tile clearfix">
+								<div class="grp-heading bottom-margin-20">
+									<span class="grp-title">Goals</span>
+									<span class="grp-sec-title f-ryt">
+										orders this month
+									</span>
+								</div>
+								<div class="grp-body">
+									<span class="grp-content">3,690</span>
+								</div>
+								<div class="grp-footer">
+									<span class="grp-result">90% of 4,500</span>
+									<div class="progress">
+										<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="widget-menu clearfix">
+							<div class="top-margin-20 right-margin-20 bottom-margin-20 left-margin-15 wyt-bg graph-tile clearfix">
+								<div class="grp-heading bottom-margin-20">
+									<span class="grp-title">Items</span>
+									<span class="grp-sec-title f-ryt">past 28 days</span>
+								</div>
+								<div class="grp-body">
+									<span class="grp-content">407</span>
+								</div>
+								<div class="grp-footer">
+									<span class="grp-result">13.4% <i class="fa fa-level-down"></i></span>
+									<div class="wt-bar-menu text-center"></div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="u-name clearfix">
+					<a class="ripple">
+						<div class="user-sidebar"> <img src="images/administrator.jpg"> <span>Himal Rana</span> </div>
+					</a>
+					<ul class="pull-right user-optn">
+						<li>
+							<a href="login.html" class="left-padding-15 right-padding-15 ripple">
+							<i class="fa  fa-power-off  fs14 "></i>
+						</a>
+						</li>
+						<li>
+							<a id="close-btn" class="left-padding-15 right-padding-15 ripple" href="javascript:void(0)">
+							<i class="fa fa-times fs14 "></i>
+						</a>
+						</li>
+						<li>
+							<a class="left-padding-15 right-padding-15 ripple change-mnu" href="javascript:void(0)">
+								<i class="fa fa-angle-double-left fs14 fw"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</aside>	
+				<div class="overflow-popup-left"></div>
+			</div>
+			<div class="main-content clearfix">
+				<div class="row row10">
+					<div class="col-md-6 right-padding-10 left-padding-10">
+						<div class="panel panel-grey bottom-margin-20 code-editor">
+							<div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0"> <span class="panel-title"> General Detail</span>
+								<span class="code f-ryt ripple">
+				<i class="fa fa-code icon fs14 text-primary theme"></i>
+			</span>
+							</div>
+							<div class="default-tab">
+								<ul class="nav nav-tabs" role="tablist">
+									<li role="presentation" class="active">
+										<a href="#html-gdetail" aria-controls="html-gdetail" role="tab" data-toggle="tab">
+											<i class="fa fa-code fs12 right-margin-5"></i> html
+										</a>
+									</li>
+									<li role="presentation">
+										<a href="#css-gdetail" aria-controls="css-gdetail" role="tab" data-toggle="tab">
+											<i class="fa fa-css3 fs12 right-margin-5"></i> css
+										</a>
+									</li>
+								</ul>
+								<div class="tab-content wyt-bg padding-0 border-0">
+									<div role="tabpanel" class="tab-pane active" id="html-gdetail">
+										<pre class="bottom-margin-0 language-markup line-numbers copytoclipboard"><code>&lt;!--Three Input-->
+&lt;!--in full Class Div Put Sapn For feedback and input -->
+&lt;!--apply has-error for error message -->
+&lt;!--apply has-success for success message -->
+&lt;!--apply has-warning for warning message -->
+&lt;div class="form-inline boot-style three-input clearfix"> &lt;span class="control-label">Three Input :&lt;/span>
+  &lt;div class="clearfix ">
+    &lt;div class="form-group has-feedback has-error first-cld p-select right-margin-1pt">
+      &lt;div class="full">
+        &lt;select class="form-control">
+          &lt;option>Mr.&lt;/option>
+          &lt;option>Mrs.&lt;/option>
+          &lt;option>Ms.&lt;/option>
+        &lt;/select>
+        &lt;span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text">&lt;/span>
+	  &lt;/div>
+    &lt;/div>
+    &lt;div class="form-group has-feedback has-success sec-cld right-margin-1pt">
+      &lt;div class="full">
+        &lt;input type="text" class="form-control"  placeholder="shweta@example.com">
+        &lt;span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Success Text">&lt;/span> &lt;/div>
+    &lt;/div>
+    &lt;div class="form-group  has-feedback has-warning sec-cld ">
+      &lt;div class="full">...&lt;/div>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+&lt;!--Two Input-->			  
+&lt;div class="form-inline boot-style two-input clearfix">
+&lt;span class="control-label">Two Input :&lt;/span>
+  &lt;div class="clearfix f-ryt width-67">
+    &lt;div class="form-group has-feedback  right-margin-1pt first-cld">
+      &lt;div class="full">
+        &lt;input type="text" class="form-control"  placeholder="shweta@example.com">
+        &lt;span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text">&lt;/span> &lt;/div>
+    &lt;/div>
+    &lt;div class="form-group has-feedback sec-cld">
+      &lt;div class="full">...&lt;/div>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+&lt;!--One Input-->				  
+&lt;div class="form-inline boot-style one-input clearfix">&lt;span class="control-label">One Input :&lt;/span>
+&lt;div class="clearfix width-67">
+  &lt;div class="form-group has-feedback first-cld">
+    &lt;div class="full">...&lt;/div>
+  &lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!--Two Input with_label-->
+&lt;div class="form-inline boot-style two-input with_label clearfix">
+&lt;div class="clearfix">
+  &lt;div class="form-group  ">
+  	&lt;div class="first-cld clearfix f-ryt has-feedback has-success">
+       &lt;span class="control-label">Two Input :&lt;/span>
+   	 &lt;div class='input-group f-ryt' id='datetimepicker3'>
+      &lt;div class="full f-lft">...&lt;/div>
+      &lt;span class="input-group-addon"> &lt;span class="glyphicon glyphicon-time">&lt;/span> &lt;/span>
+    &lt;/div>
+  	&lt;/div>
+    	&lt;div class="sec-cld f-ryt has-feedback has-error">
+	&lt;span class="text-right control-label">Calender :&lt;/span>
+    	&lt;div class='input-group remain_inpt f-ryt' id='datetimepicker1'>
+      &lt;div class="full f-lft">...&lt;/div>
+      &lt;span class="input-group-addon"> &lt;span class="glyphicon glyphicon-calendar">&lt;/span> &lt;/span>
+    &lt;/div>
+	&lt;/div>
+  &lt;/div>
+&lt;/div>
+&lt;/div></code></pre>
+</div>
+<div role="tabpanel" class="tab-pane" id="css-gdetail">
+										<pre class="language-css bottom-margin-0 line-numbers copytoclipboard"><code>/*three Input css*/
+/*boot-style css*/
+/*label*/
+.boot-style.three-input span.control-label, .boot-style.two-input span.control-label, .boot-style.one-input span.control-label {
+    display: inline-block;
+    width: 33%;
+    text-align: right;
+    float: left;
+    line-height: 31px;
+    padding-right: 6px;
+    font-weight: normal;
+}
+.boot-style.three-input .form-group.first-cld {
+    width: 17%;
+    float: left;
+}
+.boot-style.three-input .form-group.sec-cld {
+    width: 24%;
+    float: left;
+}
+.full {
+    position: relative;
+    width: 100%;
+}
+.boot-style .form-group .form-control {
+    width: 100%;
+}
+.boot-style .form-group select, .boot-style .form-group input {
+    height: 31px;
+    padding: 0px 0 0 3px;
+    font-size: 12px;
+    line-height: 31px;
+    font-weight: normal;
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+}
+.boot-style .form-group select option {
+    color: rgba(0, 0, 0, 0.6);
+    border-width: 0 1px 0px 1px;
+    border-color: #ddd;
+    border-style: solid;
+    padding: 5px 0 5px 3px;
+}
+.boot-style .form-group input:focus, 
+.boot-style .form-group input:hover, 
+.boot-style .form-group select:hover, 
+.boot-style .form-group select:focus {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+	box-shadow: none;
+}
+<!--for error validation-->
+.boot-style .has-error input, 
+.boot-style .has-error select {
+    border-color: #EC6F5A !important;
+}
+.boot-style .has-success input, 
+.boot-style .has-success select {
+    border-color: #4BC076 !important;
+}
+.boot-style .has-warning input, 
+.boot-style .has-warning select {
+    border-color: #F7C65F !important;
+}
+<!--for feedback-->
+.has-error .myfeedback, .has-warning .myfeedback, .has-success .myfeedback, .has-danger .myfeedback {
+    display: block;
+    height: 10px;
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    width: 10px;
+    cursor: pointer;
+}
+.p-select .myfeedback {
+    right: 19px !important;
+}
+.has-error .myfeedback::before {
+    color: #EC6F5A;
+    content: "\e6bc";
+}
+.myfeedback::before {
+    font-family: icomoon;
+    font-size: 9px;
+}
+.has-success .myfeedback::before {
+    color: #4BC076;
+    content: "\e6bd";
+    font-size: 10px;
+}
+.has-warning .myfeedback::before {
+    color: #F7C65F;
+    content: "\e789";
+    font-size: 10px;
+}
+.has-feedback.has-error .tooltip .tooltip-inner {
+    background: #F4AB9F;
+    min-width: 150px;
+    border: 1px solid #E7472C;
+    color: #BB2D16;
+    font-size: 11px;
+}
+.has-feedback.has-success .tooltip .tooltip-inner {
+    min-width: 150px;
+    background: #84D4A1;
+    border: 1px solid #318D53;
+    color: #226039;
+}
+.has-feedback.has-warning .tooltip .tooltip-inner {
+    background: #FBE0A8;
+    min-width: 150px;
+    border: 1px solid #FCAA00;
+    color: #D6940B;
+}
+<!--two input css-->
+.form-inline.boot-style.two-input .width-67 {
+    width: 67%;
+}
+.form-inline.boot-style.two-input .width-67 .first-cld {
+    width: 49%;
+}
+.form-inline.boot-style.two-input .width-67 .sec-cld {
+    width: 50%;
+}
+.boot-style.two-input .form-group {
+    float: left;
+}
+<!--one input css-->
+.boot-style.one-input .width-67 {
+    width: 67%;
+    float: left;
+}	
+.boot-style.one-input .width-67 .first-cld {
+    width: 100%;
+}
+</code></pre>
+									</div>
+								</div>
+							</div>
+							<div class="panel-body">
+								<div class="form-inline boot-style three-input clearfix"> <span class="control-label">Three Input :</span>
+									<div class="clearfix ">
+										<div class="form-group has-feedback has-error first-cld p-select right-margin-1pt">
+											<div class="full">
+												<select class="form-control">
+													<option>Mr.</option>
+													<option>Mrs.</option>
+													<option>Ms.</option>
+												</select>
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text"></span>
+											</div>
+										</div>
+										<div class="form-group has-feedback has-success sec-cld right-margin-1pt">
+											<div class="full">
+												<input type="text" class="form-control" placeholder="shweta@example.com">
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Success Text"></span> </div>
+										</div>
+										<div class="form-group  has-feedback has-warning sec-cld ">
+											<div class="full">
+												<input type="text" class="form-control" placeholder="shweta@example.com">
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Warning Text"></span> </div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style two-input clearfix">
+									<span class="control-label">Two Input :</span>
+									<div class="clearfix f-ryt width-67">
+										<div class="form-group right-margin-1pt first-cld">
+											<div class="full">
+												<input type="text" class="form-control" placeholder="shweta@example.com">
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text"></span> </div>
+										</div>
+										<div class="form-group sec-cld">
+											<div class="full">
+												<input type="text" class="form-control" placeholder="shweta@example.com">
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text"></span> </div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style one-input clearfix"><span class="control-label">One Input :</span>
+									<div class="clearfix width-67 f-ryt">
+										<div class="form-group first-cld">
+											<div class="full">
+												<input type="text" class="form-control" placeholder="shweta@example.com">
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text"></span> </div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style two-input with_label clearfix">
+									<div class="clearfix">
+											<div class="first-cld clearfix f-ryt has-feedback has-success form-group">
+												<span class="control-label">Two Input-n :</span>
+												<div class='input-group f-ryt' id='datetimepicker3'>
+													<div class="full f-lft">
+														<input type='text' class="form-control" />
+														<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text"></span> </div>
+													<span class="input-group-addon"> <span class="glyphicon glyphicon-time"></span> </span>
+												</div>
+											</div>
+											<div class="sec-cld f-ryt has-feedback has-error form-group">
+												<span class="text-right control-label">Calender :</span>
+												<div class='input-group remain_inpt f-ryt' id='datetimepicker1'>
+													<div class="full f-lft">
+														<input type='text' class="form-control" />
+														<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span> </div>
+													<span class="input-group-addon"> <span class="glyphicon glyphicon-calendar"></span> </span>
+												</div>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-grey code-editor">
+							<div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0"> <span class="panel-title">DatePicker & Multiple Select Option</span>
+								<span class="code f-ryt ripple">
+				<i class="fa fa-code icon fs14 text-primary theme"></i>
+			</span>
+							</div>
+
+							<div class="default-tab">
+								<ul class="nav nav-tabs" role="tablist">
+									<li role="presentation" class="active">
+										<a href="#html-datepicker" aria-controls="html-datepicker" role="tab" data-toggle="tab">
+											<i class="fa fa-code fs12 right-margin-5"></i> html
+										</a>
+									</li>
+									<li role="presentation">
+										<a href="#js-datepicker" aria-controls="js-datepicker" role="tab" data-toggle="tab">
+											<i class="pdg-jquery fs12 right-margin-5"></i> jquery
+										</a>
+									</li>
+								</ul>
+								<div class="tab-content wyt-bg padding-0 border-0">
+									<div role="tabpanel" class="tab-pane active" id="html-datepicker">
+										<pre class="bottom-margin-0 language-markup line-numbers copytoclipboard"><code>
+&lt;!--Date Picker Jquery-->
+&lt;!--open Month-->
+&lt;div class="full">
+	&lt;input type="text" class="form-control" id="datepicker1" placeholder="calendar1" />
+	&lt;span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text">&lt;/span>
+&lt;/div>
+&lt;!--open Calender with Multidate -->
+&lt;div class="full">
+	&lt;input type="text" class="form-control datepicker2"  placeholder="multidate">
+	&lt;span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text">&lt;/span>
+&lt;/div>
+&lt;!--open Calender with Single date -->
+&lt;div class="full">
+	&lt;input type="text" class="form-control datepicker3" id="datepicker3" placeholder="Singledate">
+	&lt;span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text">&lt;/span>
+&lt;/div>
+&lt;!--Date Picker data-api with to label-->
+&lt;div class="form-inline boot-style two-input clearfix to-cls">
+	&lt;span class="control-label">Date Picker data-api :&lt;/span>
+	&lt;div class="clearfix f-ryt width-67">
+		&lt;div class="form-group  first-cld">
+			&lt;div class="full">...&lt;/div>
+		&lt;/div>
+		&lt;span class="lab-to">to&lt;/span>
+		&lt;div class="form-group  sec-cld">
+			&lt;div class="full">...&lt;/div>
+		&lt;/div>
+	&lt;/div>
+&lt;/div>
+&lt;!--Time Picker data-api with input-group-->
+&lt;div class="form-inline boot-style two-input clearfix">
+	&lt;span class="control-label">Time Picker data-api :&lt;/span>
+	&lt;div class="clearfix width-67 f-ryt">
+		&lt;div class="form-group   first-cld right-margin-1pt">
+			&lt;div class=" input-group">
+				&lt;div class="full ">
+					&lt;input type="text" class="form-control datetimepicker4" id="datetimepicker4">
+					&lt;span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text">&lt;/span>
+				&lt;/div>
+				&lt;span class="input-group-addon">
+        &lt;span class="glyphicon glyphicon-time">&lt;/span>
+				&lt;/span>
+			&lt;/div>
+		&lt;/div>
+		&lt;div class="form-group   sec-cld">
+			&lt;div class="full">...&lt;/div>
+		&lt;/div>
+	&lt;/div>
+&lt;/div>
+&lt;!--chosen jquery-->
+&lt;!--for Multi select use (data-role="tagsinput)"-->
+&lt;div class="full">
+	&lt;select data-placeholder="Choose Department :" multiple class="chosen-select" tabindex="5" data-role="tagsinput">
+		&lt;option value="">&lt;/option>
+		&lt;option selected>Account&lt;/option>
+		&lt;option selected>Dispute&lt;/option>
+		&lt;option>Commercial&lt;/option>
+		&lt;option>Legal&lt;/option>
+		&lt;option>Management&lt;/option>
+		&lt;option>NOC&lt;/option>
+		&lt;option>Rate&lt;/option>
+	&lt;/select>
+	&lt;span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text">&lt;/span>
+&lt;/div>
+&lt;!--chosen jquery-->
+&lt;!--for Single Select"-->
+&lt;!--First use as search-->
+&lt;div class="form-group   first-cld" id="chose_sel">
+	&lt;div class="full">
+		&lt;select data-placeholder="Choose Department :" class="chosen-select" tabindex="5">
+			&lt;option value="">&lt;/option>
+			&lt;option>Account&lt;/option>
+			&lt;option selected>Dispute&lt;/option>
+			&lt;option>Commercial&lt;/option>
+			&lt;option>Legal&lt;/option>
+			&lt;option>Management&lt;/option>
+			&lt;option>NOC&lt;/option>
+			&lt;option>Rate&lt;/option>
+			&lt;option>T1&lt;/option>
+			&lt;option>T2&lt;/option>
+			&lt;option>T3&lt;/option>
+			&lt;option>T4&lt;/option>
+		&lt;/select>
+		&lt;span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text">&lt;/span> &lt;/div>
+&lt;/div>
+&lt;!--Multiselect jquery-->
+&lt;div class="full">
+	&lt;select data-placeholder="Choose Department :" class=" mltchkbx1 clearfix" tabindex="5" multiple="multiple">
+		&lt;option>Account&lt;/option>
+		&lt;option selected>Dispute&lt;/option>
+		&lt;option>Commercial&lt;/option>
+		&lt;option>Legal&lt;/option>
+		&lt;option>Management&lt;/option>
+		&lt;option>NOC&lt;/option>
+		&lt;option>Rate&lt;/option>
+		&lt;option>T1&lt;/option>
+		&lt;option>T2&lt;/option>
+		&lt;option>T3&lt;/option>
+		&lt;option>T4&lt;/option>
+	&lt;/select>
+	&lt;span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text">&lt;/span>
+&lt;/div>
+&lt;!--Multiselect with Group-->
+&lt;!-- optgroup's will be clickable, allowing  select multiple options belonging to the same group -->
+&lt;!--to add select all option add includeSelectAllOption: true in jquery-->
+&lt;div class="full">
+	&lt;select data-placeholder="Choose Department :" class=" mltchkbx2" tabindex="5" multiple="multiple">
+		&lt;optgroup label="Group 1">
+			&lt;option>Account&lt;/option>
+			&lt;option>Dispute&lt;/option>
+			&lt;option>Commercial&lt;/option>
+			&lt;option>Legal&lt;/option>
+			&lt;option>Management&lt;/option>
+			&lt;option>NOC&lt;/option>
+			&lt;option>Rate&lt;/option>
+		&lt;/optgroup>
+		&lt;optgroup label="Group 2">
+			&lt;option>T1&lt;/option>
+			&lt;option>T2&lt;/option>
+			&lt;option>T3&lt;/option>
+			&lt;option>T4&lt;/option>
+		&lt;/optgroup>
+	&lt;/select>
+	&lt;span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text">&lt;/span>
+&lt;/div>
+&lt;!--Simple Select-->
+&lt;div class="full">
+&lt;select class="form-control ">
+	&lt;option value="106" data-color="#A0522D">sienna&lt;/option>
+	&lt;option value="47" data-color="#CD5C5C">Indianred&lt;/option>
+	&lt;option value="87" data-color="#FF4500">orangered&lt;/option>
+	&lt;option value="17" data-color="#008B8B">darkcyan&lt;/option>
+	&lt;option value="18" data-color="#B8860B">darkgoldenrod&lt;/option>
+	&lt;option value="68" data-color="#32CD32">limegreen&lt;/option>
+&lt;/select>
+&lt;span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text">&lt;/span>
+&lt;/div>
+&lt;!--Select Input (selectpicker) -->
+&lt;!--add multiple to select multipal data -->
+&lt;div class="full">
+	&lt;select class="selectpicker form-control" multiple>
+		&lt;option>Mustard&lt;/option>
+		&lt;option>Ketchup&lt;/option>
+		&lt;option>Relish&lt;/option>
+	&lt;/select>
+	&lt;span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text">&lt;/span>
+&lt;/div>
+&lt;!--Single Select (selectpicker)-->
+&lt;div class="full">
+	&lt;select class="selectpicker form-control">
+		&lt;option>Mustard&lt;/option>
+		&lt;option>Ketchup&lt;/option>
+		&lt;option>Relish&lt;/option>
+	&lt;/select>
+	&lt;span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text">&lt;/span>
+&lt;/div></code></pre>
+</div>
+<div role="tabpanel" class="tab-pane" id="js-datepicker">
+<pre class="language-javascript bottom-margin-0 line-numbers copytoclipboard"><code>
+// datepicker jquery
+// strat with month (set it by minViewMode)
+$('#datepicker1').datepicker({
+	orientation: "top right",
+	todayBtn: "linked",
+	minViewMode: 0,
+	calendarWeeks: true,
+	startView: 1
+});
+// datepicker with multidate select
+$('.datepicker2').datepicker({
+	multidate: true,
+	multidateSeparator: "&",
+	clearBtn: true,
+	todayHighlight: true,
+});
+// datepicker with single date select
+$('.datepicker3').datepicker({
+	multidate: false,
+	multidateSeparator: " &amp; ",
+	clearBtn: true,
+	todayHighlight: true,
+});
+//time picker
+$('.datetimepicker4').datetimepicker({
+	format: 'LT'
+});
+//bootstrap chosen Jquery
+// for multselect use multiple keyword in html
+jQuery('.chosen-select').chosen();
+
+//selectpicker
+$('.selectpicker').selectpicker();
+</code>
+</pre>
+</div>
+</div>
+</div>
+
+<div class="panel-body">
+	<div class="form-inline boot-style two-input clearfix">
+									<span class="control-label">Clock Picker :</span>
+									<div class="clearfix f-ryt width-67">
+										<div class="form-group right-margin-1pt first-cld">
+
+											<div class="input-group f-ryt clockpicker" >
+													<div class="full f-lft">
+														<input type="text" class="form-control" value="" placeholder="00:00">
+														<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="" data-original-title="This is Error Text"></span> </div>
+														<span class="input-group-addon"> <span class="glyphicon glyphicon-time"></span> </span>
+												</div>
+										</div>
+										<div class="form-group sec-cld">
+											<div class="input-group f-ryt" >
+													<div class="full f-lft">
+														<input type="text" class="form-control" readonly=""  type="text" name="clockface" id="clockface" value="">
+														<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="" data-original-title="This is Error Text"></span> </div>
+														<span class="input-group-addon" id="clockface-btn"> <span class="glyphicon glyphicon-time"></span> </span>
+												</div>
+										</div>
+									</div>
+								</div>
+	<div class="form-inline boot-style three-input clearfix"> <span class="control-label">Date Picker Jquery :</span>
+									<div class="form-group   first-cld right-margin-1pt">
+										<div class="full">
+											<input type="text" class="form-control" id="datepicker1" placeholder="calendar1" />
+											<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text"></span>
+										</div>
+									</div>
+									<div class="form-group    sec-cld right-margin-1pt">
+										<div class="full">
+											<input type="text" class="form-control datepicker2" placeholder="multidate">
+											<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text"></span>
+										</div>
+									</div>
+									<div class="form-group  sec-cld">
+										<div class="full">
+											<input type="text" class="form-control datepicker3" id="datepicker3" placeholder="Singledate">
+											<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text"></span>
+										</div>
+									</div>
+								</div>
+	<div class="form-inline boot-style two-input clearfix to-cls">
+									<span class="control-label">Date Picker data-api :</span>
+									<div class="clearfix f-ryt width-67">
+										<div class="form-group  first-cld">
+											<div class="full">
+												<input type="text" class="form-control" id="datepicker4">
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text"></span>
+											</div>
+										</div>
+										<span class="lab-to">to</span>
+										<div class="form-group sec-cld">
+											<div class="full">
+												<input type="text" class="form-control" id="datepicker5">
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style two-input clearfix">
+									<span class="control-label">Time Picker data-api :</span>
+									<div class="clearfix width-67 f-ryt">
+										<div class="form-group first-cld right-margin-1pt">
+											<div class=" input-group">
+												<div class="full ">
+													<input type="text" class="form-control datetimepicker4" id="datetimepicker4">
+													<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text"></span>
+												</div>
+												<span class="input-group-addon">
+        <span class="glyphicon glyphicon-time"></span>
+												</span>
+											</div>
+										</div>
+										<div class="form-group sec-cld">
+											<div class="full">
+												<input type="text" class="form-control" id="datepicker5">
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text"></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style one-input clearfix">
+									<span class="control-label">Department1 :</span>
+									<div class="clearfix width-67">
+										<div class="form-group first-cld">
+											<div class="full">
+												<select data-placeholder="Choose Department :" multiple class="chosen-select" tabindex="5" >
+													<option value=""></option>
+													<option selected>Account</option>
+													<option selected>Dispute</option>
+													<option>Commercial</option>
+													<option>Legal</option>
+													<option>Management</option>
+													<option>NOC</option>
+													<option>Rate</option>
+												</select>
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text"></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style one-input clearfix p-select">
+									<span class="control-label">chosen-select Jquery :</span>
+									<div class="clearfix width-67">
+										<div class="form-group first-cld" id="chose_sel">
+											<div class="full">
+												<select data-placeholder="Choose Department :" class="chosen-select" tabindex="5">
+													<option value=""></option>
+													<option>Account</option>
+													<option selected>Dispute</option>
+													<option>Commercial</option>
+													<option>Legal</option>
+													<option>Management</option>
+													<option>NOC</option>
+													<option>Rate</option>
+													<option>T1</option>
+													<option>T2</option>
+													<option>T3</option>
+													<option>T4</option>
+												</select>
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text"></span> </div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style one-input p-select clearfix"> <span class="control-label">Teams :</span>
+									<div class="clearfix width-67">
+										<div class="form-group first-cld" id="mul_Sel1">
+											<div class="full">
+												<select data-placeholder="Choose Department :" class=" mltchkbx1 clearfix" tabindex="5" multiple="multiple">
+													<option>Account</option>
+													<option selected>Dispute</option>
+													<option>Commercial</option>
+													<option>Legal</option>
+													<option>Management</option>
+													<option>NOC</option>
+													<option>Rate</option>
+													<option>T1</option>
+													<option>T2</option>
+													<option>T3</option>
+													<option>T4</option>
+												</select>
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text"></span> </div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style one-input p-select clearfix"> <span class="control-label">
+                <input type="checkbox" name="iCheck" checked="">
+                </span>
+									<div class="clearfix width-67">
+										<div class="form-group  first-cld" id="mul_Sel2">
+											<div class="full">
+												<select data-placeholder="Choose Department :" class=" mltchkbx2" tabindex="5" multiple="multiple">
+													<optgroup label="Group 1">
+														<option>Account</option>
+														<option>Dispute</option>
+														<option>Commercial</option>
+														<option>Legal</option>
+														<option>Management</option>
+														<option>NOC</option>
+														<option>Rate</option>
+													</optgroup>
+													<optgroup label="Group 2">
+														<option>T1</option>
+														<option>T2</option>
+														<option>T3</option>
+														<option>T4</option>
+													</optgroup>
+												</select>
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text"></span> </div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style one-input p-select clearfix">
+									<span class="control-label">Teams :</span>
+									<div class="clearfix width-67">
+										<div class="form-group first-cld ">
+											<div class="full">
+												<select data-placeholder="Choose Department :" class=" mltchkbx1" tabindex="5" multiple="multiple">
+													<option>Account</option>
+													<option selected>Dispute</option>
+													<option>Commercial</option>
+													<option>Legal</option>
+													<option>Management</option>
+													<option>NOC</option>
+													<option>Rate</option>
+													<option>T1</option>
+													<option>T2</option>
+													<option>T3</option>
+													<option>T4</option>
+												</select>
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text"></span> </div>
+										</div>
+									</div>
+								</div>
+<div class="form-inline boot-style one-input p-select"> <span class="control-label">Simple Select :</span>
+	<div class="clearfix width-67">
+		<div class="form-group first-cld">
+			<div class="full">
+				<select class="form-control ">
+					<option value="106">sienna</option>
+					<option value="47">Indianred</option>
+					<option value="87">orangered</option>
+					<option value="17">darkcyan</option>
+					<option value="18">darkgoldenrod</option>
+					<option value="68">limegreen</option>
+				</select>
+				<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span> </div>
+		</div>
+	</div>
+</div>
+<div class="form-inline boot-style  one-input p-select"> <span class="control-label">Select Input(b) :</span>
+	<div class="clearfix width-67">
+		<div class="form-group first-cld">
+			<div class="full">
+				<select class="selectpicker form-control" multiple>
+					<option>Mustard</option>
+					<option>Ketchup</option>
+					<option>Relish</option>
+				</select>
+				<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span> </div>
+		</div>
+	</div>
+</div>
+<div class="form-inline boot-style  one-input p-select"> <span class="control-label">Single Select(b) :</span>
+	<div class="clearfix width-67">
+		<div class="form-group first-cld">
+			<!-- <label class="control-label" for="Address">Username</label> -->
+			<div class="full">
+				<select class="selectpicker form-control">
+					<option>Mustard</option>
+					<option>Ketchup</option>
+					<option>Relish</option>
+				</select>
+				<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span> </div>
+		</div>
+	</div>
+</div>	
+</div>
+</div>
+<div class="panel panel-grey code-editor bottom-margin-0">
+							<div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0">
+								<span class="panel-title">Multiselect </span>
+								<span class="code f-ryt ripple">
+									<i class="fa fa-code icon fs14 text-primary theme"></i>
+								</span>
+							</div>
+							<div class="default-tab">
+								<ul class="nav nav-tabs" role="tablist">
+									<li role="presentation" class="active">
+										<a href="#html-multiselect" aria-controls="html-multiselect" role="tab" data-toggle="tab">
+											<i class="fa fa-code fs12 right-margin-5"></i> html
+										</a>
+									</li>
+									<li role="presentation">
+										<a href="#css-multiselect" aria-controls="css-multiselect" role="tab" data-toggle="tab">
+											<i class="fa fa-css3 fs12 right-margin-5"></i> css
+										</a>
+									</li>
+								</ul>
+								<div class="tab-content wyt-bg padding-0 border-0">
+<div role="tabpanel" class="tab-pane active" id="html-multiselect">
+<pre class="bottom-margin-0 language-markup line-numbers copytoclipboard shift-btn"><code>&lt;!--with button -->
+&lt;!--for this we use input-group class-->
+&lt;!--always use f-lft with full class to set feedback in input-group case-->
+&lt;div class="form-inline boot-style one-input p-select"> &lt;span class="control-label">Choose Input :&lt;/span>
+	&lt;div class="clearfix width-67">
+		&lt;div class="form-group  first-cld ">
+			&lt;div class="input-group">
+				&lt;div class="full f-lft">...&lt;/div>
+				&lt;span class="input-group-btn">
+                    &lt;button class="btn btn-success btn-sm btn-def-3d" type="button">Add&lt;/button>
+                    &lt;/span> 
+				&lt;/div>
+		&lt;/div>
+	&lt;/div>
+&lt;/div></code></pre>
+</div>
+<div role="tabpanel" class="tab-pane" id="css-multiselect">
+<pre class="bottom-margin-0 language-css line-numbers copytoclipboard shift-btn"><code>.boot-style .form-group .input-group {
+    width: 100%;
+}</code></pre>
+</div>
+									
+									
+									
+									
+</div>
+</div>
+
+							<div class="panel-body">
+								<div class="form-inline boot-style one-input"> <span class="control-label">Choose Input :</span>
+									<div class="clearfix width-67">
+										<div class="form-group  first-cld ">
+											<div class="input-group">
+												<div class="full f-lft">
+													<select data-placeholder="Choose Department :" multiple class="chosen-select" tabindex="5" data-role="tagsinput">
+														<option value=""></option>
+														<option selected>Account</option>
+														<option selected>Dispute</option>
+														<option>Commercial</option>
+														<option>Legal</option>
+														<option>Management</option>
+														<option>NOC</option>
+														<option>Rate</option>
+													</select>
+													<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Error Text"></span>
+												</div>
+												<span class="input-group-btn">
+                    <button class="btn btn-success btn-sm btn-def-3d" type="button">Add</button>
+                    </span> </div>
+										</div>
+									</div>
+								</div>
+
+
+
+
+
+								<div class="form-inline boot-style one-input p-select"> <span class="control-label">Search MultiSelect :</span>
+									<div class="clearfix width-67">
+										<div class="form-group first-cld ">
+											<div class="input-group">
+												<div class="full f-lft">
+													<select data-placeholder="Choose Department :" class=" mltchkbx2" tabindex="5" multiple="multiple">
+														<optgroup label="Group 1">
+															<option>Account</option>
+															<option>Dispute</option>
+															<option>Commercial</option>
+														</optgroup>
+														<optgroup label="Group 2">
+															<option>T1</option>
+															<option>T2</option>
+															<option>T3</option>
+															<option>T4</option>
+														</optgroup>
+													</select>
+													<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span> </div>
+												<span class="input-group-btn">
+                    <button class="btn btn-success btn-sm btn-def-3d" type="button">Add</button>
+                    </span> </div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style one-input p-select"> <span class="control-label">Multiselect :</span>
+									<div class="clearfix width-67">
+										<div class="form-group  first-cld ">
+											<div class="input-group">
+												<div class="full f-lft">
+													<select data-placeholder="Choose Department :" class=" mltchkbx1" tabindex="5" multiple="multiple">
+														<option>Account</option>
+														<option selected>Dispute</option>
+														<option>Commercial</option>
+														<option>Legal</option>
+														<option>Management</option>
+														<option>NOC</option>
+														<option>Rate</option>
+														<option>T1</option>
+														<option>T2</option>
+														<option>T3</option>
+														<option>T4</option>
+													</select>
+													<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span> </div>
+												<span class="input-group-btn">
+                    <button class="btn btn-success btn-sm btn-def-3d" type="button">Add</button>
+                    </span> </div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style one-input p-select"> <span class="control-label">Single Select :</span>
+									<div class="clearfix width-67">
+										<div class="form-group first-cld ">
+											<div class="input-group">
+												<div class="full f-lft">
+													<select data-placeholder="Choose Department :" class="chosen-select" tabindex="5">
+														<option value=""></option>
+														<option>Account</option>
+														<option selected>Dispute</option>
+														<option>Commercial</option>
+														<option>Legal</option>
+														<option>Management</option>
+														<option>NOC</option>
+														<option>Rate</option>
+														<option>T1</option>
+														<option>T2</option>
+														<option>T3</option>
+														<option>T4</option>
+													</select>
+													<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span> </div>
+												<span class="input-group-btn">
+                    								<button class="btn btn-success btn-sm btn-def-3d" type="button">Add</button>
+                    							</span> </div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 right-padding-10 left-padding-10">
+						<div class="panel panel-grey code-editor">
+							<div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0">
+								<span class="panel-title">Two button with Left Icon</span>
+								<span class="code f-ryt ripple">
+									<i class="fa fa-code icon fs14 text-primary theme"></i>
+								</span>
+							</div>
+							<div class="default-tab">
+								<ul class="nav nav-tabs" role="tablist">
+									<li role="presentation" class="active">
+										<a href="#html-tbutton" aria-controls="html-tbutton" role="tab" data-toggle="tab">
+											<i class="fa fa-code fs12 right-margin-5"></i> html
+										</a>
+									</li>
+								</ul>
+								<div class="tab-content wyt-bg padding-0 border-0">
+									<div role="tabpanel" class="tab-pane active" id="html-tbutton">
+										<pre class="bottom-margin-0 language-markup line-numbers copytoclipboard"><code>&lt;!--with Two Buttons-->
+&lt;!--use f-lft in full for input-group style--&gt;
+&lt;div class="form-inline boot-style one-input"> &lt;span class="control-label">Warning button :&lt;/span>
+	&lt;div class="clearfix width-67">
+		&lt;div class="form-group has-feedback has-warning first-cld">
+			&lt;div class="input-group">
+				&lt;div class="full f-lft">...&lt;/div>
+				&lt;span class="input-group-addon"> &lt;i class="fa fa-envelope-o">&lt;/i> &lt;/span>
+				&lt;span class="input-group-btn">
+                  	&lt;button class="btn btn-warning btn-sm btn-def-3d" type="button">Warning&lt;/button>
+                 &lt;/span> 
+				 &lt;span class="input-group-btn">
+                  	&lt;button class="btn btn-danger btn-sm btn-def-3d" type="button">Remove&lt;/button>
+                 &lt;/span> 
+			&lt;/div>
+		&lt;/div>
+	&lt;/div>
+&lt;/div>
+</code></pre>
+									</div>									
+								</div>
+							</div>
+							
+							
+							
+							
+							
+							<div class="panel-body">
+								<div class="form-inline boot-style one-input"> <span class="control-label">Warning button :</span>
+									<div class="clearfix width-67">
+										<div class="form-group has-feedback has-warning first-cld">
+											<div class="input-group">
+												<div class="full f-lft">
+													<input type="text" class="form-control" id="datepicker1">
+													<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Warning Text"></span> </div>
+												<span class="input-group-addon"> <i class="fa fa-envelope-o"></i> </span> <span class="input-group-btn">
+                  <button class="btn btn-warning btn-sm btn-def-3d" type="button">Warning</button>
+                  </span> <span class="input-group-btn">
+                  <button class="btn btn-danger btn-sm btn-def-3d" type="button">Remove</button>
+                  </span> </div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style one-input"> <span class="control-label">Warning button :</span>
+									<div class="width-67 clearfix">
+										<div class="form-group has-feedback has-success first-cld">
+											<div class="input-group">
+												<div class="full f-lft">
+													<input type="text" class="form-control" id="datepicker1">
+													<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="This is Success Text"></span> </div>
+												<span class="input-group-addon"> <i class="fa fa-envelope-o"></i> </span> <span class="input-group-btn">
+                  <button class="btn btn-success btn-sm btn-def-3d" type="button">Success</button>
+                  </span> <span class="input-group-btn">
+                  <button class="btn btn-danger btn-sm btn-def-3d" type="button">Remove</button>
+                  </span></div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style  one-input"> <span class="control-label">Error button :</span>
+									<div class="width-67 clearfix">
+										<div class="form-group has-feedback has-error first-cld">
+											<div class="input-group">
+												<div class="full f-lft">
+													<input type="text" class="form-control" id="datepicker1">
+													<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span> </div>
+												<span class="input-group-addon"> <i class="fa fa-envelope-o"></i> </span> <span class="input-group-btn">
+                  <button class="btn btn-primary btn-sm btn-def-3d" type="button">Add</button>
+                  </span> <span class="input-group-btn">
+                  <button class="btn btn-danger btn-sm btn-def-3d" type="button">Remove</button>
+                  </span> </div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-grey">
+							<div class="panel-heading top-padding-0 bottom-padding-0 right-padding-0"> <span class="panel-title">Style-4</span>
+							</div>
+							<div class="panel-body">
+								<div class="form-inline boot-style boot-style-4 one-input"> <span class="control-label">One Input :</span>
+									<div class="clearfix width-67">
+										<div class="form-group first-cld">
+											<div class="full">
+												<input type="text" class="form-control">
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span>
+												<div class="border-focus"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style boot-style-4 one-input p-select"> <span class="control-label">Simple Select :</span>
+									<div class="clearfix width-67">
+										<div class="form-group first-cld">
+											<div class="full">
+												<select class="form-control">
+													<option value="106" data-color="#A0522D">sienna</option>
+													<option value="47" data-color="#CD5C5C">indianred</option>
+													<option value="87" data-color="#FF4500">orangered</option>
+													<option value="17" data-color="#008B8B">darkcyan</option>
+													<option value="18" data-color="#B8860B">darkgoldenrod</option>
+													<option value="68" data-color="#32CD32">limegreen</option>
+												</select>
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span>
+												<div class="border-focus"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style boot-style-4 one-input p-select"> <span class="control-label">Select Input :</span>
+									<div class="clearfix width-67">
+										<div class="form-group first-cld">
+											<div class="full">
+												<select class="selectpicker form-control" multiple>
+													<option>Mustard</option>
+													<option>Ketchup</option>
+													<option>Relish</option>
+												</select>
+												<div class="border-focus"></div>
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span> </div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style boot-style-4 one-input p-select"> <span class="control-label">Single Select :</span>
+									<div class="clearfix width-67">
+										<div class="form-group first-cld">
+											<div class="full">
+												<select class="selectpicker form-control">
+													<option>Mustard</option>
+													<option>Ketchup</option>
+													<option>Relish</option>
+												</select>
+												<div class="border-focus"></div>
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style boot-style-4 one-input"> <span class="control-label">Choose Input :</span>
+									<div class="clearfix width-67">
+										<div class="form-group first-cld">
+											<div class="full">
+												<select multiple class="chosen-select" tabindex="5" data-role="tagsinput">
+													<option value=""></option>
+													<option selected>Account</option>
+													<option selected>Dispute</option>
+													<option>Commercial</option>
+													<option>Legal</option>
+													<option>Management</option>
+													<option>NOC</option>
+													<option>Rate</option>
+												</select>
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span>
+												<div class="border-focus"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style boot-style-4 one-input p-select"> <span class="control-label">Search multiSelect :</span>
+									<div class="clearfix width-67">
+										<div class="form-group first-cld">
+											<div class="full">
+												<select data-placeholder="Choose Department :" class=" mltchkbx2" tabindex="5" multiple="multiple">
+													<optgroup label="Group 1">
+														<option>Account</option>
+														<option>Dispute</option>
+														<option>Commercial</option>
+													</optgroup>
+													<optgroup label="Group 2">
+														<option>T1</option>
+														<option>T2</option>
+														<option>T3</option>
+														<option>T4</option>
+													</optgroup>
+												</select>
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span>
+												<div class="border-focus"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style boot-style-4 one-input p-select"> <span class="control-label">Multiselect :</span>
+									<div class="clearfix width-67">
+										<div class="form-group first-cld">
+											<div class="full">
+												<select class="mltchkbx1" tabindex="5" multiple="multiple">
+													<option>Account</option>
+													<option selected>Dispute</option>
+													<option>Commercial</option>
+													<option>Legal</option>
+													<option>Management</option>
+													<option>NOC</option>
+													<option>Rate</option>
+													<option>T1</option>
+													<option>T2</option>
+													<option>T3</option>
+													<option>T4</option>
+												</select>
+												<!-- <label class="control-label" for="Address">Username</label> -->
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span>
+												<div class="border-focus"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-inline boot-style boot-style-4 one-input p-select"> <span class="control-label">Single Select :</span>
+									<div class="clearfix width-67">
+										<div class="form-group first-cld">
+											<div class="full">
+												<select data-placeholder="Choose Department :" class="chosen-select" tabindex="5">
+													<option value=""></option>
+													<option>Account</option>
+													<option selected>Dispute</option>
+													<option>Commercial</option>
+													<option>Legal</option>
+													<option>Management</option>
+													<option>NOC</option>
+													<option>Rate</option>
+													<option>T1</option>
+													<option>T2</option>
+													<option>T3</option>
+													<option>T4</option>
+												</select>
+												<span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span>
+												<div class="border-focus"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- start -->
+								<div class="form-inline boot-style  boot-style-4 two-input clearfix">
+									<span class="control-label">Two Input :</span>
+									<div class="clearfix f-ryt width-67">
+										<div class="form-group right-margin-1pt first-cld">
+											<div class="full">
+												<input type="text" placeholder="shweta@example.com" class="form-control">
+												<span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span>
+												<div class="border-focus" style="width: 0px;"></div>
+											</div>
+										</div>
+										<div class="form-group   sec-cld">
+											<div class="full">
+												<input type="text" placeholder="shweta@example.com" class="form-control">
+												<span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="This is Error Text"></span>
+												<div class="border-focus" style="width: 0px;"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- end -->
+								<!-- start -->
+								<div class="form-inline boot-style boot-style-4  three-input clearfix">
+									<span class="control-label">Three Input1 :</span>
+									<div class="clearfix ">
+										<div class="form-group first-cld p-select right-margin-1pt">
+											<div class="full">
+												<select class="form-control">
+													<option>Mr.</option>
+													<option>Mrs.</option>
+													<option>Ms.</option>
+												</select>
+												<span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span>
+												<div class="border-focus"></div>
+											</div>
+										</div>
+										<div class="form-group sec-cld right-margin-1pt">
+											<div class="full">
+												<input type="text" placeholder="shweta@example.com" class="form-control">
+												<span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="This is Success Text"></span>
+												<div class="border-focus"></div>
+											</div>
+										</div>
+										<div class="form-group sec-cld ">
+											<div class="full">
+												<input type="text" placeholder="shweta@example.com" class="form-control">
+												<span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="This is Warning Text"></span>
+												<div class="border-focus"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- end -->
+								<!-- start -->
+								<div class="form-inline boot-style boot-style-4  two-input with_label clearfix">
+									<div class="clearfix">
+
+											<div class="first-cld clearfix f-ryt form-group">
+												<span class="control-label">Two Input :</span>
+												<div id="datetimepicker3" class="input-group f-ryt">
+													<div class="full f-lft">
+														<input type="text" class="form-control">
+														<span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span>
+														<div class="border-focus"></div>
+													</div>
+													<span class="input-group-addon"> <span class="glyphicon glyphicon-time"></span> </span>
+												</div>
+											</div>
+											<div class="sec-cld f-ryt form-group">
+												<span class="text-right control-label">Calender-N :</span>
+												<div id="datetimepicker1" class="input-group remain_inpt f-ryt">
+													<div class="full f-lft">
+														<input type="text" class="form-control">
+														<span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text"></span>
+														<div class="border-focus"></div>
+													</div>
+													<span class="input-group-addon"> <span class="glyphicon glyphicon-calendar"></span> </span>
+												</div>
+											</div>
+
+									</div>
+								</div>
+								<!-- end -->
+								<!-- start -->
+								<div class="form-inline boot-style  boot-style-4 one-input"> <span class="control-label">Textbox1 :</span>
+									<div class="clearfix width-67">
+										<div class="form-group first-cld">
+											<div class="input-group">
+												<div class="full f-lft">
+													<input type="text" id="daterangepicker" class="form-control" required value="" placeholder="Any Textbox">
+													<span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="This is Success Text">						  </span>
+													<div class="border-focus"></div>
+												</div>
+												<span class="input-group-btn">
+                    <button class="btn btn-success btn-sm btn-def-3d" type="button">Add</button>
+                    </span> </div>
+										</div>
+									</div>
+								</div>
+								<!-- end -->
+								<!-- start -->
+								<div class="form-inline boot-style boot-style-4 two-input clearfix">
+									<span class="control-label">Two Input :</span>
+									<div class="clearfix f-ryt width-67">
+										<div class="form-group right-margin-1pt first-cld">
+											<div class="input-group">
+												<div class="full f-lft">
+													<input type="text" placeholder="Plz Choose Any Day" value="" required class="form-control" id="daterangepicker">
+													<span data-original-title="Error Text" class="myfeedback" data-toggle="tooltip" data-placement="top" title="">
+                      </span>
+													<div class="border-focus"></div>
+												</div>
+												<span class="input-group-btn">
+                    							<button type="button" class="btn btn-success btn-sm btn-def-3d">Add</button>
+                    							</span>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="form-group  sec-cld">
+											<div class="input-group">
+												<div class="full f-lft">
+													<input type="text" placeholder="Plz Choose Any Day" value="" required class="form-control" id="daterangepicker">
+													<span data-original-title="Error Text" class="myfeedback" data-toggle="tooltip" data-placement="top" title="">
+                      </span>
+													<div class="border-focus"></div>
+												</div>
+												<span class="input-group-btn">
+                    <button type="button" class="btn btn-success btn-sm btn-def-3d">Add</button>
+                    </span>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+								</div>
+								<!-- end -->
+								<!-- start -->
+								<div class="form-inline boot-style   boot-style-4 one-input clearfix">
+									<span class="control-label">Primary button :</span>
+									<div class="clearfix width-67">
+										<div class="form-group first-cld">
+											<div class="input-group">
+												<div class="full f-lft">
+													<input type="text" class="form-control" id="datepicker1">
+													<span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text">
+                    </span>
+													<div class="border-focus"></div>
+												</div>
+												<span class="input-group-btn">
+                  <button class="btn btn-primary btn-def-3d btn-sm" type="button">Add</button>
+                  </span> <span class="input-group-btn">
+                  <button class="btn btn-danger btn-sm btn-def-3d" type="button">Remove</button>
+                  </span> </div>
+										</div>
+									</div>
+								</div>
+								<!-- end-->
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<aside id="sidebar-right" class="default-tab s-opn-wrpr style-2">
+				<div class="u-name clearfix">
+					<a href="javascript:void(0)">
+						<div class="user-sidebar"> <img src="images/administrator.jpg" /> <span>Himal Rana</span> </div>
+					</a>
+					<ul class="pull-right user-optn clearfix">
+						<li>
+							<a class="chat-open left-padding-12 right-padding-12  ripple" href="javascript:void(0)">
+								<i class="fa fa-comments fs14"></i>
+								<span class="badge    danger-bg">4</span>
+							</a>
+						</li>
+						<li>
+							<a href="login.html" class="left-padding-12 right-padding-12  ripple"><i class="fa fa-power-off fs14"></i></a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" id="close-btn" class="left-padding-12 right-padding-12  ripple"> 
+								<i class="fa fa-times fs14"></i> 
+							</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="nav nav-tabs nav-justified sliding-bar" role="tablist">
+					<li class="active" role="presentation">
+						<a href="#sect4" aria-controls="sect4" role="tab" data-toggle="tab" id="sett-sidebar" class="button-ripple ripple">
+							<i class="fa fa-server fs14"></i> </a>
+					</li>
+					<li role="presentation">
+						<a href="#sect1" role="tab" aria-controls="sect1" data-toggle="tab" id="noty" class="button-ripple ripple"> <i class="fa fa-bell fs14"></i> <span class="badge    success-bg">4</span> </a>
+					</li>
+					<li role="presentation">
+						<a href="#sect2" role="tab" data-toggle="tab" aria-controls="sect2" id="mail-sidebar" class="button-ripple ripple"> <i class="fa fa-envelope fs14"></i> <span class="badge    primary-bg">4</span> </a>
+					</li>
+					<li role="presentation" class="hidden-xs">
+						<a href="#sect3" role="tab" data-toggle="tab" aria-controls="sect3" id="sett-sidebar" class="button-ripple ripple">
+							<i class="fa fa-cog fs14"></i> </a>
+					</li>
+					<li class="slider"></li>
+				</ul>
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane" id="sect1">
+						<div class="container-sidebar left-padding-0 right-padding-0">
+
+							<div class="twitter-optn left top-margin-0 ">
+								<span class="title-sidebar left-padding-12">System Notification</span>
+								<div class="tweets-sidebar left-padding-15 right-padding-15">
+									<label class="bottom-margin-10">
+										<span class="label-text">
+                      <i class="fa fa-user fs14 right-padding-12  text-success theme f-lft"></i>
+                      <em>New user Registered</em>
+                    </span>
+										<span class="f-ryt time">1hr</span>
+									</label>
+									<div class="clearfix"></div>
+									<label class="bottom-margin-10">
+										<span class="label-text"> <i class="fa fa-exclamation-triangle fs14 right-padding-12   f-lft text-danger theme"></i><em>Database Connection Error</em></span>
+										<span class="f-ryt time">1hr</span>
+									</label>
+									<div class="clearfix"></div>
+									<label class="bottom-margin-10">
+										<span class="label-text"> <i class="fa fa-user fs14 right-padding-12  text-warning theme f-lft"></i><em> New user Registered</em></span>
+										<span class="f-ryt time">1hr</span>
+									</label>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+						<!-- end container sidebar -->
+					</div>
+					<div role="tabpanel" class="tab-pane" id="sect2">
+						<div class="container-sidebar left-padding-0 right-padding-0">
+							<div class="mail-sidebar"> <span class="title-sidebar left-padding-12">Mails Notification</span>
+								<div class="left top-margin-0 left-padding-15 right-padding-15">
+									<h4 class="user-name"><i class="fa fa-envelope right-padding-12  text-warning theme fs14"></i> Mahavir Shah <span class="f-ryt fs11 time-mail">1hr</span></h4>
+									<p class="mail-msg">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+								<div class="left left-padding-15 right-padding-15">
+									<h4 class="user-name"><i class="fa fa-envelope right-padding-12  text-warning theme fs14"></i>Chirag Mehta<span class="f-ryt fs11 time-mail">1hr</span></h4>
+									<p class="mail-msg">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+								<div class="left left-padding-15 right-padding-15">
+									<h4 class="user-name"><i class="fa fa-envelope right-padding-12  text-warning theme fs14"></i>Benil George<span class="f-ryt fs11 time-mail">1hr</span></h4>
+									<p class="mail-msg">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+								<div class="left left-padding-15 right-padding-15">
+									<h4 class="user-name"><i class="fa fa-envelope right-padding-12  text-warning theme fs14"></i>Sumit Bose<span class="f-ryt fs11 time-mail">1hr</span></h4>
+									<p class="mail-msg">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+							</div>
+						</div>
+						<!-- end container sidebar -->
+					</div>
+					<div role="tabpanel" class="tab-pane" id="sect3">
+						<div class="container-sidebar left-padding-0 right-padding-0">
+							<div class="mails_sidebar set-alert set-layout-icon">
+								<span class="title-sidebar left-padding-12 ">Quick Setting <em class="d-title f-ryt right-padding-12 ">Desktop Only</em></span>
+								<div class="alert alert-info clearfix no-btn"><strong>*</strong>Default Menu Will be positioned at top & additional vertical Menu will be added.
+                                </div>
+								<div class="sidebar-set left top-margin-0 left-padding-15 right-padding-15 two-icon">
+									<label class="set-menu">
+										<div class="menu-icon">
+											<div class="hor-mnu"></div>
+											<div class="ver-mnu"></div>
+											</div>
+										<span class="label-text"> 
+											<i class="fa fa-bars fs14 right-padding-12  text-success theme"></i>Two Menu</span>
+										<input id="cmn-two-mnu" class="cmn-toggle cmn-toggle-round" type="checkbox" name="quk-set">
+										<label for="cmn-two-mnu"></label>
+									</label>
+									<p>Enable top Menu with default menu.</p>
+								</div>
+							</div>
+							<div class="mails_sidebar set-layout-icon set-alert">
+								<span class="title-sidebar left-padding-12">Menu Position</span>
+								<div class="alert alert-info clearfix no-btn"><strong>*</strong>Set the position for main menu in single menu case & operation menu in two menu case.
+                                          </div>
+									<div class="sidebar-set left top-margin-0 left-padding-15 right-padding-15 left-icon">
+									<label class="set-menu">
+										<div class="menu-icon ">
+											<div class="hor-mnu"></div>
+											<div class="ver-mnu"></div>
+											</div>
+										<span class="label-text"> <i class="fa fa-bars fs14 right-padding-12  text-success theme"></i> Left Menu</span>
+										<input id="cmn-lft-mnu" class="cmn-toggle cmn-toggle-round" type="radio" name="quk-set">
+										<label for="cmn-lft-mnu"></label>
+									</label>
+									<p>Activate the Left Menu Option.</p>
+									<div class="clearfix"></div>
+								</div>
+									<div class="sidebar-set left top-margin-0 left-padding-15 right-padding-15 right-icon">
+									<label class="set-menu">
+										<div class="menu-icon ">
+											<div class="hor-mnu"></div>
+											<div class="ver-mnu"></div>
+											</div>
+										<span class="label-text"> <i class="fa fa-bars fs14 right-padding-12  text-success theme"></i> Right Menu</span>
+										<input id="cmn-rgt-mnu" class="cmn-toggle cmn-toggle-round" type="radio" name="quk-set">
+										<label for="cmn-rgt-mnu"></label>
+									</label>
+									<p>Activate the Right Menu Option.</p>
+									<div class="clearfix"></div>
+								</div>
+								<div class="sidebar-set left top-margin-0 left-padding-15 right-padding-15 top-icon">
+									<label class="set-menu">
+										<div class="menu-icon">
+											<div class="hor-mnu"></div>
+											<div class="ver-mnu"></div>
+											</div>
+										<span class="label-text"> <i class="fa fa-bars fs14 right-padding-12  text-success theme"></i>Top Menu</span>
+										<input id="cmn-first-mnu" class="cmn-toggle cmn-toggle-round" type="radio" name="quk-set">
+										<label for="cmn-first-mnu"></label>
+									</label>
+									<p>Activate the Top Menu Option.</p>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="mails_sidebar set-layout-icon set-alert data-visiblity">
+								<span class="title-sidebar left-padding-12 ">data Visibility <em class="d-title f-ryt right-padding-12 "></em></span>
+								<div class="alert alert-info clearfix no-btn"><strong>*</strong>set the full menu to nonoverlay style.
+                                </div>
+									<div class="sidebar-set left top-margin-0 left-padding-15 right-padding-15 non-icon">
+									<label class="set-menu">
+										<div class="menu-icon ">
+											<div class="hor-mnu"></div>
+											<div class="ver-mnu"></div>
+											</div>
+										<span class="label-text"> <i class="fa fa-bars fs14 right-padding-12  text-success theme"></i>Non Overlay Layout</span>
+										<input id="cmn-nonoverlap-mnu" class="cmn-toggle cmn-toggle-round" type="checkbox" name="mnu-set">
+										<label for="cmn-nonoverlap-mnu"></label>
+									</label>
+									<p>Activate the Non Overlay Layout</p>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="mails_sidebar set-layout-icon set-alert menu-style">
+								<span class="title-sidebar left-padding-12 ">Menu style <em class="d-title f-ryt right-padding-12 "></em></span>
+								<div class="alert alert-info clearfix no-btn"><strong>*</strong>set the style for vertical menu only.
+                                </div>
+								<div class="sidebar-set left top-margin-0 left-padding-15 right-padding-15 left-icon">
+									<label class="set-menu">
+										<div class="menu-icon">
+											<div class="hor-mnu"></div>
+											<div class="ver-mnu"></div>
+											</div>
+										<span class="label-text"> <i class="fa fa-bars fs14 right-padding-12  text-success theme"></i> Full Menu</span>
+										<input id="cmn-full-mnu" class="cmn-toggle cmn-toggle-round" type="radio" name="mnu-set">
+										<label for="cmn-full-mnu"></label>
+									</label>
+									<p>Activate the Full Menu Option.</p>
+									<div class="clearfix"></div>
+								</div>
+								<div class="sidebar-set left top-margin-0 left-padding-15 right-padding-15 compact-icon">
+									<label class="set-menu">
+										<div class="menu-icon">
+											<div class="hor-mnu"></div>
+											<div class="ver-mnu"></div>
+											</div>
+										<span class="label-text"> <i class="fa fa-bars fs14 right-padding-12  text-success theme"></i> Compact Menu</span>
+										<input id="cmn-third-mnu" class="cmn-toggle cmn-toggle-round" type="radio" name="mnu-set">
+										<label for="cmn-third-mnu"></label>
+									</label>
+									<p>Activate the Third Menu Option.</p>
+									<div class="clearfix"></div>
+								</div>
+								<div class="sidebar-set left top-margin-0 left-padding-15 right-padding-15 icon-icon">
+									<label class="set-menu">
+										<div class="menu-icon ">
+											<div class="hor-mnu"></div>
+											<div class="ver-mnu"></div>
+											</div>
+										<span class="label-text"> <i class="fa fa-bars fs14 right-padding-12  text-success theme"></i>Icon Menu</span>
+										<input id="cmn-icon-mnu" class="cmn-toggle cmn-toggle-round" type="radio" name="mnu-set">
+										<label for="cmn-icon-mnu"></label>
+									</label>
+									<p>Activate the Icon Menu Option.</p>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- end container sidebar -->
+					</div>
+					<div role="tabpanel" class="tab-pane active" id="sect4">
+						<div class="container-sidebar left-padding-0 right-padding-0">
+							<div class="server-noty">
+								<span class="title-sidebar text-use left-padding-12">CPU Usage</span>
+								<div class="up-time left top-margin-0 left-padding-15 right-padding-15">
+									<div class="sys-info">
+										<div id="cpu_use" style="width:252px; height: 100px;"></div>
+									</div>
+								</div>
+								<span class="title-sidebar text-use left-padding-12">RAM Usage</span>
+								<div class="up-time left top-margin-0 left-padding-15 right-padding-15">
+									<div class="sys-info">
+										<div id="ram_use" style="width:252px; height: 100px;"></div>
+									</div>
+								</div>
+								<span class="title-sidebar text-use left-padding-12">HDD Usage</span>
+								<div class="up-time left top-margin-0 left-padding-15 right-padding-15">
+									<div class="sys-info">
+										<div id="hdd_use" style="width:252px; height: 100px;"></div>
+									</div>
+								</div>
+								<span class="title-sidebar left-padding-12">Usage History</span>
+								<div class="up-time left top-margin-0 left-padding-15 right-padding-15 clearfix">
+									<div class="sys-info">
+										<div class="fst-use">
+											<span class="clearfix text-use">CPU</span>
+											<div class="parent-use">
+												<div class="fill">
+												</div>
+											</div>
+											<span class="clearfix text-use"><em></em>/100</span>
+										</div>
+										<div class="sec-use">
+											<span class="clearfix text-use">RAM</span>
+											<div class="parent-use">
+												<div class="fill">
+												</div>
+											</div>
+											<span class="clearfix text-use"><em></em>/100</span>
+										</div>
+										<div class="trd-use">
+											<span class="clearfix text-use">HDD</span>
+											<div class="parent-use">
+												<div class="fill">
+												</div>
+											</div>
+											<span class="clearfix text-use"><em></em>/100</span>
+										</div>
+									</div>
+								</div>
+								<span class="title-sidebar left-padding-12">HDD Used</span>
+								<div class="up-time left top-margin-0 left-padding-15 right-padding-15 clearfix set-progress-hdd">
+									<div class="sys-info">
+										<label>
+											<span class="label-text"> <i class="fa fa-bars fs14 right-padding-12  text-success theme"></i>18 GB of 30 GB Used </span>
+											<span class="f-ryt progress-info">37%</span>
+											<div class="progress progress-bar-xs">
+												<div class="progress-bar progress-bar-info" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+												</div>
+												<!--
+							 <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="37" aria-valuemin="0"
+                           aria-valuemax="100" style="width:70%">
+                          </div>
+-->
+											</div>
+										</label>
+									</div>
+								</div>
+								<span class="title-sidebar left-padding-12">Memory Used</span>
+								<div class="up-time left top-margin-0 left-padding-15 right-padding-15 clearfix set-progress-ram">
+									<div class="sys-info">
+										<label>
+											<span class="label-text"> <i class="fa fa-bars fs14 right-padding-12  text-success theme"></i>8 GB of 3 GB Used </span>
+											<span class="f-ryt progress-info">37%</span>
+											<div class="progress progress-bar-xs ">
+												<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="37" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+												</div>
+											</div>
+										</label>
+									</div>
+								</div>
+								<span class="title-sidebar left-padding-12">System Notification</span>
+								<div class="up-time left top-margin-0 left-padding-15 right-padding-15 clearfix">
+									<div class="sys-info">
+										<label>
+											<span class="label-text"> <i class="fa fa-clock-o fs14 right-padding-12  text-success theme"></i> Up Time</span>
+											<div class="countdown">
+												<span class="clock-screen"></span></div>
+										</label>
+										<label>
+											<span class="label-text"> <i class="fa fa-windows fs14 right-padding-12  text-success theme"></i> Os Version</span>
+											<span class="f-ryt">Windows 7 Prof.</span>
+										</label>
+										<label>
+											<span class="label-text"> <i class="glyphicon glyphicon-th-large fs14 right-padding-12  text-success theme"></i> Processor</span>
+											<span class="f-ryt">Intel Core TM</span>
+										</label>
+									</div>
+								</div>
+								<span class="title-sidebar left-padding-12">Physical Memory(MB)</span>
+								<div class="up-time left top-margin-0 left-padding-15 right-padding-15 clearfix">
+									<div class="sys-info">
+										<label>
+											<span class="label-text"> <i class="glyphicon glyphicon-floppy-disk fs14 right-padding-12  text-success theme"></i>Total</span>
+											<span class="f-ryt">8110<em class="sm-unit left-margin-5">Mb</em></span>
+										</label>
+										<label>
+											<span class="label-text"> <i class="glyphicon glyphicon-floppy-disk  fs14 right-padding-12  text-success theme"></i>Cached</span>
+											<span class="f-ryt">1282<em class="sm-unit left-margin-5">Mb</em></span>
+										</label>
+										<label>
+											<span class="label-text"> <i class="glyphicon glyphicon-floppy-disk  fs14 right-padding-12  text-success theme"></i> Available</span>
+											<span class="f-ryt">5383<em class="sm-unit left-margin-5">Mb</em></span>
+										</label>
+										<label>
+											<span class="label-text"> <i class="glyphicon glyphicon-floppy-disk fs14 right-padding-12  text-success theme"></i> Free</span>
+											<span class="f-ryt">4190<em class="sm-unit left-margin-5">Mb</em></span>
+										</label>
+									</div>
+								</div>
+								<span class="title-sidebar left-padding-12">Host Date Time</span>
+								<div class="up-time left top-margin-0 left-padding-15 right-padding-15 clearfix">
+									<div class="sys-info">
+										<label>
+											<span class="label-text"><i class="fa fa-clock-o  fs14 right-padding-12  text-success theme"></i>Server</span>
+											<div class="host-time host-time1"></div>
+										</label>
+										<label>
+											<span class="label-text"><i class="fa fa-clock-o  fs14 right-padding-12  text-success theme"></i>User</span>
+											<div class="host-time host-time2"></div>
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</aside>
+				<div class="overflow-popup"></div>
+			<aside class="sidebar-chat set-crop">
+      		<div class="titlebar clearfix f-lft ">
+         <span class="step-back left-padding-12">
+          <i class=" imoon imoon-arrow-left3"></i>
+        </span>
+        <span class="f-lft left-padding-12">user profile</span>
+        <span class="f-ryt right-padding-12  left-padding-12 close-chat ripple"><i class="fa fa-close fs14"></i></span>
+
+      </div>
+      		<div class="top-bar clearfix f-lft">
+        <div class="tb-wrpr">
+		  <div class="p-img online">
+          <img src="images/administrator.jpg">
+         <!--  <a class="status_now online"></a> -->
+          <div class="p-status">
+            <ul class="s-list">
+              <li class="online"><a>Online</a></li>
+              <li class="away"><a >Away</a></li>
+              <li class="no_dist"><a >Do Not Disturb</a></li>
+            </ul>
+            </div></div>
+      	<div class="p-name">
+          Himal Rana
+        </div>
+        <div class="p-design bottom-margin-10">HOD @ Development Team</div> 
+		  <ul class="crop-tool horrizontal top-right">
+		  	<li class="crop-open"><a href="#"><span class="imoon imoon-upload3"></span></a></li>
+		  </ul>
+		  </div>
+		 <div class="change-profile">
+			<div class="upload-msg">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-close fs14"></i></span></button>
+				<span class="fa fa-cloud-upload upload-icon"></span>
+				<div class="text clearfix">Choose File to Upload</div>
+				<div class="action-button clearfix">
+				<a class="btn btn-def-3d btn-primary right-margin-10"> 
+					<span class="btn-txt">Choose File</span> 
+					<input type="file" id="upload-image" class="upload-image" accept="image/*">
+				</a>
+				</div>
+			</div>
+			<div class="crop-file">
+				<div class="crop-imgae"></div>
+				<div class="action-button">
+					<button class="btn btn-success bottom-margin-10 btn-def-3d right-margin-10  btn-md save-crop" >
+						<span class="btn-txt">Save</span>
+					</button>
+					<button class="btn btn-danger bottom-margin-10 btn-def-3d right-margin-10  btn-md cancel-crop" >
+						<span class="btn-txt">Cancel </span>
+					</button>
+				</div>
+			</div>
+		</div> 
+      </div>	
+      		<div class="content clearfix">
+        <span class="title-sidebar left-padding-12 clearfix">Other Information </span>
+        <div class="e-c-deatil">
+          <span class="e-detail ripple"><i class="fa fa-pencil f-ryt left-padding-12 right-padding-12  fs14"></i></span>
+          <span class="c-detail ripple"><i class="fa fa-close f-ryt left-padding-12 right-padding-12  fs14"></i></span>
+        </div>
+        <span class="f-ryt"></span>
+        <div class="over-scroll">
+        <div class="content-data clearfix  right-padding-12  top-margin-10">
+          <div class="icon">
+            <i class="fa fa-envelope text-primary theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">himalrana@panamaxil.com</div>
+            <div class="fst">Email</div>
+          </div>
+        </div>
+        <div class="content-data clearfix  right-padding-12  top-margin-10">
+          <div class="icon">
+            <i class="fa fa-phone text-success theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">7069995302</div>
+            <div class="fst">Mobile</div>
+          </div>
+        </div>
+        <div class="content-data clearfix  right-padding-12  top-margin-10">
+          <div class="icon">
+            <i class="fa fa-globe text-info theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">India</div>
+            <div class="fst">Country</div>
+          </div>
+        </div>
+        <div class="content-data clearfix  right-padding-12  top-margin-10">
+          <div class="icon">
+            <i class="fa fa-briefcase text-danger theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">Development</div>
+            <div class="fst">Department</div>
+          </div>
+        </div>
+        <div class="content-data clearfix  right-padding-12  top-margin-10">
+          <div class="icon">
+            <i class="fa fa-paint-brush text-success theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">Designing</div>
+            <div class="fst border-bottom-0">Team</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="edit-detail">
+          <div class="edit-content">
+            <div class="inpt-cont">
+              <div class="edit-inpt">
+                    <div class="form-inline boot-style one-input left-padding-12 right-padding-12 ">
+                       <div class="clearfix width-67 full-width">
+                  <div class="form-group first-cld   top-margin-15">
+                    <div class="full">
+                      <input type="text" placeholder="Email" class="form-control">
+                      <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text">
+                      </span> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-inline boot-style one-input  left-padding-12 right-padding-12 ">
+                <div class="clearfix width-67 full-width">
+                  <div class="form-group first-cld ">
+                    <div class="full">
+                      <input type="text" placeholder="Mobile" class="form-control">
+                      <span title="" data-placement="top" data-toggle="tooltip" class="myfeedback" data-original-title="Error Text">
+                      </span> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-inline boot-style one-input left-padding-12 right-padding-12 ">
+                <div class="clearfix width-67 full-width">
+                  <div class="form-group first-cld">
+                    <div class="full">
+                      <select class="form-control ">
+                                    <option data-color="#A0522D" value="106">sienna</option>
+                                    <option data-color="#CD5C5C" value="47">Indianred</option>
+                                    <option data-color="#FF4500" value="87">orangered</option>
+                                    <option data-color="#008B8B" value="17">darkcyan</option>
+                                    <option data-color="#B8860B" value="18">darkgoldenrod</option>
+                                  <option data-color="#32CD32" value="68">limegreen</option>
+                      </select>
+                      <span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-inline boot-style two-input">
+              	<div class="clearfix f-ryt width-67 full-width">
+                  <div class="form-group right-margin-1pt first-cld left-padding-12 p-select">
+                      <div class="full">
+                      <select class="form-control ">
+                                    <option data-color="#A0522D" value="106">sienna</option>
+                                    <option data-color="#CD5C5C" value="47">Indianred</option>
+                                    <option data-color="#FF4500" value="87">orangered</option>
+                                    <option data-color="#008B8B" value="17">darkcyan</option>
+                                    <option data-color="#B8860B" value="18">darkgoldenrod</option>
+                                  <option data-color="#32CD32" value="68">limegreen</option>
+                      </select>
+                      <span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span>
+                    </div>
+                  </div>
+                  <div class="form-group sec-cld right-padding-12  p-select">
+                      <div class="full">
+                      <select class="form-control ">
+                                    <option data-color="#A0522D" value="106">sienna</option>
+                                    <option data-color="#CD5C5C" value="47">Indianred</option>
+                                    <option data-color="#FF4500" value="87">orangered</option>
+                                    <option data-color="#008B8B" value="17">darkcyan</option>
+                                    <option data-color="#B8860B" value="18">darkgoldenrod</option>
+                                  <option data-color="#32CD32" value="68">limegreen</option>
+                      </select>
+                      <span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-inline boot-style two-input">
+              	<div class="clearfix f-ryt width-67 full-width">
+                  <div class="form-group  right-margin-1pt first-cld left-padding-12 p-select">
+                      <div class="full">
+                      <select class="form-control ">
+                                    <option data-color="#A0522D" value="106">sienna</option>
+                                    <option data-color="#CD5C5C" value="47">Indianred</option>
+                                    <option data-color="#FF4500" value="87">orangered</option>
+                                    <option data-color="#008B8B" value="17">darkcyan</option>
+                                    <option data-color="#B8860B" value="18">darkgoldenrod</option>
+                                  <option data-color="#32CD32" value="68">limegreen</option>
+                      </select>
+                      <span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span>
+                    </div>
+                  </div>
+                  <div class="form-group sec-cld right-padding-12  p-select">
+                      <div class="full">
+                      <select class="form-control ">
+                                    <option data-color="#A0522D" value="106">sienna</option>
+                                    <option data-color="#CD5C5C" value="47">Indianred</option>
+                                    <option data-color="#FF4500" value="87">orangered</option>
+                                    <option data-color="#008B8B" value="17">darkcyan</option>
+                                    <option data-color="#B8860B" value="18">darkgoldenrod</option>
+                                  <option data-color="#32CD32" value="68">limegreen</option>
+                      </select>
+                      <span class="myfeedback" data-toggle="tooltip" data-placement="top" title="Error Text"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="clearfix">
+                    <button class="btn btn-primary btn-def-3d btn-sm left-margin-12 f-lft" type="button">Save changes</button>
+                    <button  class="btn btn-default btn-def-3d btn-sm left-margin-12 f-lft e_c_cllose" type="button">Close</button>
+               </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+      		<div class="bottom_bar ">
+    		<div class="tab_panel default-tab style-2">
+    			<ul class="nav nav-tabs three-chld sliding-bar nav-justified">
+    <li class="contact ">
+      <a class="ripple bottom-margin-0" data-toggle="tooltip" data-placement="top" title="Online User">
+        <i class="fa fa-user "></i>
+        <span class="badge  primary-bg">4</span>
+      </a>
+    </li>
+    <li class="chat ">
+      <a class="ripple bottom-margin-0" data-toggle="tooltip" data-placement="top" title="Timeline Task">
+      <i class="fa  fa-calendar  "></i>
+      <span class="badge   warning-bg">4</span>
+    </a>
+  </li>
+    <li class="">
+      <a href="login.html" class="ripple bottom-margin-0" data-toggle="tooltip" data-placement="top" title="Logout">
+        <i class="fa fa-power-off "></i>
+      </a>
+    </li>
+     <li class="slider"></li>
+  </ul>
+  				<div class="tab-content">
+    <div class="content-wrapper">
+      <div class="tab tab-1">
+        <div class="clearfix c-person online ">
+          <div class=" drop-info clearfix left-padding-12">
+        <span class="b-arrow"><img src="images/administrator.jpg"></span>
+        <div class="left-content left-padding-12">
+          <div class="c-name">
+            Himal Rana
+          </div>
+          <div class="c-img">Team Lead</div>
+          <div class=" tim-notf">
+              <span class="time">10:17 AM</span>
+              <span class="badge    primary-bg clearfix">4</span>
+          </div>
+        </div>
+      </div>
+      <div class="content clearfix">
+        <div class="over-scroll">
+        <div class="content-data clearfix top-margin-10">
+          <div class="icon">
+            <i class="fa fa-envelope text-primary theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">himalrana@panamaxil.com</div>
+            <div class="fst">Email</div>
+          </div>
+        </div>
+        <div class="content-data clearfix   top-margin-10">
+          <div class="icon">
+            <i class="fa fa-phone text-success theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">7069995302</div>
+            <div class="fst">Mobile</div>
+          </div>
+        </div>
+        <div class="content-data clearfix   top-margin-10">
+          <div class="icon">
+            <i class="fa fa-globe text-info theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">India</div>
+            <div class="fst">Country</div>
+          </div>
+        </div>
+        <div class="content-data clearfix   top-margin-10">
+          <div class="icon">
+            <i class="fa fa-briefcase text-danger theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">Development</div>
+            <div class="fst">Department</div>
+          </div>
+        </div>
+        <div class="content-data clearfix   top-margin-10">
+          <div class="icon">
+            <i class="fa fa-paint-brush text-success theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">Designing</div>
+            <div class="fst border-bottom-0">Team</div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="p-c-icon clearfix">
+        <div class="pos-rel">
+          <span class="u-call clearfix button-ripple ripple"><i class="fa fa-phone "></i></span>
+          <span class="u-comment clearfix button-ripple ripple"><i class="fa fa-comment "></i></span>
+        </div>
+      </div>
+      </div>
+      	<div class="clearfix c-person away">
+         	 <div class="drop-info clearfix left-padding-12">
+        <span class="b-arrow"><img src="images/administrator.jpg"></span>
+        <div class="left-content left-padding-12">
+          <div class="c-name">
+            Himal Rana
+          </div>
+          <div class="c-img">Team Lead</div>
+          <div class=" tim-notf">
+              <span class="time">10:17 AM</span>
+              <span class="badge    primary-bg clearfix">4</span>
+          </div>
+        </div>
+      </div>
+  		    <div class="content clearfix">
+        <div class="over-scroll">
+        <div class="content-data clearfix top-margin-10">
+          <div class="icon">
+            <i class="fa fa-envelope text-primary theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">himalrana@panamaxil.com</div>
+            <div class="fst">Email</div>
+          </div>
+        </div>
+        <div class="content-data clearfix top-margin-10">
+          <div class="icon">
+            <i class="fa fa-phone text-success theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">7069995302</div>
+            <div class="fst">Mobile</div>
+          </div>
+        </div>
+        <div class="content-data clearfix   top-margin-10">
+          <div class="icon">
+            <i class="fa fa-globe text-info theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">India</div>
+            <div class="fst">Country</div>
+          </div>
+        </div>
+        <div class="content-data clearfix   top-margin-10">
+          <div class="icon">
+            <i class="fa fa-briefcase text-danger theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">Development</div>
+            <div class="fst">Department</div>
+          </div>
+        </div>
+        <div class="content-data clearfix   top-margin-10">
+          <div class="icon">
+            <i class="fa fa-paint-brush text-success theme"></i>
+          </div>
+          <div class="icon-info">
+            <div class="sec">Designing</div>
+            <div class="fst border-bottom-0">Team</div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="p-c-icon clearfix">
+        <div class="pos-rel">
+          <span class="u-call clearfix button-ripple ripple"><i class="fa fa-phone text-info theme"></i></span>
+          <span class="u-comment clearfix button-ripple ripple"><i class="fa fa-comment text-success theme"></i></span>
+        </div>
+      </div>
+      </div>
+      </div> <!-- end tab content -->
+      <div class="search-panel">
+  <div class="input-group">
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="search anything here">
+  <span class="input-group-addon"><i class="fa fa-search fs14"></i></span>
+</div>
+</div>
+      <div class="tab tab-2 prev-tab main-timeline">
+		<div class="e-label-dynamic">hii</div>
+      <div class="u-event left-padding-12 right-padding-12 ">
+        <div class="e-element">
+          <div class="e-label">Today</div>
+          <div class="e-content e-left clearfix bottom-margin-20 blue-pr">
+            <div class="bullet"><i class="fa fa-futbol-o text-info theme"></i></div>
+            <div class="e-desc">
+              <div class="e-heading">
+                <div class=" e-title f-lft">Game Play</div>
+                <div class="e-time f-ryt">2:30 PM</div>
+              </div>
+              <div class="e-body">
+                <p> Organized a Game with Team</p>
+              </div>
+              <div class="location left-padding-5">
+                <span><i class="fa  fa-map-marker fs14"></i> Panamax-Terrace Area</span>
+              </div>
+            </div>
+          </div>
+          <div class="e-content e-left clearfix bottom-margin-20 red-pr">
+            <div class="bullet"><i class="fa fa-users text-danger theme"></i></div>
+            <div class="e-desc">
+              <div class="e-heading">
+                <div class=" e-title f-lft">Meeting</div>
+                <div class="e-time f-ryt">4:30 PM</div>
+              </div>
+              <div class="e-body">
+                <p>Meeting with Designing Team</p>
+              </div>
+              <div class="location left-padding-5">
+                <span><i class="fa  fa-map-marker fs14"></i> Panamax House</span>
+              </div>
+            </div>
+          </div>
+          <div class="e-content e-left clearfix bottom-margin-20 green-pr">
+            <div class="bullet"><i class="fa fa-cutlery text-success theme"></i></div>
+            <div class="e-desc">
+              <div class="e-heading">
+                <div class=" e-title f-lft">Dinner</div>
+                <div class="e-time f-ryt">8:00 PM</div>
+              </div>
+              <div class="e-body">
+                <p> Dinner with Three people</p>
+              </div>
+              <div class="location left-padding-5">
+                <span><i class="fa  fa-map-marker fs14"></i>Dinner Bell</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- start timeline-2 -->
+         <div class="u-event left-padding-12 right-padding-12  today">
+        <div class="e-element">
+          <div class="e-label">24-Oct</div>
+          <div class="e-content e-left clearfix bottom-margin-20 blue-pr">
+            <div class="bullet"><i class="fa fa-futbol-o text-info theme"></i></div>
+            <div class="e-desc">
+              <div class="e-heading">
+                <div class=" e-title f-lft">Game Play</div>
+                <div class="e-time f-ryt">2:30 PM</div>
+              </div>
+              <div class="e-body">
+                <p> Organized a Game with Team</p>
+              </div>
+              <div class="location left-padding-5">
+                <span><i class="fa  fa-map-marker fs14"></i> Panamax-Terrace Area</span>
+              </div>
+            </div>
+          </div>
+          <div class="e-content e-left clearfix bottom-margin-20 red-pr">
+            <div class="bullet"><i class="fa fa-users text-danger theme"></i></div>
+            <div class="e-desc">
+              <div class="e-heading">
+                <div class=" e-title f-lft">Meeting</div>
+                <div class="e-time f-ryt">4:30 PM</div>
+              </div>
+              <div class="e-body">
+                <p>Meeting with Designing Team</p>
+              </div>
+              <div class="location left-padding-5">
+                <span><i class="fa  fa-map-marker fs14"></i> Panamax House</span>
+              </div>
+            </div>
+          </div>
+          <div class="e-content e-left clearfix bottom-margin-20 green-pr">
+            <div class="bullet"><i class="fa fa-cutlery text-success theme"></i></div>
+            <div class="e-desc">
+              <div class="e-heading">
+                <div class=" e-title f-lft">Dinner</div>
+                <div class="e-time f-ryt">8:00 PM</div>
+              </div>
+              <div class="e-body">
+                <p> Dinner with Three people</p>
+              </div>
+              <div class="location left-padding-5">
+                <span><i class="fa  fa-map-marker fs14"></i>Dinner Bell</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end timeline-2 -->
+       <!-- start timeline-2 -->
+         <div class="u-event left-padding-12 right-padding-12  tommorw">
+        <div class="e-element">
+          <div class="e-label">Last</div>
+          <div class="e-content e-left clearfix bottom-margin-20 blue-pr">
+            <div class="bullet"><i class="fa fa-futbol-o text-info theme"></i></div>
+            <div class="e-desc">
+              <div class="e-heading">
+                <div class=" e-title f-lft">Game Play</div>
+                <div class="e-time f-ryt">2:30 PM</div>
+              </div>
+              <div class="e-body">
+                <p> Organized a Game with Team</p>
+              </div>
+              <div class="location left-padding-5">
+                <span><i class="fa  fa-map-marker fs14"></i> Panamax-Terrace Area</span>
+              </div>
+            </div>
+          </div>
+          <div class="e-content e-left clearfix bottom-margin-20 red-pr">
+            <div class="bullet"><i class="fa fa-users text-danger theme"></i></div>
+            <div class="e-desc">
+              <div class="e-heading">
+                <div class=" e-title f-lft">Meeting</div>
+                <div class="e-time f-ryt">4:30 PM</div>
+              </div>
+              <div class="e-body">
+                <p>Meeting with Designing Team</p>
+              </div>
+              <div class="location left-padding-5">
+                <span><i class="fa  fa-map-marker fs14"></i> Panamax House</span>
+              </div>
+            </div>
+          </div>
+          <div class="e-content e-left clearfix bottom-margin-20 green-pr">
+            <div class="bullet"><i class="fa fa-cutlery text-success theme"></i></div>
+            <div class="e-desc">
+              <div class="e-heading">
+                <div class=" e-title f-lft">Dinner</div>
+                <div class="e-time f-ryt">8:00 PM</div>
+              </div>
+              <div class="e-body">
+                <p> Dinner with Three people</p>
+              </div>
+              <div class="location left-padding-5">
+                <span><i class="fa  fa-map-marker fs14"></i>Dinner Bell</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end timeline-2 -->
+		
+      </div>
+       <!-- end tab content -->
+    </div>
+  </div>
+		  	</div>
+		  	<!-- chat panel tab -->
+ 			<div class="content-conv">
+				<div class="con-title">
+			  <div class="chat-back left-padding-12 right-padding-12  f-lft ripple button-ripple">
+				<span><i class=" imoon imoon-arrow-left3"></i></span>
+			  </div>
+			  <div class="conv-img  f-lft">
+				<img src="images/administrator.jpg">
+			  </div>
+			  <div class="conv-user f-lft left-padding-12">
+				<span class="name clearfix">Himal Rana</span>
+				<span class="l-seen clearfix">last seen today at 1:46 pm</span>
+			  </div>
+			  <div class="pull-right conv-more left-padding-12 right-padding-12" >
+				 <span class="more-optn dropdown-toggle ripple button-ripple" data-toggle="dropdown"
+			  aria-haspopup="true" aria-expanded="false">
+				  <i class="fa fa-ellipsis-v"></i>
+				</span>
+				 <ul class="dropdown-menu" >
+			<li><a href="#"><i class="fa fa-paperclip right-padding-12 "></i> Attach a File</a></li>
+			<li><a href="#"><i class="fa fa-phone right-padding-12 "></i> Call User</a></li>
+		  </ul>
+			  </div>
+</div>
+				<div class="con-chat clearfix">
+				<div class="clearfix  conv-start">
+				   <!-- <div class="time_teg">yesterday</div> -->
+					<div class="full-width">
+					<div class="user-conv clearfix">
+					  <p>Hi! this is himal how can I help you?</p>
+					  <div class="small-time">11:09 AM</div>
+					</div>
+				  </div>
+				  <div class="full-width">
+					<div class="my-conv clearfix">
+						<p>Hi! I need a support my account is suspended but I don't know why? </p>
+						<div class="small-time">11:29 AM</div>
+					</div>
+				  </div>
+				   <div class="full-width">
+					 <div class="user-conv clearfix">
+					  <p>Hello Sir! </p>
+					  <div class="small-time">11:09 AM</div>
+					</div>
+				  </div>
+				   <div class="full-width">
+					 <div class="my-conv clearfix">
+						<p>Ok sure :) </p>
+						<div class="small-time">11:09 AM</div>
+					</div>
+				  </div>
+				 <!-- <div class="time_teg">today</div> -->
+				  <div class="full-width">
+					 <div class="user-conv clearfix">
+					  <p>Hello Sir! </p>
+					  <div class="small-time">11:09 AM</div>
+					</div>
+				  </div>
+				</div>
+</div>
+				<div class="conv-text-inpt">
+			  <div class="input-group">
+		  <span class="input-group-addon record">
+			<i class="fa fa-microphone"></i>
+		</span>
+		  <input type="text" class="form-control send_msg" aria-label="Amount (to the nearest dollar)" placeholder="Send message">
+		  <span class="input-group-addon send-msg"><i class="fa fa-paper-plane fs14"></i></span>
+		</div>
+</div>
+		  </div>
+ 			<!--calling ui-->
+ 			<div class="a-call">
+ 	<div class="title f-lft">
+    	 <div class="a-c-name left-padding-12 f-lft"><i class="fa fa-phone right-padding-12 "></i>Himal Rana</div>
+       <span class="close-call left-padding-12 right-padding-12 "><i class="fa fa-close"></i></span>
+    </div>
+ 	<div class="a-call-content">
+         <div class="abs-cont">
+               <div class="a-c-time">10:00</div>
+              <div class="user-img">
+				  <img src="images/administrator.jpg">
+			 </div>
+       </div>
+
+    </div>
+	<div class="call-hang ripple">
+            <a href="javascript:void(0)">
+             <span class="icon-phone-hang-up right-padding-12 "></span>
+              End Call
+            </a>
+          </div>
+    <div class="a-c-settings">
+      <div class="a-c-s-content">
+        <ul class="list-inline">
+          <li class="call-mute">
+            <a href="javascript:void(0)" title="mute">
+              <i class="fa fa-microphone-slash"></i>
+            </a>
+          </li>
+          <li class="call-speaker">
+            <a href="javascript:void(0)"  title="speaker">
+              <i class="fa fa-volume-down"></i>
+            </a>
+          </li>
+          <li class="call-chat">
+            <a href="javascript:void(0)"  title="chat">
+              <i class="glyphicon glyphicon-comment"></i>
+            </a>
+          </li>
+			<li class="call-group">
+            <a href="javascript:void(0)" class="primary-bg" title="add people">
+              <i class="fa fa-group fs14"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+ </div>
+   			<!-- Tab panes -->
+      </div>
+    		</aside>
+			<div class="overflow-popup-left-chat"></div>
+		
+	
+	<div class="footer border-left-1 border-right-1 clearfix">
+	<div class="f-ryt primary more-element">
+		<ul class="clearfix">
+			<li class="date_footer">
+				<a>
+					<div class="today_date">hiii</div>
+				</a>
+			</li>
+			<li class="timer-footer">
+				<a>
+					<div class="current-time"></div>
+				</a>
+			</li>
+			<li class="timezone">
+				<a>
+					<div class="zone-offset">[+05:30]</div>
+				</a>
+			</li>
+			<li class="top-scroll">
+				<a class="  ripple"><div class="fa fa-arrow-up fs14 icon"></div> </a>
+			</li>
+		</ul>
+	</div>
+	<div class="f-lft secondary">
+		<ul class="clearfix">
+			<li><a href="#">
+				<span class="copy-wrt fs12">&copy;<span class="year right-margin-5 left-margin-5">2016</span>Copyright Panamax Inc.</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+				<div class="bridge2call p-logo clearfix color-logo">
+					<span class="p-text">powered by</span>
+					<div class="cl-style">
+					
+						<div class="path1 icon"></div>
+						<div class="path2 icon"></div>
+						<div class="path3 icon"></div>
+						<div class="path4 icon"></div>
+						<div class="path5 icon"></div>
+						<div class="path6 icon"></div>
+						<div class="path7 icon"></div>
+						<div class="path8 icon"></div>
+						<div class="path9 icon"></div>
+						<div class="path10 icon"></div>
+						<div class="path11 icon"></div>
+						<div class="path12 icon"></div>
+						<div class="path13 icon"></div>
+						<div class="path14 icon"></div>
+						<div class="path15 icon"></div>
+						<div class="path16 icon"></div>
+						<div class="path17 icon"></div>
+					
+			</div>
+				 </div>
+				</a>
+			</li>
+			<li><a href="#">
+				<div class="version">
+				Version <span>1.9.15</span>
+				</div>
+				</a>
+			</li>
+			
+			
+			
+		</ul>
+	</div>
+</div>
+	</section>
+	<!--End  quick-launch-panel -->
+	<div class="android-scn-lock scn-lock wyt-bg">
+	<div class="scn-container">
+		<div class="time clearfix top-margin-10">
+			<div class=" time-nosuf"></div>
+			<span class="time-day"></span>
+			<span class="dec-date"></span>
+			<span class="time-month"></span>
+			<span class="location">Chicago</span>
+		</div>
+		<div class="user-notf top-margin-10">
+			<ul class="list-inline">
+				<li>
+					<span class="fa fa-bell-o icon"></span>
+					<span class="badge">1</span>	
+				</li>
+				<!--<li class="set-badge">
+					<span class="fa-envelope-o fa icon"></span>
+					<span class="badge">2</span>
+				</li>-->
+				<li>
+					<span class="fa fa-comments-o icon"></span>
+					<span class="badge">4</span>
+				</li>
+				<li>
+					<span class="imoon-stopwatch imoon icon"></span>
+					<span class="badge">1</span>
+				</li>
+			</ul>
+		</div>
+		<div class="scn-login text-center">
+			<img src="images/administrator.jpg">
+			<span class="name">himal rana</span>
+			<div class="new-login">
+					<span class="icon logged-in">
+						<i class="fa fa-lock"></i>
+					</span>
+					<div class="lock">
+						<span>Click Here to Login</span>
+					</div>
+					<div class="password">
+						<input value="123456123456" onFocus="this.value='';" type="password">
+					</div>
+				</div>
+		</div>
+		<div class="scn-graph hidden-xs">
+					<div class="col-md-4 col-sm-4 padding-10 ">
+					<div class="graph-tile wyt-bg with-heading clearfix">
+						<div class="grp-heading">
+							<span class="grp-title"><i class="pdg-computer-screen-cpu right-margin-10"></i>cpu usage</span>
+							<span class="grp-sec-title f-ryt">past 28 days</span>
+						</div>
+						<div class="grp-body">
+							<span class="grp-content set-count">20</span>
+							<span class="grp-content2">% usage</span>
+						</div>
+						<div class="grp-footer">
+						<div id="scn-cpu-use" class="text-center" style="width:100%; height: 100%; padding:10px; padding-right:0px;">		</div>
+						</div>
+                   </div>
+				</div>
+					<div class="col-md-4 col-sm-4 padding-10">
+						<div class="graph-tile wyt-bg with-heading clearfix">
+						<div class="grp-heading">
+							<span class="grp-title"><i class="n-icon-ic_receipt_24px right-margin-10"></i>ram usage</span>
+							<span class="grp-sec-title f-ryt">past 28 days</span>
+						</div>
+						<div class="grp-body">
+							<span class="grp-content set-count">50</span>
+							<span class="grp-content2">% usage</span>
+						</div>
+						<div class="grp-footer">
+						<div id="scn-ram-use" class="text-center" style="width:100%; height: 100%; padding:10px; padding-right:0px;">		</div>
+						</div>
+                   </div>
+					</div>
+					<div class="col-md-4 col-sm-4 padding-10">
+				    <div class="graph-tile wyt-bg with-heading clearfix">
+						<div class="grp-heading">
+							<span class="grp-title"><i class="glyphicon glyphicon-hdd right-margin-10"></i>hdd usage</span>
+							<span class="grp-sec-title f-ryt">past 28 days</span>
+						</div>
+						<div class="grp-body">
+							<span class="grp-content set-count">55%</span>
+							<span class="grp-content2">% usage</span>
+						</div>
+						<div class="grp-footer">
+						<div id="scn-hdd-use" class="text-center" style="width:100%; height: 100%; padding:10px; padding-right:0px;">		</div>
+						</div>
+                   </div>
+				</div>
+		</div>
+	</div>
+</div>
+		</div>
+	</div>
+	<!-- minimum required  -->
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!--Multiselect List -->
+	<script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+	
+	<!-- for ripple effect -->
+	<script src="js/ripple/jquery.materialripple.js"></script>
+	<script src="js/ripple/mine-ripple.js"></script>
+	
+	<!--bootstrap clockpicker1 -->
+	<script src="js/bootstrap-clockpicker.min.js"></script>
+	
+	<!--bootstrap clockpicker2 -->
+	<script src="js/clockface.js"></script>
+	
+	<!-- datepicker -->
+	<script type="text/javascript" src="js/moment.js"></script>
+	<script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+	<script type="text/javascript" src="js/daterangepicker.js"></script>
+	
+	<!-- Datetime Picker -->
+	<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
+	
+	<!--Bootstrp Choose List-->
+	<script type="text/javascript" src="js/chosen.jquery.js"></script>
+	
+	<!--Bootstrp Select List-->
+	<script type="text/javascript" src="js/bootstrap-select.js"></script>
+	
+	<!--Animate Plus-->
+	<script src="js/animate-plus.js"></script>
+	
+	<!-- for heighchaart  -->	
+	<script src="js/highcharts/highcharts.js"></script>
+	<script src="js/highcharts/mine-highcharts.js"></script>
+	
+	<!-- for countdown in sidebar-chat  -->		
+	<script src="js/countdown/jquery.countdown.min.js"></script> 
+	<script src="js/countdown/mine-countdown.js"></script>
+	
+	<!-- for sparkline  -->		
+	<script type="text/javascript" src="js/sparkline/jquery.sparkline.js"></script> 
+	<script type="text/javascript" src="js/sparkline/mine-sparkline.js"></script>
+	
+	<!-- for screen-lock  -->	
+	<script type="text/javascript" src="js/idle/jquery.idle.min.js"></script>
+	<script src="js/Vague/Vague.js"></script> 
+	<script src="js/Vague/mine-vague.js"></script>
+	
+	<!-- for code-editor (code documentation) -->	
+	<script type="text/javascript" src="js/prism/prism.js"></script> 
+	<script type="text/javascript" src="js/prism/prism-line-numbers.min.js"></script>
+	
+	<!-- for copy to clipboard  -->	
+	<script type="text/javascript" src="js/clipboard/clipboard.min.js"></script> 
+	<script type="text/javascript" src="js/clipboard/mine-clipboard.js"></script>
+	
+	<!-- crop jquery -->
+	<script src="js/croppie/croppie.min.js"></script>
+	
+	<!--Google material Preloader-->
+	<script src="js/google-preloader/materialPreloader.min.js"></script>
+	
+	<!--custom scroller-->
+	<script src="js/scroller/jquery.mCustomScrollbar.js"></script>
+	
+	<!-- Basic Common Js -->
+	<script src="js/demo.js"></script>
+	
+	<!-- Initialize the plugin: -->
+	<script>
+		jQuery.noConflict();
+		jQuery(document).ready(function($) {
+
+			// Google preloading		
+  			preloader = new $.materialPreloader({
+       			 position: 'top',
+       			 height: '5px',
+       			 col_1: '#159756',
+       			 col_2: '#da4733',
+       			 col_3: '#3b78e7',
+       			 col_4: '#fdba2c'
+    		});
+    		preloader.on();
+			
+			// start file upload and croping
+	function readFile(input){
+		if (input.files && input.files[0]) {
+	                   var reader = new FileReader();
+	                   reader.onload = function (e) {
+	            	      $uploadCrop.croppie('bind', {
+	            		  url: e.target.result
+	            	  });
+	            	$('.set-crop').addClass('ready');
+	            }
+	            reader.readAsDataURL(input.files[0]);
+	        }
+		}
+		$uploadCrop = $('.crop-imgae').croppie({
+		viewport: {
+			width: 106,
+			height: 106,
+			type: 'circle'
+		},
+		boundary: {
+			width: 300,
+			height: 300
+		},
+		exif: true
+		}); 
+	   
+		$("#upload-image").on('change',function(){
+			readFile(this);
+		});    
+	   
+	   $(".crop-open").on( "click", function() {
+		   $(this).parents(".set-crop").addClass("show-crop");
+	   });
+	   
+	   $(".cancel-crop, .upload-msg .close").on( "click", function() {
+		   $(this).parents(".set-crop").removeClass("show-crop ready");
+	   });
+	 
+	  // end file upload and croping
+			
+			
+			
+			
+			
+			
+			$(".clockpicker").clockpicker({ autoclose: true, 'default': 'now' });
+        	$('#clockface').clockface({ format: 'HH:mm', trigger: 'manual' });   
+        	$('#clockface-btn').click(function(e){   
+            	e.stopPropagation();
+            	$('#clockface').clockface('toggle');
+            });
+
+			$('[data-toggle="tooltip"]').tooltip();
+			jQuery('.chosen-select').chosen();
+			
+			//datepicker option #3
+			
+			// to apply style add class at body picker-style-21
+			
+			$('#datepicker1').datepicker({
+				// orientation: "top right",
+				todayBtn: "linked",
+				minViewMode: 0,
+				calendarWeeks: true,
+				startView: 1,
+			})
+
+			$('#datepicker4').datepicker({
+//				orientation: "top right",
+				todayBtn: "linked",
+				minViewMode: 0,
+				calendarWeeks: true,
+			});
+			$('#datepicker5').datepicker({
+//				orientation: "top right",
+				orientation: "auto",
+				todayBtn: "linked",
+				minViewMode: 0,
+				calendarWeeks: true,
+			});
+			//datepicker option #3
+			$('.datepicker2').datepicker({
+				multidate: true,
+				multidateSeparator: "&",
+				clearBtn: true,
+				todayHighlight: true,
+			});
+			
+			//datepicker option #3
+			$('.datepicker3').datepicker({
+				multidate: false,
+				multidateSeparator: " &amp; ",
+				clearBtn: true,
+				todayHighlight: true,
+			});
+			
+			$('#daterangepicker').daterangepicker({
+				startDate: moment().subtract(29, 'days'),
+				endDate: moment(),
+				minDate: '01/01/2012',
+				maxDate: '12/31/2018',
+				dateLimit: {
+					days: 60
+				},
+				showDropdowns: true,
+				showWeekNumbers: false,
+				timePicker: false,
+				timePickerIncrement: 1,
+				timePicker12Hour: true,
+				ranges: {
+					'Today': [moment(), moment()],
+					'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+					'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+					'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+					'This Month': [moment().startOf('month'), moment().endOf('month')],
+					'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+				},
+				opens: 'left',
+				buttonClasses: ['btn top-margin-10'],
+				applyClass: 'btn-small btn-success date_pading btn-def-3d',
+				cancelClass: 'btn-small btn-primary btn-def-3d',
+				format: 'MM/DD/YYYY',
+				separator:'to',
+				locale: {
+					applyLabel: 'Submit',
+					cancelLabel: 'Clear',
+					fromLabel: 'From',
+					toLabel: 'To',
+					customRangeLabel: 'Custom',
+					daysOfWeek: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+					monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+					firstDay: 1
+				}
+			}, function(start, end, label) {
+				console.log(start.toISOString(), end.toISOString(), label);
+			});
+			
+			//checkbox in select tag with select all option
+			$('.mltchkbx1').multiselect({
+				buttonWidth: '100%',
+				nonSelectedText: 'Select Teams',
+				includeSelectAllOption: true,
+				maxHeight: 200,
+			});
+			
+			//checkbox in select tag with searchbox
+			$('.mltchkbx2').multiselect({
+				buttonWidth: '100%',
+				nonSelectedText: 'Select Teams',
+				maxHeight: 200,
+				enableFiltering: true,
+				enableClickableOptGroups: true,
+			});
+			
+			$('#datetimepicker1').datetimepicker({});
+			$('#datetimepicker3').datetimepicker({
+				format: 'LT'
+			});
+			
+			$('.datetimepicker4').datetimepicker({ format: 'LT'});
+			
+			$('.selectpicker').selectpicker();
+			
+			$('.ripple').materialripple();
+			
+		});
+	</script>
+</body>
+
+</html>

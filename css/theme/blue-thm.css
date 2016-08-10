@@ -1,0 +1,528 @@
+/* blue-theme css */
+/* aside of #f8f8f8 */
+/* main-header: #4a89dc */
+/* in blue theme search bar at top color is exception as white not visible */
+
+/*=== header ===*/
+.blue-thm .main-header  .search-nav.open-sb,
+.blue-thm .main-header .user li a:hover .search-nav #sb-button,
+.blue-thm #content .main-header,
+.blue-thm .first-mnu .sidebar-menu,
+.blue-thm .main-timeline .e-label-dynamic,
+.blue-thm .main-timeline .u-event .e-element .e-label,
+.blue-thm .sidebar-chat .bottom_bar .con-chat .conv-start .user-conv,
+.blue-thm .error-msg.primary-msg .btn,
+.blue-thm .ui-pnotify-container .btn.btn-default.btn-primary, 
+.blue-thm .checkbox-squere.chk-primary input[type="checkbox"]:checked + .checkbox:after,
+.blue-thm .irs-bar,
+.blue-thm .bootstrap-datetimepicker-widget .table-condensed thead,
+.blue-thm .bootstrap-datetimepicker-widget .picker-switch span,
+.blue-thm .bootstrap-datetimepicker-widget .picker-switch td span:hover,
+.blue-thm .bootstrap-datetimepicker-widget .btn-primary:hover,
+.blue-thm .bootstrap-datetimepicker-widget .btn-primary:focus,
+.blue-thm .bootstrap-datetimepicker-widget .btn-primary.focus,
+.blue-thm .bootstrap-datetimepicker-widget .btn-primary:active,
+.blue-thm .bootstrap-datetimepicker-widget .btn-primary.active, 
+.blue-thm .bootstrap-datetimepicker-widget .open>.dropdown-toggle.btn-primary,
+.blue-thm .clockpicker-tick.active,
+.blue-thm .clockpicker-tick:hover,
+.blue-thm .clockface .inner.active:hover, 
+.blue-thm .clockface .inner.active:hover:hover,
+.blue-thm .clockface .inner.active:active,
+.blue-thm .clockface .inner.active:hover:active,
+.blue-thm .clockface .inner.active.active,
+.blue-thm .clockface .inner.active:hover.active,
+.blue-thm .clockface .inner.active.disabled,
+.blue-thm .clockface .inner.active:hover.disabled,
+.blue-thm .clockface .inner.active[disabled],
+.blue-thm .clockface .inner.active:hover[disabled],
+.blue-thm .clockface .outer.active:hover, 
+.blue-thm .clockface .outer.active:hover:hover,
+.blue-thm .clockface .outer.active:active,
+.blue-thm .clockface .outer.active:hover:active,
+.blue-thm .clockface .outer.active.active,
+.blue-thm .clockface .outer.active:hover.active,
+.blue-thm .clockface .outer.active.disabled,
+.blue-thm .clockface .outer.active:hover.disabled,
+.blue-thm .clockface .outer.active[disabled],
+.blue-thm .clockface .outer.active:hover[disabled],
+.blue-thm .ranges li.active,
+.blue-thm .ranges li.active:hover,
+.blue-thm .ranges li.active:focus,
+.blue-thm .daterangepicker .prev, 
+.blue-thm .daterangepicker .next,
+.blue-thm .daterangepicker th.available:hover,
+.blue-thm #nprogress .bar,
+.blue-thm .ui-mprogress .bar-bg,
+.blue-thm .ui-mprogress .buffer-bg, 
+.blue-thm .ui-mprogress .deter-bar,
+.blue-thm .ui-mprogress .indeter-bar,
+.blue-thm .ui-mprogress .mp-ui-dashed,
+.blue-thm .ui-mprogress .query-bar,
+.blue-thm .feeeds-new .status-opn .tab-content .main-post.sub:before,
+.blue-thm .form-wiz-page .pager li > .btn, 
+.blue-thm .form-wiz-page .pager li > a,
+.blue-thm .form-wiz-page .pager li > span,
+.blue-thm .full-tab-third,
+.blue-thm .list-wrpr .ld-wrpr .list-data .l-data-lft .ld-value.with-bg,
+.blue-thm .tree-style span.fancytree-childcounter,
+.blue-thm .switching-tab .new-login.active,
+.blue-thm .switching-tab .new-login .icon,
+.blue-thm  .main-login .border-focus,
+.blue-thm  .main-login2 .border-focus,
+.blue-thm  .main-login3 .border-focus,
+.blue-thm .checkbox-custom.chk-primary + .checkbox-custom-label::before,
+.blue-thm .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary,
+.blue-thm .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary,
+.blue-thm .form-wiz-page .wizard-nav .progress .bar,
+.blue-thm .boot-style .chosen-container .chosen-results li.highlighted,
+.blue-thm .boot-style .dropdown-menu > li > a:hover, 
+.blue-thm .boot-style .dropdown-menu > li > a:focus,
+.blue-thm .daterangepicker td.in-range,
+.blue-thm .sidebar-chat .bottom_bar .content-conv .con-title,
+.blue-thm .sidebar-chat .bottom_bar .my-conv,
+.blue-thm #loader-wrapper #loader .bars-loading-shift span
+{  background: #4a89dc; }
+
+.blue-thm .btn-primary{ background: #4a89dc !important; }
+.blue-thm .btn.btn-inverse { background: none !important;}
+.blue-thm .change-profile .crop-file input[type=range]::-webkit-slider-thumb { background: #4a89dc; }
+.blue-thm .change-profile .crop-file input[type=range]::-moz-range-thumb { background: #4a89dc; }
+.blue-thm .change-profile .crop-file input[type=range]::-ms-thumb { background: #4a89dc; }
+
+.blue-thm .main-header .user li a:hover .search-nav.open-sb #sb-button { background: transparent; }
+.blue-thm .sidebar-menu .graph-tile.wyt-bg,
+.blue-thm .btn.theme-bg.btn-inverse
+{ background: none !important; }
+
+.blue-thm .icon-mnu .sidebar-menu:before,
+.blue-thm .form-wiz-page .fst-wiz  .wizard-nav.nav-pills > li.active > a,
+.blue-thm .form-wiz-page .fst-wiz  .wizard-nav.nav-pills > li.active > a:hover, 
+.blue-thm .form-wiz-page .fst-wiz  .wizard-nav.nav-pills > li.active > a:focus,
+.blue-thm .btn.theme-bg.btn-inverse:before
+{ background: none; }
+
+.blue-thm .main-header .bar-mnu path
+{ stroke: rgba(255, 255, 255, 0.8); }
+
+.blue-thm .main-header .breadcrumb > .active,
+.blue-thm .main-header .user-setting > a,
+.blue-thm .main-header .user li a,
+.blue-thm .first-mnu .sidebar-menu ul li a,
+.blue-thm .first-mnu .sidebar-menu .nav-menu  > li > a .caret-1.open,
+.blue-thm .first-mnu .sidebar-menu .more-mnu > li > a .caret-1.open
+{ color: rgba(255, 255, 255, 0.8); }
+
+.blue-thm .main-header .breadcrumb > li + li::before,
+.blue-thm .main-header .breadcrumb li a
+{ color: rgba(255, 255, 255, 0.5); }
+
+.blue-thm .sidebar-menu .open-sb.search-nav #sb-button,
+.blue-thm .sidebar-menu ul li a,
+.blue-thm .sidebar-menu ul li:hover > a, 
+.blue-thm .sidebar-menu ul li a:hover, 
+.blue-thm .sidebar-menu ul li a:focus, 
+.blue-thm .sidebar-menu ul li a.active, 
+.blue-thm .sidebar-menu ul li a.active:hover, 
+.blue-thm .sidebar-menu ul li a.active:focus,
+.blue-thm  .lft-mnu .sidebar-menu .wm-wrpr .widget-menu.wm-heading a,
+.blue-thm  .rgt-mnu .sidebar-menu .wm-wrpr .widget-menu.wm-heading a,
+.blue-thm  .nonoly-lyt .sidebar-menu .wm-wrpr .widget-menu.wm-heading a,
+.blue-thm .lft-mnu .sidebar-menu .wm-wrpr .widget-menu .graph-tile .grp-heading .grp-title,
+.blue-thm .rgt-mnu .sidebar-menu .wm-wrpr .widget-menu .graph-tile .grp-heading .grp-title,
+.blue-thm .nonoly-lyt .sidebar-menu .wm-wrpr .widget-menu .graph-tile .grp-heading .grp-title,
+.blue-thm .lft-mnu .sidebar-menu .wm-wrpr .widget-menu .graph-tile .grp-footer .grp-result, 
+.blue-thm .rgt-mnu .sidebar-menu .wm-wrpr .widget-menu .graph-tile .grp-footer .grp-result,
+.blue-thm .nonoly-lyt .sidebar-menu .wm-wrpr .widget-menu .graph-tile .grp-footer .grp-result,
+.blue-thm .sidebar-menu .u-name a,
+.blue-thm .search-nav.open-sb input::-webkit-input-placeholder 
+{ color: rgba(255,255,255,0.6); }
+
+.blue-thm .sidebar-menu .search-nav input:focus ~ #sb-button,
+.blue-thm .sidebar-menu ul li a .caret-1.open,
+.blue-thm .change-profile .upload-msg .upload-icon,
+.blue-thm .bootstrap-datetimepicker-widget a.btn,
+.blue-thm .clockpicker-popover .popover-title span.clockpicker-span-hours,
+.blue-thm .clockpicker-popover .popover-title span.clockpicker-span-minutes, 
+.blue-thm .clockface .ampm,
+.blue-thm a,
+.blue-thm .text-primary theme, 
+.blue-thm .error-msg.primary-msg,
+.blue-thm .feeeds-new .main-post .fd-h-wrpr .name-user .project-user,
+.blue-thm .form-wiz-page .wizard-nav li.active .step-text,
+.blue-thm .form-wiz-page .wizard-nav li.previous .step-text,
+.blue-thm .text-primary.theme, .blue-thm .error-msg.primary-msg,
+.blue-thm .pagination.pagination-custom.with-active li.active a,
+.blue-thm .form-wiz-page .trd-wiz .wizard-nav.nav-pills > li.active > a,
+.blue-thm .form-wiz-page .trd-wiz .wizard-nav.nav-pills > li.active > a:hover,
+.blue-thm .form-wiz-page .trd-wiz .wizard-nav.nav-pills > li.active > a:focus, 
+.blue-thm .form-wiz-page .trd-wiz .wizard-nav.nav-pills > li.previous > a,
+.blue-thm .form-wiz-page .trd-wiz .wizard-nav.nav-pills > li.previous > a:hover, 
+.blue-thm .form-wiz-page .trd-wiz .wizard-nav.nav-pills > li.previous > a:focus,
+.blue-thm .list-wrpr .ld-wrpr .list-data .l-data-lft .ldr-value.ld-value,
+.blue-thm .main-login .login-style-4.text-in.text-up-only .inpt-txt,
+.blue-thm .anim-text .inpt-txt,
+.blue-thm .login-style-4.text-up-only .input-icon,
+.blue-thm .footer .top-scroll .primary-scroll .icon
+{ color: #4a89dc; }
+
+.blue-thm .sidebar-menu,
+.blue-thm .sidebar-menu .search-nav
+{ background: #f8f8f8; }
+
+.blue-thm .open-sb.search-nav #sb-button { color: #f8f8f8;}
+
+.blue-thm .search-nav.open-sb input:focus { box-shadow: 0px 1px 0 0 #f8f8f8; border-bottom: 1px solid #f8f8f8; }
+.blue-thm .search-nav.open-sb input { border-bottom: 1px solid rgba(0, 0, 0, 0.2); color: rgba(255, 255, 255, 0.8); }
+
+.blue-thm .main-header .nav.user  li a:hover,
+.blue-thm .main-header .nav.user  li a:focus, 
+.blue-thm .main-header .nav.user .open > a,
+.blue-thm .main-header .nav.user .open > a:hover, 
+.blue-thm .main-header .nav.user .open > a:focus { box-shadow: inset 0 0 0 42px rgba(0,0,0,0.09) !important; color: rgba(255, 255, 255, 0.8); }
+
+.blue-thm .search-nav.open-sb input { border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+.blue-thm .sidebar-menu .search-nav.open-sb input:focus { box-shadow: 0px 1px 0 0 #4a89dc; border-bottom: 1px solid #4a89dc; }
+
+.blue-thm .sidebar-menu ul li a.active,
+.blue-thm .sidebar-menu ul li a.active:hover, 
+.blue-thm .sidebar-menu ul li a.active:focus
+{ border-left-color: #4a89dc; }
+
+.blue-thm .first-mnu .sidebar-menu ul.nav-menu > li > a.active, 
+.blue-thm .first-mnu .sidebar-menu ul.nav-menu > li > a.active:hover,
+.blue-thm .first-mnu .sidebar-menu ul.nav-menu > li > a.active:focus,
+.blue-thm .first-mnu .sidebar-menu ul.more-mnu > li > a.active,
+.blue-thm .first-mnu .sidebar-menu ul.more-mnu > li > a.active:hover,
+.blue-thm .first-mnu .sidebar-menu ul.more-mnu > li > a.active:focus
+{ border-bottom-color: #f8f8f8; }
+
+.blue-thm .first-mnu .sidebar-menu .nav-menu  > li > a .badge,
+.blue-thm .first-mnu .sidebar-menu .more-menu  > li > a .badge
+{ background: #fff; color: #4a89dc; }
+
+.blue-thm .first-mnu .sidebar-menu ul > li > ul li a,
+.blue-thm .third-mnu .sidebar-menu ul > li > ul li a,
+.blue-thm .icon-mnu .sidebar-menu ul > li > ul li a,
+.blue-thm .icon-mnu .sidebar-menu .nav-menu li a span.title, 
+.blue-thm .icon-mnu .sidebar-menu .more-mnu > li > a > .title,
+.blue-thm #sidebar-right .u-name a
+{ color: rgba(0,0,0,0.6); }
+
+
+/*=== sidebar-right ===*/
+.blue-thm .nav li a:hover,
+.blue-thm .nav li a:focus,
+.blue-thm .nav .open > a,
+.blue-thm .nav .open > a:hover,
+.blue-thm .nav .open > a:focus,
+.blue-thm .open-sidebar .sidebar-open a,
+.blue-thm .scn-lock-overflow .scn-lock-open a,
+.blue-thm .nav-tabs > li.active-tab > a
+{ color: rgba(0, 0, 0, 0.8); box-shadow: inset 0 0 0 42px rgba(255,255,255,0.8) !important; background: #4a89dc; }
+.blue-thm .default-tab .nav-tabs li.active a, 
+.blue-thm .default-tab.style-2 .nav-tabs li.active-nav > a,
+.blue-thm .default-tab.style-2 .nav-tabs li.active-nav > a:hover,
+.blue-thm .default-tab.style-2 .nav-tabs li.active-nav > a:focus{ background:#4a89dc;  box-shadow: inset 0 0 0 42px rgba(255,255,255,0.8); }
+.blue-thm #sidebar-right .u-name { background:#4a89dc; box-shadow: inset 0 0 0 42px rgba(255,255,255,0.8); }
+.blue-thm #sidebar-right .title-sidebar{ background: #4a89dc; box-shadow: inset 0 0 0 35px rgba(255,255,255,0.8); }
+
+/*=== sidebar-chat ===*/
+.blue-thm .sidebar-chat .titlebar,
+.blue-thm .sidebar-chat .title-sidebar{ background: #4a89dc; box-shadow: inset 0 0 0 35px rgba(255,255,255,0.8); }
+.blue-thm .sidebar-chat .bottom_bar .user-conv::before{ border-right: 8px solid #4a89dc;}
+.blue-thm .sidebar-chat .bottom_bar .my-conv:before{ border-left: 8px solid #f8f8f8;}
+.blue-thm .sidebar-chat .bottom_bar .content-conv .con-title .chat-back:hover,
+.blue-thm .sidebar-chat .bottom_bar .content-conv .con-title .conv-more:hover,
+.blue-thm .sidebar-chat .bottom_bar .content-conv .con-title .conv-more.open
+{ box-shadow: inset 0 0 0 42px rgba(0, 0, 0, 0.15); }
+/*=== button page===*/
+
+.blue-thm .btn.btn-primary.btn-inverse { border-color: #4a89dc !important; color: #4a89dc !important; background: none; }
+.blue-thm .btn.btn-primary.btn-inverse:hover,
+.blue-thm .btn.btn-primary.btn-inverse:focus{background: #4a89dc !important;}
+.blue-thm .btn.btn-primary:hover,
+.blue-thm .btn.btn-primary:focus,
+.blue-thm .btn.btn-primary:active:focus,
+.blue-thm .btn.btn-primary.active:focus,
+.blue-thm .btn.btn-primary.focus,
+.blue-thm .btn.btn-primary.focus:active, 
+.blue-thm .btn.btn-primary.active.focus{ box-shadow: inset 0 42px 0 0px rgba(0,0,0,0.2); background: #4a89dc; }
+.blue-thm .btn.btn-primary.btn-inverse:hover, 
+.blue-thm .btn.btn-primary.btn-inverse:focus { color: #fff !important; }
+.blue-thm .breadcrumb-custom ul li.active a::before { border-left: 32px solid #4a89dc; }
+.blue-thm .datepicker tfoot tr th{ background:#4a89dc; border-radius: 0px; color: #fff; }
+.blue-thm .datepicker table tr td span.active, 
+.blue-thm .datepicker table tr td span.active:hover,
+.blue-thm .datepicker table tr td span.active.disabled, 
+.blue-thm .datepicker table tr td span.active.disabled:hover,
+.blue-thm .datepicker table tr td.active:active, 
+.blue-thm .datepicker table tr td.active:hover:active,
+.blue-thm .datepicker table tr td.active.disabled:active,
+.blue-thm .datepicker table tr td.active.disabled:hover:active,
+.blue-thm .datepicker table tr td.active.active,
+.blue-thm .datepicker table tr td.active.active:hover,
+.blue-thm .datepicker table tr td.active.disabled.active,
+.blue-thm .datepicker table tr td.active.disabled.active:hover
+ {background-color: #4a89dc !important; background-image:linear-gradient(to bottom, #4a89dc, #4a89dc) !important; box-shadow: none;}
+.blue-thm .datepicker .table-condensed thead{ background: #4a89dc; color: #fff;}
+.blue-thm .datepicker tfoot tr th:hover{ box-shadow: 0px 0px 0px 32px rgba(0, 0, 0, 0.09) inset; background: #4a89dc;}
+.blue-thm .boot-style .dropdown-menu > .active > a,
+.blue-thm .boot-style .dropdown-menu > .active > a:hover, 
+.blue-thm .boot-style .dropdown-menu > .active > a:focus{ background-color: #4a89dc; box-shadow: none;}
+/* == active ==*/
+.blue-thm .daterangepicker td.active, 
+.blue-thm .daterangepicker td.active:hover{ background: #4a89dc !important; box-shadow: none !important; }
+/* ====== form-element-2 ====== */
+.blue-thm .social-tab.default-tab .nav-tabs li a:hover, 
+.blue-thm .social-tab.default-tab .nav-tabs li a:focus,
+.blue-thm .social-tab.default-tab .nav-tabs li.active a,
+.blue-thm .social-tab.default-tab .nav-tabs li.active a:hover{ box-shadow: inset 0 0 0 42px rgba(0,0,0,0.09) !important;}
+/* ====== end form-element-2 ====== */
+
+/* ===== general small components ====== */
+.blue-thm .panel-primary > .panel-heading { background: #4a89dc !important; border-color:#4a89dc;  }
+.blue-thm #nprogress .peg{ box-shadow: 0 0 5px #4a89dc, 0 0 5px #4a89dc; }
+.blue-thm .ui-mprogress .peg{ box-shadow: 0 0 10px #4a89dc,0 0 5px #4a89dc; }
+.blue-thm .ui-mprogress .bar-bg, 
+.blue-thm .ui-mprogress .buffer-bg{ background: #4a89dc; opacity: 0.3; }
+/* ====== tabs ====== */
+.blue-thm .default-tab.active-top  .nav-tabs li.active{ box-shadow: 0 -2px 0 0px #4a89dc; }
+.blue-thm .default-tab.stack-nav.f-ryt.active-rgt .nav-tabs li.active{ box-shadow: 2px 0px 0 0 #4a89dc; }
+.blue-thm .default-tab.stack-nav.f-lft.active-lft .nav-tabs li.active{ box-shadow: -2px 0 0 0px #4a89dc; }
+.blue-thm .default-tab.bottom-tab.active-btm .nav-tabs > li.active{ box-shadow: 0 2px 0 0px #4a89dc;}
+
+/* ====== datatable page ====== */
+.blue-thm table.dataTable thead th, table.dataTable thead td{ border-bottom: 1px solid #9a9a9a; }
+.blue-thm .changes-table-wrpr .table-filter { border-bottom: 1px solid #9a9a9a; }
+.blue-thm .changes-table-wrpr .table-footer{ border-top: 1px solid #9a9a9a;}
+
+/* ===== local-menu ===== */
+.blue-thm .local-menu .nav-spy a.active1, 
+.blue-thm .local-menu .nav-spy a.active{ box-shadow: inset 2px 0 0 0 #4a89dc; }
+/* ===== form-wizard  ===== */
+.blue-thm .form-wiz-page .trd-wiz .wizard-nav.nav-pills > li.previous > a, 
+.blue-thm .form-wiz-page .trd-wiz .wizard-nav.nav-pills > li.previous > a:hover,
+.blue-thm .form-wiz-page .trd-wiz .wizard-nav.nav-pills > li.previous > a:focus,
+.blue-thm .form-wiz-page .trd-wiz .wizard-nav.nav-pills > li.active > a,
+.blue-thm .form-wiz-page .trd-wiz .wizard-nav.nav-pills > li.active > a:hover,
+.blue-thm .form-wiz-page .trd-wiz .wizard-nav.nav-pills > li.active > a:focus,
+.blue-thm .form-wiz-page .wizard-nav.nav-pills > li.previous > a .step-count, 
+.blue-thm .form-wiz-page .wizard-nav.nav-pills > li.active > a .step-count
+{ border-color: #4a89dc; }
+/* ===== full-tab  ===== */
+.blue-thm .full-tabs .active a,
+.blue-thm .full-tabs .active a:hover,
+.blue-thm .full-tabs .active a:focus,
+.blue-thm .full-tabs li a:hover,
+.blue-thm .full-tabs li a:focus{ background: #4a89dc; box-shadow: inset 0 0 0 42px rgba(255, 255, 255, 0.8); }
+.blue-thm .main-login { border-top-color: #4a89dc;}
+/* ===== other-input ===== */
+.blue-thm .checkbox-custom.chk-primary.chk-reverse + .checkbox-custom-label::before{ color: #4a89dc; border: 2px solid #4a89dc; }
+.blue-thm .radio .primary-rad + label::before{ border: 3px solid #4a89dc; color: #4a89dc; }
+/* ======== theme-bg ======== */
+.blue-thm .theme-bg {background: #4a89dc !important; box-shadow: inset 0 0 0 35px rgba(255, 255, 255, 0.8) !important; color: rgba(0,0,0,0.6) !important;}
+.blue-thm .change-profile.theme-bg{box-shadow: inset 0 0 0 160px rgba(255, 255, 255, 0.8) !important;}
+.blue-thm .theme-bg.crop-tool{background: none !important; box-shadow: none !important;}
+.blue-thm .theme-bg.crop-tool li a:after{ background: #4a89dc; opacity: 0.3;}
+.blue-thm .theme-bg.crop-tool li a{color: rgba(0,0,0,0.6);}
+.blue-thm .btn.theme-bg{ color: rgba(0,0,0,0.6) !important; box-shadow: inset 0 0 0 0px rgba(0, 0, 0, 0.4) !important;}
+.blue-thm .btn.theme-bg:before { content: ""; background: rgba(255, 255, 255, 0.8); position: absolute; left: 0; top: 0; right: 0;  bottom: 0px;transition: 0.3s; }
+.blue-thm .btn.theme-bg:hover,
+.blue-thm .btn.theme-bg:focus
+{ box-shadow: inset 0 42px 0 0px rgba(0, 0, 0, 0.4) !important;	}
+.blue-thm .btn.theme-bg.btn-inverse.active,
+.blue-thm .default-tab .sliding-bar.nav-tabs .slider,
+.blue-thm  .pagination.pagination-custom.with-active li.active:before
+{  background: #4a89dc !important;  }
+.blue-thm .btn.theme-bg.btn-inverse:hover, 
+.blue-thm .btn.theme-bg.btn-inverse:focus{ 
+	background: #4a89dc !important;
+	box-shadow: inset 0 42px 0 0px rgba(0, 0, 0, 0.09) !important;
+}
+/* ==== theme-bg button ==== */
+
+/* ====== for table ====== */
+.blue-thm .basic-style.table > thead.theme-bg{box-shadow: none !important;}
+.blue-thm .basic-style.table > thead.theme-bg > tr > th, 
+.blue-thm .basic-style.table > tfoot.theme-bg > tr > th,
+.blue-thm .btn.theme-bg.btn-inverse.active:before,
+.blue-thm .btn.theme-bg.btn-inverse:hover:before,
+.blue-thm .btn.theme-bg.btn-inverse:focus:before
+{background: rgba(255,255,255,0.8);}
+/* ====== Pagination ====== */
+.blue-thm .theme-bg.pagination { background: none !important; box-shadow: none !important; }
+.blue-thm .theme-bg.pagination.pagination-custom li.active a,
+.blue-thm .theme-bg.pagination.pagination-custom li.active a,
+.blue-thm .theme-bg.pagination.pagination-custom li.active a:hover,
+.blue-thm .theme-bg.pagination.pagination-custom li.active a:focus,
+.blue-thm .theme-bg.pagination.pagination-custom >li>a:focus,
+.blue-thm .theme-bg.pagination.pagination-custom >li>a:hover,
+.blue-thm .theme-bg.pagination.pagination-custom >li>span:focus,
+.blue-thm .theme-bg.pagination.pagination-custom >li>span:hover
+{ background: #4a89dc !important; box-shadow: inset 0 0 0 35px rgba(255, 255, 255, 0.8) !important; color: rgba(0,0,0,0.6) !important; } 
+/* ======== theme-text-color ======== */
+.blue-thm  .theme-text-color,
+.blue-thm  .theme-text-color.theme-bg
+{color: #4a89dc !important;}
+
+@media (max-width:768px) {
+.blue-thm .set-responsive .more-navbar{color:rgba(255,255,255,0.8); }
+.blue-thm .set-responsive .user li a{color: rgba(0,0,0,0.6);}
+.blue-thm .set-responsive .responsive-wrpr .nav.user li a:hover,
+.blue-thm .set-responsive .responsive-wrpr .nav.user li a:focus{ background: none; color: rgba(0,0,0,0.6); }
+.blue-thm .set-responsive .user .search-nav #sb-button{ color: #4a89dc;; }
+.blue-thm .set-responsive .user .search-nav input:focus{ border-bottom: 1px solid #4a89dc; box-shadow: 0 1px 0 0 #4a89dc;}	
+}
+
+/* ==== changes for ux ==== */
+.blue-thm .lft-mnu .sidebar-menu ul li a,
+.blue-thm .lft-mnu .sidebar-menu .wm-wrpr .widget-menu.wm-heading a,
+.blue-thm .lft-mnu .sidebar-menu .u-name a,
+.blue-thm .rgt-mnu .sidebar-menu ul li a,
+.blue-thm .rgt-mnu .sidebar-menu .wm-wrpr .widget-menu.wm-heading a,
+.blue-thm .rgt-mnu .sidebar-menu .u-name a,
+.blue-thm .rgt .sidebar-menu ul li a,
+.blue-thm .rgt .sidebar-menu .wm-wrpr .widget-menu.wm-heading a,
+.blue-thm .rgt .sidebar-menu .u-name a,
+.blue-thm .third-mnu .sidebar-menu ul li a,
+.blue-thm .third-mnu .sidebar-menu .wm-wrpr .widget-menu.wm-heading a,
+.blue-thm .third-mnu .sidebar-menu .u-name a,
+.blue-thm .icon-mnu .sidebar-menu ul li a, 
+.blue-thm .icon-mnu .sidebar-menu .wm-wrpr .widget-menu.wm-heading a, 
+.blue-thm .icon-mnu .sidebar-menu .u-name a,
+.blue-thm .sidebar-menu .search-nav.open-sb input,
+.blue-thm .sidebar-menu .open-sb.search-nav #sb-button,
+.blue-thm .sidebar-menu  .search-nav.open-sb input::-webkit-input-placeholder
+{ color: rgba(0,0,0,0.6); }
+
+.blue-thm .lft-mnu .sidebar-menu ul li a:hover,
+.blue-thm .lft-mnu .sidebar-menu ul li a:focus,
+.blue-thm .lft-mnu .sidebar-menu ul li a.active, 
+.blue-thm .lft-mnu .sidebar-menu ul li a.active:hover,
+.blue-thm .rgt-mnu .sidebar-menu ul li a:hover,
+.blue-thm .rgt-mnu .sidebar-menu ul li a:focus,
+.blue-thm .rgt-mnu .sidebar-menu ul li a.active, 
+.blue-thm .rgt-mnu .sidebar-menu ul li a.active:hover,
+.blue-thm .rgt .sidebar-menu ul li a:hover,
+.blue-thm .rgt .sidebar-menu ul li a:focus,
+.blue-thm .rgt .sidebar-menu ul li a.active, 
+.blue-thm .rgt .sidebar-menu ul li a.active:hover,
+.blue-thm .third-mnu .sidebar-menu ul li a:hover,
+.blue-thm .third-mnu .sidebar-menu ul li a:focus,
+.blue-thm .third-mnu .sidebar-menu ul li a.active, 
+.blue-thm .third-mnu .sidebar-menu ul li a.active:hover,
+.blue-thm .icon-mnu .sidebar-menu ul li a:hover,
+.blue-thm .icon-mnu .sidebar-menu ul li a:focus,
+.blue-thm .icon-mnu .sidebar-menu ul li a.active, 
+.blue-thm .icon-mnu .sidebar-menu ul li a.active:hover
+{ color: rgba(0, 0, 0, 0.8);}
+
+.blue-thm .sidebar-menu .search-nav.open-sb input{    border-bottom: 1px solid rgba(0, 0, 0, 0.09);}
+/*  ==== white not visible in top head ==== */
+.blue-thm .main-header  .search-nav.open-sb input:focus { box-shadow: 0px 1px 0 0 rgba(0, 0, 0, 0.3); border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+.blue-thm .first-mnu .sidebar-menu ul.nav-menu > li > a.active,
+.blue-thm .first-mnu .sidebar-menu ul.nav-menu > li > a.active:hover,
+.blue-thm .first-mnu .sidebar-menu ul.nav-menu > li > a.active:focus,
+.blue-thm .first-mnu .sidebar-menu ul.more-mnu > li > a.active,
+.blue-thm .first-mnu .sidebar-menu ul.more-mnu > li > a.active:hover,
+.blue-thm .first-mnu .sidebar-menu ul.more-mnu > li > a.active:focus
+{ border-bottom-color: rgba(0, 0, 0, 0.3); }
+
+.blue-thm .sidebar-menu .submenu-more li a.active,
+.blue-thm .sidebar-menu .submenu-more li a.active:hover,
+.blue-thm .sidebar-menu .submenu-more li a.active:focus
+{ color: rgba(0, 0, 0, 0.8); }
+
+.blue-thm .lft-mnu .sidebar-menu .wm-wrpr .widget-menu .graph-tile .grp-footer .grp-result,
+.blue-thm .rgt-mnu .sidebar-menu  .wm-wrpr .widget-menu .graph-tile .grp-footer .grp-result,
+.blue-thm .nonoly-lyt .sidebar-menu  .wm-wrpr .widget-menu .graph-tile .grp-footer .grp-result,
+.blue-thm .lft-mnu .sidebar-menu  .wm-wrpr .widget-menu .graph-tile .grp-heading .grp-title,
+.blue-thm .rgt-mnu .sidebar-menu  .wm-wrpr .widget-menu .graph-tile .grp-heading .grp-title,
+.blue-thm  .nonoly-lyt .sidebar-menu  .wm-wrpr .widget-menu .graph-tile .grp-heading .grp-title
+{ color: rgba(0, 0, 0, 0.6); } 
+
+/* ==== after adding two menu ==== */
+
+.blue-thm .two-mnu.set-lft-mnu .sidebar-menu.main-menu .nav-menu li a span.title { color: rgba(0,0,0,0.6); }
+.blue-thm .two-mnu.set-lft-mnu .sidebar-menu.main-menu ul.sub-nav { background: transparent; }
+.blue-thm .two-mnu.set-lft-mnu .sidebar-menu.main-menu ul li a { color: rgba(0,0,0,0.6); }
+.blue-thm .two-mnu.set-lft-mnu .sidebar-menu.main-menu ul.stybdr { background: rgba(0,0,0,0.6); }
+
+.blue-thm .two-mnu.two-mnu-responsive .sidebar-menu.operation-menu{ background: #f8f8f8; }
+.blue-thm .two-mnu.two-mnu-responsive .sidebar-menu.operation-menu ul li a, 
+.blue-thm .two-mnu.two-mnu-responsive .sidebar-menu.operation-menu ul li:hover > a, 
+.blue-thm .two-mnu.two-mnu-responsive .sidebar-menu.operation-menu ul li a:hover{ color: rgba(0,0,0,0.6); }
+
+.blue-thm .two-mnu-responsive.two-mnu .sidebar-menu.operation-menu .wm-wrpr .widget-menu .graph-tile .grp-heading .grp-title,
+.blue-thm .two-mnu-responsive.two-mnu .sidebar-menu.operation-menu .wm-wrpr .widget-menu .graph-tile .grp-footer .grp-result,
+.blue-thm .two-mnu-responsive.two-mnu .sidebar-menu.operation-menu .wm-wrpr .widget-menu.wm-heading a,
+.blue-thm .two-responsive.two-mnu .sidebar-menu.operation-menu .u-name a
+{ color: rgba(0,0,0,0.6); }
+
+/*===04-aug ====*/
+.blue-thm .two-mnu .sidebar-menu.main-menu{background: #4a89dc;}
+.blue-thm .two-mnu .sidebar-menu.operation-menu{background: #f8f8f8;}
+.blue-thm .two-mnu .sidebar-menu.operation-menu ul li a{ color: rgba(0,0,0,0.6);}
+
+.blue-thm .two-mnu .sidebar-menu.main-menu ul li a,
+.blue-thm .two-mnu .sidebar-menu.main-menu ul li a span.title 
+{ color: rgba(255, 255, 255, 0.8);}
+
+.blue-thm .two-mnu .sidebar-menu.main-menu ul.nav-menu > li > a.active, 
+.blue-thm .two-mnu .sidebar-menu.main-menu ul.nav-menu > li > a.active:hover, 
+.blue-thm .two-mnu .sidebar-menu.main-menu ul.nav-menu > li > a.active:focus,
+.blue-thm .two-mnu .sidebar-menu.main-menu ul.more-mnu > li > a.active, 
+.blue-thm .two-mnu .sidebar-menu.main-menu ul.more-mnu > li > a.active:hover, 
+.blue-thm .two-mnu .sidebar-menu.main-menu ul.more-mnu > li > a.active:focus{ border-bottom-color: rgba(0, 0, 0, 0.3); }
+
+.blue-thm .two-mnu .sidebar-menu.main-menu ul > li > ul li a,
+.blue-thm .two-mnu .sidebar-menu.main-menu ul > li > ul li a:hover
+{ color: rgba(0,0,0,0.6); }
+
+
+.blue-thm .two-mnu .sidebar-menu.main-menu ul li ul a span.title{ color: rgba(0,0,0,0.6); }
+
+
+.blue-thm .two-mnu-responsive.operation-icon-mnu .sidebar-menu.operation-menu ul li a,
+.blue-thm .two-mnu-responsive.operation-lft-mnu .sidebar-menu.operation-menu ul li a,
+.blue-thm .two-mnu-responsive .sidebar-menu.main-menu ul li a,
+.blue-thm .two-mnu-responsive.operation-lft-mnu .sidebar-menu.operation-menu .u-name a,
+.blue-thm .two-mnu-responsive .sidebar-menu.main-menu .u-name a
+{ color: rgba(0,0,0,0.6); }
+
+
+.blue-thm .two-mnu .sidebar-menu.operation-menu ul li.clicked_cls > a .caret-1,
+.blue-thm .lft-mnu .sidebar-menu.main-menu ul li.clicked_cls > a .caret-1,
+.blue-thm .rgt-mnu .sidebar-menu.main-menu ul li.clicked_cls > a .caret-1,
+.blue-thm .icon-mnu .sidebar-menu.main-menu ul li.clicked_cls > a .caret-1,
+.blue-thm .third-mnu .sidebar-menu.main-menu ul li.clicked_cls > a .caret-1,
+.blue-thm .nonoly-lyt .sidebar-menu.main-menu ul li.clicked_cls > a .caret-1
+{ color: #4a89dc; }
+
+
+.blue-thm .two-mnu.lft-mnu .sidebar-menu.main-menu ul li.clicked_cls > a .caret-1,
+.blue-thm .two-mnu.rgt-mnu .sidebar-menu.main-menu ul li.clicked_cls > a .caret-1,
+.blue-thm .two-mnu.icon-mnu .sidebar-menu.main-menu ul li.clicked_cls > a .caret-1,
+.blue-thm .two-mnu.third-mnu .sidebar-menu.main-menu ul li.clicked_cls > a .caret-1,
+.blue-thm .two-mnu.nonoly-lyt .sidebar-menu.main-menu ul li.clicked_cls > a .caret-1{
+  color: rgba(255,255,255,0.8) }
+
+.blue-thm .two-mnu.lft-mnu .sidebar-menu.main-menu ul li ul li.clicked_cls > a .caret-1,
+.blue-thm .two-mnu.rgt-mnu .sidebar-menu.main-menu ul li ul li.clicked_cls > a .caret-1,
+.blue-thm .two-mnu.icon-mnu .sidebar-menu.main-menu ul li ul li.clicked_cls > a .caret-1,
+.blue-thm .two-mnu.third-mnu .sidebar-menu.main-menu ul li ul li.clicked_cls > a .caret-1,
+.blue-thm .two-mnu.nonoly-lyt .sidebar-menu.main-menu ul li ul li.clicked_cls > a .caret-1
+{ color: #4a89dc; } 
+
+.blue-thm .two-mnu-responsive .sidebar-menu.main-menu ul li.clicked_cls > a .caret-1,
+.blue-thm .two-mnu-responsive .sidebar-menu.operation-menu ul li.clicked_cls > a .caret-1
+{ color: #4a89dc; } 
+
+
+.blue-thm .basic-style.table .checkbox-squere input[type="checkbox"]:checked + .checkbox:after{ background:#4a89dc; }
+
+
+
+
+

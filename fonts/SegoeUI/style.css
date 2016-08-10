@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+@font-face {
+	font-family:'SegoeUI-Bold';
+	src: url('SegoeUI-Bold/SegoeUI-Bold_gdi.eot');
+	src: url('SegoeUI-Bold/SegoeUI-Bold_gdi.eot?#iefix') format('embedded-opentype'),
+		url('SegoeUI-Bold/SegoeUI-Bold_gdi.woff') format('woff'),
+		url('SegoeUI-Bold/SegoeUI-Bold_gdi.ttf') format('truetype'),
+		url('SegoeUI-Bold/SegoeUI-Bold_gdi.otf') format('opentype'),
+		url('SegoeUI-Bold/SegoeUI-Bold_gdi.svg#SegoeUI-Bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2666;
+}
+
+
+@font-face {
+	font-family:'SegoeUI-Light';
+	src: url('SegoeUI-Light/SegoeUI-Light_gdi.eot');
+	src: url('SegoeUI-Light/SegoeUI-Light_gdi.eot?#iefix') format('embedded-opentype'),
+		url('SegoeUI-Light/SegoeUI-Light_gdi.woff') format('woff'),
+		url('SegoeUI-Light/SegoeUI-Light_gdi.ttf') format('truetype'),
+		url('SegoeUI-Light/SegoeUI-Light_gdi.otf') format('opentype'),
+		url('SegoeUI-Light/SegoeUI-Light_gdi.svg#SegoeUI-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-2666;
+}
+
+
+@font-face {
+	font-family:'SegoeUI-Regular';
+	src: url('SegoeUI-Regular/SegoeUI_gdi.eot');
+	src: url('SegoeUI-Regular/SegoeUI_gdi.eot?#iefix') format('embedded-opentype'),
+		url('SegoeUI-Regular/SegoeUI_gdi.woff') format('woff'),
+		url('SegoeUI-Regular/SegoeUI_gdi.ttf') format('truetype'),
+		url('SegoeUI-Regular/SegoeUI_gdi.otf') format('opentype'),
+		url('SegoeUI-Regular/SegoeUI_gdi.svg#SegoeUI-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2666;
+}
+
+
+@font-face {
+	font-family:'SegoeUI-SemiBold';
+	src: url('SegoeUI-SemiBold/SegoeUI-SemiBold_gdi.eot');
+	src: url('SegoeUI-SemiBold/SegoeUI-SemiBold_gdi.eot?#iefix') format('embedded-opentype'),
+		url('SegoeUI-SemiBold/SegoeUI-SemiBold_gdi.woff') format('woff'),
+		url('SegoeUI-SemiBold/SegoeUI-SemiBold_gdi.ttf') format('truetype'),
+		url('SegoeUI-SemiBold/SegoeUI-SemiBold_gdi.otf') format('opentype'),
+		url('SegoeUI-SemiBold/SegoeUI-SemiBold_gdi.svg#SegoeUI-SemiBold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2666;
+}
+
+
+@font-face {
+	font-family:'SegoeUI-Semilight';
+	src: url('SegoeUI-Semilight/SegoeUI-Semilight_gdi.eot');
+	src: url('SegoeUI-Semilight/SegoeUI-Semilight_gdi.eot?#iefix') format('embedded-opentype'),
+		url('SegoeUI-Semilight/SegoeUI-Semilight_gdi.woff') format('woff'),
+		url('SegoeUI-Semilight/SegoeUI-Semilight_gdi.ttf') format('truetype'),
+		url('SegoeUI-Semilight/SegoeUI-Semilight_gdi.otf') format('opentype'),
+		url('SegoeUI-Semilight/SegoeUI-Semilight_gdi.svg#SegoeUI-Semilight') format('svg');
+	font-weight: 350;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-2666;
+}
+
+
+@font-face {
+	font-family:'SegoeUISymbol-Regular';
+	src: url('SegoeUISymbol-Regular/SegoeUISymbol_gdi.eot');
+	src: url('SegoeUISymbol-Regular/SegoeUISymbol_gdi.eot?#iefix') format('embedded-opentype'),
+		url('SegoeUISymbol-Regular/SegoeUISymbol_gdi.woff') format('woff'),
+		url('SegoeUISymbol-Regular/SegoeUISymbol_gdi.ttf') format('truetype'),
+		url('SegoeUISymbol-Regular/SegoeUISymbol_gdi.otf') format('opentype'),
+		url('SegoeUISymbol-Regular/SegoeUISymbol_gdi.svg#SegoeUISymbol-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2666;
+}
