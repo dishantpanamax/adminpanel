@@ -167,6 +167,9 @@
 .orange-thm .footer .top-scroll .primary-scroll .icon
 { color: #f7b231; }
 
+.orange-thm a:hover,
+.orange-thm a:focus{ color: rgba(0,0,0,0.6); }
+
 .orange-thm .sidebar-menu,
 .orange-thm .sidebar-menu .search-nav
 { background: #f5f5f5; }
@@ -187,7 +190,13 @@
 
 .orange-thm .sidebar-menu ul li a.active,
 .orange-thm .sidebar-menu ul li a.active:hover, 
-.orange-thm .sidebar-menu ul li a.active:focus
+.orange-thm .sidebar-menu ul li a.active:focus,
+.orange-thm .icon-mnu .more-mnu li a.active,
+.orange-thm .icon-mnu .more-mnu li a.active:hover, 
+.orange-thm .icon-mnu .more-mnu li a.active:focus,
+.orange-thm .two-mnu.icon-mnu .sidebar-menu.operation-menu .more-mnu li a.active, 
+.orange-thm .two-mnu.icon-mnu .sidebar-menu.operation-menu .more-mnu li a.active:hover,
+.orange-thm .two-mnu.icon-mnu .sidebar-menu.operation-menu .more-mnu li a.active:focus
 { border-left-color: #f7b231; }
 
 .orange-thm .first-mnu .sidebar-menu ul.nav-menu > li > a.active, 
@@ -207,9 +216,31 @@
 .orange-thm .icon-mnu .sidebar-menu ul > li > ul li a,
 .orange-thm .icon-mnu .sidebar-menu .nav-menu li a span.title, 
 .orange-thm .icon-mnu .sidebar-menu .more-mnu > li > a > .title,
-.orange-thm #sidebar-right .u-name a
+.orange-thm #sidebar-right .u-name a,
+.orange-thm .panel-heading a,
+.orange-thm .panel-heading,
+.orange-thm .panel-body,
+.orange-thm .toggle-collapse .list-inline.tools,
+.orange-thm .toggle-collapse .list-inline.tools a
 { color: rgba(0,0,0,0.6); }
 
+.orange-thm .toggle-collapse .primary-bg,
+.orange-thm .toggle-collapse .info-bg,
+.orange-thm .toggle-collapse .success-bg,
+.orange-thm .toggle-collapse .warning-bg,
+.orange-thm .toggle-collapse .danger-bg,
+.orange-thm .toggle-collapse .purple-bg,
+.orange-thm .toggle-collapse .light-success-bg, 
+.orange-thm .toggle-collapse .dark-bg,
+.orange-thm .toggle-collapse .primary-bg a,
+.orange-thm .toggle-collapse .info-bg a,
+.orange-thm .toggle-collapse .success-bg a,
+.orange-thm .toggle-collapse .warning-bg a,
+.orange-thm .toggle-collapse .danger-bg a,
+.orange-thm .toggle-collapse .purple-bg a,
+.orange-thm .toggle-collapse .light-success-bg a,
+.orange-thm .toggle-collapse .dark-bg a
+{ color: rgba(255,255,255,0.9); }
 
 /*=== sidebar-right ===*/
 .orange-thm .nav li a:hover,
@@ -283,7 +314,7 @@
 /* ====== end form-element-2 ====== */
 
 /* ===== general small components ====== */
-.orange-thm .panel-primary > .panel-heading { background: #f7b231 !important; border-color:#f7b231;  }
+.orange-thm .panel-primary > .panel-heading { background: #f7b231 !important; border-color:#f7b231;color: #fff; }
 .orange-thm #nprogress .peg{ box-shadow: 0 0 5px #f7b231, 0 0 5px #f7b231; }
 .orange-thm .ui-mprogress .peg{ box-shadow: 0 0 10px #f7b231,0 0 5px #f7b231; }
 .orange-thm .ui-mprogress .bar-bg, 
@@ -313,9 +344,9 @@
 .orange-thm .form-wiz-page .wizard-nav.nav-pills > li.active > a .step-count
 { border-color: #f7b231; }
 /* ===== full-tab  ===== */
-.orange-thm .full-tabs .active a,
-.orange-thm .full-tabs .active a:hover,
-.orange-thm .full-tabs .active a:focus,
+.orange-thm .full-tabs a.active,
+.orange-thm .full-tabs a.active:hover,
+.orange-thm .full-tabs a.active:focus,
 .orange-thm .full-tabs li a:hover,
 .orange-thm .full-tabs li a:focus{ background: #f7b231; box-shadow: inset 0 0 0 42px rgba(255, 255, 255, 0.8); }
 .orange-thm .main-login { border-top-color: #f7b231;}

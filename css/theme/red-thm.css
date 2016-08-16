@@ -110,8 +110,8 @@
 .red-thm .main-header .user-setting > a,
 .red-thm .main-header .user li a,
 .red-thm .first-mnu .sidebar-menu ul li a,
-.red-thm .first-mnu .sidebar-menu .nav-menu  > li > a .caret-1.open,
-.red-thm .first-mnu .sidebar-menu .more-mnu > li > a .caret-1.open
+.red-thm .first-mnu .sidebar-menu .nav-menu  > li.clicked_cls > a .caret-1,
+.red-thm .first-mnu .sidebar-menu .more-mnu > li.clicked_cls > a .caret-1
 { color: rgba(255, 255, 255, 0.8); }
 
 .red-thm .main-header .breadcrumb > li + li::before,
@@ -123,9 +123,6 @@
 .red-thm .sidebar-menu ul li:hover > a, 
 .red-thm .sidebar-menu ul li a:hover, 
 .red-thm .sidebar-menu ul li a:focus, 
-.red-thm .sidebar-menu ul li a.active, 
-.red-thm .sidebar-menu ul li a.active:hover, 
-.red-thm .sidebar-menu ul li a.active:focus,
 .red-thm .lft-mnu .sidebar-menu .wm-wrpr .widget-menu.wm-heading a,
 .red-thm .rgt-mnu .sidebar-menu .wm-wrpr .widget-menu.wm-heading a,
 .red-thm .nonoly-lyt .sidebar-menu .wm-wrpr .widget-menu.wm-heading a,
@@ -138,6 +135,8 @@
 .red-thm .sidebar-menu .u-name a,
 .red-thm .search-nav.open-sb input::-webkit-input-placeholder 
 { color: rgba(255,255,255,0.6); }
+
+.red-thm .sidebar-menu .menu-status .wm-wrpr{ color: rgba(255,255,255,0.6);}
 
 .red-thm .sidebar-menu .search-nav input:focus ~ #sb-button,
 .red-thm .sidebar-menu ul li a .caret-1.open,
@@ -167,6 +166,9 @@
 .red-thm .footer .top-scroll .primary-scroll .icon
 { color: #ec6f5a; }
 
+.red-thm a:hover,
+.red-thm a:focus{ color: rgba(0,0,0,0.6); }
+
 .red-thm .sidebar-menu,
 .red-thm .sidebar-menu .search-nav
 { background: #454545; }
@@ -182,7 +184,13 @@
 .red-thm .sidebar-menu .search-nav.open-sb input:focus { box-shadow: 0px 1px 0 0 #ec6f5a; border-bottom: 1px solid #ec6f5a; }
 .red-thm .sidebar-menu ul li a.active,
 .red-thm .sidebar-menu ul li a.active:hover, 
-.red-thm .sidebar-menu ul li a.active:focus
+.red-thm .sidebar-menu ul li a.active:focus,
+.red-thm .icon-mnu .more-mnu li a.active,
+.red-thm .icon-mnu .more-mnu li a.active:hover, 
+.red-thm .icon-mnu .more-mnu li a.active:focus,
+.red-thm .two-mnu.icon-mnu .sidebar-menu.operation-menu .more-mnu li a.active, 
+.red-thm .two-mnu.icon-mnu .sidebar-menu.operation-menu .more-mnu li a.active:hover,
+.red-thm .two-mnu.icon-mnu .sidebar-menu.operation-menu .more-mnu li a.active:focus
 { border-left-color: #ec6f5a; }
 
 .red-thm .first-mnu .sidebar-menu ul.nav-menu > li > a.active, 
@@ -202,9 +210,31 @@
 .red-thm .icon-mnu .sidebar-menu ul > li > ul li a,
 .red-thm .icon-mnu .sidebar-menu .nav-menu li a span.title, 
 .red-thm .icon-mnu .sidebar-menu .more-mnu > li > a > .title,
-.red-thm #sidebar-right .u-name a
+.red-thm #sidebar-right .u-name a,
+.red-thm .panel-heading a,
+.red-thm .panel-heading,
+.red-thm .panel-body,
+.red-thm .toggle-collapse .list-inline.tools,
+.red-thm .toggle-collapse .list-inline.tools a
 { color: rgba(0,0,0,0.6); }
 
+.red-thm .toggle-collapse .primary-bg,
+.red-thm .toggle-collapse .info-bg,
+.red-thm .toggle-collapse .success-bg,
+.red-thm .toggle-collapse .warning-bg,
+.red-thm .toggle-collapse .danger-bg,
+.red-thm .toggle-collapse .purple-bg,
+.red-thm .toggle-collapse .light-success-bg, 
+.red-thm .toggle-collapse .dark-bg,
+.red-thm .toggle-collapse .primary-bg a,
+.red-thm .toggle-collapse .info-bg a,
+.red-thm .toggle-collapse .success-bg a,
+.red-thm .toggle-collapse .warning-bg a,
+.red-thm .toggle-collapse .danger-bg a,
+.red-thm .toggle-collapse .purple-bg a,
+.red-thm .toggle-collapse .light-success-bg a,
+.red-thm .toggle-collapse .dark-bg a
+{ color: rgba(255,255,255,0.9);}
 
 /*=== sidebar-right ===*/
 .red-thm .nav li a:hover,
@@ -281,7 +311,7 @@
 /* ====== end form-element-2 ====== */
 
 /* ===== general small components ====== */
-.red-thm .panel-primary > .panel-heading { background: #ec6f5a !important; border-color:#ec6f5a;  }
+.red-thm .panel-primary > .panel-heading { background: #ec6f5a !important; border-color:#ec6f5a; color: #fff; }
 .red-thm #nprogress .peg{ box-shadow: 0 0 5px #ec6f5a, 0 0 5px #ec6f5a; }
 .red-thm .ui-mprogress .peg{ box-shadow: 0 0 10px #ec6f5a,0 0 5px #ec6f5a; }
 .red-thm .ui-mprogress .bar-bg, 
@@ -316,11 +346,12 @@
 
 /* ===== full-tab  ===== */
 
-.red-thm .full-tabs .active a,
-.red-thm .full-tabs .active a:hover,
-.red-thm .full-tabs .active a:focus,
+.red-thm .full-tabs a.active,
+.red-thm .full-tabs a.active:hover,
+.red-thm .full-tabs a.active:focus,
 .red-thm .full-tabs li a:hover,
 .red-thm .full-tabs li a:focus{ background: #ec6f5a; box-shadow: inset 0 0 0 42px rgba(255, 255, 255, 0.8); }
+
 .red-thm .main-login { border-top-color: #ec6f5a;}
 
 /* ===== other-input ===== */

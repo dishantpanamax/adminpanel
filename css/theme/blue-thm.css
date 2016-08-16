@@ -109,8 +109,8 @@
 .blue-thm .main-header .user-setting > a,
 .blue-thm .main-header .user li a,
 .blue-thm .first-mnu .sidebar-menu ul li a,
-.blue-thm .first-mnu .sidebar-menu .nav-menu  > li > a .caret-1.open,
-.blue-thm .first-mnu .sidebar-menu .more-mnu > li > a .caret-1.open
+.blue-thm .first-mnu .sidebar-menu .nav-menu  > li.clicked_cls > a .caret-1,
+.blue-thm .first-mnu .sidebar-menu .more-mnu > li.clicked_cls > a .caret-1
 { color: rgba(255, 255, 255, 0.8); }
 
 .blue-thm .main-header .breadcrumb > li + li::before,
@@ -119,12 +119,6 @@
 
 .blue-thm .sidebar-menu .open-sb.search-nav #sb-button,
 .blue-thm .sidebar-menu ul li a,
-.blue-thm .sidebar-menu ul li:hover > a, 
-.blue-thm .sidebar-menu ul li a:hover, 
-.blue-thm .sidebar-menu ul li a:focus, 
-.blue-thm .sidebar-menu ul li a.active, 
-.blue-thm .sidebar-menu ul li a.active:hover, 
-.blue-thm .sidebar-menu ul li a.active:focus,
 .blue-thm  .lft-mnu .sidebar-menu .wm-wrpr .widget-menu.wm-heading a,
 .blue-thm  .rgt-mnu .sidebar-menu .wm-wrpr .widget-menu.wm-heading a,
 .blue-thm  .nonoly-lyt .sidebar-menu .wm-wrpr .widget-menu.wm-heading a,
@@ -166,6 +160,9 @@
 .blue-thm .footer .top-scroll .primary-scroll .icon
 { color: #4a89dc; }
 
+.blue-thm a:hover,
+.blue-thm a:focus{ color: rgba(0,0,0,0.6); }
+
 .blue-thm .sidebar-menu,
 .blue-thm .sidebar-menu .search-nav
 { background: #f8f8f8; }
@@ -206,9 +203,31 @@
 .blue-thm .icon-mnu .sidebar-menu ul > li > ul li a,
 .blue-thm .icon-mnu .sidebar-menu .nav-menu li a span.title, 
 .blue-thm .icon-mnu .sidebar-menu .more-mnu > li > a > .title,
-.blue-thm #sidebar-right .u-name a
+.blue-thm #sidebar-right .u-name a,
+.blue-thm .panel-heading a,
+.blue-thm .panel-heading,
+.blue-thm .panel-body,
+.blue-thm .toggle-collapse .list-inline.tools,
+.blue-thm .toggle-collapse .list-inline.tools a
 { color: rgba(0,0,0,0.6); }
 
+.blue-thm .toggle-collapse .primary-bg,
+.blue-thm .toggle-collapse .info-bg,
+.blue-thm .toggle-collapse .success-bg,
+.blue-thm .toggle-collapse .warning-bg,
+.blue-thm .toggle-collapse .danger-bg,
+.blue-thm .toggle-collapse .purple-bg,
+.blue-thm .toggle-collapse .light-success-bg, 
+.blue-thm .toggle-collapse .dark-bg,
+.blue-thm .toggle-collapse .primary-bg a,
+.blue-thm .toggle-collapse .info-bg a,
+.blue-thm .toggle-collapse .success-bg a,
+.blue-thm .toggle-collapse .warning-bg a,
+.blue-thm .toggle-collapse .danger-bg a,
+.blue-thm .toggle-collapse .purple-bg a,
+.blue-thm .toggle-collapse .light-success-bg a,
+.blue-thm .toggle-collapse .dark-bg a
+{ color: rgba(255,255,255,0.9); }
 
 /*=== sidebar-right ===*/
 .blue-thm .nav li a:hover,
@@ -281,7 +300,7 @@
 /* ====== end form-element-2 ====== */
 
 /* ===== general small components ====== */
-.blue-thm .panel-primary > .panel-heading { background: #4a89dc !important; border-color:#4a89dc;  }
+.blue-thm .panel-primary > .panel-heading { background: #4a89dc !important; border-color:#4a89dc; color:#fff; }
 .blue-thm #nprogress .peg{ box-shadow: 0 0 5px #4a89dc, 0 0 5px #4a89dc; }
 .blue-thm .ui-mprogress .peg{ box-shadow: 0 0 10px #4a89dc,0 0 5px #4a89dc; }
 .blue-thm .ui-mprogress .bar-bg, 
@@ -311,9 +330,9 @@
 .blue-thm .form-wiz-page .wizard-nav.nav-pills > li.active > a .step-count
 { border-color: #4a89dc; }
 /* ===== full-tab  ===== */
-.blue-thm .full-tabs .active a,
-.blue-thm .full-tabs .active a:hover,
-.blue-thm .full-tabs .active a:focus,
+.blue-thm .full-tabs a.active,
+.blue-thm .full-tabs a.active:hover,
+.blue-thm .full-tabs a.active:focus,
 .blue-thm .full-tabs li a:hover,
 .blue-thm .full-tabs li a:focus{ background: #4a89dc; box-shadow: inset 0 0 0 42px rgba(255, 255, 255, 0.8); }
 .blue-thm .main-login { border-top-color: #4a89dc;}
@@ -336,9 +355,7 @@
 .blue-thm  .pagination.pagination-custom.with-active li.active:before
 {  background: #4a89dc !important;  }
 .blue-thm .btn.theme-bg.btn-inverse:hover, 
-.blue-thm .btn.theme-bg.btn-inverse:focus{ 
-	background: #4a89dc !important;
-	box-shadow: inset 0 42px 0 0px rgba(0, 0, 0, 0.09) !important;
+.blue-thm .btn.theme-bg.btn-inverse:focus{ background: #4a89dc !important; box-shadow: inset 0 42px 0 0px rgba(0, 0, 0, 0.09) !important;
 }
 /* ==== theme-bg button ==== */
 
@@ -398,24 +415,14 @@
 
 .blue-thm .lft-mnu .sidebar-menu ul li a:hover,
 .blue-thm .lft-mnu .sidebar-menu ul li a:focus,
-.blue-thm .lft-mnu .sidebar-menu ul li a.active, 
-.blue-thm .lft-mnu .sidebar-menu ul li a.active:hover,
 .blue-thm .rgt-mnu .sidebar-menu ul li a:hover,
 .blue-thm .rgt-mnu .sidebar-menu ul li a:focus,
-.blue-thm .rgt-mnu .sidebar-menu ul li a.active, 
-.blue-thm .rgt-mnu .sidebar-menu ul li a.active:hover,
 .blue-thm .rgt .sidebar-menu ul li a:hover,
 .blue-thm .rgt .sidebar-menu ul li a:focus,
-.blue-thm .rgt .sidebar-menu ul li a.active, 
-.blue-thm .rgt .sidebar-menu ul li a.active:hover,
 .blue-thm .third-mnu .sidebar-menu ul li a:hover,
 .blue-thm .third-mnu .sidebar-menu ul li a:focus,
-.blue-thm .third-mnu .sidebar-menu ul li a.active, 
-.blue-thm .third-mnu .sidebar-menu ul li a.active:hover,
 .blue-thm .icon-mnu .sidebar-menu ul li a:hover,
-.blue-thm .icon-mnu .sidebar-menu ul li a:focus,
-.blue-thm .icon-mnu .sidebar-menu ul li a.active, 
-.blue-thm .icon-mnu .sidebar-menu ul li a.active:hover
+.blue-thm .icon-mnu .sidebar-menu ul li a:focus
 { color: rgba(0, 0, 0, 0.8);}
 
 .blue-thm .sidebar-menu .search-nav.open-sb input{    border-bottom: 1px solid rgba(0, 0, 0, 0.09);}

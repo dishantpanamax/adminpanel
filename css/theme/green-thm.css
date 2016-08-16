@@ -140,6 +140,8 @@
 .green-thm .search-nav.open-sb input::-webkit-input-placeholder 
 { color: rgba(255,255,255,0.6); }
 
+.green-thm .sidebar-menu .menu-status .wm-wrpr{ color: rgba(255,255,255,0.6);}
+
 .green-thm .sidebar-menu .search-nav input:focus ~ #sb-button,
 .green-thm .sidebar-menu ul li a .caret-1.open,
 .green-thm .change-profile .upload-msg .upload-icon,
@@ -168,6 +170,9 @@
 .green-thm .footer .top-scroll .primary-scroll .icon
 { color: #40b89a; }
 
+.green-thm a:hover,
+.green-thm a:focus{ color: rgba(0,0,0,0.6); }
+
 .green-thm .sidebar-menu,
 .green-thm .sidebar-menu .search-nav
 { background: #30363e; }
@@ -183,7 +188,13 @@
 .green-thm .sidebar-menu .search-nav.open-sb input:focus { box-shadow: 0px 1px 0 0 #40b89a; border-bottom: 1px solid #40b89a; }
 .green-thm .sidebar-menu ul li a.active,
 .green-thm .sidebar-menu ul li a.active:hover, 
-.green-thm .sidebar-menu ul li a.active:focus
+.green-thm .sidebar-menu ul li a.active:focus,
+.green-thm .icon-mnu .more-mnu li a.active, 
+.green-thm .icon-mnu .more-mnu li a.active:hover,
+.green-thm .icon-mnu .more-mnu li a.active:focus,
+.green-thm .two-mnu.icon-mnu .sidebar-menu.operation-menu .more-mnu li a.active,
+.green-thm .two-mnu.icon-mnu .sidebar-menu.operation-menu .more-mnu li a.active:hover,
+.green-thm .two-mnu.icon-mnu .sidebar-menu.operation-menu .more-mnu li a.active:focus
 { border-left-color: #40b89a; }
 
 .green-thm .first-mnu .sidebar-menu ul.nav-menu > li > a.active, 
@@ -203,9 +214,31 @@
 .green-thm .icon-mnu .sidebar-menu ul > li > ul li a,
 .green-thm .icon-mnu .sidebar-menu .nav-menu li a span.title, 
 .green-thm .icon-mnu .sidebar-menu .more-mnu > li > a > .title,
-.green-thm #sidebar-right .u-name a
+.green-thm #sidebar-right .u-name a,
+.green-thm .panel-heading a,
+.green-thm .panel-heading,
+.green-thm .panel-body,
+.green-thm .toggle-collapse .list-inline.tools,
+.green-thm .toggle-collapse .list-inline.tools a
 { color: rgba(0,0,0,0.6); }
 
+.green-thm .toggle-collapse .primary-bg,
+.green-thm .toggle-collapse .info-bg,
+.green-thm .toggle-collapse .success-bg,
+.green-thm .toggle-collapse .warning-bg,
+.green-thm .toggle-collapse .danger-bg,
+.green-thm .toggle-collapse .purple-bg,
+.green-thm .toggle-collapse .light-success-bg, 
+.green-thm .toggle-collapse .dark-bg,
+.green-thm .toggle-collapse .primary-bg a,
+.green-thm .toggle-collapse .info-bg a,
+.green-thm .toggle-collapse .success-bg a,
+.green-thm .toggle-collapse .warning-bg a,
+.green-thm .toggle-collapse .danger-bg a,
+.green-thm .toggle-collapse .purple-bg a,
+.green-thm .toggle-collapse .light-success-bg a,
+.green-thm .toggle-collapse .dark-bg a
+{ color: rgba(255,255,255,0.9); }
 
 /*=== sidebar-right ===*/
 .green-thm .nav li a:hover,
@@ -217,11 +250,14 @@
 .green-thm .scn-lock-overflow .scn-lock-open a,
 .green-thm .nav-tabs > li.active-tab > a
 { color: rgba(0, 0, 0, 0.8); box-shadow: inset 0 0 0 42px rgba(255,255,255,0.8) !important; background: #40b89a; }
+
 .green-thm .default-tab .nav-tabs li.active a, 
 .green-thm .default-tab.style-2 .nav-tabs li.active-nav > a,
 .green-thm .default-tab.style-2 .nav-tabs li.active-nav > a:hover,
 .green-thm .default-tab.style-2 .nav-tabs li.active-nav > a:focus{ background:#40b89a;  box-shadow: inset 0 0 0 42px rgba(255,255,255,0.8); }
+
 .green-thm #sidebar-right .u-name { background:#40b89a; box-shadow: inset 0 0 0 42px rgba(255,255,255,0.8); }
+
 .green-thm #sidebar-right .title-sidebar{ background: #40b89a; box-shadow: inset 0 0 0 35px rgba(255,255,255,0.8); }
 
 /*=== sidebar-chat ===*/
@@ -282,7 +318,7 @@
 /* ====== end form-element-2 ====== */
 
 /* ===== general small components ====== */
-.green-thm .panel-primary > .panel-heading { background: #40b89a !important; border-color:#40b89a;  }
+.green-thm .panel-primary > .panel-heading { background: #40b89a !important; border-color:#40b89a; color: #fff;  }
 .green-thm #nprogress .peg{ box-shadow: 0 0 5px #40b89a, 0 0 5px #40b89a; }
 .green-thm .ui-mprogress .peg{ box-shadow: 0 0 10px #40b89a,0 0 5px #40b89a; }
 .green-thm .ui-mprogress .bar-bg, 
@@ -302,7 +338,6 @@
 /* ===== local-menu ===== */
 .green-thm .local-menu .nav-spy a.active1, 
 .green-thm .local-menu .nav-spy a.active{ box-shadow: inset 2px 0 0 0 #40b89a; }
-
 /* ===== form-wizard  ===== */
 
 .green-thm .form-wiz-page .trd-wiz .wizard-nav.nav-pills > li.previous > a, 
@@ -317,9 +352,9 @@
 
 /* ===== full-tab  ===== */
 
-.green-thm .full-tabs .active a,
-.green-thm .full-tabs .active a:hover,
-.green-thm .full-tabs .active a:focus,
+.green-thm .full-tabs a.active,
+.green-thm .full-tabs a.active:hover,
+.green-thm .full-tabs a.active:focus,
 .green-thm .full-tabs li a:hover,
 .green-thm .full-tabs li a:focus{ background: #40b89a; box-shadow: inset 0 0 0 42px rgba(255, 255, 255, 0.8); }
 .green-thm .main-login { border-top-color: #40b89a;}
