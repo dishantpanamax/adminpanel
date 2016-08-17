@@ -5972,7 +5972,7 @@ ul li.open.set-icon .fa-caret-down{transform: rotate(180deg);}
 .default-tab .nav-tabs.sliding-bar > li.slider{ border-right: 0px;border-left: 0px; }
 .default-tab .nav-tabs.sliding-bar > li:nth-last-child(2){ border-right: 1px solid rgba(0,0,0,0.15); }
 .default-tab.full .nav-tabs{ display: block;}
-.with-tab.panel{ border: none; }
+.with-tab.panel{ border: none; background: none; }
 
 .default-tab .nav-tabs li a:before,
 .default-tab .nav-tabs li a:after
